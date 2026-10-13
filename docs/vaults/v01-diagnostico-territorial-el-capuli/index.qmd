@@ -1,0 +1,99 @@
+---
+title: "Diagnóstico Sociodemográfico y Territorial — Barrio El Capulí"
+subtitle: "Proyecto de Vinculación con la Sociedad — Arquitectura & Economía (UNL)"
+author: "Eryck Condoy | Equipo de Pasantes de Economía"
+date: "2026-10-12"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: show
+---
+
+# Introducción y Contexto Territorial
+
+En el marco de las **Prácticas Preprofesionales Finales (Octavo Ciclo)** de la Carrera de Economía en coordinación con la Carrera de Arquitectura de la Universidad Nacional de Loja (UNL), se desarrolla el diagnóstico integral de la población y el territorio del **Barrio El Capulí**.
+
+- **Ubicación:** Sur del casco urbano de Loja, colindante al este/sur del Campus Universitario "La Argelia" (UNL) y en proximidad al Colegio San Gerardo / Capulí Loma.
+- **División Político-Administrativa:**
+  - Provincia: Loja (`11`)
+  - Cantón: Loja (`1101`)
+  - Parroquia: Punzara (`110156`) / Circunscripción urbana sur de Loja.
+- **Equipo de Coordinación:**
+  - Docente Responsable del Proyecto: Docente vinculación UNL Arquitectura.
+  - Tutor / Docente Técnico en Territorio: Arq. Pablo Araki.
+  - Responsable de Pasantías: Ing. Iliana.
+  - Equipo Economistas Pasantes: Eryck Condoy, Amanda y compañeros de 7mo/8vo ciclo.
+
+---
+
+# Objetivos del Levantamiento
+
+## Objetivo General
+Levantar, procesar y proyectar la línea base sociodemográfica, habitacional y socioeconómica del Barrio El Capulí para fundamentar las propuestas de ordenamiento territorial, equipamiento y diseño urbano del Proyecto de Vinculación de la Carrera de Arquitectura.
+
+## Objetivos Específicos
+1. **Extracción Demográfica (REDATAM / INEC):** Cuantificar la población total desagregada por sexo, estructura de edades (pirámide poblacional), composición de hogares y condiciones habitacionales a nivel de sectores y manzanas censales.
+2. **Proyecciones Poblacionales (Stata):** Estimar el crecimiento de la población para los horizontes 2026, 2030 y 2035 mediante modelos de crecimiento intercensal (geométrico y exponencial).
+3. **Análisis Geoespacial y Cartográfico (QGIS):** Georreferenciar la información censal a nivel de manzana/sector, generando mapas de calor de densidad poblacional, mapas de necesidades básicas insatisfechas (NBI) y déficit de equipamiento urbano.
+4. **Articulación Técnica-Económica:** Proveer a los estudiantes y docentes de Arquitectura matrices de demanda de servicios, equipamiento barrial y viabilidad socioeconómica.
+
+---
+
+# Marco Metodológico Operativo
+
+El flujo de trabajo cuantitativo y territorial se estructura en cuatro fases complementarias:
+
+```
+┌─────────────────────────────────┐
+│       1. EXTRACCIÓN REDATAM     │ -> Censo de Población y Vivienda (CPV)
+│       (INEC Censo 2022/2010)    │    Variables de personas, hogares y viviendas
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│     2. MODELACIÓN EN STATA      │ -> Tasas de crecimiento intercensal
+│   (Proyecciones Demográficas)   │    Proyecciones a 2030/2035 por cohortes
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│     3. CARTOGRAFÍA EN QGIS      │ -> Shapefiles de sectores y manzanas censales
+│  (Mapas de Calor y Diagnóstico) │    Join espacial, mapas temáticos y buffer de servicio
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│ 4. ENTREGABLE ARQUITECTURA      │ -> Línea base para diseño de espacios públicos,
+│   (Ficha Técnica & Memoria)     │    vialidad, equipamiento comunal y proyectos
+└─────────────────────────────────┘
+```
+
+---
+
+# Variables Clave a Levantar en REDATAM
+
+| Dimensión | Variable Censal | Indicador Específico | Relevancia para Arquitectura |
+| :--- | :--- | :--- | :--- |
+| **Demografía** | Sexo y Edad | Pirámide poblacional, índice de dependencia, niñez y adultos mayores | Dimensionamiento de áreas recreativas, centros infantiles o de cuidado. |
+| **Vivienda** | Tipo y Calidad de Materiales | Paredes, techo, piso, estado de conservación | Identificación de zonas consolidadas vs. asentamientos precarios. |
+| **Servicios** | Cobertura Básica | Agua por red pública, alcantarillado, energía eléctrica, recolección de basura | Determinación de brechas de infraestructura hidrosanitaria. |
+| **Hacinamiento** | Personas por dormitorio | Índice de hacinamiento crítico (> 3 personas/habitación) | Déficit cualitativo y cuantitativo de vivienda. |
+| **Pobreza NBI** | Necesidades Básicas | Hogares con al menos una NBI insatisfecha | Priorización de intervenciones públicas y regeneración urbana. |
+
+---
+
+# Plan de Trabajo y Cronograma (15 horas semanales)
+
+- **Horario:** Lunes a Viernes, 15:00 a 18:00 (3 horas diarias).
+- **Carga Inicial:** 80 horas de intervención coordinada.
+
+| Semana | Hito / Tarea Principal | Responsables | Entregable |
+| :---: | :--- | :--- | :--- |
+| **Semana 1** | Extracción censal en REDATAM del sector El Capulí y delimitación espacial | Eryck Condoy & Equipo | Tabulados limpios en Excel/CSV y base cruda. |
+| **Semana 2** | Modelación demográfica y proyecciones en Stata | Eryck Condoy | Script `.do` y reporte de proyecciones al 2035. |
+| **Semana 3** | Carga de cartografía en QGIS, join censal y mapas de calor | Equipo de Economía | Mapas temáticos en alta resolución (`.png`, `.pdf`). |
+| **Semana 4** | Levantamiento complementario en territorio y validación de campo | Equipo + Arq. Pablo | Ficha situacional y registro fotográfico. |
+| **Semana 5** | Consolidación del informe técnico final de línea base para Arquitectura | Todo el equipo | Memoria técnica y entrega a coordinación. |

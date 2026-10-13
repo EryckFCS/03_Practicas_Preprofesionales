@@ -9,19 +9,23 @@
     "entity": "Universidad Nacional de Loja",
     "faculty_or_department": "Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables / Carrera de Arquitectura",
     "practice_type": "Prácticas Preprofesionales Finales / Laborales",
-    "supervisor_institucional": "Por definir / Asignado en Arquitectura",
-    "tutor_academico": "Por definir / Docente Tutor UNL Economía"
+    "supervisor_institucional": "Arq. Pablo Araki (Carrera de Arquitectura - UNL)",
+    "responsable_pasantias": "Ing. Iliana",
+    "tutor_academico": "Por definir / Docente Tutor UNL Economía",
+    "intervention_area": "Barrio El Capulí (Loja, Ecuador) — Inmediaciones Campus La Argelia / Col. San Gerardo"
   },
   "hours_management": {
     "target_hours": 240,
+    "vinculacion_phase_hours": 80,
+    "schedule": "Lunes a Viernes 15:00 - 18:00 (15h/semana)",
     "current_hours": 0,
     "log_format": "markdown_table"
   },
   "vaults": [
     {
-      "id": "v01-diagnostico-planificacion",
-      "path": "docs/vaults/v01-diagnostico-planificacion",
-      "title": "Fase 1: Diagnóstico Institucional y Plan de Trabajo",
+      "id": "v01-diagnostico-territorial-el-capuli",
+      "path": "docs/vaults/v01-diagnostico-territorial-el-capuli",
+      "title": "Fase 1: Diagnóstico Sociodemográfico y Territorial — Barrio El Capulí",
       "status": "active"
     },
     {
