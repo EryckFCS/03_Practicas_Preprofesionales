@@ -139,30 +139,76 @@ El análisis revela un **déficit estructural agudo** en infraestructura básica
 
 ---
 
-## 🗺️ Integración con Cartografía QGIS (`11_loja.gpkg`)
+## 🗺️ Mapa 1: Densidad Poblacional (QGIS)
 
-```text
-       Cartografía Oficial (QGIS)                  Datos Censales (CSV)
-┌──────────────────────────────────────┐       ┌───────────────────────────────┐
-│ Capa: sec_a (Polígonos de Sectores)  │ <===> │ cpv2022_punzara_indicadores   │
-│ Campo de Unión: "sec"                │ (Join)│ Campo de Unión: "id_sec"      │
-└──────────────────────────────────────┘       └───────────────────────────────┘
-                                   │
-                                   ▼
-                 Generación de Mapas de Calor (Heatmaps):
-                 • Densidad Poblacional (Kernel Density)
-                 • Concentración de Déficit de Agua
-                 • Zonas de Mayor Índice de Dependencia
-```
+::: {.columns}
+::: {.column width="60%"}
+![](evidencias/mapa_densidad_poblacional_punzara.png){width="100%"}
+:::
+
+::: {.column width="40%"}
+### Lectura Territorial
+- **Población:** 8.669 habitantes.
+- **Concentración Máxima:** Sobre el corredor de la Av. Reinaldo Espinosa y el sector colindante al Campus La Argelia.
+- **Área:** 38,42 km² (Densidad media: 225,6 hab/km²; casco urbano: > 1.200 hab/km²).
+:::
+:::
+
+---
+
+## 🚰 Mapa 2: Déficit Crítico de Agua Potable
+
+::: {.columns}
+::: {.column width="60%"}
+![](evidencias/mapa_deficit_agua_punzara.png){width="100%"}
+:::
+
+::: {.column width="40%"}
+### Brecha Hidrosanitaria
+- **Déficit de Red:** **80,7%** sin conexión por tubería en vivienda.
+- **Segregación Espacial:** Los sectores altos de Capulí Loma dependen de vertientes y tanques comunitarios.
+- **Justificación:** Prioridad 1 para los proyectos de infraestructura básica de Arquitectura.
+:::
+:::
+
+---
+
+## 📈 Proyecciones Demográficas (2022–2035)
+
+::: {.columns}
+::: {.column width="55%"}
+![](evidencias/grafico_proyeccion_capuli.png){width="100%"}
+:::
+
+::: {.column width="45%"}
+### Horizontes de Planificación
+- **Tasa Intercensal:** $r \approx 1,98\%$ anual.
+- **2022 (Base Censal):** 8.669 hab.
+- **2026 (Actual):** **9.379 hab.** (+710)
+- **2030 (Mediano Plazo):** **10.148 hab.** (+1.479)
+- **2035 (Largo Plazo):** **11.197 hab.** (+2.528)
+:::
+:::
+
+---
+
+## 📋 Matriz de 4 Componentes (Estándar UNL)
+
+| Componente | Variable Clave | Indicador / Diagnóstico Barrial |
+| :--- | :--- | :--- |
+| **1. Social** | Población y NBI | 8.669 hab. \| 38,4% pobreza NBI \| 80,7% déficit agua \| 61,9% alcantarillado |
+| **2. Económico** | Actividad Principal | 40% Servicios/comercio \| 30% Arriendos a estudiantes \| PEA: ~3.950 |
+| **3. Ambiental** | Relieve y Riesgo | Pendientes 15%–35% \| Susceptibilidad media-alta a deslizamientos \| <3,2 m² espacio verde/hab |
+| **4. Institucional** | Instrumentos | **Memorando UNL-FJSA-CE-2026-0621-M** \| PDOT Cantón Loja \| PUGS Loja |
 
 ---
 
 ## 🚀 Próximas Actividades Inmediatas
 
 - [x] Extracción y filtrado del Censo 2022 para Loja y Punzara.
-- [x] Generación de tablas maestras de indicadores y pirámide de edad.
-- [ ] Enlace espacial (`Table Join`) en QGIS con [`11_loja.gpkg`](file:///d:/08_Ciclo/03_Practicas_Preprofesionales/docs/vaults/v01-diagnostico-territorial-el-capuli/cartografia_qgis/11_loja.gpkg).
-- [ ] Ejecución del script de proyecciones demográficas en Stata al 2035.
+- [x] Fusión espacial en Base Maestra con coordenadas UTM y WGS84.
+- [x] Generación de mapas temáticos de densidad y servicios en QGIS.
+- [x] Modelos de proyección demográfica al 2035 completados.
 - [ ] Recorrido en territorio con el **Arq. Pablo Araki** para geolocalizar hitos barriales.
 
 ---
@@ -171,6 +217,8 @@ El análisis revela un **déficit estructural agudo** en infraestructura básica
 
 **Preguntas y Coordinación Técnica**
 
-* **Ponente:** Eryck Condoy
-* **Carrera:** Economía — Octavo Ciclo (UNL)
+* **Equipo de Pasantes:** Erick Condoy | Amanda Gálvez | Erick Barba
+* **Carrera:** Economía — Universidad Nacional de Loja
+* **Entidad Receptora:** Carrera de Arquitectura Sostenible (UNL)
 * **Nodo Local:** [`03_Practicas_Preprofesionales`](file:///d:/08_Ciclo/03_Practicas_Preprofesionales)
+

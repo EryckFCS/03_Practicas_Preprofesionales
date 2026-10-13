@@ -148,10 +148,83 @@ El flujo de trabajo cuantitativo y territorial se estructura en cuatro fases com
 
 ---
 
-# Archivos de Datos Filtrados y Listos en el Repositorio
+# Análisis Cartográfico y Mapas Temáticos (QGIS)
 
-Todos los conjuntos de datos filtrados para Punzara residen en `datos_redatam/`:
-- `cpv2022_punzara_indicadores_sectores.csv`: Matriz por sectores para Join en QGIS.
-- `cpv2022_punzara_piramide_edad_sexo.csv`: Datos de la pirámide por sexo y edades.
-- `cpv2022_punzara_balance_servicios.csv`: Coberturas y brechas de servicios básicos.
+Mediante la integración espacial entre la capa censal `sec_a` de `11_loja.gpkg` y la matriz de indicadores del Censo 2022, se generó la **Base Maestra Espacial** con centroides geográficos en coordenadas WGS84 y UTM 17S:
+
+- **Base de datos espacial plana:** [`base_maestra_espacial_punzara.csv`](datos_redatam/base_maestra_espacial_punzara.csv) (con latitud, longitud, área y densidad).
+- **Capa vectorial GeoJSON:** [`base_maestra_espacial_punzara.geojson`](cartografia_qgis/base_maestra_espacial_punzara.geojson) (proyectada para QGIS).
+
+## Mapa 1: Densidad Poblacional por Sector Censal
+El análisis de densidad espacial evidencia que la mayor concentración habitacional se ubica sobre el eje vial de la Av. Reinaldo Espinosa y el sector colindante al Campus La Argelia:
+
+![Densidad Poblacional por Sector Censal — Parroquia Punzara / El Capulí (Censo 2022)](evidencias/mapa_densidad_poblacional_punzara.png)
+
+## Mapa 2: Déficit Crítico de Cobertura de Agua Potable
+Se aprecia una fuerte segregación territorial: mientras el casco consolidado cuenta con cobertura parcial, los sectores periurbanos de Capulí Loma presentan un déficit de agua por tubería superior al 80%:
+
+![Déficit de Cobertura de Agua Potable — Parroquia Punzara / El Capulí](evidencias/mapa_deficit_agua_punzara.png)
+
+---
+
+# Modelos de Proyección Demográfica (2022–2035)
+
+Para fundamentar la planificación urbana y las propuestas arquitectónicas a corto, mediano y largo plazo, se aplicaron modelos de crecimiento demográfico intercensal tomando como base el período 2010 (6.845 hab.) – 2022 (8.669 hab.):
+
+- **Tasa geométrica intercensal:** $r_{geom} = 1,988\%$ anual
+- **Tasa exponencial intercensal:** $r_{exp} = 1,969\%$ anual
+
+## Horizontes Clave de Planificación
+
+| Año | Horizonte Temporal | Modelo Geométrico ($P_t$) | Modelo Exponencial ($P_t$) | Incremento Poblacional |
+| :---: | :--- | :---: | :---: | :---: |
+| **2022** | Año Base Censal Oficial | 8.669 hab. | 8.669 hab. | — |
+| **2026** | **Año de Prácticas Actual** | **9.379 hab.** | **9.379 hab.** | **+710 habitantes** |
+| **2030** | Mediano Plazo (Fin de Década) | **10.148 hab.** | **10.148 hab.** | **+1.479 habitantes** |
+| **2035** | Largo Plazo (Plan Urbano) | **11.197 hab.** | **11.197 hab.** | **+2.528 habitantes** |
+
+![Proyecciones de Crecimiento Demográfico para Punzara / El Capulí (2022–2035)](evidencias/grafico_proyeccion_capuli.png)
+
+---
+
+# Matriz Institucional de Indicadores (Metodología UNL)
+
+Siguiendo el estándar metodológico institucional de levantamiento territorial de la Carrera de Economía (utilizado en el diagnóstico de Guayquichuma), se estructura la matriz de 4 componentes:
+
+> Documento completo disponible en: [matriz_indicadores_unl_el_capuli.md](fichas_levantamiento/matriz_indicadores_unl_el_capuli.md).
+
+## 1. Datos Generales del Territorio
+- **Ubicación Geográfica:** Latitud 3.9984° S, Longitud 79.2012° W (Centroide Barrial).
+- **Coordenadas UTM (Zona 17S):** X: 700.120 m E, Y: 9.558.240 m N.
+- **Superficie del Área de Estudio:** 3.842,50 ha (38,42 km²).
+- **Altitud y Clima:** 2.150 a 2.380 m.s.n.m. \| Temperatura media: 16,1 °C \| Precipitación: 850–950 mm/año.
+- **Densidad Poblacional Bruta:** 225,6 hab/km² (con zonas urbanas concentradas > 1.200 hab/km²).
+
+## 2. Componente Social
+- **Población Total:** 8.669 hab. (4.354 hombres, 4.315 mujeres).
+- **Pico Demográfico Estudiantil:** 782 habitantes en el rango de 20 a 24 años.
+- **Pobreza por NBI:** 38,4% de los hogares.
+- **Déficit de Servicios Básicos:** 80,7% en agua potable formal, 61,9% en alcantarillado, 51,0% en recolección regular.
+
+## 3. Componente Económico
+- **Población Económicamente Activa (PEA):** ~3.950 personas (45,6%).
+- **Ramas Principales:** Servicios y comercio barrial (40%), arrendamiento a estudiantes universitarios (30%), construcción (20%).
+- **Unidades Económicas Barriales:** ~85 establecimientos (tiendas, fotocopiadoras, bazares, comedores).
+
+## 4. Componente Ambiental e Institucional
+- **Topografía:** Relieve irregular con pendientes del 15% al 35% en Capulí Loma.
+- **Riesgo:** Susceptibilidad media-alta a deslizamientos en época invernal.
+- **Institucionalidad:** Proyecto formalizado mediante **Memorando UNL-FJSA-CE-2026-0621-M** entre la Carrera de Economía y la Carrera de Arquitectura Sostenible.
+
+---
+
+# Archivos de Datos y Scripts en el Repositorio
+
+- `datos_redatam/base_maestra_espacial_punzara.csv`: Base maestra plana con coordenadas y variables.
+- `datos_redatam/cpv2022_punzara_indicadores_sectores.csv`: Matriz por sectores censales.
+- `cartografia_qgis/base_maestra_espacial_punzara.geojson`: Capa geográfica para QGIS.
+- `cartografia_qgis/11_loja.gpkg`: GeoPackage oficial del INEC de Loja.
+- `scripts/construir_base_maestra_espacial.py`: Script generador de la base espacial y mapas.
+- `scripts/calcular_proyecciones_demograficas.py`: Script generador de proyecciones demográficas.
+- `fichas_levantamiento/matriz_indicadores_unl_el_capuli.md`: Ficha técnica de 4 componentes UNL.
 

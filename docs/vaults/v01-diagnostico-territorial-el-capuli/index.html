@@ -43,6 +43,35 @@ ul.task-list li input[type="checkbox"] {
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="index_files/libs/bootstrap/bootstrap-62e2d20df198e8a01bb734742f2e28cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -69,7 +98,23 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#pirámide-de-población-por-grupos-quinquenales" id="toc-pirámide-de-población-por-grupos-quinquenales" class="nav-link" data-scroll-target="#pirámide-de-población-por-grupos-quinquenales"><span class="header-section-number">6.2</span> 2. Pirámide de Población por Grupos Quinquenales</a></li>
   <li><a href="#balance-de-cobertura-de-infraestructura-y-servicios-básicos" id="toc-balance-de-cobertura-de-infraestructura-y-servicios-básicos" class="nav-link" data-scroll-target="#balance-de-cobertura-de-infraestructura-y-servicios-básicos"><span class="header-section-number">6.3</span> 3. Balance de Cobertura de Infraestructura y Servicios Básicos</a></li>
   </ul></li>
-  <li><a href="#archivos-de-datos-filtrados-y-listos-en-el-repositorio" id="toc-archivos-de-datos-filtrados-y-listos-en-el-repositorio" class="nav-link" data-scroll-target="#archivos-de-datos-filtrados-y-listos-en-el-repositorio"><span class="header-section-number">7</span> Archivos de Datos Filtrados y Listos en el Repositorio</a></li>
+  <li><a href="#análisis-cartográfico-y-mapas-temáticos-qgis" id="toc-análisis-cartográfico-y-mapas-temáticos-qgis" class="nav-link" data-scroll-target="#análisis-cartográfico-y-mapas-temáticos-qgis"><span class="header-section-number">7</span> Análisis Cartográfico y Mapas Temáticos (QGIS)</a>
+  <ul class="collapse">
+  <li><a href="#mapa-1-densidad-poblacional-por-sector-censal" id="toc-mapa-1-densidad-poblacional-por-sector-censal" class="nav-link" data-scroll-target="#mapa-1-densidad-poblacional-por-sector-censal"><span class="header-section-number">7.1</span> Mapa 1: Densidad Poblacional por Sector Censal</a></li>
+  <li><a href="#mapa-2-déficit-crítico-de-cobertura-de-agua-potable" id="toc-mapa-2-déficit-crítico-de-cobertura-de-agua-potable" class="nav-link" data-scroll-target="#mapa-2-déficit-crítico-de-cobertura-de-agua-potable"><span class="header-section-number">7.2</span> Mapa 2: Déficit Crítico de Cobertura de Agua Potable</a></li>
+  </ul></li>
+  <li><a href="#modelos-de-proyección-demográfica-20222035" id="toc-modelos-de-proyección-demográfica-20222035" class="nav-link" data-scroll-target="#modelos-de-proyección-demográfica-20222035"><span class="header-section-number">8</span> Modelos de Proyección Demográfica (2022–2035)</a>
+  <ul class="collapse">
+  <li><a href="#horizontes-clave-de-planificación" id="toc-horizontes-clave-de-planificación" class="nav-link" data-scroll-target="#horizontes-clave-de-planificación"><span class="header-section-number">8.1</span> Horizontes Clave de Planificación</a></li>
+  </ul></li>
+  <li><a href="#matriz-institucional-de-indicadores-metodología-unl" id="toc-matriz-institucional-de-indicadores-metodología-unl" class="nav-link" data-scroll-target="#matriz-institucional-de-indicadores-metodología-unl"><span class="header-section-number">9</span> Matriz Institucional de Indicadores (Metodología UNL)</a>
+  <ul class="collapse">
+  <li><a href="#datos-generales-del-territorio" id="toc-datos-generales-del-territorio" class="nav-link" data-scroll-target="#datos-generales-del-territorio"><span class="header-section-number">9.1</span> 1. Datos Generales del Territorio</a></li>
+  <li><a href="#componente-social" id="toc-componente-social" class="nav-link" data-scroll-target="#componente-social"><span class="header-section-number">9.2</span> 2. Componente Social</a></li>
+  <li><a href="#componente-económico" id="toc-componente-económico" class="nav-link" data-scroll-target="#componente-económico"><span class="header-section-number">9.3</span> 3. Componente Económico</a></li>
+  <li><a href="#componente-ambiental-e-institucional" id="toc-componente-ambiental-e-institucional" class="nav-link" data-scroll-target="#componente-ambiental-e-institucional"><span class="header-section-number">9.4</span> 4. Componente Ambiental e Institucional</a></li>
+  </ul></li>
+  <li><a href="#archivos-de-datos-y-scripts-en-el-repositorio" id="toc-archivos-de-datos-y-scripts-en-el-repositorio" class="nav-link" data-scroll-target="#archivos-de-datos-y-scripts-en-el-repositorio"><span class="header-section-number">10</span> Archivos de Datos y Scripts en el Repositorio</a></li>
   </ul>
 </nav>
 </div>
@@ -496,9 +541,155 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="archivos-de-datos-filtrados-y-listos-en-el-repositorio" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Archivos de Datos Filtrados y Listos en el Repositorio</h1>
-<p>Todos los conjuntos de datos filtrados para Punzara residen en <code>datos_redatam/</code>: - <code>cpv2022_punzara_indicadores_sectores.csv</code>: Matriz por sectores para Join en QGIS. - <code>cpv2022_punzara_piramide_edad_sexo.csv</code>: Datos de la pirámide por sexo y edades. - <code>cpv2022_punzara_balance_servicios.csv</code>: Coberturas y brechas de servicios básicos.</p>
+<section id="análisis-cartográfico-y-mapas-temáticos-qgis" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Análisis Cartográfico y Mapas Temáticos (QGIS)</h1>
+<p>Mediante la integración espacial entre la capa censal <code>sec_a</code> de <code>11_loja.gpkg</code> y la matriz de indicadores del Censo 2022, se generó la <strong>Base Maestra Espacial</strong> con centroides geográficos en coordenadas WGS84 y UTM 17S:</p>
+<ul>
+<li><strong>Base de datos espacial plana:</strong> <a href="datos_redatam/base_maestra_espacial_punzara.csv"><code>base_maestra_espacial_punzara.csv</code></a> (con latitud, longitud, área y densidad).</li>
+<li><strong>Capa vectorial GeoJSON:</strong> <a href="cartografia_qgis/base_maestra_espacial_punzara.geojson"><code>base_maestra_espacial_punzara.geojson</code></a> (proyectada para QGIS).</li>
+</ul>
+<section id="mapa-1-densidad-poblacional-por-sector-censal" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="mapa-1-densidad-poblacional-por-sector-censal"><span class="header-section-number">7.1</span> Mapa 1: Densidad Poblacional por Sector Censal</h2>
+<p>El análisis de densidad espacial evidencia que la mayor concentración habitacional se ubica sobre el eje vial de la Av. Reinaldo Espinosa y el sector colindante al Campus La Argelia:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="evidencias/mapa_densidad_poblacional_punzara.png" class="img-fluid figure-img"></p>
+<figcaption>Densidad Poblacional por Sector Censal — Parroquia Punzara / El Capulí (Censo 2022)</figcaption>
+</figure>
+</div>
+</section>
+<section id="mapa-2-déficit-crítico-de-cobertura-de-agua-potable" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="mapa-2-déficit-crítico-de-cobertura-de-agua-potable"><span class="header-section-number">7.2</span> Mapa 2: Déficit Crítico de Cobertura de Agua Potable</h2>
+<p>Se aprecia una fuerte segregación territorial: mientras el casco consolidado cuenta con cobertura parcial, los sectores periurbanos de Capulí Loma presentan un déficit de agua por tubería superior al 80%:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="evidencias/mapa_deficit_agua_punzara.png" class="img-fluid figure-img"></p>
+<figcaption>Déficit de Cobertura de Agua Potable — Parroquia Punzara / El Capulí</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="modelos-de-proyección-demográfica-20222035" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Modelos de Proyección Demográfica (2022–2035)</h1>
+<p>Para fundamentar la planificación urbana y las propuestas arquitectónicas a corto, mediano y largo plazo, se aplicaron modelos de crecimiento demográfico intercensal tomando como base el período 2010 (6.845 hab.) – 2022 (8.669 hab.):</p>
+<ul>
+<li><strong>Tasa geométrica intercensal:</strong> <span class="math inline">\(r_{geom} = 1,988\%\)</span> anual</li>
+<li><strong>Tasa exponencial intercensal:</strong> <span class="math inline">\(r_{exp} = 1,969\%\)</span> anual</li>
+</ul>
+<section id="horizontes-clave-de-planificación" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="horizontes-clave-de-planificación"><span class="header-section-number">8.1</span> Horizontes Clave de Planificación</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Año</th>
+<th style="text-align: left;">Horizonte Temporal</th>
+<th style="text-align: center;">Modelo Geométrico (<span class="math inline">\(P_t\)</span>)</th>
+<th style="text-align: center;">Modelo Exponencial (<span class="math inline">\(P_t\)</span>)</th>
+<th style="text-align: center;">Incremento Poblacional</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>2022</strong></td>
+<td style="text-align: left;">Año Base Censal Oficial</td>
+<td style="text-align: center;">8.669 hab.</td>
+<td style="text-align: center;">8.669 hab.</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2026</strong></td>
+<td style="text-align: left;"><strong>Año de Prácticas Actual</strong></td>
+<td style="text-align: center;"><strong>9.379 hab.</strong></td>
+<td style="text-align: center;"><strong>9.379 hab.</strong></td>
+<td style="text-align: center;"><strong>+710 habitantes</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>2030</strong></td>
+<td style="text-align: left;">Mediano Plazo (Fin de Década)</td>
+<td style="text-align: center;"><strong>10.148 hab.</strong></td>
+<td style="text-align: center;"><strong>10.148 hab.</strong></td>
+<td style="text-align: center;"><strong>+1.479 habitantes</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2035</strong></td>
+<td style="text-align: left;">Largo Plazo (Plan Urbano)</td>
+<td style="text-align: center;"><strong>11.197 hab.</strong></td>
+<td style="text-align: center;"><strong>11.197 hab.</strong></td>
+<td style="text-align: center;"><strong>+2.528 habitantes</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="evidencias/grafico_proyeccion_capuli.png" class="img-fluid figure-img"></p>
+<figcaption>Proyecciones de Crecimiento Demográfico para Punzara / El Capulí (2022–2035)</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="matriz-institucional-de-indicadores-metodología-unl" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Matriz Institucional de Indicadores (Metodología UNL)</h1>
+<p>Siguiendo el estándar metodológico institucional de levantamiento territorial de la Carrera de Economía (utilizado en el diagnóstico de Guayquichuma), se estructura la matriz de 4 componentes:</p>
+<blockquote class="blockquote">
+<p>Documento completo disponible en: <a href="fichas_levantamiento/matriz_indicadores_unl_el_capuli.md">matriz_indicadores_unl_el_capuli.md</a>.</p>
+</blockquote>
+<section id="datos-generales-del-territorio" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="datos-generales-del-territorio"><span class="header-section-number">9.1</span> 1. Datos Generales del Territorio</h2>
+<ul>
+<li><strong>Ubicación Geográfica:</strong> Latitud 3.9984° S, Longitud 79.2012° W (Centroide Barrial).</li>
+<li><strong>Coordenadas UTM (Zona 17S):</strong> X: 700.120 m E, Y: 9.558.240 m N.</li>
+<li><strong>Superficie del Área de Estudio:</strong> 3.842,50 ha (38,42 km²).</li>
+<li><strong>Altitud y Clima:</strong> 2.150 a 2.380 m.s.n.m. | Temperatura media: 16,1 °C | Precipitación: 850–950 mm/año.</li>
+<li><strong>Densidad Poblacional Bruta:</strong> 225,6 hab/km² (con zonas urbanas concentradas &gt; 1.200 hab/km²).</li>
+</ul>
+</section>
+<section id="componente-social" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="componente-social"><span class="header-section-number">9.2</span> 2. Componente Social</h2>
+<ul>
+<li><strong>Población Total:</strong> 8.669 hab. (4.354 hombres, 4.315 mujeres).</li>
+<li><strong>Pico Demográfico Estudiantil:</strong> 782 habitantes en el rango de 20 a 24 años.</li>
+<li><strong>Pobreza por NBI:</strong> 38,4% de los hogares.</li>
+<li><strong>Déficit de Servicios Básicos:</strong> 80,7% en agua potable formal, 61,9% en alcantarillado, 51,0% en recolección regular.</li>
+</ul>
+</section>
+<section id="componente-económico" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="componente-económico"><span class="header-section-number">9.3</span> 3. Componente Económico</h2>
+<ul>
+<li><strong>Población Económicamente Activa (PEA):</strong> ~3.950 personas (45,6%).</li>
+<li><strong>Ramas Principales:</strong> Servicios y comercio barrial (40%), arrendamiento a estudiantes universitarios (30%), construcción (20%).</li>
+<li><strong>Unidades Económicas Barriales:</strong> ~85 establecimientos (tiendas, fotocopiadoras, bazares, comedores).</li>
+</ul>
+</section>
+<section id="componente-ambiental-e-institucional" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="componente-ambiental-e-institucional"><span class="header-section-number">9.4</span> 4. Componente Ambiental e Institucional</h2>
+<ul>
+<li><strong>Topografía:</strong> Relieve irregular con pendientes del 15% al 35% en Capulí Loma.</li>
+<li><strong>Riesgo:</strong> Susceptibilidad media-alta a deslizamientos en época invernal.</li>
+<li><strong>Institucionalidad:</strong> Proyecto formalizado mediante <strong>Memorando UNL-FJSA-CE-2026-0621-M</strong> entre la Carrera de Economía y la Carrera de Arquitectura Sostenible.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="archivos-de-datos-y-scripts-en-el-repositorio" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Archivos de Datos y Scripts en el Repositorio</h1>
+<ul>
+<li><code>datos_redatam/base_maestra_espacial_punzara.csv</code>: Base maestra plana con coordenadas y variables.</li>
+<li><code>datos_redatam/cpv2022_punzara_indicadores_sectores.csv</code>: Matriz por sectores censales.</li>
+<li><code>cartografia_qgis/base_maestra_espacial_punzara.geojson</code>: Capa geográfica para QGIS.</li>
+<li><code>cartografia_qgis/11_loja.gpkg</code>: GeoPackage oficial del INEC de Loja.</li>
+<li><code>scripts/construir_base_maestra_espacial.py</code>: Script generador de la base espacial y mapas.</li>
+<li><code>scripts/calcular_proyecciones_demograficas.py</code>: Script generador de proyecciones demográficas.</li>
+<li><code>fichas_levantamiento/matriz_indicadores_unl_el_capuli.md</code>: Ficha técnica de 4 componentes UNL.</li>
+</ul>
 </section>
 
 </main>
