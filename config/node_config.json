@@ -1,0 +1,50 @@
+{
+  "node_id": "03_practicas_preprofesionales_arquitectura",
+  "node_name": "Prácticas Preprofesionales Finales — Arquitectura",
+  "cycle": "Octavo Ciclo",
+  "academic_period": "2026",
+  "institution": "Universidad Nacional de Loja (UNL)",
+  "career": "Carrera de Economía",
+  "host_institution_area": {
+    "entity": "Universidad Nacional de Loja",
+    "faculty_or_department": "Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables / Carrera de Arquitectura",
+    "practice_type": "Prácticas Preprofesionales Finales / Laborales",
+    "supervisor_institucional": "Por definir / Asignado en Arquitectura",
+    "tutor_academico": "Por definir / Docente Tutor UNL Economía"
+  },
+  "hours_management": {
+    "target_hours": 240,
+    "current_hours": 0,
+    "log_format": "markdown_table"
+  },
+  "vaults": [
+    {
+      "id": "v01-diagnostico-planificacion",
+      "path": "docs/vaults/v01-diagnostico-planificacion",
+      "title": "Fase 1: Diagnóstico Institucional y Plan de Trabajo",
+      "status": "active"
+    },
+    {
+      "id": "v02-ejecucion-actividades",
+      "path": "docs/vaults/v02-ejecucion-actividades",
+      "title": "Fase 2: Ejecución Operativa, Proyectos y Levantamientos",
+      "status": "planned"
+    },
+    {
+      "id": "v03-cierre-evaluacion",
+      "path": "docs/vaults/v03-cierre-evaluacion",
+      "title": "Fase 3: Cierre, Informe Final y Acreditación de Horas",
+      "status": "planned"
+    }
+  ],
+  "architecture_components": {
+    "lake_raw": "lake/raw/",
+    "lake_processed": "lake/processed/",
+    "lake_knowledge": "lake/knowledge/",
+    "recordings": "grabaciones/",
+    "transcriptions": "transcripciones/",
+    "sessions": "sesiones/",
+    "reports": "informes/",
+    "technical_projects": "proyectos_arquitectura/"
+  }
+}

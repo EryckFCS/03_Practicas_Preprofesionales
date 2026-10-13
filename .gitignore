@@ -1,0 +1,67 @@
+# Node Architecture — Prácticas Preprofesionales (Octavo Ciclo - Arquitectura)
+
+# ==============================================================================
+# Raw binaries & media (Excluidos de Git / RAG Poisoning Prevention)
+# ==============================================================================
+lake/raw/*
+!lake/raw/.gitkeep
+lake/processed/*
+!lake/processed/.gitkeep
+
+# Exclusión de archivos multimedia pesados
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.mkv
+*.avi
+*.mov
+*.aac
+*.flac
+*.webm
+*.ogg
+
+# Directorios de grabaciones locales (solo se versiona la estructura)
+grabaciones/*
+!grabaciones/.gitkeep
+!grabaciones/README.md
+sesiones/**/grabaciones/*
+!sesiones/**/grabaciones/.gitkeep
+
+# Archivos temporales CAD/BIM y respaldos
+*.bak
+*.dwg.bak
+*.rvt.bak
+*.tmp
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ==============================================================================
+# Python / Dev Environments & Caches
+# ==============================================================================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==============================================================================
+# Quarto / Render outputs
+# ==============================================================================
+.quarto/
+_site/
+*.rendered.pdf
+
+# ==============================================================================
+# System & Secrets
+# ==============================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.log
+.env
+.env.*

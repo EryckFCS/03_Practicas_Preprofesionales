@@ -1,0 +1,30 @@
+---
+title: "Bóveda 02: Ejecución Operativa y Análisis de Proyectos"
+subtitle: "Prácticas Preprofesionales — Octavo Ciclo (UNL)"
+author: "Eryck FCS"
+date: "2026-10-12"
+format:
+  html:
+    theme: cosmo
+    toc: true
+---
+
+# 1. Alcance Operativo
+
+Desarrollo sistemático de las actividades asignadas en el área de Arquitectura:
+- Levantamiento de datos en sitio e infraestructura universitaria.
+- Análisis de costos, precios unitarios (APU) y presupuestos de obra.
+- Formulación de fichas socioeconómicas para intervenciones arquitectónicas.
+
+# 2. Control de Proyectos en Ejecución
+
+| Proyecto / Tarea | Descripción Técnica | Entregable Asociado |
+| :--- | :--- | :--- |
+| P01 | Revisión presupuestaria de equipamiento | Matriz de APU y cronograma valorado |
+| P02 | Levantamiento técnico-económico | Ficha técnica y registro fotográfico |
+
+# 3. Evidencias de Campo
+Los entregables intermedios se compilan en:
+- `evidencias/`
+- `notes/`
+- `readings/`

@@ -1,0 +1,31 @@
+---
+title: "Bóveda 01: Diagnóstico Institucional y Planificación"
+subtitle: "Prácticas Preprofesionales — Octavo Ciclo (UNL)"
+author: "Eryck FCS"
+date: "2026-10-12"
+format:
+  html:
+    theme: cosmo
+    toc: true
+---
+
+# 1. Información General del Período
+
+- **Área Receptora:** Facultad / Carrera de Arquitectura (UNL)
+- **Tutor Institucional:** [Por definir / Asignado en Arquitectura]
+- **Tutor Académico:** [Por definir / Docente Tutor UNL Economía]
+- **Objetivo de la Fase:** Establecer el diagnóstico de necesidades técnico-económicas en la unidad receptora y definir el cronograma de intervención.
+
+# 2. Objetivos y Cronograma de Trabajo
+
+| Hito | Actividad Principal | Semanas | Estado |
+| :--- | :--- | :--- | :--- |
+| H01 | Inducción y formalización institucional | Semanas 1 - 2 | En curso |
+| H02 | Diagnóstico de proyectos arquitectónicos en cartera | Semanas 3 - 4 | Planificado |
+| H03 | Definición de instrumentos de control y levantamiento | Semanas 5 - 6 | Planificado |
+
+# 3. Evidencias y Notas
+Documentos, actas de acuerdos y notas de esta fase se archivan en las subcarpetas:
+- `evidencias/`
+- `notes/`
+- `readings/`

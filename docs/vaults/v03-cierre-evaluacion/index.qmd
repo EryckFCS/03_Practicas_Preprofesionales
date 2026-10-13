@@ -1,0 +1,30 @@
+---
+title: "Bóveda 03: Cierre, Evaluación y Acreditación de Horas"
+subtitle: "Prácticas Preprofesionales — Octavo Ciclo (UNL)"
+author: "Eryck FCS"
+date: "2026-10-12"
+format:
+  html:
+    theme: cosmo
+    toc: true
+---
+
+# 1. Hito de Cierre
+
+Fase final de acreditación académica de las prácticas preprofesionales en la Carrera de Economía (UNL):
+- Consolidación del informe final de prácticas preprofesionales.
+- Cierre de la matriz de horas acumuladas (meta: 240 horas).
+- Recolección de rúbricas de evaluación del tutor institucional y académico.
+
+# 2. Checklist de Acreditación
+
+- [ ] 100% de bitácoras semanales legalizadas y firmadas.
+- [ ] Certificado institucional de horas emitido por Arquitectura.
+- [ ] Rúbrica de evaluación institucional calificada.
+- [ ] Informe final aprobado por el tutor académico.
+
+# 3. Documentos de Cierre
+Archivados en:
+- `evidencias/`
+- `notes/`
+- `readings/`
