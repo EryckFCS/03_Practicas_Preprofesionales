@@ -73,3 +73,6 @@ desktop.ini
 *.log
 .env
 .env.*
+symbology-style.db
+*.qgs~
+*.qgz~
