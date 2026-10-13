@@ -1,7 +1,7 @@
 ---
 title: "Diagnóstico Sociodemográfico y Territorial — Barrio El Capulí"
 subtitle: "Proyecto de Vinculación con la Sociedad — Arquitectura & Economía (UNL)"
-author: "Eryck Condoy | Equipo de Pasantes de Economía"
+author: "Erick Condoy | Amanda Gálvez | Erick Barba"
 date: "2026-10-12"
 format:
   html:
@@ -14,18 +14,22 @@ format:
 
 # Introducción y Contexto Territorial
 
-En el marco de las **Prácticas Preprofesionales Finales (Octavo Ciclo)** de la Carrera de Economía en coordinación con la Carrera de Arquitectura de la Universidad Nacional de Loja (UNL), se desarrolla el diagnóstico integral de la población y el territorio del **Barrio El Capulí**.
+En el marco de las **Prácticas Preprofesionales Finales** de la Carrera de Economía, oficializadas mediante **Memorando Nro. UNL-FJSA-CE-2026-0621-M** (08 de octubre de 2026), se desarrolla el diagnóstico integral de la población y el territorio del **Barrio El Capulí** para la **Carrera de Arquitectura Sostenible** de la Universidad Nacional de Loja (UNL).
 
-- **Ubicación:** Sur del casco urbano de Loja, colindante al este/sur del Campus Universitario "La Argelia" (UNL) y en proximidad al Colegio San Gerardo / Capulí Loma.
+- **Ubicación Territorial:** Sur del casco urbano de Loja, colindante al margen suroriental del Campus Universitario "La Argelia" (UNL) y en proximidad al Colegio San Gerardo / Capulí Loma.
 - **División Político-Administrativa:**
   - Provincia: Loja (`11`)
   - Cantón: Loja (`1101`)
   - Parroquia: Punzara (`110156`) / Circunscripción urbana sur de Loja.
-- **Equipo de Coordinación:**
-  - Docente Responsable del Proyecto: Docente vinculación UNL Arquitectura.
-  - Tutor / Docente Técnico en Territorio: Arq. Pablo Araki.
-  - Responsable de Pasantías: Ing. Iliana.
-  - Equipo Economistas Pasantes: Eryck Condoy, Amanda y compañeros de 7mo/8vo ciclo.
+- **Equipo Institucional de Trabajo:**
+  - **Dirección de Carrera (Arquitectura Sostenible):** Arq. Alexandra Elizabeth Aguilera Maldonado.
+  - **Supervisores Institucionales de Arquitectura:** Arq. Alexandra Aguilera Maldonado y Arq. Pablo Araki (2 arquitectos a cargo).
+  - **Docente Responsable de Prácticas (Economía):** Sra. Liliana De Jesus Matailo Yaguana (Docente Titular Agregado 1).
+  - **Equipo de Estudiantes Pasantes (Carrera de Economía):**
+    1. **Erick Fabricio Condoy Seraquive** (C.I. 1105973737) — Octavo Ciclo
+    2. **Amanda Salome Gálvez Macas** (C.I. 1105932394)
+    3. **Erick Sebastián Barba Sisalima** (C.I. 1105639569)
+- **Fecha de Inicio:** 12 de octubre de 2026.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Diagnóstico Sociodemográfico y Territorial"
 subtitle: "Barrio El Capulí — Parroquia Punzara (Loja)"
-author: "Eryck Condoy | Pasantes de Economía"
-institute: "Universidad Nacional de Loja — Carrera de Economía & Carrera de Arquitectura"
+author: "Erick Condoy | Amanda Gálvez | Erick Barba"
+institute: "Universidad Nacional de Loja — Carrera de Economía & Carrera de Arquitectura Sostenible"
 date: "2026-10-12"
 format:
   revealjs:
@@ -13,24 +13,27 @@ format:
     chalkboard: true
     preview-links: auto
     logo: ""
-    footer: "Prácticas Preprofesionales — UNL 2026"
+    footer: "UNL-FJSA-CE-2026-0621-M — Prácticas Preprofesionales 2026"
     css: presentacion.css
 execute:
   echo: false
   warning: false
 ---
 
-## 🏛️ Contexto del Proyecto
+## 🏛️ Contexto Institucional y Equipo
 
 ::: {.columns}
 ::: {.column width="60%"}
-- **Proyecto:** Vinculación con la Sociedad — Ordenamiento y Equipamiento Urbano.
-- **Entidades:** Carrera de Economía & Carrera de Arquitectura (UNL).
-- **Territorio:** **Barrio El Capulí**, Parroquia Punzara (inmediaciones del Campus La Argelia y Colegio San Gerardo).
-- **Equipo Docente:** 
-  - Coordinación Técnica: Arq. Pablo Araki.
-  - Responsable de Pasantías: Ing. Iliana.
-- **Equipo de Economía:** Eryck Condoy, Amanda y compañeros.
+- **Marco Legal:** **Memorando UNL-FJSA-CE-2026-0621-M** (08-oct-2026).
+- **Entidad Receptora:** Carrera de Arquitectura Sostenible (UNL).
+- **Territorio:** **Barrio El Capulí**, Parroquia Punzara.
+- **Supervisión de Arquitectura (2 Arquitectos):**
+  - Arq. Alexandra Aguilera Maldonado (Directora de Carrera).
+  - Arq. Pablo Araki (Supervisor Técnico de Proyecto).
+- **Responsable de Prácticas (Economía):**
+  - Sra. Liliana De Jesus Matailo Yaguana.
+- **Equipo de Pasantes de Economía (3 Estudiantes):**
+  - Erick Condoy, Amanda Gálvez y Erick Barba.
 :::
 
 ::: {.column width="40%"}

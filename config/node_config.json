@@ -7,11 +7,34 @@
   "career": "Carrera de Economía",
   "host_institution_area": {
     "entity": "Universidad Nacional de Loja",
-    "faculty_or_department": "Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables / Carrera de Arquitectura",
+    "faculty_or_department": "Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables / Carrera de Arquitectura Sostenible",
     "practice_type": "Prácticas Preprofesionales Finales / Laborales",
-    "supervisor_institucional": "Arq. Pablo Araki (Carrera de Arquitectura - UNL)",
-    "responsable_pasantias": "Ing. Iliana",
-    "tutor_academico": "Por definir / Docente Tutor UNL Economía",
+    "memorandum": "UNL-FJSA-CE-2026-0621-M",
+    "memorandum_date": "2026-10-08",
+    "start_date": "2026-10-12",
+    "directora_carrera_arquitectura": "Arq. Alexandra Elizabeth Aguilera Maldonado",
+    "supervisores_arquitectura": [
+      "Arq. Alexandra Elizabeth Aguilera Maldonado (Directora de Carrera)",
+      "Arq. Pablo Araki (Supervisor Técnico en Territorio)"
+    ],
+    "docente_responsable_practicas_economia": "Sra. Liliana De Jesus Matailo Yaguana (Docente Titular Agregado 1)",
+    "team_pasantes": [
+      {
+        "nombre": "Erick Fabricio Condoy Seraquive",
+        "cedula": "1105973737",
+        "carrera": "Economía (Octavo Ciclo)"
+      },
+      {
+        "nombre": "Amanda Salome Gálvez Macas",
+        "cedula": "1105932394",
+        "carrera": "Economía"
+      },
+      {
+        "nombre": "Erick Sebastián Barba Sisalima",
+        "cedula": "1105639569",
+        "carrera": "Economía"
+      }
+    ],
     "intervention_area": "Barrio El Capulí (Loja, Ecuador) — Inmediaciones Campus La Argelia / Col. San Gerardo"
   },
   "hours_management": {
