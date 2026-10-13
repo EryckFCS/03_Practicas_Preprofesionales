@@ -37,6 +37,13 @@ sesiones/**/grabaciones/*
 ~$*.xlsx
 ~$*.pptx
 
+# Bases masivas y GeoPackages espaciales (>100MB)
+*.gpkg
+*.gdb/
+**/*_poblacion_sector.csv
+**/*_vivienda_sector.csv
+**/*_hogar_sector.csv
+
 # ==============================================================================
 # Python / Dev Environments & Caches
 # ==============================================================================
