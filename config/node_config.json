@@ -73,5 +73,28 @@
     "sessions": "sesiones/",
     "reports": "informes/",
     "technical_projects": "proyectos_arquitectura/"
+  },
+  "apis_and_services": {
+    "redatam_engine": {
+      "name": "RedatamX (CEPAL / CELADE)",
+      "dir": "C:\\Program Files\\RedatamX",
+      "cli_processor": "rxapp.exe",
+      "rest_server": "rxrest.exe",
+      "gui_app": "RedX Process.exe"
+    },
+    "qgis_osgeo4w": {
+      "name": "QGIS LTR 3.44 (OSGeo4W)",
+      "dir": "C:\\Users\\ERICK-FCS\\AppData\\Local\\Programs\\OSGeo4W",
+      "cli_processor": "bin/qgis_process-qgis-ltr.bat",
+      "python_env": "bin/python-qgis-ltr.bat"
+    },
+    "ckan_datos_abiertos": {
+      "name": "Datos Abiertos Ecuador (INEC)",
+      "base_url": "https://datosabiertos.gob.ec/api/3/action"
+    },
+    "sovereign_mcps": [
+      "capital-inec",
+      "capital-bce"
+    ]
   }
 }
