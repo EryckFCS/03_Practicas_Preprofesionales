@@ -9,9 +9,11 @@ Integra:
 from .api_datos_abiertos_ecuador import INECDatosAbiertosClient
 from .api_redatam_connector import RedatamXConnector
 from .api_qgis_connector import QGISHeadlessConnector
+from .api_kobo_connector import KoboToolboxConnector
 
 __all__ = [
     "INECDatosAbiertosClient",
     "RedatamXConnector",
-    "QGISHeadlessConnector"
+    "QGISHeadlessConnector",
+    "KoboToolboxConnector"
 ]

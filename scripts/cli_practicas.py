@@ -10,7 +10,7 @@ import json
 
 # Asegurar importación de conectores
 sys.path.insert(0, os.path.dirname(__file__))
-from conectores import INECDatosAbiertosClient, RedatamXConnector, QGISHeadlessConnector
+from conectores import INECDatosAbiertosClient, RedatamXConnector, QGISHeadlessConnector, KoboToolboxConnector
 
 def cmd_status(args):
     print("=" * 70)
@@ -46,8 +46,19 @@ def cmd_status(args):
     except Exception as e:
         print(f"    - Conexión HTTPS:       ERROR ({e})")
 
-    # 4. Servidores MCP Nativos
-    print("\n[4] SERVIDORES MCP ACTIVOS EN ENTORNO:")
+    # 4. KoboToolbox API
+    kb = KoboToolboxConnector()
+    print("\n[4] KOBOTOOLBOX (kobotoolbox.org / Levantamiento en Territorio):")
+    try:
+        kb_info = kb.obtener_formulario()
+        print(f"    - Formulario:           {kb_info.get('name')} (UID: {kb.asset_uid})")
+        print(f"    - Estado Despliegue:    {'ACTIVO (Online)' if kb_info.get('deployment__active') else 'INACTIVO'}")
+        print(f"    - Encuestas recibidas:  {kb_info.get('deployment__submission_count')} registros")
+    except Exception as e:
+        print(f"    - Conexión Kobo:        ERROR ({e})")
+
+    # 5. Servidores MCP Nativos
+    print("\n[5] SERVIDORES MCP ACTIVOS EN ENTORNO:")
     print("    - capital-inec:          ACTIVO (Consultas metodológicas e indicadores)")
     print("    - capital-bce:           ACTIVO (Series macroeconómicas y tasas)")
     print("=" * 70)

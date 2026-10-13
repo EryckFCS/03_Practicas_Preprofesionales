@@ -92,6 +92,14 @@
       "name": "Datos Abiertos Ecuador (INEC)",
       "base_url": "https://datosabiertos.gob.ec/api/3/action"
     },
+    "kobotoolbox": {
+      "name": "KoboToolbox (Levantamiento Territorial)",
+      "base_url": "https://kf.kobotoolbox.org/api/v2",
+      "form_uid": "aBJEiLwrvSWwb7fBrukk8a",
+      "form_name": "encuesta capuli arquitectura",
+      "owner": "erick2005",
+      "web_survey_url": "https://ee.kobotoolbox.org/x/b7m9kQ9o"
+    },
     "sovereign_mcps": [
       "capital-inec",
       "capital-bce"
