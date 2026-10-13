@@ -1,0 +1,1546 @@
+[
+  {
+    "fila": 1,
+    "texto": "CAMPOS A LEVANTAR POR  A.R.R.  PARA LA CARACTERIZACIÓN DE LAS COMUNIDADES"
+  },
+  {
+    "fila": 3,
+    "texto": "1.5 Zona"
+  },
+  {
+    "fila": 4,
+    "texto": "1.6 Sector"
+  },
+  {
+    "fila": 5,
+    "texto": "1.7 Area"
+  },
+  {
+    "fila": 6,
+    "texto": "2.1 Grupo étnico predominante en la comunidad"
+  },
+  {
+    "fila": 7,
+    "texto": "3.1 Número de habitantes de la comunidad"
+  },
+  {
+    "fila": 8,
+    "texto": "3.2a Niños menores de 1 año"
+  },
+  {
+    "fila": 9,
+    "texto": "3.2b Niñas menores de 1 año"
+  },
+  {
+    "fila": 10,
+    "texto": "3.2c Niños/as menores de 1 año"
+  },
+  {
+    "fila": 11,
+    "texto": "3.2d Niños de 1 a 4 años"
+  },
+  {
+    "fila": 12,
+    "texto": "3.2e Niñas de 1 a 4 años"
+  },
+  {
+    "fila": 13,
+    "texto": "3.2f Niños/as de 1 a 4 años"
+  },
+  {
+    "fila": 14,
+    "texto": "3.2g Niños de 5 a 14 años"
+  },
+  {
+    "fila": 15,
+    "texto": "3.2h Niñas de 5 a 14 años"
+  },
+  {
+    "fila": 16,
+    "texto": "3.2i Niños/as de 5 a 14 años"
+  },
+  {
+    "fila": 17,
+    "texto": "3.2ja Hombres de 15 a 49 años"
+  },
+  {
+    "fila": 18,
+    "texto": "3.2jb Mujeres de 15 a 49 años"
+  },
+  {
+    "fila": 19,
+    "texto": "3.2j Hombres y Mujeres de 15 a 49 años"
+  },
+  {
+    "fila": 20,
+    "texto": "3.2k Hombres de 50 a 64 años"
+  },
+  {
+    "fila": 21,
+    "texto": "3.2l Mujeres de 50 a 64 años"
+  },
+  {
+    "fila": 22,
+    "texto": "3.2m Hombres y mujeres de 50 a 64 años"
+  },
+  {
+    "fila": 23,
+    "texto": "3.2n Hombres de 65 años y mas"
+  },
+  {
+    "fila": 24,
+    "texto": "3.2o Mujeres de 65 años y mas"
+  },
+  {
+    "fila": 25,
+    "texto": "3.2p Hombres y mujeres de 65 años y mas"
+  },
+  {
+    "fila": 26,
+    "texto": "3.3 Número de familias"
+  },
+  {
+    "fila": 27,
+    "texto": "3.5a Número de edificaciones productivas"
+  },
+  {
+    "fila": 28,
+    "texto": "3.4 Número de viviendas"
+  },
+  {
+    "fila": 29,
+    "texto": "3.5 Número de edificaciones sociales"
+  },
+  {
+    "fila": 30,
+    "texto": "3.6 Número de extranjeros"
+  },
+  {
+    "fila": 31,
+    "texto": "3.6 País de origen (mayoritario)"
+  },
+  {
+    "fila": 32,
+    "texto": "3.7 Año de mayor migración"
+  },
+  {
+    "fila": 33,
+    "texto": "3.7a País de destino (mayoritario)"
+  },
+  {
+    "fila": 34,
+    "texto": "3.7b Hombres migrantes"
+  },
+  {
+    "fila": 35,
+    "texto": "3.7c Mujeres migrantes"
+  },
+  {
+    "fila": 36,
+    "texto": "3.7d Hombres y mujeres migrantes"
+  },
+  {
+    "fila": 37,
+    "texto": "4.1a Distancia a la cabecera parroquial (Km)"
+  },
+  {
+    "fila": 38,
+    "texto": "4.1b Tiempo (horas) a la cabecera parroquial transporte 1"
+  },
+  {
+    "fila": 39,
+    "texto": "4.1c Tiempo (horas) a la cabecera parroquial transporte 2"
+  },
+  {
+    "fila": 40,
+    "texto": "4.1d Tiempo (horas) a la cabecera parroquial transporte 3"
+  },
+  {
+    "fila": 41,
+    "texto": "4.1e Tiempo (horas) a la cabecera parroquial transporte 4"
+  },
+  {
+    "fila": 42,
+    "texto": "4.1f Transporte 1"
+  },
+  {
+    "fila": 43,
+    "texto": "4.2a Distancia a la cabecera cantonal (Km)"
+  },
+  {
+    "fila": 44,
+    "texto": "4.2b Tiempo (horas) a la cabecera cantonal transporte 1"
+  },
+  {
+    "fila": 45,
+    "texto": "4.2c Tiempo (horas) a la cabecera cantonal transporte 2"
+  },
+  {
+    "fila": 46,
+    "texto": "4.2d Tiempo (horas) a la cabecera cantonal transporte 3"
+  },
+  {
+    "fila": 47,
+    "texto": "4.2e Tiempo (horas) a la cabecera cantonal transporte 4"
+  },
+  {
+    "fila": 48,
+    "texto": "4.2f Transporte 2"
+  },
+  {
+    "fila": 49,
+    "texto": "4.3a Distancia a la cabecera provincial (Km)"
+  },
+  {
+    "fila": 50,
+    "texto": "4.3b Tiempo (horas) a la cabecera provincial transporte 1"
+  },
+  {
+    "fila": 51,
+    "texto": "4.3c Tiempo (horas) a la cabecera provincial transporte 2"
+  },
+  {
+    "fila": 52,
+    "texto": "4.3d Tiempo (horas) a la cabecera provincial transporte 3"
+  },
+  {
+    "fila": 53,
+    "texto": "4.3e Tiempo (horas) a la cabecera provincial transporte 4"
+  },
+  {
+    "fila": 54,
+    "texto": "4.3f Transporte 3"
+  },
+  {
+    "fila": 55,
+    "texto": "4.4a Distancia a la cabecera frontera (Km)"
+  },
+  {
+    "fila": 56,
+    "texto": "4.4b Tiempo (horas) a la cabecera frontera transporte 1"
+  },
+  {
+    "fila": 57,
+    "texto": "4.4c Tiempo (horas) a la cabecera frontera transporte 2"
+  },
+  {
+    "fila": 58,
+    "texto": "4.4d Tiempo (horas) a la cabecera frontera transporte 3"
+  },
+  {
+    "fila": 59,
+    "texto": "4.4e Tiempo (horas) a la cabecera frontera transporte 4"
+  },
+  {
+    "fila": 60,
+    "texto": "4.4f Transporte 4"
+  },
+  {
+    "fila": 61,
+    "texto": "5.1 Existen instituciones educativas y de Desarrollo Infantil (públicas ó privadas) en la comunidad:"
+  },
+  {
+    "fila": 62,
+    "texto": "5.3 Las escuelas de la comunidad pertenecen a las redes educativas o CEM?"
+  },
+  {
+    "fila": 63,
+    "texto": "5.4a A cuál institución asisten los niños / jovenes de la comunidad - Escuela nombre"
+  },
+  {
+    "fila": 64,
+    "texto": "5.5 Parroquia o cabecera cantonal a la cual pertenece la escuela"
+  },
+  {
+    "fila": 65,
+    "texto": "5.5 Se encuentra en una Cabecera Cantonal, Parroquia o Comunidad"
+  },
+  {
+    "fila": 66,
+    "texto": "5.6 Distancia de la institución a la que asisten (kms):"
+  },
+  {
+    "fila": 67,
+    "texto": "7.7a1 Tipo Transporte 1"
+  },
+  {
+    "fila": 68,
+    "texto": "7.7a2 Tiempo en minutos - Transporte1"
+  },
+  {
+    "fila": 69,
+    "texto": "7.7b1 Tipo Transporte 2"
+  },
+  {
+    "fila": 70,
+    "texto": "7.7b2 Tiempo en minutos - Transporte2"
+  },
+  {
+    "fila": 71,
+    "texto": "7.7c1 Tipo Transporte 3"
+  },
+  {
+    "fila": 72,
+    "texto": "7.7c2 Tiempo en minutos - Transporte3"
+  },
+  {
+    "fila": 73,
+    "texto": "7.7d1 Tipo Transporte 4"
+  },
+  {
+    "fila": 74,
+    "texto": "7.7d2 Tiempo en minutos - Transporte4"
+  },
+  {
+    "fila": 75,
+    "texto": "5.4b A cuál institución asisten los niños / jovenes de la comunidad - Colegio nombre"
+  },
+  {
+    "fila": 76,
+    "texto": "5.5 Parroquia o cabecera cantonal a la cual pertenece la escuela"
+  },
+  {
+    "fila": 77,
+    "texto": "5.5 Se encuentra en una Cabecera Cantonal, Parroquia o Comunidad"
+  },
+  {
+    "fila": 78,
+    "texto": "5.6 Distancia de la institución a la que asisten (kms):"
+  },
+  {
+    "fila": 79,
+    "texto": "7.7a1 Tipo Transporte 1"
+  },
+  {
+    "fila": 80,
+    "texto": "7.7a2 Tiempo en minutos - Transporte1"
+  },
+  {
+    "fila": 81,
+    "texto": "7.7b1 Tipo Transporte 2"
+  },
+  {
+    "fila": 82,
+    "texto": "7.7b2 Tiempo en minutos - Transporte2"
+  },
+  {
+    "fila": 83,
+    "texto": "7.7c1 Tipo Transporte 3"
+  },
+  {
+    "fila": 84,
+    "texto": "7.7c2 Tiempo en minutos - Transporte3"
+  },
+  {
+    "fila": 85,
+    "texto": "7.7d1 Tipo Transporte 4"
+  },
+  {
+    "fila": 86,
+    "texto": "7.7d2 Tiempo en minutos - Transporte4"
+  },
+  {
+    "fila": 87,
+    "texto": "5.4c A cuál institución asisten los niños / jovenes de la comunidad - Centro de desarrollo infantil / nombre"
+  },
+  {
+    "fila": 88,
+    "texto": "5.5 Parroquia o cabecera cantonal a la cual pertenece la escuela"
+  },
+  {
+    "fila": 89,
+    "texto": "5.5 Se encuentra en una Cabecera Cantonal, Parroquia o Comunidad"
+  },
+  {
+    "fila": 90,
+    "texto": "5.6 Distancia de la institución a la que asisten (kms):"
+  },
+  {
+    "fila": 91,
+    "texto": "7.7a1 Tipo Transporte 1"
+  },
+  {
+    "fila": 92,
+    "texto": "7.7a2 Tiempo en minutos - Transporte1"
+  },
+  {
+    "fila": 93,
+    "texto": "7.7b1 Tipo Transporte 2"
+  },
+  {
+    "fila": 94,
+    "texto": "7.7b2 Tiempo en minutos - Transporte2"
+  },
+  {
+    "fila": 95,
+    "texto": "7.7c1 Tipo Transporte 3"
+  },
+  {
+    "fila": 96,
+    "texto": "7.7c2 Tiempo en minutos - Transporte3"
+  },
+  {
+    "fila": 97,
+    "texto": "7.7d1 Tipo Transporte 4"
+  },
+  {
+    "fila": 98,
+    "texto": "7.7d2 Tiempo en minutos - Transporte4"
+  },
+  {
+    "fila": 99,
+    "texto": "5.8a Existen centros de educación popular permanentes:"
+  },
+  {
+    "fila": 100,
+    "texto": "5.8b Existen centros de educación popular permanentes cuantos"
+  },
+  {
+    "fila": 101,
+    "texto": "5.9 Qué programas tiene:"
+  },
+  {
+    "fila": 102,
+    "texto": "5.10 Existen centros de educación a distancia permanentes"
+  },
+  {
+    "fila": 103,
+    "texto": "5.11 Existen programas de alfabetización de adultos"
+  },
+  {
+    "fila": 104,
+    "texto": "5,11a Hombres Analfabetos Cuantos"
+  },
+  {
+    "fila": 105,
+    "texto": "5,11b Mujeres Analfabetas Cuantas"
+  },
+  {
+    "fila": 106,
+    "texto": "5,11c Hombres y Mujeres Analfabetos Cuantos"
+  },
+  {
+    "fila": 107,
+    "texto": "6.1 Existen establecimientos de salud en la comunidad"
+  },
+  {
+    "fila": 108,
+    "texto": "6.2.1 Instancias y/o establecimientos de salud que existen - Parteras capacitadas"
+  },
+  {
+    "fila": 109,
+    "texto": "6.2.2 Instancias y/o establecimientos de salud que existen - Parteras no capacitadas"
+  },
+  {
+    "fila": 110,
+    "texto": "6.2.3 Instancias y/o establecimientos de salud que existen - Promotores de salud"
+  },
+  {
+    "fila": 111,
+    "texto": "6.2.4 Instancias y/o establecimientos de salud que existen - Curandero tradicional"
+  },
+  {
+    "fila": 112,
+    "texto": "6.2.5 Instancias y/o establecimientos de salud que existen - Shaman"
+  },
+  {
+    "fila": 113,
+    "texto": "6.2.6 Instancias y/o establecimientos de salud que existen - Botiquin comunitario"
+  },
+  {
+    "fila": 114,
+    "texto": "6.2.7 Instancias y/o establecimientos de salud que existen - Sub-centro de salud"
+  },
+  {
+    "fila": 115,
+    "texto": "6.2.8 Instancias y/o establecimientos de salud que existen - Centro de salud"
+  },
+  {
+    "fila": 116,
+    "texto": "6.2.9 Instancias y/o establecimientos de salud que existen - Hospital público"
+  },
+  {
+    "fila": 117,
+    "texto": "6.2.10 Instancias y/o establecimientos de salud que existen - Dispensario público"
+  },
+  {
+    "fila": 118,
+    "texto": "6.2.11 Instancias y/o establecimientos de salud que existen - Unidad móvil"
+  },
+  {
+    "fila": 119,
+    "texto": "6.2.12 Instancias y/o establecimientos de salud que existen - Consultorio privado"
+  },
+  {
+    "fila": 120,
+    "texto": "6.2.13 Instancias y/o establecimientos de salud que existen - Clínica"
+  },
+  {
+    "fila": 121,
+    "texto": "6.2.14 Instancias y/o establecimientos de salud que existen - Hospital privado"
+  },
+  {
+    "fila": 122,
+    "texto": "6.2.15 Instancias y/o establecimientos de salud que existen - Puesto de salud"
+  },
+  {
+    "fila": 123,
+    "texto": "6.2.16 Instancias y/o establecimientos de salud que existen - Otro"
+  },
+  {
+    "fila": 124,
+    "texto": "6.3 Existe comité de salud en la comunidad"
+  },
+  {
+    "fila": 125,
+    "texto": "6.4 A cúal establecimiento asisten para atender su salud:"
+  },
+  {
+    "fila": 126,
+    "texto": "6.5 Parroquia o cabecera cantonal a la cual pertenece el establecimiento de salud:"
+  },
+  {
+    "fila": 127,
+    "texto": "6.5a Se encuentra en una Cabecera cantonal, Parroquia o comunidad"
+  },
+  {
+    "fila": 128,
+    "texto": "6.6 Distancia del establecimiento al cuál asisten (Km):"
+  },
+  {
+    "fila": 129,
+    "texto": "7.7a1 Tipo Transporte 1"
+  },
+  {
+    "fila": 130,
+    "texto": "7.7a2 Tiempo en minutos - Transporte1"
+  },
+  {
+    "fila": 131,
+    "texto": "7.7b1 Tipo Transporte 2"
+  },
+  {
+    "fila": 132,
+    "texto": "7.7b2 Tiempo en minutos - Transporte2"
+  },
+  {
+    "fila": 133,
+    "texto": "7.7c1 Tipo Transporte 3"
+  },
+  {
+    "fila": 134,
+    "texto": "7.7c2 Tiempo en minutos - Transporte3"
+  },
+  {
+    "fila": 135,
+    "texto": "7.7d1 Tipo Transporte 4"
+  },
+  {
+    "fila": 136,
+    "texto": "7.7d2 Tiempo en minutos - Transporte4"
+  },
+  {
+    "fila": 137,
+    "texto": "7.1 Existe servicio telefónico en la comunidad"
+  },
+  {
+    "fila": 138,
+    "texto": "7.2 Qué tipo de servicio telefónico"
+  },
+  {
+    "fila": 139,
+    "texto": "7.3 A qué distancia se encuentra la oficina de teléfonos más cercana (kms)"
+  },
+  {
+    "fila": 140,
+    "texto": "7.3 A qué tiempo se encuentra la oficina de teléfonos más cercana ( ' )"
+  },
+  {
+    "fila": 141,
+    "texto": "7.4 Existe servicio telefónico celular en la comunidad"
+  },
+  {
+    "fila": 142,
+    "texto": "7.5 Existe servicio de Internet en la comunidad"
+  },
+  {
+    "fila": 143,
+    "texto": "7.6 Existe oficina de correos en la comunidad:"
+  },
+  {
+    "fila": 144,
+    "texto": "7.7 Qué tipo de correos"
+  },
+  {
+    "fila": 145,
+    "texto": "7.8 A qué distancia se encuentra la oficina de correos más cercana (kms):"
+  },
+  {
+    "fila": 146,
+    "texto": "7.8 A qué tiempo se encuentra la oficina de correos más cercana ( ' ):"
+  },
+  {
+    "fila": 147,
+    "texto": "7.9 Existe servicio de transporte a la comunidad"
+  },
+  {
+    "fila": 148,
+    "texto": "7.10a Qué tipo de transporte"
+  },
+  {
+    "fila": 149,
+    "texto": "7.10a1 frecuencia de servicio"
+  },
+  {
+    "fila": 150,
+    "texto": "7.10b Qué tipo de transporte"
+  },
+  {
+    "fila": 151,
+    "texto": "7.10b1 frecuencia de servicio"
+  },
+  {
+    "fila": 152,
+    "texto": "7.11 Distancia a la que abordan cualquier tipo de transporte motorizados (kms)"
+  },
+  {
+    "fila": 153,
+    "texto": "7.11a Minutos a la que abordan cualquier tipo de transporte motorizados"
+  },
+  {
+    "fila": 154,
+    "texto": "7.12a Comunicación social - Televisión"
+  },
+  {
+    "fila": 155,
+    "texto": "7.12b Comunicación social - Radio"
+  },
+  {
+    "fila": 156,
+    "texto": "7.12c Comunicación social - Radio aficionado"
+  },
+  {
+    "fila": 157,
+    "texto": "7.12d Comunicación social - Prensa escrita"
+  },
+  {
+    "fila": 158,
+    "texto": "7.13 Cuál es el medio de comunicación más utilizada en la comunidad: código"
+  },
+  {
+    "fila": 159,
+    "texto": "8.1 Existe servicio de energía eléctrica en la comunidad:"
+  },
+  {
+    "fila": 160,
+    "texto": "8.2 Qué tipo de servicio:"
+  },
+  {
+    "fila": 161,
+    "texto": "8.3 Qué porcentaje de la población tiene energía eléctrica"
+  },
+  {
+    "fila": 162,
+    "texto": "8.4 Distancia al lugar más cercano con energía eléctrica (kms):"
+  },
+  {
+    "fila": 163,
+    "texto": "8.4a Minutos al lugar más cercano con energía eléctrica :"
+  },
+  {
+    "fila": 164,
+    "texto": "8.4b Energía Eléctrica Alternativa"
+  },
+  {
+    "fila": 165,
+    "texto": "9.1a Existe red de agua entubada:"
+  },
+  {
+    "fila": 166,
+    "texto": "9.1b Qué porcentaje de la población tiene agua entubada"
+  },
+  {
+    "fila": 167,
+    "texto": "9.2 Tratan con cloro el agua en la fuente de distribubión"
+  },
+  {
+    "fila": 168,
+    "texto": "9.3 Fuente principal de abasto / Qué tipo de agua se consume"
+  },
+  {
+    "fila": 169,
+    "texto": "9.3 Especificación en caso de ser Otro"
+  },
+  {
+    "fila": 170,
+    "texto": "9.4a Existe sistema de alcantarillado en la comunidad"
+  },
+  {
+    "fila": 171,
+    "texto": "9.4b Qué porcentaje de la población tiene alcantarillado"
+  },
+  {
+    "fila": 172,
+    "texto": "9.5 En dónde eliminan las excretas la mayoría de la población"
+  },
+  {
+    "fila": 173,
+    "texto": "9.6 Cómo disponen o eliminan la basura en la comunidad"
+  },
+  {
+    "fila": 174,
+    "texto": "9.6 Especificación en caso de ser Otro"
+  },
+  {
+    "fila": 175,
+    "texto": "10.1a Actividades económicas principales se dedica la población"
+  },
+  {
+    "fila": 176,
+    "texto": "10.2b Actividades económicas principales se dedica la población"
+  },
+  {
+    "fila": 177,
+    "texto": "10.1c Actividades económicas principales se dedica la población"
+  },
+  {
+    "fila": 178,
+    "texto": "10.1d Actividades económicas principales se dedica la población"
+  },
+  {
+    "fila": 179,
+    "texto": "10.1e Actividades económicas principales se dedica la población"
+  },
+  {
+    "fila": 180,
+    "texto": "10.2a Cuales son las tres actividades productivas más rentables de la comunidad"
+  },
+  {
+    "fila": 181,
+    "texto": "10.2b Cuales son las tres actividades productivas más rentables de la comunidad"
+  },
+  {
+    "fila": 182,
+    "texto": "10.2c Cuales son las tres actividades productivas más rentables de la comunidad"
+  },
+  {
+    "fila": 183,
+    "texto": "11.1a Tipo de suelo (Areas cultivables)"
+  },
+  {
+    "fila": 184,
+    "texto": "11.1b Tipo de suelo (Areas cultivables)"
+  },
+  {
+    "fila": 185,
+    "texto": "11.2a Cómo consiguen el agua para labores agrícolas"
+  },
+  {
+    "fila": 186,
+    "texto": "11.2b Cómo consiguen el agua para labores agrícolas"
+  },
+  {
+    "fila": 187,
+    "texto": "11.2 Cómo consiguen el agua para labores agrícolas en caso de otro"
+  },
+  {
+    "fila": 188,
+    "texto": "11.3a Qué tipo de riego utilizan para las labores agrícolas"
+  },
+  {
+    "fila": 189,
+    "texto": "11.3b Qué tipo de riego utilizan para las labores agrícolas"
+  },
+  {
+    "fila": 190,
+    "texto": "11.3 Qué tipo de riego utilizan para las labores agrícolas en caso de otro"
+  },
+  {
+    "fila": 191,
+    "texto": "11.4a Qué tipo de productos cultivan con fines de venta y/o alimentación la comunidad"
+  },
+  {
+    "fila": 192,
+    "texto": "11.4b Qué tipo de productos cultivan con fines de venta y/o alimentación la comunidad"
+  },
+  {
+    "fila": 193,
+    "texto": "11.4c Qué tipo de productos cultivan con fines de venta y/o alimentación la comunidad"
+  },
+  {
+    "fila": 194,
+    "texto": "11.4d Qué tipo de productos cultivan con fines de venta y/o alimentación la comunidad"
+  },
+  {
+    "fila": 195,
+    "texto": "11.4e Qué tipo de productos cultivan con fines de venta y/o alimentación la comunidad"
+  },
+  {
+    "fila": 196,
+    "texto": "11.5a Qué tipo de animales crian con fines de venta o alimentación en la comunidad"
+  },
+  {
+    "fila": 197,
+    "texto": "11.5b Qué tipo de animales crian con fines de venta o alimentación en la comunidad"
+  },
+  {
+    "fila": 198,
+    "texto": "11.5c Qué tipo de animales crian con fines de venta o alimentación en la comunidad"
+  },
+  {
+    "fila": 199,
+    "texto": "12.1 Existe feria en la comunidad:"
+  },
+  {
+    "fila": 200,
+    "texto": "12.2a Dónde llevan los productos para vender:"
+  },
+  {
+    "fila": 201,
+    "texto": "12.2b Dónde llevan los productos para vender:"
+  },
+  {
+    "fila": 202,
+    "texto": "12.2 Dónde llevan los productos para vender en caso de otro especifique"
+  },
+  {
+    "fila": 203,
+    "texto": "13.1a Que productos industrializan"
+  },
+  {
+    "fila": 204,
+    "texto": "13.1b Que productos industrializan:"
+  },
+  {
+    "fila": 205,
+    "texto": "13.1 Que productos industrializan en caso de otro especifique"
+  },
+  {
+    "fila": 206,
+    "texto": "14.1a Qué productos artesanales fabrican"
+  },
+  {
+    "fila": 207,
+    "texto": "14.1b Qué productos artesanales fabrican"
+  },
+  {
+    "fila": 208,
+    "texto": "14.1c Qué productos artesanales fabrican"
+  },
+  {
+    "fila": 209,
+    "texto": "14.1 Qué productos artesanales fabrican en caso de otro especifique"
+  },
+  {
+    "fila": 210,
+    "texto": "15.1.1 Cuantas actividades productivas existen en la comunidad - tiendas"
+  },
+  {
+    "fila": 211,
+    "texto": "15.1.2 Cuantas actividades productivas existen en la comunidad - farmacias"
+  },
+  {
+    "fila": 212,
+    "texto": "15.1.3 Cuantas actividades productivas existen en la comunidad - panaderias"
+  },
+  {
+    "fila": 213,
+    "texto": "15.1.4 Cuantas actividades productivas existen en la comunidad - artesanales"
+  },
+  {
+    "fila": 214,
+    "texto": "15.1.5 Cuantas actividades productivas existen en la comunidad - carpinterias - instrumentos musicales"
+  },
+  {
+    "fila": 215,
+    "texto": "15.1.6 Cuantas actividades productivas existen en la comunidad - talleres(mecánicos, eléctricos)"
+  },
+  {
+    "fila": 216,
+    "texto": "15.1.7 Cuantas actividades productivas existen en la comunidad - otros, especifique"
+  },
+  {
+    "fila": 217,
+    "texto": "15.1.7 Otra actividad productiva que exista en la comunidad especifique"
+  },
+  {
+    "fila": 218,
+    "texto": "16.1 Protegen el medio Ambiente"
+  },
+  {
+    "fila": 219,
+    "texto": "16.2 Protegen las fuentes de agua"
+  },
+  {
+    "fila": 220,
+    "texto": "16.2a Existen áreas naturales protegidas"
+  },
+  {
+    "fila": 221,
+    "texto": "16.2b Qué áreas naturales protegidas son?"
+  },
+  {
+    "fila": 222,
+    "texto": "16.2c Se realizan actividades incompatibles"
+  },
+  {
+    "fila": 223,
+    "texto": "16.2d Qué actividades incompatibles existen?"
+  },
+  {
+    "fila": 224,
+    "texto": "16.3 Existe desechos industriales"
+  },
+  {
+    "fila": 225,
+    "texto": "16.4 Son tratados estos desechos industriales"
+  },
+  {
+    "fila": 226,
+    "texto": "16.5 Existe control de la contaminación ambiental"
+  },
+  {
+    "fila": 227,
+    "texto": "17.1 Ha sufrido daños la comunidad por causa de:"
+  },
+  {
+    "fila": 228,
+    "texto": "17.2 Ha sufrido daños la comunidad por causa de:"
+  },
+  {
+    "fila": 229,
+    "texto": "17.2 Ha sufrido daños la comunidad por causa de otros especifique"
+  },
+  {
+    "fila": 230,
+    "texto": "18.1.1 Servicios turísticos - Hoteles / alojamiento / hospedaje"
+  },
+  {
+    "fila": 231,
+    "texto": "18.1.2 Servicios turísticos - Restaurant / Alimentación"
+  },
+  {
+    "fila": 232,
+    "texto": "18.1.3 Servicos turísticos - Bares"
+  },
+  {
+    "fila": 233,
+    "texto": "18.1.4 Servicios turísticos - Transporte para turistas"
+  },
+  {
+    "fila": 234,
+    "texto": "18.1.5 Servicios turísticos - Servicio de guias"
+  },
+  {
+    "fila": 235,
+    "texto": "18.1.6 Servicios turísticos - Cybercafes"
+  },
+  {
+    "fila": 236,
+    "texto": "18.1.7 Servicios turísticos - Medicina tradicional"
+  },
+  {
+    "fila": 237,
+    "texto": "18.2.1 Sitios de interés turísticos - Playa de ríos/laguna"
+  },
+  {
+    "fila": 238,
+    "texto": "18.2.2 Sitios de interés turísticos - Playa de mar"
+  },
+  {
+    "fila": 239,
+    "texto": "18.2.3 Sitios de interés turísticos - Parques naturales"
+  },
+  {
+    "fila": 240,
+    "texto": "18.2.4 Sitios de interés turísticos - Piscinas naturales"
+  },
+  {
+    "fila": 241,
+    "texto": "18.2.5 Sitios de interés turísticos - Bosque primario"
+  },
+  {
+    "fila": 242,
+    "texto": "18.2.6 Sitios de interés turísticos - Museo"
+  },
+  {
+    "fila": 243,
+    "texto": "18.2.7 Sitios de interés turísticos - Medicina tradicional"
+  },
+  {
+    "fila": 244,
+    "texto": "18.2.8 Sitios de interés turísticos - Arqueología"
+  },
+  {
+    "fila": 245,
+    "texto": "18.2.9 Sitios de interés turísticos - Cascada"
+  },
+  {
+    "fila": 246,
+    "texto": "18.2.10 Sitios de interés turísticos - Cavernas / grutas"
+  },
+  {
+    "fila": 247,
+    "texto": "18.2.11 Sitios de interés turísticos - Flora y Fauna nativa"
+  },
+  {
+    "fila": 248,
+    "texto": "18.2.12 Sitios de interés turísticos - Ríos (paseo canoas)"
+  },
+  {
+    "fila": 249,
+    "texto": "18.2.13 Sitios de interés turísticos - Talleres artesanales"
+  },
+  {
+    "fila": 250,
+    "texto": "18.2.14 Sitios de interés turísticos - Mercado tradicional"
+  },
+  {
+    "fila": 251,
+    "texto": "18.2.15 Sitios de interés turísticos - Monte nevado"
+  },
+  {
+    "fila": 252,
+    "texto": "18.2.16 Sitios de interés turísticos - Centro histórico"
+  },
+  {
+    "fila": 253,
+    "texto": "19.1 Reciben la comunidad o parte de ella, asistencia técnica / financiera:"
+  },
+  {
+    "fila": 254,
+    "texto": "19.1a De qué instituciones reciben ayuda - nacional - nombre"
+  },
+  {
+    "fila": 255,
+    "texto": "19.1b De qué instituciones reciben ayuda - nacional - años"
+  },
+  {
+    "fila": 256,
+    "texto": "19.1c De qué instituciones reciben ayuda - nacional - actividad"
+  },
+  {
+    "fila": 257,
+    "texto": "19.1d De qué instituciones reciben ayuda - nacional - nombre"
+  },
+  {
+    "fila": 258,
+    "texto": "19.1e De qué instituciones reciben ayuda - nacional - años"
+  },
+  {
+    "fila": 259,
+    "texto": "19.1f De qué instituciones reciben ayuda - nacional - actividad"
+  },
+  {
+    "fila": 260,
+    "texto": "19.2a De qué instituciones reciben ayuda - internacional - nombre"
+  },
+  {
+    "fila": 261,
+    "texto": "19.2b De qué instituciones reciben ayuda - internacional - años"
+  },
+  {
+    "fila": 262,
+    "texto": "19.2c De qué instituciones reciben ayuda - internacional - actividad"
+  },
+  {
+    "fila": 263,
+    "texto": "19.2d De qué instituciones reciben ayuda - internacional - nombre"
+  },
+  {
+    "fila": 264,
+    "texto": "19.2e De qué instituciones reciben ayuda - internacional - años"
+  },
+  {
+    "fila": 265,
+    "texto": "19.2f De qué instituciones reciben ayuda - internacional - actividad"
+  },
+  {
+    "fila": 266,
+    "texto": "20.1 Qué servicios recibe la comunidad del municipio - Feria de animales"
+  },
+  {
+    "fila": 267,
+    "texto": "20.2 Qué servicios recibe la comunidad del municipio - Camal"
+  },
+  {
+    "fila": 268,
+    "texto": "20.3 Qué servicios recibe la comunidad del municipio - Administración de mercados"
+  },
+  {
+    "fila": 269,
+    "texto": "20.4 Qué servicios recibe la comunidad del municipio - Centros de abastos"
+  },
+  {
+    "fila": 270,
+    "texto": "20.5 Qué servicios recibe la comunidad del municipio - Caminos vecinales"
+  },
+  {
+    "fila": 271,
+    "texto": "20.6 Qué servicios recibe la comunidad del municipio - Salud"
+  },
+  {
+    "fila": 272,
+    "texto": "20.7 Qué servicios recibe la comunidad del municipio - Social comunitario"
+  },
+  {
+    "fila": 273,
+    "texto": "20.8 Qué servicios recibe la comunidad del municipio - Capacitacion"
+  },
+  {
+    "fila": 274,
+    "texto": "20.9 Qué servicios recibe la comunidad del municipio - Cementerios Velatorios"
+  },
+  {
+    "fila": 275,
+    "texto": "20.10 Qué servicios recibe la comunidad del municipio - Otros"
+  },
+  {
+    "fila": 276,
+    "texto": "20.10 Qué servicios recibe la comunidad del municipio - Otros especifique"
+  },
+  {
+    "fila": 277,
+    "texto": "21.1 Existe en la comunidad la oficina sobre la defensoría del niño:"
+  },
+  {
+    "fila": 278,
+    "texto": "21.2 Existe en la comunidad la oficina sobre la defensoría del pueblo:"
+  },
+  {
+    "fila": 279,
+    "texto": "21.3 Existe en la comunidad una comisaría de la mujer:"
+  },
+  {
+    "fila": 280,
+    "texto": "21.4 Existe puesto de policía o retén en la comunidad:"
+  },
+  {
+    "fila": 281,
+    "texto": "21.5 Existe empresas de seguridad privada en la comunidad:"
+  },
+  {
+    "fila": 282,
+    "texto": "21.6 Existen brigadas comunitarias:"
+  },
+  {
+    "fila": 283,
+    "texto": "21.7 Existe cuerpo de Bomberos en la comunidad"
+  },
+  {
+    "fila": 284,
+    "texto": "21.8 Existen oficinas del Registro Civil:"
+  },
+  {
+    "fila": 285,
+    "texto": "21.9 A que distancia se encuentra la oficina del Registro Civil más cercana: (Km.)"
+  },
+  {
+    "fila": 286,
+    "texto": "21.9 A que tiempo se encuentra la oficina del Registro Civil más cercana: ( ' )"
+  },
+  {
+    "fila": 287,
+    "texto": "22.1.1 Existe: Junta parroquial"
+  },
+  {
+    "fila": 288,
+    "texto": "22.1.1 Pertenece a una organización superior"
+  },
+  {
+    "fila": 289,
+    "texto": "22.1.2 Existe: Comité de barrio"
+  },
+  {
+    "fila": 290,
+    "texto": "22.1.2 Pertenece a una organización superior"
+  },
+  {
+    "fila": 291,
+    "texto": "22.1.3 Existe: Directiva comunitaria"
+  },
+  {
+    "fila": 292,
+    "texto": "22.1.3 Pertenece a una organización superior"
+  },
+  {
+    "fila": 293,
+    "texto": "22.1.4 Existe: Comité de desarrollo"
+  },
+  {
+    "fila": 294,
+    "texto": "22.1.4 Pertenece a una organización superior"
+  },
+  {
+    "fila": 295,
+    "texto": "22.1.5 Existe: Cooperativas"
+  },
+  {
+    "fila": 296,
+    "texto": "22.1.5 Pertenece a una organización superior"
+  },
+  {
+    "fila": 297,
+    "texto": "22.1.6 Existe: Junta de aguas"
+  },
+  {
+    "fila": 298,
+    "texto": "22.1.6 Pertenece a una organización superior"
+  },
+  {
+    "fila": 299,
+    "texto": "22.1.7 Existe: Organización de mujeres"
+  },
+  {
+    "fila": 300,
+    "texto": "22.1.7 Pertenece a una organización superior"
+  },
+  {
+    "fila": 301,
+    "texto": "22.1.8 Existe: Comité de padres de familia"
+  },
+  {
+    "fila": 302,
+    "texto": "22.1.8 Pertenece a una organización superior"
+  },
+  {
+    "fila": 303,
+    "texto": "22.1.9 Existe: Organizaciones religiosas"
+  },
+  {
+    "fila": 304,
+    "texto": "22.1.9 Pertenece a una organización superior"
+  },
+  {
+    "fila": 305,
+    "texto": "22.1.10 Existe: Clubes"
+  },
+  {
+    "fila": 306,
+    "texto": "22.1.10 Pertenece a una organización superior"
+  },
+  {
+    "fila": 307,
+    "texto": "22,1,10a Existe: Gobiernos Estudiantiles"
+  },
+  {
+    "fila": 308,
+    "texto": "22,1,10b Pertenece a una organización superior"
+  },
+  {
+    "fila": 309,
+    "texto": "22.1.11 Existe: Otros"
+  },
+  {
+    "fila": 310,
+    "texto": "22.1.11 Pertenece a una organización superior"
+  },
+  {
+    "fila": 311,
+    "texto": "22.1.11 Existe Otros Especifique"
+  },
+  {
+    "fila": 312,
+    "texto": "22.2 Tipo de actividad en la que participan"
+  },
+  {
+    "fila": 313,
+    "texto": "22.3a Ha participado en la elaboración de planes estratégicos con:"
+  },
+  {
+    "fila": 314,
+    "texto": "22.3b Ha participado en la elaboración de planes estratégicos con Junta Parroquial"
+  },
+  {
+    "fila": 315,
+    "texto": "22.4a Necesidades mayores de la comunidad"
+  },
+  {
+    "fila": 316,
+    "texto": "22.4b Necesidades mayores de la comunidad"
+  },
+  {
+    "fila": 317,
+    "texto": "22.4c Necesidades mayores de la comunidad"
+  },
+  {
+    "fila": 318,
+    "texto": "22.4c Necesidades mayores de la comunidad otros especifique"
+  },
+  {
+    "fila": 319,
+    "texto": "22.5 Directorio de la comunidad"
+  },
+  {
+    "fila": 320,
+    "texto": "1. Nombre del centro de cuidado"
+  },
+  {
+    "fila": 321,
+    "texto": "2. Ubicación del Centro de Cuidado"
+  },
+  {
+    "fila": 322,
+    "texto": "3. Tipo de Institución"
+  },
+  {
+    "fila": 323,
+    "texto": "4. Jornada"
+  },
+  {
+    "fila": 324,
+    "texto": "5. Idioma"
+  },
+  {
+    "fila": 325,
+    "texto": "6.a1 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 326,
+    "texto": "6.a2 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 327,
+    "texto": "6.a3 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 328,
+    "texto": "6.bServicios Básicos - WC"
+  },
+  {
+    "fila": 329,
+    "texto": "6.c Servicios Básicos - Energía Eléctrica"
+  },
+  {
+    "fila": 330,
+    "texto": "7.a Edificio - Tenencia"
+  },
+  {
+    "fila": 331,
+    "texto": "7.b1 Edificio - Capacidad"
+  },
+  {
+    "fila": 332,
+    "texto": "7.b2 Edificio - Capacidad"
+  },
+  {
+    "fila": 333,
+    "texto": "7.b3 Edificio - Capacidad"
+  },
+  {
+    "fila": 334,
+    "texto": "8.a Número de Personal - Capacitado"
+  },
+  {
+    "fila": 335,
+    "texto": "8.b Número de Personal - No capacitado"
+  },
+  {
+    "fila": 336,
+    "texto": "9.a1 Número de niños atendidos - 0 a 1 año"
+  },
+  {
+    "fila": 337,
+    "texto": "9.a2 Número de niñas atendidos - 0 a 1 año"
+  },
+  {
+    "fila": 338,
+    "texto": "9.b1 Número de niños atendidos - 1 a 2 años"
+  },
+  {
+    "fila": 339,
+    "texto": "9.b2 Número de niñas atendidos - 1 a 2 años"
+  },
+  {
+    "fila": 340,
+    "texto": "9.c1 Número de niños atendidos - 2 a 4 años"
+  },
+  {
+    "fila": 341,
+    "texto": "9.c2 Número de niñas atendidos - 2 a 4 años"
+  },
+  {
+    "fila": 342,
+    "texto": "9.d1 Número de niños atendidos - 4 a 6 años"
+  },
+  {
+    "fila": 343,
+    "texto": "9.d2 Número de niñas atendidos - 4 a 6 años"
+  },
+  {
+    "fila": 344,
+    "texto": "10.a1 Tiempo de permanencia - Más de dos años - niños"
+  },
+  {
+    "fila": 345,
+    "texto": "10.a2 Tiempo de permanencia - Más de dos años - niñas"
+  },
+  {
+    "fila": 346,
+    "texto": "10.b1 Tiempo de permanencia - Menos de dos años - niños"
+  },
+  {
+    "fila": 347,
+    "texto": "10.2 Tiempo de permanencia - Menos de dos años - niñas"
+  },
+  {
+    "fila": 348,
+    "texto": "11. Tiempo de Funcionamiento (años)"
+  },
+  {
+    "fila": 349,
+    "texto": "12. Horario (horas 4-6)"
+  },
+  {
+    "fila": 350,
+    "texto": "12. Horario (horas mas de 8)"
+  },
+  {
+    "fila": 351,
+    "texto": "1. Descripción de las instituciones educativas - Nombre de la Institución Educación"
+  },
+  {
+    "fila": 352,
+    "texto": "2. Descripción de las instituciones educativas - Tipo o sostenimiento de Escuela"
+  },
+  {
+    "fila": 353,
+    "texto": "3. Descripción de las instituciones educativas - Nivel de formación"
+  },
+  {
+    "fila": 354,
+    "texto": "4. Descripción de las instituciones educativas - Jornada"
+  },
+  {
+    "fila": 355,
+    "texto": "5. Descripción de las instituciones educativas - Escolaridad"
+  },
+  {
+    "fila": 356,
+    "texto": "6. Descripción de las instituciones educativas - Idioma"
+  },
+  {
+    "fila": 357,
+    "texto": "7.a Descripción de las instituciones educativas - Número de Alumnos"
+  },
+  {
+    "fila": 358,
+    "texto": "7.b Descripción de las instituciones educativas - Número de Alumnas"
+  },
+  {
+    "fila": 359,
+    "texto": "8.a Descripción de las instituciones educativas - Número de Profesores - Hombres"
+  },
+  {
+    "fila": 360,
+    "texto": "8.b Descripción de las instituciones educativas - Número de Profesores - Mujeres"
+  },
+  {
+    "fila": 361,
+    "texto": "9. Descripción de las instituciones educativas - Número de aulas de clases hábiles"
+  },
+  {
+    "fila": 362,
+    "texto": "10.a.1 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 363,
+    "texto": "10.a.2 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 364,
+    "texto": "10.a.3 Servicios Básicos - Agua"
+  },
+  {
+    "fila": 365,
+    "texto": "10.b Servicios Básicos - WC"
+  },
+  {
+    "fila": 366,
+    "texto": "10.c Servicios Básicos - Letrinas"
+  },
+  {
+    "fila": 367,
+    "texto": "10.d Servicios Básicos - Energía Eléctrica"
+  },
+  {
+    "fila": 368,
+    "texto": "11.a Edificio - Estado del edificio"
+  },
+  {
+    "fila": 369,
+    "texto": "11.b Edificio - Tenencia"
+  },
+  {
+    "fila": 370,
+    "texto": "12.a Equipamiento - Biblioteca"
+  },
+  {
+    "fila": 371,
+    "texto": "12.b.1 Equipamiento - Comunicación - Telefono"
+  },
+  {
+    "fila": 372,
+    "texto": "12.b.2 Equipamiento - Comunicación - Fax"
+  },
+  {
+    "fila": 373,
+    "texto": "12.b.3 Equipamiento - Comunicación - Internet"
+  },
+  {
+    "fila": 374,
+    "texto": "12.b.4 Equipamiento - Comunicación - Radio"
+  },
+  {
+    "fila": 375,
+    "texto": "12.c Equipamiento - Laboratorio"
+  },
+  {
+    "fila": 376,
+    "texto": "12.d Equipamiento - Campo deportivo"
+  },
+  {
+    "fila": 377,
+    "texto": "12.e Equipamiento - Computación para educación"
+  },
+  {
+    "fila": 378,
+    "texto": "12.e Equipamiento - Computación para educación cuantos"
+  },
+  {
+    "fila": 379,
+    "texto": "13.a.1 Desayuno escolar"
+  },
+  {
+    "fila": 380,
+    "texto": "13.a.2 Beca escolar"
+  },
+  {
+    "fila": 381,
+    "texto": "13.a.3 Mochila escolar"
+  },
+  {
+    "fila": 382,
+    "texto": "13.a.4 Apoyo escolar estatal"
+  },
+  {
+    "fila": 383,
+    "texto": "13.a.5 Apoyo escolar no estatal"
+  },
+  {
+    "fila": 384,
+    "texto": "13.b En los últimos 2 años los alumnos han recibido textos escolares"
+  },
+  {
+    "fila": 385,
+    "texto": "13.b Tiempo de funcionamiento (años)"
+  },
+  {
+    "fila": 386,
+    "texto": "18.2.17 Otros"
+  },
+  {
+    "fila": 387,
+    "texto": "18.2.17 Otros especifique"
+  }
+]

@@ -7,6 +7,9 @@ lake/raw/*
 !lake/raw/.gitkeep
 lake/processed/*
 !lake/processed/.gitkeep
+!lake/processed/campos_arr.json
+!lake/processed/campos_arr.md
+!lake/processed/cruce_preguntas_arr_vs_kobo.md
 
 # Exclusión de archivos multimedia pesados
 *.mp4
