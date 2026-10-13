@@ -97,3 +97,57 @@ El flujo de trabajo cuantitativo y territorial se estructura en cuatro fases com
 | **Semana 3** | Carga de cartografía en QGIS, join censal y mapas de calor | Equipo de Economía | Mapas temáticos en alta resolución (`.png`, `.pdf`). |
 | **Semana 4** | Levantamiento complementario en territorio y validación de campo | Equipo + Arq. Pablo | Ficha situacional y registro fotográfico. |
 | **Semana 5** | Consolidación del informe técnico final de línea base para Arquitectura | Todo el equipo | Memoria técnica y entrega a coordinación. |
+
+---
+
+# Resultados Oficiales del Censo 2022 (Parroquia Punzara / El Capulí)
+
+> **Material de Exposición:** Acceda a las diapositivas ejecutivas del diagnóstico en [presentacion_diagnostico_capuli.html](presentacion_diagnostico_capuli.html).
+
+## 1. Perfil Demográfico Consolidado
+- **Población Total Censada:** **8.669 habitantes** distribuidos en 52 sectores censales.
+- **Hombres:** 4.354 (50.2%) | **Mujeres:** 4.315 (49.8%).
+- **Viviendas Particulares:** 5.382 viviendas.
+- **Hogares Censados:** 2.781 hogares (Promedio: 3.12 personas/hogar).
+
+## 2. Pirámide de Población por Grupos Quinquenales
+
+| Grupo de Edad | Hombres | Mujeres | Total Habitantes | % Poblacional |
+| :---: | :---: | :---: | :---: | :---: |
+| 0 a 4 años | 286 | 279 | 565 | 6.5% |
+| 5 a 9 años | 332 | 255 | 587 | 6.8% |
+| 10 a 14 años | 394 | 368 | 762 | 8.8% |
+| 15 a 19 años | 363 | 379 | 742 | 8.6% |
+| **20 a 24 años (Pico Universitario)** | **411** | **371** | **782** | **9.0%** |
+| 25 a 29 años | 317 | 319 | 636 | 7.3% |
+| 30 a 34 años | 283 | 292 | 575 | 6.6% |
+| 35 a 39 años | 222 | 252 | 474 | 5.5% |
+| 40 a 44 años | 222 | 264 | 486 | 5.6% |
+| 45 a 49 años | 224 | 217 | 441 | 5.1% |
+| 50 a 54 años | 213 | 205 | 418 | 4.8% |
+| 55 a 59 años | 151 | 224 | 375 | 4.3% |
+| 60 a 64 años | 206 | 180 | 386 | 4.5% |
+| 65 a 69 años | 207 | 220 | 427 | 4.9% |
+| 70 a 74 años | 186 | 148 | 334 | 3.9% |
+| 75 a 79 años | 138 | 127 | 265 | 3.1% |
+| 80 años y más | 199 | 215 | 414 | 4.8% |
+| **Total General** | **4.354** | **4.315** | **8.669** | **100.0%** |
+
+## 3. Balance de Cobertura de Infraestructura y Servicios Básicos
+
+| Servicio Básico | Cobertura Formal (%) | Déficit Territorial (%) | Evaluación Técnica para Arquitectura |
+| :--- | :---: | :---: | :--- |
+| **Agua Potable por Red** | **19.3%** | **80.7%** | Severo déficit en áreas de expansión; prioridad de pozos y tanques. |
+| **Alcantarillado Sanitario** | **38.1%** | **61.9%** | Alta presencia de pozos ciegos/sépticos; riesgo ambiental. |
+| **Recolección de Basura** | **49.0%** | **51.0%** | Cobertura intermitente en quebradas y pasajes secundarios. |
+| **Energía Eléctrica Formal** | **16.1%** | **83.9%** | Redes provisionales informales y medidores comunitarios. |
+
+---
+
+# Archivos de Datos Filtrados y Listos en el Repositorio
+
+Todos los conjuntos de datos filtrados para Punzara residen en `datos_redatam/`:
+- `cpv2022_punzara_indicadores_sectores.csv`: Matriz por sectores para Join en QGIS.
+- `cpv2022_punzara_piramide_edad_sexo.csv`: Datos de la pirámide por sexo y edades.
+- `cpv2022_punzara_balance_servicios.csv`: Coberturas y brechas de servicios básicos.
+

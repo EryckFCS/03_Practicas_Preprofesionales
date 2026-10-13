@@ -1,0 +1,173 @@
+---
+title: "Diagnóstico Sociodemográfico y Territorial"
+subtitle: "Barrio El Capulí — Parroquia Punzara (Loja)"
+author: "Eryck Condoy | Pasantes de Economía"
+institute: "Universidad Nacional de Loja — Carrera de Economía & Carrera de Arquitectura"
+date: "2026-10-12"
+format:
+  revealjs:
+    theme: simple
+    transition: slide
+    slide-number: true
+    toc: false
+    chalkboard: true
+    preview-links: auto
+    logo: ""
+    footer: "Prácticas Preprofesionales — UNL 2026"
+    css: presentacion.css
+execute:
+  echo: false
+  warning: false
+---
+
+## 🏛️ Contexto del Proyecto
+
+::: {.columns}
+::: {.column width="60%"}
+- **Proyecto:** Vinculación con la Sociedad — Ordenamiento y Equipamiento Urbano.
+- **Entidades:** Carrera de Economía & Carrera de Arquitectura (UNL).
+- **Territorio:** **Barrio El Capulí**, Parroquia Punzara (inmediaciones del Campus La Argelia y Colegio San Gerardo).
+- **Equipo Docente:** 
+  - Coordinación Técnica: Arq. Pablo Araki.
+  - Responsable de Pasantías: Ing. Iliana.
+- **Equipo de Economía:** Eryck Condoy, Amanda y compañeros.
+:::
+
+::: {.column width="40%"}
+::: {.callout-note}
+### Jornada de Trabajo
+- Lunes a Viernes: 15:00 a 18:00
+- 15 horas semanales
+- Carga de fase: 80 horas
+:::
+:::
+:::
+
+---
+
+## 🎯 Objetivos de la Intervención Económica
+
+1. **Línea Base Sociodemográfica:** Extraer del **Censo 2022 (INEC / REDATAM)** la estructura de personas, hogares y viviendas a nivel de sector y manzana.
+2. **Diagnóstico Habitacional y Servicios:** Cuantificar las brechas de cobertura de agua potable, alcantarillado y tipología constructiva.
+3. **Proyecciones Demográficas (Stata):** Modelar el crecimiento poblacional a horizontes 2026, 2030 y 2035.
+4. **Zonificación Espacial (QGIS):** Producir mapas de calor de densidad y vulnerabilidad para el diseño arquitectónico.
+
+---
+
+## 📊 Síntesis Demográfica General
+
+Los datos oficiales del Censo 2022 procesados para los **52 sectores censales** de Punzara arrojan:
+
+| Indicador | Cifra Oficial | % del Total |
+| :--- | :---: | :---: |
+| **Población Total** | **8.669 hab.** | 100.0% |
+| **Hombres** | 4.354 hab. | 50.2% |
+| **Mujeres** | 4.315 hab. | 49.8% |
+| **Viviendas Particulares** | **5.382 viv.** | — |
+| **Hogares Censados** | **2.781 hog.** | — |
+| **Promedio Personas / Hogar** | **3.12 hab/hog** | — |
+
+*Equilibrio paritario en la distribución por sexo.*
+
+---
+
+## 👥 Estructura por Grupos de Edad
+
+::: {.columns}
+::: {.column width="50%"}
+### Composición por Cohortes
+- **Infancia y Adolescencia (0–14 años):**  
+  **1.914 hab.** (22.1%)
+- **Población en Edad de Trabajar (15–64 años):**  
+  **5.315 hab.** (61.3%)
+- **Adultos Mayores (65+ años):**  
+  **1.440 hab.** (16.6%)
+- **Índice de Dependencia Demográfica:**  
+  **63.1%**
+:::
+
+::: {.column width="50%"}
+::: {.callout-important}
+### Pico Demográfico Clave (20–24 años)
+El grupo de **20 a 24 años (782 habitantes)** representa el pico poblacional más alto del territorio, impulsado por la presencia de **estudiantes universitarios** que residen en el barrio por su cercanía inmediata a la UNL.
+:::
+:::
+:::
+
+---
+
+## 🏠 Tipología y Parque Habitacional
+
+Distribución de las **5.382 viviendas** registradas:
+
+| Tipo de Vivienda (INEC) | % de Ocupación | Caracterización Territorial |
+| :--- | :---: | :--- |
+| **Casa / Villa** | **79.0%** | Residencial consolidado de baja a media densidad. |
+| **Mediagua** | **11.6%** | Asentamientos periurbanos y tipologías precarias. |
+| **Cuarto en Casa de Inquilinato** | **4.2%** | Alquiler para población estudiantil flotante. |
+| **Departamento** | **4.0%** | Edificaciones en proceso de densificación. |
+| **Otros (Chozas/Covachas)** | **1.2%** | Casos aislados en bordes rurales. |
+
+---
+
+## ⚠️ Radiografía Crítica de Servicios Básicos
+
+El análisis revela un **déficit estructural agudo** en infraestructura básica:
+
+| Servicio Básico | Cobertura en Vivienda | Brecha / Déficit |
+| :--- | :---: | :---: |
+| **Agua por Red Pública** | **19.3%** | <span style="color:#d9534f; font-weight:bold;">80.7% sin red formal</span> |
+| **Alcantarillado Sanitario** | **38.1%** | <span style="color:#d9534f; font-weight:bold;">61.9% sin red</span> |
+| **Recolección de Basura** | **49.0%** | <span style="color:#f0ad4e; font-weight:bold;">51.0% sin frecuencia regular</span> |
+| **Red Eléctrica Formal** | **16.1% formal** | <span style="color:#d9534f; font-weight:bold;">Alta informalidad / conexiones precarias</span> |
+
+> **Implicación directa:** Más del 80% de las viviendas en la periferia dependen de pozos, vertientes o tanques.
+
+---
+
+## 📐 Insumos Directos para los Estudiantes de Arquitectura
+
+1. **Prioridad de Equipamiento para Infancia y Juventud:**
+   - La alta concentración de niños (1.914) y jóvenes (782) exige **espacios públicos recreativos**, canchas iluminadas y centros comunitarios de estudio.
+2. **Intervención Hidrosanitaria Prioritaria:**
+   - Todo proyecto arquitectónico o plan masa en El Capulí debe contemplar **soluciones sustentables descentralizadas** (biodigestores, captación pluvial).
+3. **Residencia Universitaria Segura:**
+   - La demanda de cuartos de arriendo amerita prototipos de **vivienda colectiva y regeneración de bordes viales** con iluminación peatonal.
+
+---
+
+## 🗺️ Integración con Cartografía QGIS (`11_loja.gpkg`)
+
+```text
+       Cartografía Oficial (QGIS)                  Datos Censales (CSV)
+┌──────────────────────────────────────┐       ┌───────────────────────────────┐
+│ Capa: sec_a (Polígonos de Sectores)  │ <===> │ cpv2022_punzara_indicadores   │
+│ Campo de Unión: "sec"                │ (Join)│ Campo de Unión: "id_sec"      │
+└──────────────────────────────────────┘       └───────────────────────────────┘
+                                   │
+                                   ▼
+                 Generación de Mapas de Calor (Heatmaps):
+                 • Densidad Poblacional (Kernel Density)
+                 • Concentración de Déficit de Agua
+                 • Zonas de Mayor Índice de Dependencia
+```
+
+---
+
+## 🚀 Próximas Actividades Inmediatas
+
+- [x] Extracción y filtrado del Censo 2022 para Loja y Punzara.
+- [x] Generación de tablas maestras de indicadores y pirámide de edad.
+- [ ] Enlace espacial (`Table Join`) en QGIS con [`11_loja.gpkg`](file:///d:/08_Ciclo/03_Practicas_Preprofesionales/docs/vaults/v01-diagnostico-territorial-el-capuli/cartografia_qgis/11_loja.gpkg).
+- [ ] Ejecución del script de proyecciones demográficas en Stata al 2035.
+- [ ] Recorrido en territorio con el **Arq. Pablo Araki** para geolocalizar hitos barriales.
+
+---
+
+## ¡Muchas Gracias!
+
+**Preguntas y Coordinación Técnica**
+
+* **Ponente:** Eryck Condoy
+* **Carrera:** Economía — Octavo Ciclo (UNL)
+* **Nodo Local:** [`03_Practicas_Preprofesionales`](file:///d:/08_Ciclo/03_Practicas_Preprofesionales)
