@@ -32,7 +32,8 @@ Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_ecuador_2022] 
 
 La @fig-plano-delimitacion sintetiza la estructura geoespacial del polígono de intervención y consolida las capas temáticas obtenidas del Sistema de Información Geográfica municipal y la base catastral institucional:
 
-![Plano Oficial de Delimitación Territorial, Reserva Predial Municipal y Eje Hídrico Río Capulí](assets/mapa_oficial_delimitacion_capuli.png){#fig-plano-delimitacion width=100%}
+![Plano Oficial de Delimitación Territorial, Reserva Predial Municipal y Eje Hídrico Río Capulí](assets/mapa_oficial_delimitacion_capuli.png){#fig-plano-delimitacion width=100% height=19cm fig-align="center"}
+
 
 El análisis espacial del polígono y sus áreas de influencia establece las siguientes condiciones físico-legales:
 

@@ -4,22 +4,43 @@ El proyecto adopta como sector estructurante el espacio público y la conservaci
 
 ![Estructura operativa del Proyecto Integral El Capulí articulada a los sectores de la convocatoria CIS II](assets/estructura_proyecto_cinco_sectores.png){#fig-estructura-proyecto width=100%}
 
-
-
 ## Componente 1: Parque Fluvial y Soluciones basadas en la Naturaleza (SbN)
-* **Emplazamiento:** Predios municipales rurales ID 905 ($14.516,75 \text{ m}^2$) e ID 908 ($4.996,82 \text{ m}^2$), colindantes con el cauce del río Capulí.
-* **Diseño funcional multifuncional:** Cumple la directriz MIT/GIZ [@giz_miduvi_guia_paradigma_2021] de generar servicios ecosistémicos verificables por metro cuadrado. Integra estabilización de riberas con vegetación nativa de raíces profundas, terraceo de retención biológica, plazoletas de estancia y pasarelas peatonales permeables. Se utilizan materiales de baja huella de carbono y mampostería en piedra local.
+
+* **Emplazamiento y Régimen de Suelo:**
+  Implantado en los predios de dominio municipal rural ID 905 ($14.500 \text{ m}^2$) e ID 908 ($5.000 \text{ m}^2$), complementados por el predio urbano de servidumbre ($1.300 \text{ m}^2$), consolidando una superficie pública de $20.800 \text{ m}^2$ contigua a la ribera activa del río Capulí.
+* **Diseño Multifuncional y Criterios MIT/GIZ [@giz_miduvi_guia_paradigma_2021]:**
+  * **Bioingeniería de Riberas:** Sustitución de gaviones rígidos por técnicas vivas de estaquillado, fajinas y mantos de fibra de coco revegetados con especies leñosas nativas de ribera (*Alnus acuminata* [Aliso], *Salix humboldtiana* [Sauce], *Hesperomeles ferruginea* y *Baccharis latifolia* [Chilca]), asegurando la estabilización mecánica de taludes contra socavamiento fluvial.
+  * **Servicios Ecosistémicos y Estancia:** Creación de $4.200 \text{ m}^2$ de senderos y pasarelas peatonales de suelo estabilizado y madera técnica permeable, tres miradores paisajísticos elevados fuera de la cota de inundación decenal ($T = 10 \text{ años}$) y áreas de recreación pasiva bioclimática con arborización nativa para reducción del efecto isla de calor barrial.
 
 ## Componente 2: Movilidad Activa y Vía Completa de Proximidad
-* **Trazado:** Intervención en 2,4 km de calzadas municipales sin consolidar (`muni_vialidad_capuli`), articulando el circuito con los conectores primarios de la Av. Reinaldo Espinosa y la Ruta Éxodo de Yangana [@gad_loja_sistema_verde_urbano_2021].
-* **Estándar:** Aceras peatonales continuas de estándar universal 8-80, ciclorruta segregada, pacificación del tráfico rodado y alcorques drenantes de infiltración directa.
+
+* **Trazado y Jerarquía Vial:**
+  Intervención integral en 2,4 km lineales de la trama vial pública barrial, jerarquizando el eje conector estructurante de la Av. Reinaldo Espinosa y la vía Av. Éxodo de Yangana [@gad_loja_sistema_verde_urbano_2021], la cual articula el barrio directamente con el Campus Universitario La Argelia de la UNL.
+* **Estándar de Accesibilidad Universal 8-80 y Pacificación:**
+  * **Sección de Calle Completa:** Calzada vehicular de velocidad pacificada ($30 \text{ km/h}$) con adoquín de hormigón intertrabado de alto rozamiento, reduciendo el arrastre de finos y sedimentos.
+  * **Plataforma Segura Peatonaly Ciclística:** Aceras continuas a nivel de 2,00 m de ancho libre de obstáculos con guías podotáctiles y rebajes de esquina al 6%, acopladas a una ciclorruta bidireccional segregada de 2,20 m con separadores biosolares.
+  * **Criterio de Proximidad:** Conexión peatonal segura y continua que reduce el tiempo de traslado a pie desde el centro barrial hacia los equipamientos universitarios y de salud de Punzara de 35 minutos sobre calzada de tierra a 18 minutos sobre senda protegida.
 
 ## Componente 3: Eficiencia Hídrica y Drenaje Urbano Sostenible (SUDs)
-* **Infraestructura de agua visible:** Siguiendo la normativa MIT/GIZ [@giz_miduvi_guia_paradigma_2021], el drenaje no se oculta en tuberías ciegas sino que opera en superficie mediante ocho celdas de biorretención, jardines de lluvia, cunetas vegetadas y disipadores de energía con trampas de sedimentos accesibles.
-* **Función hidrológica:** Restituye la capacidad de infiltración del terreno (efecto esponja), reduciendo el pico de escorrentía superficial hacia el cauce del río Capulí y eliminando anegamientos en las manzanas bajas.
 
-## Componente 4: Alumbrado Eficiente y Generación Fotovoltaica
-* **Infraestructura energética:** Instalación de 120 luminarias solares LED autónomas de 60W con panel monocristalino integrado y batería de litio LiFePO4. La red opera al 100% fuera de la red eléctrica cantonal, reduciendo el gasto corriente del municipio.
+* **Infraestructura Hidráulica Descentralizada en Superficie:**
+  Ruptura del paradigma convencional de entubamiento y desagüe rápido. Se implementa una red en serie de ocho celdas de biorretención y jardines de lluvia con capacidad de retención agregada de $1.850 \text{ m}^3$ de escorrentía superficial [@giz_miduvi_guia_paradigma_2021].
+* **Estructura Filtro y Mitigación Hidrológica:**
+  * Cada celda integra una capa de almacenamiento permeable de grava triturada ($e = 0,40 \text{ m}$), estrato de suelo filtrante con compost ($e = 0,60 \text{ m}$) y vegetación fito-depuradora (*Typha domingensis*, *Cyperus papyrus*, *Vetiveria zizanioides*) con tasa de infiltración de $25 \text{ mm/h}$.
+  * Laminación del hidrograma de crecida barrial, reduciendo el caudal pico en un 42% para tormentas de diseño con periodo de retorno de 25 años ($T = 25 \text{ años}$), previniendo anegamientos en predios frentistas y el colapso del sistema pluvial aguas abajo.
 
-## Componente 5: Gestión de Residuos Sólidos y Circularidad
-* **Equipamiento ambiental:** Tres puntos limpios comunitarios semisoterrados de tres fracciones (reciclables, no reciclables y especiales) y un centro barrial de compostaje para procesar biomasa vegetal generada en el mantenimiento de las áreas verdes.
+## Componente 4: Alumbrado Autónomo Solar y Descarbonización
+
+* **Infraestructura Energética Fuera de Red (Off-Grid):**
+  Despliegue de 120 columnas solares fotovoltaicas autónomas distribuidas a lo largo de los 2,4 km de vías y paseos fluviales, garantizando iluminación vial Clase M4/P3 según normas INEN.
+* **Especificaciones Tecnológicas de Alto Rendimiento:**
+  * Luminaria LED de 60 W con rendimiento luminoso de $180 \text{ lm/W}$, óptica asimétrica y temperatura de color cálida ($3.000 \text{ K}$) para evitar la disrupción de la fauna nocturna fluvial.
+  * Módulo fotovoltaico monocristalino de 150 Wp con controlador inteligente MPPT y batería de ion-litio LiFePO4 de 480 Wh incorporada, garantizando 3 días de autonomía lumínica ante coberturas nubosas persistentes en la hoya de Loja.
+  * Generación limpia evitada: $18,4 \text{ MWh/año}$, suprimiendo costos de facturación eléctrica municipal y emisión de $9,2 \text{ tCO}_2\text{e/año}$.
+
+## Componente 5: Gestión de Residuos, Economía Circular y Biomasa Barrial
+
+* **Puntos Limpios Comunitarios y Separación en Origen:**
+  Instalación de 3 islas ecológicas semisoterradas ubicadas en nodos estratégicos del barrio (nodo norte / conector Argelia, centro comunal predio ID 905 y nodo sur deportivo), cada una con tres buzones diferenciados (residuos orgánicos, reciclables secos y rechazo).
+* **Módulo de Compostaje y Valorización de Biomasa:**
+  Construcción de un centro barrial de compostaje de $150 \text{ m}^2$ equipado con composteras modulares de aireación pasiva para el aprovechamiento in situ de podas ribereñas, hojas secas y fracción orgánica de hogares vecinales, generando 24 toneladas anuales de enmienda orgánica para el mantenimiento biofísico de los parques y huertos comunitarios.
