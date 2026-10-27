@@ -32,7 +32,10 @@ Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_2022] y el lev
 
 Conforme a los lineamientos metodológicos de la Guía de Procesos Crediticios y Preinversión del Banco de Desarrollo del Ecuador [@bde_guia_procesos_crediticios_2021] y la Guía de Espacio Público [@miduvi_giz_guia_espacio_publico_2021], la @tbl-balance-oferta-demanda desagrega el déficit territorial insatisfecho que justifica la intervención modular:
 
-::: {.landscape}
+```{=latex}
+\begin{landscapepage}
+```
+
 ::: {#tbl-balance-oferta-demanda}
 | Componente del Proyecto | Oferta Existente (Línea Base Sin Proyecto) | Demanda Social y Territorial Estimada | Brecha / Demanda Insatisfecha Cuantificada | Meta Física del Proyecto (Solución Técnica Modular) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -44,7 +47,12 @@ Conforme a los lineamientos metodológicos de la Guía de Procesos Crediticios y
 
 : Matriz de Desagregación Oferta - Demanda y Diagnóstico de Brechas (Metodología BDE / SNIP)
 :::
-:::
+
+```{=latex}
+\end{landscapepage}
+```
+
+
 
 
 ## Delimitación Cartográfica Oficial y Tenencia del Suelo

@@ -135,6 +135,72 @@
 \setlength{\lightrulewidth}{0.05em}
 \setlength{\cmidrulewidth}{0.03em}
 
+% --- Tamaño de Texto Reducido en Tablas (APA 7 / Formulación de Proyectos) ---
+% El texto dentro de las tablas debe ser menor que el texto normal de párrafo (\small / \footnotesize)
+\usepackage{etoolbox}
+\AtBeginEnvironment{tabular}{\footnotesize}
+\AtBeginEnvironment{tabularx}{\footnotesize}
+\AtBeginEnvironment{longtable}{\footnotesize}
+
+% --- Soporte Especial para Hojas Horizontales (Landscape) con Rotación Correcta ---
+% Elimina encabezados verticales estándar superpuestos y rota el número de página al pie físico
+\newif\ifTablaHorizontal
+\TablaHorizontalfalse
+
+\newlength{\ajustepiehorizontal}
+\setlength{\ajustepiehorizontal}{4.25cm}
+
+\newlength{\bajarpiehorizontal}
+\setlength{\bajarpiehorizontal}{2.60cm}
+
+\newcommand{\Lpagenumber}{%
+  \begingroup
+    \dimendef\margin=0
+    \ifodd\value{page}
+      \margin=\oddsidemargin
+    \else
+      \margin=\evensidemargin
+    \fi
+    \raisebox{%
+      \dimexpr
+      -\topmargin-\headheight-\headsep-0.45\textwidth+\ajustepiehorizontal
+      \relax
+    }[0pt][0pt]{%
+      \rlap{%
+        \hspace{\dimexpr
+          \margin+\textheight+\footskip+\bajarpiehorizontal
+        \relax}%
+        \llap{\rotatebox{90}{\thepage}}%
+      }%
+    }%
+  \endgroup
+}
+
+\AddToHook{shipout/background}{%
+  \ifTablaHorizontal
+    \hbox{\Lpagenumber}%
+  \fi
+}
+
+\AddToHook{shipout/before}{%
+  \ifTablaHorizontal
+    \thispagestyle{empty}%
+  \fi
+}
+
+% Entorno landscapepage compatible con Quarto
+\newenvironment{landscapepage}{%
+  \clearpage
+  \TablaHorizontaltrue
+  \begin{landscape}
+  \thispagestyle{empty}%
+}{%
+  \end{landscape}
+  \TablaHorizontalfalse
+  \clearpage
+}
+
+
 % --- Ajuste de Hipervínculos APA 7 ---
 \hypersetup{
   colorlinks=true,
@@ -143,3 +209,4 @@
   urlcolor=APALink,
   citecolor=APALink
 }
+

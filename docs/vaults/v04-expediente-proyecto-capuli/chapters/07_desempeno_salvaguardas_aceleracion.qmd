@@ -6,7 +6,10 @@ El presente capítulo operacionaliza los criterios de priorización de la convoc
 
 Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
 
-::: {.landscape}
+```{=latex}
+\begin{landscapepage}
+```
+
 ::: {#tbl-criterios-giz}
 | N.° | Criterio de Selección CIS II | Nivel de Cumplimiento | Evidencia Técnica Documentada en Expediente |
 | :---: | :--- | :---: | :--- |
@@ -27,7 +30,11 @@ Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_
 
 : Matriz de correspondencia con los catorce criterios de priorización CIS II / GIZ
 :::
-:::
+
+```{=latex}
+\end{landscapepage}
+```
+
 
 
 
