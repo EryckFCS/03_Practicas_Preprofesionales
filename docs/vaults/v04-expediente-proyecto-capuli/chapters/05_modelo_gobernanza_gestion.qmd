@@ -11,10 +11,10 @@ El modelo operativo distribuye responsabilidades entre tres niveles instituciona
 
 2. **Equipo Formulador y Soporte Analítico (Universidad Nacional de Loja):**
    * Las Carreras de Economía y Arquitectura Sostenible elaboran el perfil técnico, estructuran la matriz de viabilidad financiera y efectúan el análisis multicriterio.
-   * Conduce el levantamiento socioeconómico primario georreferenciado mediante KoBoToolbox [@kobotoolbox_data_collection_2024], el procesamiento censal INEC CPV 2022 y la cartografía oficial satelital en entorno QGIS bajo el marco de vinculación con la sociedad y prácticas preprofesionales [@unl_reglamento_practicas_2024].
+   * Conduce el levantamiento socioeconómico primario georreferenciado mediante KoBoToolbox [@kobo_kobotoolbox_nd], el procesamiento censal INEC CPV 2022 [@inec_cpv_2022] y la cartografía oficial satelital en entorno QGIS bajo el marco de vinculación con la sociedad y prácticas preprofesionales [@unl_reglamento_practicas_2022].
 
 3. **Contraparte Social y Veeduría Comunitaria (Junta de Desarrollo Barrial El Capulí):**
-   * Aplica la metodología de planificación barrial participativa [@gad_loja_planificacion_barrial_2020; @unl_plan_barrial_la_palmira_2022].
+   * Aplica la metodología de planificación barrial participativa [@municipio_loja_giz_planificacion_barrial_2019; @esparza_plan_barrial_la_palmira_2023].
    * Conforma el Comité Ciudadano de Gestión y Veeduría con paridad de género, garantizando la co-administración del centro de compostaje y el cuidado activo de las terrazas ribereñas.
 
 ## Matriz de Gestión de Riesgos y Salvaguardas Ambientales y Sociales

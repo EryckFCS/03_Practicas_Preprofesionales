@@ -1,6 +1,6 @@
 # Propuesta Técnica del Anteproyecto
 
-El proyecto adopta como sector estructurante el espacio público y la conservación de márgenes naturales, incorporando cuatro componentes complementarios para maximizar el desempeño en la matriz de priorización del CIS II [@giz_miduvi_guia_paradigma_2021; @giz_felicity_methodology_2020].
+El proyecto adopta como sector estructurante el espacio público y la conservación de márgenes naturales, incorporando cuatro componentes complementarios para maximizar el desempeño en la matriz de priorización del CIS II [@miduvi_giz_guia_espacio_publico_2021; @giz_bmz_ciudades_sostenibles_2020].
 
 ![Estructura operativa del Proyecto Integral El Capulí articulada a los sectores de la convocatoria CIS II](assets/estructura_proyecto_cinco_sectores.png){#fig-estructura-proyecto width=100%}
 
@@ -8,14 +8,14 @@ El proyecto adopta como sector estructurante el espacio público y la conservaci
 
 * **Emplazamiento y Régimen de Suelo:**
   Implantado en los predios de dominio municipal rural ID 905 ($14.500 \text{ m}^2$) e ID 908 ($5.000 \text{ m}^2$), complementados por el predio urbano de servidumbre ($1.300 \text{ m}^2$), consolidando una superficie pública de $20.800 \text{ m}^2$ contigua a la ribera activa del río Capulí.
-* **Diseño Multifuncional y Criterios MIT/GIZ [@giz_miduvi_guia_paradigma_2021]:**
+* **Diseño Multifuncional y Criterios MIT/GIZ [@miduvi_giz_guia_espacio_publico_2021]:**
   * **Bioingeniería de Riberas:** Sustitución de gaviones rígidos por técnicas vivas de estaquillado, fajinas y mantos de fibra de coco revegetados con especies leñosas nativas de ribera (*Alnus acuminata* [Aliso], *Salix humboldtiana* [Sauce], *Hesperomeles ferruginea* y *Baccharis latifolia* [Chilca]), asegurando la estabilización mecánica de taludes contra socavamiento fluvial.
   * **Servicios Ecosistémicos y Estancia:** Creación de $4.200 \text{ m}^2$ de senderos y pasarelas peatonales de suelo estabilizado y madera técnica permeable, tres miradores paisajísticos elevados fuera de la cota de inundación decenal ($T = 10 \text{ años}$) y áreas de recreación pasiva bioclimática con arborización nativa para reducción del efecto isla de calor barrial.
 
 ## Componente 2: Movilidad Activa y Vía Completa de Proximidad
 
 * **Trazado y Jerarquía Vial:**
-  Intervención integral en 2,4 km lineales de la trama vial pública barrial, jerarquizando el eje conector estructurante de la Av. Reinaldo Espinosa y la vía Av. Éxodo de Yangana [@gad_loja_sistema_verde_urbano_2021], la cual articula el barrio directamente con el Campus Universitario La Argelia de la UNL.
+  Intervención integral en 2,4 km lineales de la trama vial pública barrial, jerarquizando el eje conector estructurante de la Av. Reinaldo Espinosa y la vía Av. Éxodo de Yangana [@municipio_loja_utpl_giz_sistema_verde_2020], la cual articula el barrio directamente con el Campus Universitario La Argelia de la UNL.
 * **Estándar de Accesibilidad Universal 8-80 y Pacificación:**
   * **Sección de Calle Completa:** Calzada vehicular de velocidad pacificada ($30 \text{ km/h}$) con adoquín de hormigón intertrabado de alto rozamiento, reduciendo el arrastre de finos y sedimentos.
   * **Plataforma Segura Peatonaly Ciclística:** Aceras continuas a nivel de 2,00 m de ancho libre de obstáculos con guías podotáctiles y rebajes de esquina al 6%, acopladas a una ciclorruta bidireccional segregada de 2,20 m con separadores biosolares.
@@ -24,7 +24,7 @@ El proyecto adopta como sector estructurante el espacio público y la conservaci
 ## Componente 3: Eficiencia Hídrica y Drenaje Urbano Sostenible (SUDs)
 
 * **Infraestructura Hidráulica Descentralizada en Superficie:**
-  Ruptura del paradigma convencional de entubamiento y desagüe rápido. Se implementa una red en serie de ocho celdas de biorretención y jardines de lluvia con capacidad de retención agregada de $1.850 \text{ m}^3$ de escorrentía superficial [@giz_miduvi_guia_paradigma_2021].
+  Ruptura del paradigma convencional de entubamiento y desagüe rápido. Se implementa una red en serie de ocho celdas de biorretención y jardines de lluvia con capacidad de retención agregada de $1.850 \text{ m}^3$ de escorrentía superficial [@miduvi_giz_guia_espacio_publico_2021].
 * **Estructura Filtro y Mitigación Hidrológica:**
   * Cada celda integra una capa de almacenamiento permeable de grava triturada ($e = 0,40 \text{ m}$), estrato de suelo filtrante con compost ($e = 0,60 \text{ m}$) y vegetación fito-depuradora (*Typha domingensis*, *Cyperus papyrus*, *Vetiveria zizanioides*) con tasa de infiltración de $25 \text{ mm/h}$.
   * Laminación del hidrograma de crecida barrial, reduciendo el caudal pico en un 42% para tormentas de diseño con periodo de retorno de 25 años ($T = 25 \text{ años}$), previniendo anegamientos en predios frentistas y el colapso del sistema pluvial aguas abajo.

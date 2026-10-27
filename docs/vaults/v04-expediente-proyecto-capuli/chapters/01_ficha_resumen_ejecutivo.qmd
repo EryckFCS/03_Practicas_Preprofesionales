@@ -1,6 +1,6 @@
 # Ficha de Proyecto y Resumen Ejecutivo
 
-El presente expediente técnico fundamenta la postulación del Cantón Loja a la convocatoria Ciudades que Transforman (CIS II / GIZ), aplicando los estándares de perfiles climáticos urbanos [@giz_rosero_perfiles_climaticos_2024] y los criterios de diseño de espacio público del Ministerio de Desarrollo Urbano y Vivienda junto con la Cooperación Alemana [@giz_miduvi_guia_paradigma_2021].
+El presente expediente técnico fundamenta la postulación del Cantón Loja a la convocatoria Ciudades que Transforman (CIS II / GIZ), aplicando los estándares de perfiles climáticos urbanos [@rosero_guia_perfil_climatico_2024] y los criterios de diseño de espacio público del Ministerio de Desarrollo Urbano y Vivienda junto con la Cooperación Alemana [@miduvi_giz_guia_espacio_publico_2021].
 
 ::: {#tbl-factsheet}
 | Parámetro Institucional | Especificación Técnica Verificable |

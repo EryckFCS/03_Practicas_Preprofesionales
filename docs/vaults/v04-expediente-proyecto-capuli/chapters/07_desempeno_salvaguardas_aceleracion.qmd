@@ -1,10 +1,10 @@
 # Desempeño Climático, Salvaguardas y Ruta de Aceleración GIZ
 
-El presente capítulo operacionaliza los criterios de priorización de la convocatoria CIS II [@giz_ciudades_que_transforman_convocatoria_2026; @giz_rosero_perfiles_climaticos_2024], cuantificando el impacto biofísico, gestionando los riesgos de ejecución y trazando la asistencia técnica requerida.
+El presente capítulo operacionaliza los criterios de priorización de la convocatoria CIS II [@giz_ciudades_que_transforman_2026; @rosero_guia_perfil_climatico_2024], cuantificando el impacto biofísico, gestionando los riesgos de ejecución y trazando la asistencia técnica requerida.
 
 ## Matriz de Cumplimiento de Criterios de Selección y Priorización CIS II
 
-Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_convocatoria_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
+Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
 
 ::: {#tbl-criterios-giz}
 | N.° | Criterio de Selección CIS II | Nivel de Cumplimiento | Evidencia Técnica Documentada en Expediente |
@@ -46,7 +46,7 @@ El proyecto genera beneficios ecosistémicos medibles que sustentan la calificac
 
 ## Matriz de Riesgos y Salvaguardas Socioambientales
 
-Conforme al marco de salvaguardas de la banca multilateral [@giz_felicity_methodology_2020; @banco_desarrollo_ecuador_2022], se identifican las amenazas operativas y sus medidas de control preventivo:
+Conforme al marco de salvaguardas de proyectos urbanos sostenibles y preinversión [@giz_bmz_ciudades_sostenibles_2020; @bde_guia_procesos_crediticios_2021], se identifican las amenazas operativas y sus medidas de control preventivo:
 
 ::: {#tbl-salvaguardas}
 | Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y Mitigación Vinculante |
@@ -64,7 +64,7 @@ Conforme al marco de salvaguardas de la banca multilateral [@giz_felicity_method
 El proyecto trasciende la escala barrial al estructurarse como un modelo tipológico para la red de quebradas y márgenes fluviales del Cantón Loja:
 
 1. **Prototipo Piloto Cantonal:**
-   El Parque Fluvial El Capulí establece la metodología de intervención para los 14 núcleos verdes periurbanos priorizados en el Plan del Sistema Verde Urbano [@gad_loja_sistema_verde_urbano_2021], particularmente las microcuencas de Shushuayco, San Cayetano y Punzara.
+   El Parque Fluvial El Capulí establece la metodología de intervención para los 14 núcleos verdes periurbanos priorizados en el Plan del Sistema Verde Urbano [@municipio_loja_utpl_giz_sistema_verde_2020], particularmente las microcuencas de Shushuayco, San Cayetano y Punzara.
 2. **Estandarización Normativa (Calle Completa Periurbana):**
    Los detalles constructivos de cunetas vegetadas y secciones viales 8-80 se transferirán a la Dirección de Planificación Territorial del GAD Loja para incorporarse como perfiles viales tipo en la actualización del PUGS.
 

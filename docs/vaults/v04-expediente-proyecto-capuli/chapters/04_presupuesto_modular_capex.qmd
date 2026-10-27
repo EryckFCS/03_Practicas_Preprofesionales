@@ -1,6 +1,6 @@
 # Estructura Presupuestaria de Inversión y Operación (CAPEX + OPEX)
 
-El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco FELICITY [@giz_felicity_methodology_2020] y la guía de espacio público [@giz_miduvi_guia_paradigma_2021].
+El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco metodológico de proyectos urbanos sostenibles [@giz_bmz_ciudades_sostenibles_2020] y la guía de espacio público [@miduvi_giz_guia_espacio_publico_2021].
 
 ## Presupuesto de Inversión Inicial (CAPEX)
 
@@ -20,7 +20,7 @@ El monto total de inversión de capital asciende a USD 1.250.000,00, distribuido
 : Presupuesto modular del Proyecto El Capulí
 :::
 
-Los costos unitarios toman como referencia los rendimientos de obra del PDOT de Loja [@gad_loja_pdot_diagnostico_2021]. La asistencia técnica de aceleración no requiere contraparte financiera al GAD Loja durante la fase de formulación.
+Los costos unitarios toman como referencia los rendimientos de obra del PDOT de Loja [@gad_loja_pdot_cantonal_2020]. La asistencia técnica de aceleración no requiere contraparte financiera al GAD Loja durante la fase de formulación.
 
 ## Estimación de Costos de Operación y Mantenimiento (OPEX)
 
