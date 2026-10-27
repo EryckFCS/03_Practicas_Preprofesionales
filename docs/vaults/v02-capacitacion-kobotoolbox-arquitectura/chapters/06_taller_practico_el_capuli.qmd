@@ -1,0 +1,38 @@
+Aplicación práctica e individual de las técnicas de levantamiento técnico territorial:
+
+### 1. Rol Técnico Individual
+
+::: {.card-unl .card-unl-green}
+#### Responsabilidades del Estudiante
+Cada estudiante opera de manera autónoma como responsable del levantamiento técnico de campo:
+* Calibrar la precisión GPS a un umbral menor o igual a 5 m antes de capturar el punto.
+* Registrar las variables métricas y constructivas con estricta rigurosidad física.
+* Capturar la evidencia pericial fotográfica, sonora y en video.
+* Validar que el formulario no contenga campos omitidos antes de finalizar el envío.
+:::
+
+---
+
+### 2. Secuencia Operativa del Ejercicio
+
+1. **Apertura del Formulario:** Iniciar KoboCollect en el teléfono móvil y abrir la ficha descargada desde la cuenta personal.
+2. **Fijación de Coordenada GPS Satelital:** Ubicarse a cielo abierto frente al predio u objeto de estudio hasta que el radio de precisión satelital sea menor o igual a 5.0 metros.
+3. **Registro de Variables Cuantitativas:** Ingresar número de pisos, dimensiones métricas, sistema estructural y redes de servicios.
+4. **Entrevista Testimonial en Audio:** Grabar durante 30 segundos la respuesta a la pregunta abierta sobre prioridades del sector o dictamen pericial en voz propia.
+5. **Fotografía Técnica:** Capturar la fachada frontal completa manteniendo el dispositivo horizontal a 90° respecto a la línea de acera.
+6. **Video Pericial:** Grabar un video de 15 segundos realizando un paneo horizontal lento y continuo que registre la relación de la edificación con el terreno o la vía.
+7. **Control de Calidad Local:** Verificar que la aplicación no señale campos obligatorios omitidos y marcar el registro como finalizado.
+8. **Sincronización:** Enviar el formulario terminado al servidor de KoboToolbox mediante conexión de datos o Wi-Fi institucional.
+
+---
+
+### 3. Auditoría en Servidor Central en Tiempo Real
+
+Una vez que cada estudiante sincroniza sus datos hacia el servidor, se ejecuta el control de calidad pericial:
+
+::: {.card-unl .card-unl-gold}
+#### Puntos Clave de la Auditoría Técnica
+* **Consistencia Cartográfica:** Verificar que el punto GPS caiga dentro del polígono asignado sin dispersiones anómalas.
+* **Control Acústico:** Comprobar la nitidez de la grabación y el cumplimiento del protocolo de registro.
+* **Integridad Relacional de la Matriz:** Inspección en la tabla de datos para confirmar la coherencia entre las variables físicas registradas.
+:::

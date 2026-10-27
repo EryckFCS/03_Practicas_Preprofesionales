@@ -1,0 +1,4 @@
+- source: index.qmd
+  posit-connect-cloud:
+    - id: 01a15b22-9e93-b180-6fa3-a523404e00d0
+      url: https://connect.posit.cloud/erick-fcs/content/01a15b22-9e93-b180-6fa3-a523404e00d0

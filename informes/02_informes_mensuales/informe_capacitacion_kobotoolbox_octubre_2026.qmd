@@ -1,0 +1,58 @@
+---
+lang: es
+format:
+  pdf:
+    output-file: informe_tecnico_capacitacion_kobotoolbox_erick_condoy.pdf
+    documentclass: scrartcl
+    papersize: letter
+    colorlinks: true
+    pdf-engine: lualatex
+    geometry:
+      - top=20mm
+      - bottom=20mm
+      - left=25mm
+      - right=25mm
+    header-includes:
+      - \usepackage{scrlayer-scrpage}
+      - \clearpairofpagestyles
+      - \ihead{\footnotesize Capacitación KoBoToolbox — Levantamiento Barrio El Capulí}
+      - \ohead{\footnotesize Octubre 2026}
+      - \ifoot{\footnotesize Erick Fabricio Condoy Seraquive | C.I. 1105973737}
+      - \ofoot{\pagemark}
+      - \KOMAoptions{headsepline=true, footsepline=true}
+  docx:
+    output-file: informe_capacitacion_kobotoolbox_erick_condoy.docx
+    highlight-style: github
+---
+
+::: {style="text-align: right; margin-bottom: 20px;"}
+Loja, 23 de octubre de 2026
+:::
+
+::: {style="margin-bottom: 20px; line-height: 1.35;"}
+**PARA:** Arq. Pablo Ernesto Bustos Peñarreta  
+**DE:** Erick Fabricio Condoy Seraquive (C.I. 1105973737) — Estudiante de la Carrera de Economía  
+**ASUNTO:** Informe de capacitación técnica en el uso de KoBoToolbox para el levantamiento de información en el Barrio El Capulí  
+:::
+
+---
+
+Durante este periodo de prácticas, se llevaron a cabo las capacitaciones sobre el manejo de KoBoToolbox y la aplicación móvil KoboCollect con los estudiantes de la Carrera de Arquitectura. El objetivo principal fue preparar a los grupos para el levantamiento de información en el Barrio El Capulí, asegurando que los datos recolectados en campo sean claros, ordenados y confiables.
+
+El valor de contar con información precisa radica en que estos datos sirven de base para conocer la situación socioeconómica de las familias del sector, identificar necesidades básicas insatisfechas y sustentar las propuestas de mejora que se planteen para el barrio. El uso de formularios digitales facilita el trabajo de los encuestadores, reduce errores al momento de anotar las respuestas y permite organizar de forma rápida los datos sobre vivienda, servicios básicos y características de los hogares.
+
+Las capacitaciones contaron con la participación de 100 estudiantes distribuidos en tres grupos de trabajo:
+
+Con el tercer ciclo de Arquitectura, la sesión se realizó el día martes de manera virtual con 33 estudiantes, con una duración de una hora y media desde las 08h30 hasta las 10h00, desarrollada fuera de las horas de prácticas preprofesionales, revisando el llenado de las fichas de estado físico de las viviendas, la identificación de afectaciones en las construcciones y el registro de zonas de riesgo. Con el primer ciclo, la capacitación también fue virtual y contó con 34 estudiantes, con una duración de 1 hora dentro de las horas de prácticas preprofesionales en el horario de 17h00 a 18h00, enfocándose en cómo realizar las encuestas a los vecinos, el entendimiento de las preguntas sobre las condiciones del hogar y el funcionamiento general de la herramienta. Con el segundo ciclo, el taller se desarrolló de manera presencial con 33 estudiantes, con una duración de 1 hora fuera de las horas de prácticas preprofesionales dentro del rango de 18h00 a 19h00, donde se practicó directamente en los teléfonos celulares la toma de puntos GPS, la captura de fotografías de respaldo y el guardado de formularios sin necesidad de tener internet en el lugar.
+
+Durante las sesiones se utilizó el material interactivo, las guías de instalación y las plantillas prediales preparadas previamente, las cuales se encuentran publicadas y disponibles para consulta técnica en la nube en el siguiente enlace: [Material Didáctico y Guía de Capacitación KoBoToolbox](https://connect.posit.cloud/erick-fcs/content/01a15b22-9e93-b180-6fa3-a523404e00d0). Con este recurso se explicó a los estudiantes cómo funcionan las validaciones para evitar equivocaciones en las respuestas y cómo se muestran u ocultan preguntas según el tipo de predio encuestado. Al finalizar los talleres, los estudiantes quedaron listos para salir a campo a levantar la información en el Barrio El Capulí con un criterio de trabajo coordinado y ordenado.
+
+\vspace{1.0cm}
+
+\begin{center}
+\rule{7cm}{0.5pt} \\
+\textbf{Erick Fabricio Condoy Seraquive} \\
+\textbf{C.I. 1105973737} \\
+Estudiante de la Carrera de Economía \\
+Universidad Nacional de Loja
+\end{center}

@@ -1,0 +1,14 @@
+# Anexos Metodológicos, Fichas Técnicas y Cartografía
+
+## Instrumentos Técnicos Digitales
+
+- **Formulario de Captura Digital:** Código estructurado en formato tabular para levantamiento predial y comunitario.
+- **Diccionario de Variables:** Guía de homologación entre variables censales oficiales y preguntas de campo.
+
+## Catálogo Cartográfico Georreferenciado
+
+1. **Mapa 01:** Delimitación territorial y curvas de nivel de Capulí Loma con pendientes del 15% al 35%.
+2. **Mapa 02:** Densidad poblacional neta por sector censal según el Censo 2022.
+3. **Mapa 03:** Déficit espacial de red de agua potable y servicios básicos en Punzara.
+4. **Mapa 04:** Isócronas de caminabilidad peatonal a paradas de transporte público sobre la Avenida Reinaldo Espinosa.
+5. **Mapa 05:** Plan masa de intervención con calle completa, red peatonal inclusiva y Parque Fluvial de río Capulí.

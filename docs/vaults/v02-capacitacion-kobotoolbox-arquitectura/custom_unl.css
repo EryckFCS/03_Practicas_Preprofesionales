@@ -1,0 +1,327 @@
+/* ==========================================================================
+   Estilos Institucionales UNL - Quarto Full Width & Pestañas KoboToolbox
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* ==========================================================================
+   ANCHO TOTAL DE PANTALLA & PADDING FLUIDO
+   ========================================================================== */
+html, body {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  line-height: 1.65;
+  font-size: 1.05rem;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Ocupar toda la pantalla en Quarto */
+#quarto-content,
+#quarto-document-content,
+.page-layout-full,
+.page-columns,
+.page-columns .content, 
+main.content,
+.quarto-container,
+.main-container,
+.container-fluid {
+  max-width: 98% !important;
+  width: 98% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-top: 10px !important;
+  padding-bottom: 40px !important;
+  box-sizing: border-box !important;
+}
+
+/* Ocultar bloque nativo duplicado de título Quarto */
+.quarto-title-block, #title-block-header {
+  display: none !important;
+}
+
+/* ==========================================================================
+   CABECERA INSTITUCIONAL CON LOGO FIJADO A LA IZQUIERDA
+   ========================================================================== */
+.cabecera-unl-container {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px 28px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  border-left: 6px solid #002855;
+  box-shadow: 0 4px 12px rgba(0, 40, 85, 0.05);
+  margin-bottom: 20px;
+  gap: 24px;
+}
+
+.cabecera-unl-container .logo-unl-img {
+  height: 68px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.cabecera-unl-container .texto-institucional {
+  flex: 1;
+}
+
+.cabecera-unl-container .cabecera-titulo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #002855;
+  margin: 0 0 8px 0;
+  line-height: 1.25;
+}
+
+.cabecera-unl-container .cabecera-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.cabecera-unl-container .badge-rol {
+  font-size: 0.92rem;
+  padding: 5px 14px;
+  border-radius: 6px;
+  color: #334155;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cabecera-unl-container .badge-instructor {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+}
+
+.cabecera-unl-container .badge-docente {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+/* ==========================================================================
+   PESTAÑAS (PANEL-TABSET) - CINTA DE OPCIONES ANCHA
+   ========================================================================== */
+.panel-tabset {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.panel-tabset > .nav-tabs {
+  background: #ffffff;
+  padding: 10px 14px 0 14px;
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #e2e8f0;
+  border-bottom: 3px solid #002855;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.panel-tabset > .nav-tabs .nav-link {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: #334155;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.panel-tabset > .nav-tabs .nav-link:hover {
+  background: #e0f2fe;
+  color: #002855;
+  border-color: #93c5fd;
+  transform: translateY(-2px);
+}
+
+.panel-tabset > .nav-tabs .nav-link.active {
+  background: #002855 !important;
+  color: #ffffff !important;
+  border-color: #002855 !important;
+  font-weight: 700;
+  position: relative;
+  box-shadow: 0 -2px 6px rgba(0, 40, 85, 0.15);
+}
+
+.panel-tabset > .nav-tabs .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #c59b27;
+}
+
+/* Contenido de la pestaña con generoso margen interior */
+.panel-tabset > .tab-content {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-top: none;
+  border-radius: 0 0 14px 14px;
+  padding: 36px 44px;
+  box-shadow: 0 8px 18px -2px rgba(0, 0, 0, 0.04);
+}
+
+.tab-content h1 {
+  font-size: 1.85rem;
+  color: #002855;
+  font-weight: 800;
+  border-bottom: 2px solid #004b87;
+  padding-bottom: 8px;
+  margin-top: 5px;
+}
+
+.tab-content h2 {
+  font-size: 1.4rem;
+  color: #004b87;
+  font-weight: 700;
+  margin-top: 26px;
+  border: none;
+}
+
+.tab-content h3 {
+  font-size: 1.2rem;
+  color: #002855;
+  font-weight: 700;
+  margin-top: 22px;
+}
+
+/* ==========================================================================
+   TARJETAS Y CALLOUTS CON ESTILO UNL
+   ========================================================================== */
+.card-unl {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #002855;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+
+.card-unl-red {
+  border-left-color: #9e1b32;
+  background: #fff8f8;
+  border-color: #fecdd3;
+}
+
+.card-unl-gold {
+  border-left-color: #c59b27;
+  background: #fffdf5;
+  border-color: #fef08a;
+}
+
+.card-unl-green {
+  border-left-color: #059669;
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.card-unl h4 {
+  margin-top: 0;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #002855;
+}
+
+.card-unl-red h4 { color: #9e1b32; }
+.card-unl-gold h4 { color: #92400e; }
+.card-unl-green h4 { color: #065f46; }
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 22px 0;
+  font-size: 0.98rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #002855;
+  color: #ffffff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+
+/* ==========================================================================
+   BLOQUES DE CÓDIGO - ALTO CONTRASTE OSCURO Y NÍTIDO (SIN TEXTO EN BLANCO)
+   ========================================================================== */
+div.sourceCode,
+div.sourceCode pre,
+pre.sourceCode,
+pre,
+code {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+div.sourceCode {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15) !important;
+  margin: 18px 0 !important;
+  overflow-x: auto !important;
+}
+
+div.sourceCode pre.sourceCode {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  padding: 16px 20px !important;
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+div.sourceCode pre.sourceCode code {
+  background-color: transparent !important;
+  color: #f8fafc !important;
+  font-size: 0.93rem !important;
+  line-height: 1.55 !important;
+}
+
+/* Colores de sintaxis para garantizar legibilidad completa */
+.sourceCode .co { color: #94a3b8 !important; font-style: italic !important; } /* Comentarios */
+.sourceCode .kw { color: #38bdf8 !important; font-weight: 700 !important; } /* Keywords / claves */
+.sourceCode .dt { color: #818cf8 !important; } /* Tipos de datos */
+.sourceCode .st { color: #4ade80 !important; } /* Strings */
+.sourceCode .va { color: #facc15 !important; } /* Variables */
+.sourceCode .op { color: #f472b6 !important; } /* Operadores */
+.sourceCode .fu { color: #60a5fa !important; } /* Funciones */
+.sourceCode .ch { color: #fb923c !important; }
+.sourceCode .bn { color: #f472b6 !important; }
+.sourceCode .fl { color: #f472b6 !important; }
+.sourceCode span {
+  color: #f8fafc !important;
+}

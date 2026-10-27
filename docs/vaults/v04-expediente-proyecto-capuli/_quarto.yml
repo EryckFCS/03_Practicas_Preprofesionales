@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: es
+
+book:
+  title: "Intervención Integral y Resiliencia Territorial: Barrio El Capulí"
+  subtitle: "Conectividad Vial, Movilidad Activa y Resiliencia Territorial"
+  author: 
+    - name: "Erick Fabricio Condoy Seraquive (Economía - UNL)"
+    - name: "Equipo Técnico Carrera de Arquitectura Sostenible (UNL)"
+  date: "2026-10-23"
+
+  chapters:
+    - index.qmd
+    - chapters/01_delimitacion_contexto.qmd
+    - chapters/02_diagnostico_movilidad_conectividad.qmd
+    - chapters/03_levantamiento_habitabilidad_kobo.qmd
+    - chapters/04_matriz_priorizacion_desempeno.qmd
+    - chapters/05_propuesta_anteproyecto_sbn.qmd
+    - chapters/06_modelo_gestion_capex_opex.qmd
+    - chapters/07_anexos_fichas_cartografia.qmd
+    - chapters/08_referencias.qmd
+
+bibliography: ../../../bibliography/references.bib
+
+format:
+  pdf:
+    documentclass: scrreprt
+    number-sections: true
+    toc: true
+    toc-depth: 3
+    colorlinks: true
+    pdf-engine: lualatex
+    include-in-header:
+      - text: |
+          \input{giz_preamble.tex}
+

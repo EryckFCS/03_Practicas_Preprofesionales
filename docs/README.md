@@ -8,8 +8,10 @@ Este índice organiza la documentación viva del nodo de Prácticas Preprofesion
 - **`normativa/`**: Reglamentos institucionales UNL, directrices de titulación y prácticas en territorio.
 - **`vaults/`**: Bóvedas modulares de evidencia vivas para el desarrollo de las prácticas preprofesionales:
   - `v01-diagnostico-territorial-el-capuli/`: Diagnóstico sociodemográfico, extracción REDATAM, proyecciones en Stata y cartografía temática QGIS del Barrio El Capulí.
+  - `v02-capacitacion-kobotoolbox-arquitectura/`: Taller de 2 horas sobre KoBoCollect y XLSForm para levantamiento predial con arquitectura.
   - `v02-ejecucion-actividades/`: Ejecución operativa, análisis presupuestario, proyectos arquitectónicos y bitácoras activas.
   - `v03-cierre-evaluacion/`: Consolidación del informe final, rúbricas de evaluación del tutor y acreditación de horas.
+  - `v04-expediente-proyecto-capuli/`: Expediente Técnico Integral del Proyecto El Capulí estructurado bajo la metodología GIZ (Ciudades que Transforman) con capítulos `.qmd`, scripts y cartografía.
 
 ---
 

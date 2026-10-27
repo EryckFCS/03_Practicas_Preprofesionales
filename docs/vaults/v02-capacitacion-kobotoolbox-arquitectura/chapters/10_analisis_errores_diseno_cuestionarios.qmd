@@ -1,0 +1,101 @@
+### 1. Tipos Avanzados y Casos de Uso Menos Obvios
+
+En el diseño de formularios técnicos con KoboToolbox (estándar XLSForm), existen tipos de preguntas y metadatos avanzados con aplicaciones directas para levantamientos barriales y análisis territorial riguroso:
+
+| Tipo | Caso de uso interesante | Aplicación a Capulí / Territorio |
+| :--- | :--- | :--- |
+| `geoshape` (Área) | Delimita un polígono con varios puntos GPS | Dibujar el límite de un sector o de un lote baldío. Después calculas superficie en QGIS. |
+| `geotrace` (Línea) | Registra una ruta con varios puntos GPS | Trazar el tramo de calle sin pavimentar o el recorrido de una quebrada. |
+| `rank` (Clasificación) | Pide ordenar ítems por preferencia | Ordenar de mayor a menor los problemas ambientales del barrio. |
+| `audio` | Graba o sube un audio | La "historia del sector": un relato oral que luego se transcribe. |
+| `file` (Archivo) | Sube documentos como PDF u hojas de cálculo | Adjuntar un plano, una escritura o un acta barrial. |
+| `select_one_from_file` / CSV | Toma las opciones de un CSV subido al proyecto | Catálogos largos, como calles, barrios u ocupaciones, sin escribirlos a mano. |
+| XML externo (`pulldata`) | Conecta con otro proyecto para traer datos | Una segunda ola: recuperas la información de un hogar ya encuestado. |
+| Auditoría (`audit` / metadatos) | Registra cuándo se abrió/guardó el formulario, qué preguntas se vieron y tiempo por pantalla [[docs](https://github.com/kobotoolbox/docs/blob/master/source/form_meta.md)] | Detectar encuestadores que contestan demasiado rápido o saltan módulos. |
+| Audio de fondo (`background-audio`) | Graba en segundo plano mientras se llena el formulario [[docs](https://github.com/kobotoolbox/docs/blob/master/source/form_meta.md)] | Control de calidad de entrevistas periciales, siempre con consentimiento informado previo. |
+
+::: {.card-unl .card-unl-blue}
+#### Detalle Técnico sobre Clasificación (`rank`)
+Si requieres que el ordenamiento de preferencias sea opcional, KoboToolbox por defecto impone validación obligatoria en la interfaz web. Para flexibilizarlo, es necesario descargar el archivo **XLSForm (.xlsx)** y remover el valor `true` de la columna `required` en la hoja `survey` [[community](https://community.kobotoolbox.org/t/prevent-required-answers-for-ranking-feature/10244)].
+:::
+
+::: {.card-unl .card-unl-gold}
+#### Valor Metodológico de la Auditoría y Audio de Fondo
+Los metadatos de auditoría (`audit`) y el audio de fondo son de alto valor en investigaciones académicas y peritajes. Aportan **evidencia objetiva e inalterable** de que el levantamiento de campo fue riguroso, trazable y veraz, algo decisivo para evaluadores y revisores. Los registros de auditoría se descargan como archivos CSV adjuntos a cada envío.
+:::
+
+---
+
+### 2. Errores Críticos de Diseño y Redacción en Cuestionarios
+
+Estos problemas corresponden a errores metodológicos y lógicos de diseño conceptual, no a fallas técnicas de la plataforma. La literatura especializada en metodología de encuestas los categoriza de la siguiente manera [[SurveyMonkey](https://www.surveymonkey.com/curiosity/double-barrel-survey-question/)] [[Kantar](https://www.kantar.com/inspiration/research-services/double-barrelled-questions-pf)] [[DisplayR](https://www.displayr.com/common-mistakes-of-survey-design/)]:
+
+#### A. Doble Pregunta en una Sola (Double-Barreled Questions)
+Consiste en mezclar dos o más ideas, eventos o condiciones distintas exigiendo una única respuesta:
+
+* **Ejemplo detectado:** *"¿Su vivienda o terreno ha sufrido afectaciones o está en riesgo por desborde de quebradas o deslizamientos?"*  
+  $\rightarrow$ **Problema:** Mezcla daño pasado con riesgo futuro, y confunde dos amenazas físicas distintas (desborde vs. deslizamiento). Deben separarse en preguntas independientes.
+* **Ejemplo detectado:** *"Colaborar con tiempo o dinero en una organización"*  
+  $\rightarrow$ **Problema:** Agrupa dos conductas no equivalentes. Una persona puede donar dinero sin disponer de tiempo, o viceversa.
+* **Ejemplo detectado:** *"¿Dispone de aparatos ahorradores (refrigerador, lavadora, secadora)?"*  
+  $\rightarrow$ **Problema:** Junta tres electrodomésticos distintos y asume que el encuestado conoce su etiquetado de eficiencia energética.
+* **Ejemplo detectado:** *"Sueldo o salario y otros ingresos"*  
+  $\rightarrow$ **Problema:** Mezcla ingreso laboral regular con ingresos extraordinarios o rentas en un solo valor agregado.
+
+::: {.callout-tip}
+##### Regla Práctica de Redacción
+Identifica conectores lógicos ("y", "o") en cada enunciado y evalúa sistemáticamente si un informante podría responder de manera divergente a cada mitad de la frase [[Sogolytics](https://www.sogolytics.com/learning-center/survey-questionnaire/double-barreled-questions/)].
+:::
+
+#### B. Preguntas Sesgadas o con Supuestos Previos (Loaded Questions)
+* **Ejemplo detectado:** *"¿Ha sido víctima de robo de auto?"* y *"¿Le han robado piezas de su auto?"*  
+  $\rightarrow$ **Problema:** Presuponen que el hogar cuenta con vehículo motorizado. Un hogar sin vehículo responderá "No", distorsionando la muestra al clasificarlo incorrectamente como "hogar seguro".  
+  $\rightarrow$ **Solución:** Incorporar una pregunta filtro previa (*"¿El hogar posee vehículo propio?"*) y vincular lógica condicional (`relevant`).
+* **Ejemplo detectado:** *"¿Ha sido víctima de algún crimen?"*  
+  $\rightarrow$ **Problema:** No delimita el concepto de delito y genera solapamiento directo con preguntas puntuales de robo.
+
+#### C. Dirección Inconsistente en Escalas y Prácticas
+* **Ejemplo detectado:** Si la mayoría de variables sobre eficiencia energética miden conductas positivas (ahorro), pero se formula *"¿Introducen alimentos calientes en el refrigerador?"*, esta última mide una práctica perjudicial.
+* **Impacto analítico:** Un "Sí" en una suma y en otra resta. Al calcular un índice sumativo simple, el puntaje final resultará sesgado.  
+* **Corrección:** Reformular hacia la misma dirección de deseabilidad: *"¿Esperan a que los alimentos se enfríen a temperatura ambiente antes de guardarlos en el refrigerador?"*.
+
+#### D. Categorías Incompletas, Desbalanceadas o Mal Rótuladas
+* **Escala de vía de acceso desbalanceada:** *Muy malo, Malo, Regular, Excelente*. Falta la categoría intermedia "Bueno", provocando que la escala esté sesgada hacia valoraciones negativas.
+* **Servicio de recolección de basura sin extremo positivo:** *Muy mala, Mala, Regular, Buena*. Carece de una opción simétrica excelente/óptima.
+* **Ocupación vs. Categoría de Ocupación:** La pregunta se rotula como "ocupación" (profesión/oficio), pero sus opciones corresponden a categorías ocupacionales (empleado público, jornalero, cuenta propia). Además, si se define como selección múltiple, una persona con múltiples labores fragmentará la matriz de datos en múltiples columnas; debe emplearse selección única para la ocupación principal.
+* **Autoidentificación étnica desalineada:** La lista incluye opciones solapadas (*Afroecuatoriano, Afrodescendiente, Negro y Mulato*) y omite categorías oficiales como *Montubio* u *Otro*. Debe alinearse a los estándares censales del INEC antes del trabajo de campo.
+* **Condición de actividad laboral incompleta:** Restringir las opciones a *"Trabajó al menos una hora"* y *"No trabajó"* impide identificar a personas con empleo temporalmente ausentes o a desocupados en búsqueda activa, imposibilitando calcular tasas oficiales de desempleo o subempleo.
+* **Criterio de compras forzado:** Formular *"¿A usted le importa?"* con una única opción seleccionable obliga a descartar factores concurrentes; se debe estructurar mediante selección múltiple ponderada o jerarquización (`rank`).
+
+---
+
+### 3. Vicios de Formato que Entorpecen el Procesamiento y Análisis
+
+::: {.card-unl .card-unl-red}
+#### Problemas en la Estructura de Datos
+1. **Ingreso monetario sin temporalidad ni rangos:** Registrar ingresos como números enteros abiertos sin definir periodicidad (semanal, mensual) produce alta tasa de no respuesta y aproximaciones vagas. Se recomienda incluir rangos o categorías con códigos claros de omisión.
+2. **Códigos de datos faltantes inconsistentes:** *"No sabe / No responde"* solo aparece en ciertas preguntas. Se debe estandarizar un esquema codificado uniforme (por ejemplo, `97 = No aplica`, `98 = No sabe`, `99 = No responde`) para no confundir omisiones con ceros o valores válidos.
+3. **Opciones "Otro" sin campo de especificación:** Categorías abiertas de materiales constructivos (techo, piso, paredes) sin una variable de texto condicional asociada (`relevant`) impiden categorizar alternativas emergentes.
+4. **Dispersión en las escalas métricas:** Emplear simultáneamente escalas de 0 a 10, 1 a 3 y 1 a 5 en distintos bloques destruye la comparabilidad directa y exige transformaciones complejas de estandarización previa.
+5. **Años aprobados desvinculados del nivel de instrucción:** Permitir registrar libremente 12 años sin validar contra el nivel educativo (primaria, secundaria, superior) genera inconsistencias estructurales en el cálculo de escolaridad acumulada.
+6. **Inversión antinormativa de valores binarios:** Usar `0` para "Sí" y `1` para "No" contraviene las normas de análisis cuantitativo y econométrico habitual (`1 = Sí / Presencia`, `0 = No / Ausencia`).
+:::
+
+---
+
+### 4. Definición Clave: Unidad de Análisis y Validación Piloto
+
+::: {.card-unl .card-unl-blue}
+#### El Dilema de la Unidad de Análisis: Hogar vs. Persona
+Uno de los fallos más graves en encuestas territoriales es mezclar unidades de observación sin control:
+* Las preguntas de percepción y satisfacción miden al **individuo**.
+* Las preguntas de infraestructura, vivienda y servicios básicos miden al **hogar/predio**.
+Si un único informante contesta por todos sin una jerarquía clara, se genera sesgo de representatividad. Es indispensable definir formalmente la unidad desde el diseño: determinar qué secciones corresponden a variables de nivel hogar y cuáles se desagregan a nivel individual mediante grupos repetidos (`begin_repeat` / `end_repeat`).
+:::
+
+::: {.card-unl .card-unl-green}
+#### ¿Por Qué Ocurren estos Errores y Cómo Prevenirlos?
+Suelen originarse cuando se ensamblan cuestionarios a partir de instrumentos dispares sin armonización técnica, cuando intervienen múltiples comités sin revisión metodológica unificada, o cuando se redacta pensando en la comodidad del encuestador y no en el análisis econométrico y espacial posterior.
+
+**Medida correctiva obligatoria:** Ejecutar siempre una **prueba piloto previa** de 5 a 10 entrevistas reales en territorio. Observar dónde vacilan los encuestados, qué preguntas generan redundancia o rechazo, y corregir la matriz antes del levantamiento definitivo [[Kantar](https://www.kantar.com/inspiration/research-services/double-barrelled-questions-pf)].
+:::

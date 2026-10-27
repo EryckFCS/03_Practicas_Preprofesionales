@@ -1,0 +1,75 @@
+Acceso directo a las plataformas oficiales de KoboToolbox, descarga de aplicaciones móviles, curso de capacitación audiovisual y guía técnica de la API REST v2.
+
+### 1. Plataformas Oficiales y Acceso Web
+
+| Servicio o Herramienta | Finalidad Técnica | Enlace Directo |
+| :--- | :--- | :---: |
+| **KoboToolbox: Servidor Global** | Servidor general para investigación académica e institucional | [kf.kobotoolbox.org](https://kf.kobotoolbox.org/){.btn .btn-outline-primary target="_blank"} |
+| **KoboToolbox: Servidor Humanitario** | Servidor de alta capacidad soportado por OCHA | [eu.kobotoolbox.org](https://eu.kobotoolbox.org/){.btn .btn-outline-primary target="_blank"} |
+| **KoboCollect: Android** | Aplicación móvil oficial para recolección en campo fuera de línea | [Google Play Store](https://play.google.com/store/apps/details?id=org.koboc.collect.android){.btn .btn-success target="_blank"} |
+| **Enketo Web Forms** | Formulario web para iOS, navegador o computadora sin instalar aplicación | [Enketo Web](https://enketo.org/){.btn .btn-outline-secondary target="_blank"} |
+
+::: {.card-unl .card-unl-gold}
+#### Configuración Rápida en KoboCollect Móvil
+1. Abrir KoboCollect en el teléfono $\rightarrow$ **Ajustes** $\rightarrow$ **Servidor**.
+2. **URL del Servidor:** ingresar `https://kf.kobotoolbox.org` o `https://eu.kobotoolbox.org`.
+3. **Credenciales:** ingresar el usuario y contraseña de la cuenta personal de KoboToolbox.
+4. Volver a la pantalla principal $\rightarrow$ **Descargar formulario en blanco**.
+:::
+
+---
+
+### 2. Curso Completo en Video para Profundizar en KoboToolbox
+
+::: {.card-unl .card-unl-green}
+#### Lista Oficial de Capacitación Integral en YouTube
+Para profundizar en el diseño avanzado de formularios, lógica condicional compleja, gestión de datos y análisis:
+
+[Acceder a la Lista de Reproducción Completa del Curso en YouTube](https://www.youtube.com/playlist?list=PL2QAAd6mtvPJmgpwL4_6WAwVvq7dwX0S3){.btn .btn-danger target="_blank"}
+
+*Contenido del curso:* Desde la creación básica de cuentas y formularios XLSForm hasta el despliegue de proyectos en territorio y tratamiento de matrices.
+:::
+
+---
+
+### 3. Ecosistema de Desarrollo: API REST v2 y Automatización en Python
+
+KoboToolbox expone una API REST v2 completa para enlazar datos de campo directamente con QGIS, PostgreSQL, PostGIS o scripts analíticos:
+
+#### Endpoints Principales
+
+| Endpoint | Método | Acción Técnica |
+| :--- | :---: | :--- |
+| `/api/v2/assets/` | `GET` | Listar formularios y consultar identificadores únicos `asset_uid`. |
+| `/api/v2/assets/{asset_uid}/data/` | `GET` | Descargar en tiempo real las respuestas registradas en formato JSON. |
+| `/api/v2/assets/{asset_uid}/exports/` | `POST` | Disparar exportación automática a Excel, GeoJSON o CSV. |
+
+#### Script de Extracción en Python
+
+```python
+import requests
+import pandas as pd
+
+# Parámetros de autenticación
+TOKEN = "TU_TOKEN_AQUI"
+ASSET_UID = "TU_ASSET_UID_DEL_FORMULARIO"
+KOBO_URL = f"https://kf.kobotoolbox.org/api/v2/assets/{ASSET_UID}/data.json"
+
+headers = {
+    "Authorization": f"Token {TOKEN}"
+}
+
+# Petición a la API v2
+response = requests.get(KOBO_URL, headers=headers)
+
+if response.status_code == 200:
+    data = response.json()
+    registros = data.get("results", [])
+    df = pd.DataFrame(registros)
+    
+    print(f"Registros descargados: {len(df)}")
+    # Exportar a CSV para carga directa en QGIS
+    df.to_csv("datos_campo_kobo.csv", index=False)
+else:
+    print(f"Error al consultar la API: {response.status_code} - {response.text}")
+```

@@ -1,0 +1,12 @@
+# Levantamiento de Campo y Caracterización Social
+
+## Metodología de Levantamiento en Terreno
+
+El levantamiento primario en el Barrio El Capulí se fundamenta en la encuesta de caracterización y percepción vecinal [@gad_loja_planificacion_barrial_2020] y la captura digital en campo [@kobotoolbox_data_collection_2024]:
+
+- **Fichas Prediales por Ciclos Académicos:**
+  - *Primer Ciclo:* Tipología de materiales y estado de conservación de edificaciones existentes.
+  - *Segundo Ciclo:* Sistemas constructivos, topografía y pendientes de implantación.
+  - *Tercer Ciclo:* Vulnerabilidad estructural y potencial de construcción sostenible.
+- **Encuesta a Hogares y Jefaturas de Familia:**
+  - Mide percepción de seguridad, calidad de servicios básicos, cohesión social y priorización comunitaria.

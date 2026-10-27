@@ -1,0 +1,47 @@
+---
+title: "Intervención Integral y Resiliencia Territorial en el Barrio El Capulí"
+subtitle: "Conectividad Vial, Movilidad Activa y Soluciones basadas en la Naturaleza"
+author: 
+  - name: "Erick Fabricio Condoy Seraquive (Economía - UNL)"
+  - name: "Equipo Técnico Carrera de Arquitectura Sostenible (UNL)"
+date: "2026-10-23"
+format:
+  pdf:
+    documentclass: scrreprt
+    number-sections: true
+    toc: true
+    include-in-header:
+      - text: |
+          \input{giz_preamble.tex}
+---
+
+# Presentación del Proyecto {.unnumbered}
+
+El presente documento articula el diagnóstico cuantitativo, espacial y de campo del **Barrio El Capulí (Parroquia Punzara, Cantón Loja)** con los instrumentos de planificación urbana y territorial [@giz_rosero_perfiles_climaticos_2024; @gad_loja_pdot_diagnostico_2021].
+
+La propuesta estructura la intervención territorial en tres componentes integrados:
+
+1. **Conectividad Vial y Movilidad Activa:** Jerarquización de la Av. Reinaldo Espinosa (Conector Primario Sur) y construcción de senderos peatonales seguros de ladera hacia el Campus Universitario La Argelia bajo criterios de diseño 8-80 [@tumi_street_design_2021].
+2. **Resiliencia Hídrica y Drenaje Sostenible (SbN / SUDS):** Control y disipación de escorrentías pluviales en pendientes del 15% al 35% de Capulí Loma mediante cunetas verdes, biofiltros y pavimentos permeables [@giz_miduvi_guia_paradigma_2021].
+3. **Espacio Público y Conectividad Verde:** Desarrollo del anteproyecto del **Parque Fluvial de río Capulí**, correspondiente al **Proyecto Estructurante N° 11** del *Plan del Sistema Verde Urbano de Loja* [@gad_loja_sistema_verde_urbano_2021].
+
+## Ficha de Identificación del Proyecto
+
+| Parámetro Metodológico | Detalle del Proyecto |
+| :--- | :--- |
+| **Nombre de la Intervención:** | Intervención Integral, Movilidad Activa y Resiliencia Hídrica en el Barrio El Capulí |
+| **Localización Geográfica:** | Ecuador, Provincia de Loja, Cantón Loja, Parroquia Punzara, Sector Capulí Loma |
+| **Centroide de Coordenadas WGS84:** | Latitud: `3.9984° S` \| Longitud: `79.2012° W` (Zona UTM 17S) |
+| **Entidades Proponentes:** | Universidad Nacional de Loja en articulación con el GAD Municipal de Loja |
+| **Población Beneficiaria:** | **Directa:** 1.850 habitantes (480 hogares) \| **Indirecta:** >25.000 usuarios del corredor sur y campus universitario |
+| **Vulnerabilidad Crítica:** | Pendientes del 15% al 35%, pobreza por necesidades básicas insatisfechas del 38,4% [@inec_cpv_ecuador_2022], déficit de agua superior al 80% |
+| **Enfoque Financiero:** | Estructura de Ciclo de Vida con Inversión de Capital y Operación y Mantenimiento a 15 años [@giz_felicity_methodology_2020] |
+
+## Articulación con Políticas Públicas y Planificación Territorial
+
+Conforme a las orientaciones de la fase de planificación del espacio público [@giz_miduvi_guia_paradigma_2021], la intervención articula los instrumentos de escala nacional y local:
+
+* **Agenda Hábitat Sostenible del Ecuador (AHSE 2036):** Eje de resiliencia territorial, adaptación al cambio climático y dotación equitativa de infraestructura básica en periferias urbanas.
+* **Plan de Desarrollo y Ordenamiento Territorial de Loja (PDOT):** Jerarquización de los ejes de conectividad artificial primaria sur y amortiguamiento de áreas periurbanas en pendiente [@gad_loja_pdot_diagnostico_2021].
+* **Plan del Sistema Verde Urbano de Loja:** Ejecución del Proyecto Estructurante N° 11 para la conformación del Parque Fluvial de río Capulí y recuperación de la microcuenca [@gad_loja_sistema_verde_urbano_2021].
+* **Objetivos de Desarrollo Sostenible (ODS):** Contribución directa a las metas del ODS 11 (Ciudades y Comunidades Sostenibles), ODS 13 (Acción por el Clima) y ODS 6 (Agua Limpia y Saneamiento).

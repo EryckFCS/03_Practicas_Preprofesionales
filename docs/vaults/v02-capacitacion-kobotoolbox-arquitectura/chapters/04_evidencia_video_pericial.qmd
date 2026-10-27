@@ -1,0 +1,16 @@
+La **fotografía técnica** y el **video pericial** constituyen respaldo visual inalterable que valida físicamente las respuestas de la ficha técnica.
+
+### 1. Aplicación de Video en Fenómenos Dinámicos
+
+::: {.card-unl}
+#### Cuándo se requiere video continuo:
+* **Escorrentía y comportamiento hidráulico:** Dirección y fuerza de aguas pluviales o proximidad a cauces.
+* **Inestabilidad del terreno:** Grietas en taludes, muros de contención o asentamientos diferenciales.
+* **Topografía y accesibilidad:** Paneo continuo de laderas con pendientes pronunciadas o barreras físicas.
+* **Aforos dinámicos:** Flujo de peatones o vehículos en nodos críticos de circulación.
+:::
+
+::: {.card-unl .card-unl-red}
+#### Pauta Operativa Clave
+Los videos deben limitarse a **clips cortos de 15 segundos en calidad estándar**, garantizando que el peso del archivo se mantenga ligero para no saturar la memoria del teléfono ni retrasar la sincronización al servidor.
+:::

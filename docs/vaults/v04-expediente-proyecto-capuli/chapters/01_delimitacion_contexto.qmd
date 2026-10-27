@@ -1,0 +1,35 @@
+# Delimitación Territorial y Línea Base Censal
+
+## Delimitación y Localización Territorial
+
+El Barrio El Capulí se localiza en el extremo suroriental de la mancha urbana de la ciudad de Loja, dentro de la circunscripción político-administrativa de la **Parroquia Urbana Punzara**, conforme a la zonificación del *Plan de Desarrollo y Ordenamiento Territorial del Cantón Loja* [@gad_loja_pdot_diagnostico_2021].
+
+* **Centroide Barrial (WGS84 / Zona UTM 17S):** Latitud `3.9984° S` | Longitud `79.2012° W` (X: `699850 m E`, Y: `9557920 m N`).
+* **Cota Altimétrica:** Varía desde los `2.150 m.s.n.m.` en el borde inferior adyacente a la Av. Reinaldo Espinosa hasta los `2.380 m.s.n.m.` en la cumbre de **Capulí Loma**.
+* **Condición Fisiográfica y Topografía:** El polígono de intervención abarca una superficie aproximada de **42,5 hectáreas**, caracterizada por un relieve de vertiente abrupta con pendientes predominantes que oscilan entre el **15% y el 35%**. Esta morfología escarpada condiciona fuertemente la accesibilidad física, la estabilidad de los taludes y la formación de canales de escorrentía superficial acelerada durante la temporada invernal.
+
+## Línea Base Cuantitativa Censal
+
+La línea base demográfica y socio-habitacional ha sido construida a partir de la explotación de los microdatos del **Censo de Población y Vivienda 2022** [@inec_cpv_ecuador_2022] procesados en el entorno REDATAM a escala de sector censal, complementados con la cartografía censal oficial disponible en el repositorio de datos de la UNL.
+
+| Indicador Demográfico / Socioeconómico | Valor Cuantitativo Sector El Capulí | Referencia Parroquial (Punzara) | Media Cantón Loja | Fuente de Información |
+| :--- | :---: | :---: | :---: | :--- |
+| **Población Total Residente:** | **1.852 hab.** | 14.280 hab. | 258.120 hab. | INEC CPV 2022 (REDATAM) |
+| **Total de Hogares Censados:** | **486 hogares** | 3.820 hogares | 72.410 hogares | INEC CPV 2022 |
+| **Pobreza por Necesidades Básicas Insatisfechas (NBI):** | **38,4%** | 22,6% | 18,2% | INEC CPV 2022 |
+| **Hogares sin Conexión a Red Pública de Agua:** | **81,6%** (Capulí Loma) | 34,2% | 8,9% | INEC CPV 2022 / KoBo UNL |
+| **Hogares sin Red de Alcantarillado Sanitario:** | **58,2%** | 28,1% | 12,4% | INEC CPV 2022 |
+| **Viviendas con Déficit de Materialidad (Pared/Techo):** | **32,7%** | 16,8% | 11,5% | Fichas KoBo UNL 2026 |
+
+## Diagnóstico de la Brecha Socio-Habitacional
+
+Los resultados reflejan una marcada **segregación socio-espacial** en la periferia sur de Loja:
+
+1. **Incidencia de la Pobreza Estructural:**  
+   El porcentaje de hogares con NBI (**38,4%**) prácticamente duplica la media urbana cantonal (18,2%). Esta brecha se acentúa en los subsectores altos de Capulí Loma, donde confluyen la falta de títulos de propiedad consolidados y la ausencia de redes de servicio subterráneo.
+
+2. **Déficit Severo de Infraestructura Sanitaria:**  
+   Más del **80% de las viviendas situadas en ladera no reciben agua por red pública regular**, abasteciéndose mediante tomas precarias de vertientes de montaña y almacenamiento en tanques plásticos no clorados. Esta situación expone a la población infantil a riesgos epidemiológicos recurrentes.
+
+3. **Vulnerabilidad Habitacional en Pendiente:**  
+   El análisis predial evidencia que un tercio de las viviendas han sido autoconstruidas en parcelas con cortes de ladera sin muros de sostenimiento ni sistemas de recolección de aguas lluvias, configurando un riesgo inminente ante deslizamientos detonados por lluvias torrenciales.

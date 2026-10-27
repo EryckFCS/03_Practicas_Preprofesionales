@@ -1,0 +1,125 @@
+% ==============================================================================
+% Preámbulo Oficial según Normas APA 7ma Edición (Adaptado para Documento Técnico)
+% Aplicado a clase KOMA-Script scrreprt con LuaLaTeX
+% ==============================================================================
+
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+
+% --- Localización en Español ---
+\AtBeginDocument{
+  \renewcommand{\contentsname}{Índice de Contenido}
+  \renewcommand{\figurename}{Figura}
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\chaptername}{Capítulo}
+}
+
+% --- Geometría APA 7 (1 pulgada / 2.54 cm en los cuatro márgenes) ---
+\geometry{
+  letterpaper,
+  top=25.4mm,
+  bottom=25.4mm,
+  left=25.4mm,
+  right=25.4mm,
+  headheight=15pt,
+  footskip=12mm
+}
+
+% --- Tipografía Estándar APA 7 (Times New Roman / TeX Gyre Termes) ---
+\setmainfont{TeX Gyre Termes}[
+  Scale=1.0,
+  Ligatures=TeX
+]
+\setsansfont{TeX Gyre Heros}[
+  Scale=0.95,
+  Ligatures=TeX
+]
+\setmonofont{TeX Gyre Cursor}[
+  Scale=0.90
+]
+
+% Color formal de texto (Negro / Escala de grises formal APA)
+\definecolor{APABlack}{RGB}{0, 0, 0}
+\definecolor{APAGray}{RGB}{60, 60, 60}
+\definecolor{APALink}{RGB}{0, 45, 98} % Azul sobrio para enlaces
+
+\color{APABlack}
+
+% --- Interlineado y Párrafos APA 7 ---
+\onehalfspacing
+\setlength{\parindent}{1.27cm} % Sangría de primera línea reglamentaria de 0.5 pulgadas
+\setlength{\parskip}{0pt}       % APA 7 no deja espacio adicional entre párrafos normales
+
+% --- Encabezados y Números de Página (APA 7) ---
+\clearpairofpagestyles
+\addtokomafont{pageheadfoot}{\normalfont\footnotesize\color{APAGray}}
+\addtokomafont{pagenumber}{\normalfont\normalsize\color{APABlack}}
+
+% Numeración de página en la esquina superior derecha según APA 7
+\ohead{\pagemark}
+\ihead{\textnormal{\footnotesize EXPEDIENTE TÉCNICO: GIZ CIS II / PEEP}}
+
+% --- Jerarquía de Títulos APA 7ma Edición ---
+\addtokomafont{disposition}{\normalfont\bfseries\color{APABlack}}
+
+\addtokomafont{chapter}{\centering\LARGE\bfseries}
+\addtokomafont{section}{\centering\Large\bfseries}
+\addtokomafont{subsection}{\raggedright\large\bfseries}
+\addtokomafont{subsubsection}{\raggedright\normalsize\bfseries\itshape}
+
+% --- Formato Reglamentario de Tablas y Figuras APA 7 ---
+\DeclareCaptionLabelSeparator{newline}{\\ \vspace{2pt}}
+\captionsetup[table]{
+  format=plain,
+  position=top,
+  labelsep=newline,
+  justification=RaggedRight,
+  singlelinecheck=false,
+  labelfont={bf},
+  textfont={it},
+  font={small,singlespacing},
+  skip=4pt
+}
+
+\captionsetup[figure]{
+  format=plain,
+  position=bottom,
+  labelsep=newline,
+  justification=RaggedRight,
+  singlelinecheck=false,
+  labelfont={bf},
+  textfont={it},
+  font={small,singlespacing},
+  skip=4pt
+}
+
+% --- Comando APA 7 para Notas de Tabla / Fuentes ---
+\newcommand{\fuente}[1]{%
+  \vspace{2pt}%
+  {\raggedright\singlespacing\footnotesize \textit{Nota.} #1\par\vspace{6pt}}%
+  \onehalfspacing%
+}
+
+% --- Tablas APA: Solo líneas horizontales superior, inferior y cabecera (sin verticales) ---
+\setlength{\heavyrulewidth}{0.08em}
+\setlength{\lightrulewidth}{0.05em}
+\setlength{\cmidrulewidth}{0.03em}
+
+% --- Ajuste de Hipervínculos APA 7 ---
+\hypersetup{
+  colorlinks=true,
+  linkcolor=APALink,
+  filecolor=APALink,
+  urlcolor=APALink,
+  citecolor=APALink
+}

@@ -1,0 +1,4 @@
+- source: project
+  posit-connect-cloud:
+    - id: 01a160a5-7242-6577-0a1f-f673b805ea35
+      url: https://connect.posit.cloud/erick-fcs/content/01a160a5-7242-6577-0a1f-f673b805ea35

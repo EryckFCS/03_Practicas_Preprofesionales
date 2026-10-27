@@ -1,0 +1,53 @@
+### Actividad Práctica: Creación de un Formulario Técnico desde Cero
+
+En esta actividad cada estudiante construirá en su computadora un formulario estructurado en el editor web de KoboToolbox, lo desplegará a su cuenta y lo sincronizará a su teléfono móvil en KoboCollect.
+
+---
+
+### Especificación de Variables del Formulario
+
+El formulario debe replicar la arquitectura estándar de las plantillas técnicas, organizada en los siguientes campos:
+
+| Orden | Etiqueta de la Pregunta | Tipo de Pregunta | Nombre de Variable (`name`) | Parámetros y Restricciones |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | Identificación del Estudiante | Texto | `id_estudiante` | Obligatorio |
+| 2 | Sector o Zona de Estudio | Selección única | `sector_estudio` | Opciones: `sector_norte`, `sector_centro`, `sector_sur` |
+| 3 | Ubicación GPS del Predio | Punto GPS | `ubicacion_gps` | Precisión requerida menor o igual a 5 metros |
+| 4 | Estado de Ocupación | Selección única | `estado_ocupacion` | Opciones: `construido`, `en_construccion`, `baldio` |
+| 5 | Frente del Lote en Metros | Decimal | `frente_lote` | Restricción: `. >= 3.0 and . <= 100.0` |
+| 6 | Número de Pisos | Entero | `num_pisos` | Restricción: `. >= 1 and . <= 6`. Visible solo si `estado_ocupacion != 'baldio'` |
+| 7 | Sistema Estructural | Selección única | `sistema_estructural` | Opciones: `hormigon`, `metalica`, `madera`, `mixto`. Visible solo si `estado_ocupacion != 'baldio'` |
+| 8 | Presencia de Daño Aparente | Selección única | `presenta_dano` | Opciones: `si`, `no`. Visible solo si `estado_ocupacion != 'baldio'` |
+| 9 | Fotografía de Fachada o Lote | Imagen | `foto_registro` | Obligatorio |
+| 10 | Dictamen Técnico u Observaciones | Texto | `observaciones` | Campo opcional |
+
+---
+
+### Procedimiento de Configuración Paso a Paso
+
+::: {.card-unl .card-unl-green}
+#### Fase 1: Creación en la Plataforma Web
+1. Ingresar a [kf.kobotoolbox.org](https://kf.kobotoolbox.org/) con la cuenta personal.
+2. Hacer clic en **New** y seleccionar **Build from scratch**.
+3. Asignar el título del proyecto: `Ejercicio Práctico: Levantamiento Técnico`.
+4. En Sector seleccionar **Public Policy / Urban Planning** y pulsar **Create Project**.
+5. Agregar secuencialmente las 10 preguntas listadas en la tabla anterior haciendo clic en el botón `+`.
+:::
+
+::: {.card-unl .card-unl-gold}
+#### Fase 2: Configuración de Candados y Condiciones
+1. En la pregunta `num_pisos`, acceder a la configuración del engranaje $\rightarrow$ **Validation Criteria** y añadir la condición: `. >= 1 and . <= 6`.
+2. En esa misma pregunta, ir a **Skip Logic** y condicionar su visibilidad: mostrar solo si `estado_ocupacion` no es igual a `baldio`.
+3. Repetir la condición de **Skip Logic** para `sistema_estructural` y `presenta_dano`.
+4. En `frente_lote`, agregar el criterio de validación: `. >= 3.0 and . <= 100.0`.
+5. Guardar los cambios del formulario con el botón superior **Save** y pulsar **Deploy**.
+:::
+
+::: {.card-unl}
+#### Fase 3: Sincronización y Prueba en KoboCollect
+1. En el teléfono móvil, abrir la aplicación **KoboCollect**.
+2. Verificar que el servidor y las credenciales apunten a la cuenta personal.
+3. Pulsar **Descargar formulario en blanco** y seleccionar `Ejercicio Práctico: Levantamiento Técnico`.
+4. Abrir **Llenar nuevo formulario**, capturar un registro de prueba completo y marcarlo como finalizado.
+5. Pulsar **Enviar formulario finalizado** y verificar en la computadora la recepción inmediata del dato en la pestaña **Data** de KoboToolbox.
+:::

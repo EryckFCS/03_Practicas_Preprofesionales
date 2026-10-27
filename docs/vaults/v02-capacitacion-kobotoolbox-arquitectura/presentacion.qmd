@@ -1,0 +1,360 @@
+---
+title: "KoboToolbox & Técnicas de Investigación en Territorio"
+subtitle: "Encuestas, Entrevistas Cualitativas y Evidencia en Video para Estudios de Arquitectura & Construcción"
+author: "Erick Fabricio Condoy Seraquive & Equipo de Prácticas"
+institute: "Carrera de Arquitectura Sostenible & Carrera de Economía — Universidad Nacional de Loja"
+date: "Octubre 2026"
+format:
+  revealjs:
+    theme: simple
+    transition: slide
+    slide-number: true
+    toc: false
+    chalkboard: true
+    preview-links: auto
+    footer: "UNL — Taller 2 Horas: SIG y Levantamiento de Información (Proyecto El Capulí)"
+    css: presentacion.css
+    width: 1280
+    height: 720
+execute:
+  echo: false
+  warning: false
+---
+
+## ⏱️ Ruta del Taller Intensivo (120 Minutos)
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.arch-card}
+#### Bloque 1 (00 - 30 min): El Trípode de Investigación
+- ¿Por qué el plano técnico no basta?
+- Encuesta cuantitativa + Entrevista cualitativa + Video in situ.
+- El estándar INEC y la validación para construcción.
+:::
+
+::: {.arch-card}
+#### Bloque 2 (30 - 65 min): KoboToolbox Multimodal
+- Cómo cargar y configurar Encuestas, Audios y Videos.
+- Lógica de validación: campos obligatorios y reglas anti-error.
+- Límites de peso de video y cómo no colapsar la memoria.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.arch-card .arch-card-warning}
+#### Bloque 3 (65 - 90 min): Tips de Campo & Supervivencia
+- El abordaje comunitario y el Consentimiento Informado.
+- Triangulación: lo que dice el vecino vs. la realidad física.
+- Protocolo de seguridad y calibración GPS en quebradas.
+:::
+
+::: {.arch-card .arch-card-success}
+#### Bloque 4 (90 - 120 min): Reto Práctico en Vivo
+- Dinámica por parejas: 1 encuesta + 1 audio-entrevista + 1 paneo de video.
+- Sincronización y visualización del mapa en tiempo real en la pantalla.
+:::
+:::
+:::
+
+---
+
+## 🎯 El Desafío: Proyecto Barrio El Capulí
+
+::: {.columns}
+::: {.column width="55%"}
+### ¿Por qué la rigurosidad no es negociable?
+- Para que un proyecto arquitectónico, de equipamiento o vivienda sea **aprobado por el Municipio y validado ante el INEC**, no bastan croquis a mano alzada.
+- Se requiere un **Sistema de Información Geográfica (SIG) propio de la Carrera** con datos levantados bajo normas oficiales.
+- Necesitamos alimentar estudios de:
+  - Riesgos geológicos y pendientes de ladera.
+  - Riesgos hidrológicos (quebradas y escorrentías).
+  - Tipologías estructurales reales y carencias de servicios.
+:::
+
+::: {.column width="45%"}
+::: {.arch-card .arch-card-danger}
+#### ⚠️ Lo que rechaza un Director Técnico:
+- "Me dijeron que el suelo es firme" sin video de evidencia de la cárcava.
+- Encuestas con preguntas inventadas o sin georreferencia precisa.
+- Entrevistas sin respaldo sonoro de los actores clave.
+- Puntos tomados con más de 5 metros de error.
+:::
+:::
+:::
+
+---
+
+# PARTE 1: Las 3 Técnicas de Investigación en Sitio
+### Encuesta $\bullet$ Entrevista $\bullet$ Video/Audio
+
+---
+
+## 📋 Técnica 1: La Encuesta Estructurada (Lo Factual)
+
+::: {.columns}
+::: {.column width="50%"}
+### ¿Qué medimos con la encuesta?
+- **El objeto físico y métrico**: número de niveles, materiales de cubierta y muros, frente y fondo de lote.
+- **Acceso a infraestructura**: agua de red pública, alcantarillado, acometida eléctrica, fibra óptica.
+- **Vulnerabilidad socio-habitacional**: Necesidades Básicas Insatisfechas (NBI) comparables con los estándares del censo INEC.
+:::
+
+::: {.column width="50%"}
+::: {.arch-card}
+#### 💡 Regla de Oro en la Encuesta:
+*La encuesta responde a preguntas cerradas y cuantitativas:*
+- ¿Cuántos pisos tiene? (Número exacto).
+- ¿Qué material predomina en la estructura? (Selección única).
+- ¿Presenta fisuras visibles? (Sí / No).
+
+**Nunca use preguntas ambiguas o abiertas en una encuesta de conteo.**
+:::
+:::
+:::
+
+---
+
+## 🎙️ Técnica 2: La Entrevista a Profundidad (Lo Cualitativo)
+
+::: {.columns}
+::: {.column width="50%"}
+### ¿A quiénes y por qué entrevistamos?
+- **Líderes barriales, adultos mayores y fundadores**: rescate de la memoria territorial del barrio.
+- **¿Qué no se ve en un plano?**
+  - ¿Hasta dónde subió el agua en la última inundación de la quebrada?
+  - ¿Por qué esa calle se corta abruptamente?
+  - ¿Cuáles son los puntos críticos de inseguridad para los niños y mujeres?
+:::
+
+::: {.column width="50%"}
+::: {.arch-card .arch-card-warning}
+#### 🎯 Cómo se levanta en KoboToolbox:
+- Mediante preguntas de tipo **`audio`** (grabación directa de la voz).
+- Acompañada de campos de **`text`** donde el encuestador escribe una síntesis de las 3 ideas fuerza del testimonio.
+- **Tiempo óptimo:** 3 a 5 minutos por cápsula testimonial.
+:::
+:::
+:::
+
+---
+
+## 🎥 Técnica 3: El Video y Registro Dinámico (Lo Pericial)
+
+::: {.columns}
+::: {.column width="50%"}
+### ¿Por qué una foto fija a veces engaña?
+- Una foto no muestra el **flujo del agua en una quebrada**, la vibración de un puente, el tránsito de camiones pesados ni la pendiente real de acceso.
+- El video técnico registra **la experiencia espacial y el riesgo dinámico**.
+:::
+
+::: {.column width="50%"}
+::: {.arch-card .arch-card-success}
+#### 📹 Tipologías de Video Técnico en Kobo:
+1. **Video de Entorno (Paneo Lento 180°):** Desde la calzada hacia el predio, mostrando la relación con las quebradas y los vecinos (15 a 20 seg).
+2. **Video de Patología Constructiva:** Recorrido en video de una grieta activa o cárcava de erosión.
+3. **Video de Aforo / Dinámica:** Registro del flujo vehicular o peatonal en horas pico.
+:::
+:::
+:::
+
+---
+
+# PARTE 2: Configuración en KoboToolbox
+### Carga de Encuestas, Audio y Video sin saturar el sistema
+
+---
+
+## ⚙️ Tipos de Datos Multimedia en XLSForm
+
+Para capturar estas técnicas en KoboToolbox / KoboCollect, utilizamos estas variables exactas:
+
+| Técnica | Tipo en Kobo / XLS | Variable de Ejemplo | Parámetros Clave |
+| :--- | :--- | :--- | :--- |
+| **Punto Espacial** | `geopoint` | `coords_predio` | Exigir precisión satelital $\le$ 5 m |
+| **Fotografía** | `image` | `foto_fachada` | Formato horizontal, encuadre total |
+| **Entrevista Sonora** | `audio` | `audio_entrevista` | Captura con micrófono del teléfono |
+| **Evidencia Dinámica**| `video` | `video_riesgo` | Duración máxima: **20 a 30 segundos** |
+| **Notas de Entrevista**| `text` | `sintesis_dialogo` | Síntesis analítica del testimonio |
+
+---
+
+## 🚨 El Gran Riesgo Técnico: Cómo Manejar el Video en Campo
+
+::: {.arch-card .arch-card-danger}
+### ⚠️ Cuidado con la Memoria y la Conexión Móvil
+Un video grabado en 4K o 1080p a 60fps pesa más de **150 MB por minuto**. Si 30 estudiantes graban 5 videos cada uno, el servidor colapsará y los datos móviles no podrán sincronizar los formularios en campo.
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+### ✅ Protocolo Obligatorio para Video:
+1. **Bajar la resolución de video en la app:** Configurar la cámara en **HD (720p)** o **VGA (480p)**.
+2. **Duración Máxima:** Clips de **15 a 25 segundos**. ¡No son películas, son testimonios técnicos!
+3. **Grabación Horizontal y Paneo Lento:** Evitar movimientos bruscos para que la topografía y las fisuras se aprecien con claridad.
+:::
+
+::: {.column width="50%"}
+### 🔄 Política de Sincronización:
+- Grabar en campo en **modo offline**.
+- Guardar localmente en el móvil.
+- **Sincronizar únicamente vía Wi-Fi** en el laboratorio de la facultad o en el hogar.
+:::
+:::
+
+---
+
+## 🔒 Candados y Validaciones para Cuidar la Información
+
+::: {.columns}
+::: {.column width="50%"}
+### 1. Consentimiento antes de Grabar
+Antes de activar el micrófono o la cámara, el formulario debe exigir el consentimiento:
+- `select_one` `resp_sino` con nombre `acepta_grabacion`.
+- Si marca "No", el campo de video o audio **se oculta y se deshabilita**:
+  ```xlsform
+  relevant: ${acepta_grabacion} = 'si'
+  ```
+:::
+
+::: {.column width="50%"}
+### 2. Restricciones a Números Raros
+Si el estudiante levanta el número de familias o pisos:
+- `constraint: . >= 1 and . <= 5`
+- Mensaje de error personalizado:
+  *"Valor inválido. Ingrese un valor real verificado en sitio."*
+:::
+:::
+
+---
+
+# PARTE 3: Tips de Campo y Tácticas Urbanas
+### Lo que no te enseñan en el aula de diseño
+
+---
+
+## 🤝 Tip 1: El Abordaje al Vecino y la Empatía Comunitaria
+
+::: {.columns}
+::: {.column width="50%"}
+### ❌ El Error Común:
+Llegar en grupo de 4 personas, con actitud fría, apuntando con el teléfono hacia la casa sin saludar y exigiendo información privada.
+*Resultado:* Los vecinos cierran la puerta, desconfían o llaman a la policía.
+:::
+
+::: {.column width="50%"}
+### ✅ El Protocolo Profesional:
+1. **Saludo Institucional y Presentación:**  
+   *"Buenos días, somos estudiantes de la Carrera de Arquitectura de la UNL. Estamos realizando un estudio técnico para diagnosticar los riesgos y necesidades de equipamiento del barrio El Capulí..."*
+2. **Aclaración Inmediata:**  
+   *"No somos del cobro de predios ni de embargos. Este estudio es académico y servirá para proponer mejoras en el barrio."*
+3. **Solicitud Amable:**  
+   *"¿Nos regala 3 minutos de su tiempo para conocer su opinión sobre el estado de las vías y quebradas?"*
+:::
+:::
+
+---
+
+## 📐 Tip 2: El Principio de Triangulación de Verdad
+
+::: {.arch-card}
+### 🔍 En Arquitectura nunca te quedas con una sola versión
+Un levantamiento riguroso cruza tres fuentes de información simultáneas:
+:::
+
+```
+                        1. LO QUE DICE EL HABITANTE
+                        (Percepción subjetiva / Entrevista)
+                                    ▲
+                                   / \
+                                  /   \
+                                 /     \
+                                ▼       ▼
+           2. LO QUE OBSERVA EL ARQUITECTO   ◄───►   3. LO QUE DICE LA NORMA Y EL MAPA
+           (Evidencia en foto, video y cotas)        (Plano INEC, pendiente, riesgos)
+```
+
+> **Ejemplo:** El vecino dice que el terreno *«nunca se inunda»*, pero el arquitecto filma marcas de humedad a 40 cm en la base de la pared y el mapa SIG muestra que está en el cono de deyección de una torrentera.
+
+---
+
+## 🔋 Tip 3: Logística y Supervivencia del Dispositivo
+
+::: {.columns}
+::: {.column width="50%"}
+### ☀️ Gestión Térmica y Batería:
+- El uso continuo de **GPS + Pantalla con brillo al 100% bajo el sol + Grabación de Video** agota una batería en menos de 2 horas y sobrecalienta el procesador.
+- **Solución:**
+  - Llevar batería externa (Power Bank).
+  - Bloquear la pantalla entre predio y predio mientras se camina.
+  - Guardar el teléfono bajo sombra si se calienta en exceso.
+:::
+
+::: {.column width="50%"}
+### 🌧️ Contingencia Climática (Lluvia de Loja):
+- Las pantallas táctiles mojadas fallan en la respuesta táctil.
+- Portar siempre funda impermeable transparente o bolsa hermética (Ziploc) para seguir operando sin riesgo de dañar el equipo.
+:::
+:::
+
+---
+
+# PARTE 4: Taller Práctico en Vivo (30 Minutos)
+### ¡Manos al formulario en tiempo real!
+
+---
+
+## 🚀 El Reto Práctico del Taller
+
+::: {.arch-card .arch-card-success}
+### Dinámica en Parejas (Campus / Aula)
+Cada pareja asumirá el rol de **Brigada Técnica de Diagnóstico Arquitectónico**:
+- **Estudiante A:** Entrevistador y Operador de KoboCollect.
+- **Estudiante B:** Informante clave (rol de vecino o líder barrial).
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+#### Pasos del Reto:
+1. Abrir KoboCollect y tomar la **coordenada GPS** del punto actual.
+2. Llenar la **encuesta rápida** de tipología y servicios.
+3. Grabar un **audio de 30 segundos** preguntando sobre una necesidad del espacio.
+4. Grabar un **video de 15 segundos** haciendo un paneo del entorno.
+:::
+
+::: {.column width="50%"}
+#### Cierre del Taller:
+- Enviar el formulario finalizado al servidor.
+- Proyectaremos el **mapa general interactivo en la pantalla** para ver todos los puntos, fotos y audios en vivo.
+:::
+:::
+
+---
+
+## 🏆 Checklist Final de Salida para el Proyecto El Capulí
+
+::: {.columns}
+::: {.column width="50%"}
+- [ ] KoboCollect instalado y con credenciales del servidor guardadas.
+- [ ] Formulario oficial descargado y probado offline.
+- [ ] Cámara configurada a resolución eficiente (720p).
+- [ ] Criterio claro de umbral GPS ($\le$ 5 metros).
+:::
+
+::: {.column width="50%"}
+- [ ] Protocolo de saludo y consentimiento asimilado.
+- [ ] Hábito de triangulación (entrevista + foto + verificación visual).
+- [ ] Compromiso de sincronización diaria sin inventar datos.
+:::
+:::
+
+---
+
+## 💬 Ronda de Preguntas y Debate Técnico
+
+::: {.arch-card}
+### "La arquitectura de calidad no empieza en el lápiz, empieza en la verdad del territorio."
+:::
+
+**Supervisión del Proyecto:** Arq. Alexandra Aguilera Maldonado / Arq. Pablo Araki  
+**Capacitación:** Erick Condoy & Equipo de Prácticas Preprofesionales de Economía  
+**Universidad Nacional de Loja — 2026**

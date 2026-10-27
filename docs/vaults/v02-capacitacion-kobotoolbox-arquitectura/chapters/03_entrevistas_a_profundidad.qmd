@@ -1,0 +1,32 @@
+La **entrevista cualitativa semiestructurada** recupera los significados, la memoria histórica de riesgos y la percepción social del territorio que escapan a los planos catastrales y registros censales.
+
+### Identificación y Selección de Informantes Clave
+
+El diagnóstico territorial exige seleccionar perfiles estratégicos con representatividad comunitaria:
+
+::: {.card-unl .card-unl-green}
+#### Perfiles de Actores Estratégicos en Territorio
+- **1. Dirigentes Barriales y Líderes Comunitarios:** Conocen la trayectoria organizativa, trámites ante el GAD Municipal de Loja, litigios de linderos colectivos y prioridades de equipamiento comunal.
+- **2. Adultos Mayores y Familias Fundadoras:** Preservan la memoria hidrogeológica del sector, cotas máximas de crecida en eventos climáticos extremos y zonas de deslizamiento histórico.
+- **3. Maestros de Obra y Albañiles Locales:** Identifican la capacidad portante aparente en zanjas de cimentación, presencia de nivel freático y patologías recurrentes en materiales de la zona.
+:::
+
+### Guion Modelo de Entrevista Semiestructurada
+
+El instrumento opera mediante una **guía de pautas temáticas abiertas**, facilitando la repregunta técnica ante puntos críticos:
+
+| Eje Temático | Pregunta Detonante en Territorio | Objetivo de Investigación |
+| :--- | :--- | :--- |
+| **Origen y Ocupación** | *«¿Cómo se originó el poblamiento de este sector y cómo consiguieron acceder a sus terrenos?»* | Identificar si el origen fue parcelación formal, posesión de hecho o herencia. |
+| **Memoria de Riesgos** | *«En los inviernos más fuertes, ¿hasta qué punto ha crecido el agua de las quebradas o qué laderas se han agrietado?»* | Contrastar con los mapas de amenaza hidrológica y geológica del GAD. |
+| **Servicios y Carencias** | *«¿Cómo resuelven el abastecimiento de agua cuando se corta la red y qué ocurre con las aguas servidas?»* | Detectar descargas clandestinas a quebradas y contaminación ambiental. |
+| **Espacio Público y Convivencia** | *«¿Qué lugares del barrio consideran inseguros o inhabitables para niños y adultos mayores, y por qué?»* | Diagnosticar la necesidad de iluminación, parques y áreas verdes. |
+
+### Captura y Procesamiento de Audio en KoboToolbox
+
+::: {.card-unl .card-unl-gold}
+#### Protocolo Técnico de Grabación de Audio
+1. **Pregunta de Consentimiento Previa:** Condiciona la activación del micrófono mediante la variable `acepta_audio` con opciones afirmativa o negativa. Si la respuesta es negativa, el campo se oculta mediante `relevant: ${acepta_audio} = 'si'`.
+2. **Duración:** Cápsulas concisas de **2 a 4 minutos**.
+3. **Síntesis Inmediata:** Al finalizar la grabación, el encuestador registra en un campo `text` los **tres hallazgos prioritarios** del testimonio.
+:::

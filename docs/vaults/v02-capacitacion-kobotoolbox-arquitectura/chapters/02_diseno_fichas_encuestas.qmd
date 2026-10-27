@@ -1,0 +1,30 @@
+### 1. Tipos de Preguntas y Variables en KoboToolbox
+
+En la arquitectura de KoboToolbox, basada en el estándar internacional XLSForm, cada variable técnica corresponde a un tipo estricto de entrada para garantizar que el dato sea limpio y procesable:
+
+| Tipo de Pregunta | Uso Operativo en Territorio | Ejemplo de Aplicación Multidisciplinar |
+| :--- | :--- | :--- |
+| `geopoint` | Coordenada satelital puntual: latitud, longitud, altitud y precisión | Ubicación exacta del predio, obra, poste o punto de muestreo |
+| `image` | Fotografía capturada con la cámara del dispositivo móvil | Fachada frontal, fisura estructural o avance de obra |
+| `select_one` | Selección única cerrada con opciones mutuamente excluyentes | Sistema estructural: hormigón, metal, madera o adobe |
+| `select_multiple` | Selección múltiple con opciones coexistentes | Cobertura de servicios: agua, electricidad, alcantarillado |
+| `integer` | Números enteros sin decimales | Número de pisos, número de familias, aforo de personas |
+| `decimal` | Mediciones métricas continuas | Frente de lote en metros, ancho de calzada en metros, pendiente en porcentaje |
+| `audio` | Grabación directa con el micrófono del celular | Testimonio directo del morador o informante clave |
+| `video` | Video corto pericial | Paneo de talud inestable, quebrada, vía o falla constructiva |
+| `text` | Texto libre para anotaciones de campo | Dictamen pericial u observaciones del encuestador |
+
+---
+
+### 2. Estructura Modular Universal de una Ficha Técnica de Campo
+
+Toda ficha técnica de levantamiento territorial se organiza de manera lógica en módulos secuenciales para agilizar el trabajo de campo:
+
+| Módulo | Objetivo Operativo | Variables Recolectadas |
+| :--- | :--- | :--- |
+| **1. Identificación y Control** | Trazabilidad del registro y metadatos de auditoría | Fecha y hora automática, código de estudiante, sector o zona |
+| **2. Georreferenciación Satelital**| Fijación cartográfica precisa en el plano SIG | Coordenada GPS `geopoint` con precisión calibrada menor o igual a 5 m |
+| **3. Características del Terreno o Lote**| Geometría y estado físico del suelo | Frente en metros, fondo en metros, topografía y condición de ocupación |
+| **4. Características Constructivas** | Diagnóstico físico-estructural | Sistema de pórticos o muros, número de niveles, estado de conservación |
+| **5. Cobertura y Factibilidad** | Verificación de redes y servicios disponibles | Agua potable de red, drenaje de aguas servidas, alumbrado público |
+| **6. Evidencia Pericial Multimedia**| Respaldo probatorio inalterable | Fotografía técnica de fachada, registro sonoro y video pericial |

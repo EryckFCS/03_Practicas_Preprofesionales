@@ -1,0 +1,720 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\input{giz_preamble.tex}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={PLANTILLA TÉCNICA INSTITUCIONAL: PERFIL DE PROYECTO URBANO SOSTENIBLE},
+  pdfauthor={Equipo Técnico Interdisciplinario (Economía \& Arquitectura - UNL)},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{PLANTILLA TÉCNICA INSTITUCIONAL: PERFIL DE PROYECTO URBANO
+SOSTENIBLE}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Estructura Operativa y Guía de Llenado bajo Estándar GIZ
+(Ciudades Intermedias Sostenibles CIS II / Aceleración de Proyectos
+Urbanos)}
+\author{Equipo Técnico Interdisciplinario (Economía \& Arquitectura -
+UNL)}
+\date{2026-10-23}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\chapter{PRESENTACIÓN Y GUÍA DE USO DE LA
+PLANTILLA}\label{presentaciuxf3n-y-guuxeda-de-uso-de-la-plantilla}
+
+\begin{quote}
+\textbf{Objetivo de este documento:}\\
+Esta plantilla estandarizada ha sido diseñada conforme a las directrices
+de la \textbf{Cooperación Alemana al Desarrollo (GIZ)} ---en particular
+los programas \emph{Ciudades Intermedias Sostenibles (CIS / CIS II)}, la
+\emph{Guía para Elaborar Perfiles de Proyecto de Cambio Climático en
+Ciudades (GIZ Ecuador, 2024)} y el marco \emph{FELICITY / TUMi}.
+
+\textbf{Instrucciones para el equipo técnico:}\\
+Los campos delimitados entre corchetes sombreados
+\texttt{{[}Completar:\ ...{]}} representan las secciones editables donde
+se debe vaciar y consolidar la información cuantitativa, espacial y
+social recopilada en campo (KoBoToolbox, Censo CPV 2022 REDATAM, aforos
+viales, cartografía QGIS y anteproyecto SbN).
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 1: FICHA GENERAL DE IDENTIFICACIÓN DEL PROYECTO (PROJECT
+FACTSHEET)}\label{muxf3dulo-1-ficha-general-de-identificaciuxf3n-del-proyecto-project-factsheet}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Campo Metodológico
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descripción / Registro Técnico
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Nombre del Proyecto:} &
+\texttt{{[}Completar:\ Ej.\ Intervención\ Integral,\ Movilidad\ Activa\ y\ Resiliencia\ Hídrica\ en\ el\ Barrio\ El\ Capulí{]}} \\
+\textbf{Localización Geográfica:} & Ecuador, Provincia de Loja, Cantón
+Loja, Parroquia Punzara, Sector Capulí Loma. \\
+\textbf{Coordenadas de Referencia (WGS84 / UTM 17S):} &
+\texttt{{[}Completar:\ X:\ ...\ ,\ Y:\ ...\ /\ Polígono\ delimitado\ en\ QGIS{]}} \\
+\textbf{Entidad Proponente / Promotora:} & Universidad Nacional de Loja
+(UNL) en articulación con el GAD Municipal de Loja y la Directiva
+Barrial. \\
+\textbf{Área de Influencia Territorial:} &
+\texttt{{[}Completar:\ Ej.\ Polígono\ de\ intervención\ directa:\ XX\ hectáreas\ /\ Polígono\ indirecto:\ XX\ ha{]}} \\
+\textbf{Población Beneficiaria Directa:} &
+\texttt{{[}Completar:\ N°\ de\ habitantes\ del\ Barrio\ El\ Capulí\ según\ Censo\ 2022\ y\ padrón\ local{]}} \\
+\textbf{Población Beneficiaria Indirecta:} &
+\texttt{{[}Completar:\ Población\ del\ área\ sur\ de\ Loja,\ comunidad\ universitaria\ La\ Argelia,\ usuarios\ de\ la\ Av.\ Reinaldo\ Espinosa{]}} \\
+\textbf{Tipología de Intervención GIZ:} & ☐ Movilidad Activa y Calles
+Completas ☐ Soluciones basadas en la Naturaleza (SbN / SUDS) ☐ Espacio
+Público y Sistema Verde Urbano ☒ Proyecto Integral / Multicomponente \\
+\textbf{Horizonte Temporal del Proyecto:} & Fase de formulación: 2026 \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 2: DIAGNÓSTICO TERRITORIAL Y LÍNEA BASE
+CUANTITATIVA}\label{muxf3dulo-2-diagnuxf3stico-territorial-y-luxednea-base-cuantitativa}
+
+\section{Delimitación Espacial y Contexto
+Geográfico}\label{delimitaciuxf3n-espacial-y-contexto-geogruxe1fico}
+
+\emph{Describa las características fisiográficas, topográficas y los
+límites del sector de intervención.}
+
+\texttt{{[}Completar\ texto:\ Describir\ la\ localización\ en\ la\ parroquia\ Punzara,\ la\ topografía\ accidentada\ de\ Capulí\ Loma\ con\ pendientes\ predominantes\ entre\ 15\%\ y\ 35\%,\ y\ su\ condición\ de\ borde\ urbano\ periurbano.{]}}
+
+\section{Caracterización Socioeconómica y Déficit Habitacional
+(Microdatos Censales /
+KoBoToolbox)}\label{caracterizaciuxf3n-socioeconuxf3mica-y-duxe9ficit-habitacional-microdatos-censales-kobotoolbox}
+
+\emph{Inserte la línea base cuantitativa obtenida del procesamiento del
+Censo CPV 2022 (REDATAM) y las encuestas de campo.}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Variable / Indicador
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Valor Levantado (Línea Base)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Comparativa Cantonal / Parroquial
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fuente de Información
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Hogares con Necesidades Básicas Insatisfechas (NBI):} &
+\texttt{{[}Completar:\ ej.\ 38.4\%{]}} &
+\texttt{{[}Completar:\ Cantón\ Loja:\ XX\%{]}} & Censo INEC 2022
+(REDATAM) \\
+\textbf{Cobertura de Red Pública de Agua Potable:} &
+\texttt{{[}Completar:\ ej.\ Déficit\ \textgreater{}\ 80\%\ /\ intermitente{]}}
+& \texttt{{[}Completar:\ Parroquia:\ XX\%{]}} & KoBoToolbox / Censo
+2022 \\
+\textbf{Acceso a Alcantarillado Sanitario / Pluvial:} &
+\texttt{{[}Completar:\ Cobertura\ XX\%\ /\ Pozos\ sépticos{]}} &
+\texttt{{[}Completar:\ Cantón:\ XX\%{]}} & Levantamiento de campo \\
+\textbf{Tipología y Calidad de la Vivienda:} &
+\texttt{{[}Completar:\ \%\ vivienda\ precaria\ /\ ladrillo\ /\ adobe{]}}
+& \texttt{{[}Completar{]}} & Fichas de Habitabilidad KoBo \\
+\textbf{Estructura Demográfica (Edad / Género):} &
+\texttt{{[}Completar:\ \%\ infancia,\ adultos\ mayores,\ género{]}} &
+\texttt{{[}Completar{]}} & Censo INEC 2022 \\
+\end{longtable}
+}
+
+\section{Diagnóstico del Sistema de Conectividad y Movilidad
+Urbana}\label{diagnuxf3stico-del-sistema-de-conectividad-y-movilidad-urbana}
+
+\emph{Analice las condiciones de transitabilidad, transporte público y
+seguridad vial.}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Jerarquización Vial y Estado de Calzada:}\\
+  \texttt{{[}Completar:\ Análisis\ de\ la\ Av.\ Reinaldo\ Espinosa\ como\ conector\ artificial\ primario\ y\ red\ de\ calles\ terciarias/pasajes\ en\ tierra\ o\ lastre\ sin\ aceras.{]}}
+\item
+  \textbf{Aforos y Modos de Desplazamiento:}\\
+  \texttt{{[}Completar:\ Resultados\ de\ los\ aforos\ vehiculares\ y\ peatonales,\ frecuencias\ de\ buses\ urbanos\ y\ modos\ de\ transporte\ utilizados\ por\ los\ moradores.{]}}
+\item
+  \textbf{Isócronas de Caminabilidad y Accesibilidad:}\\
+  \texttt{{[}Completar:\ Tiempos\ de\ desplazamiento\ a\ pie\ hacia\ el\ Campus\ Universitario\ La\ Argelia,\ paradas\ de\ bus\ más\ cercanas\ y\ equipamientos\ básicos\ (10-15\ min).{]}}
+\end{enumerate}
+
+\section{Vulnerabilidad Física, Pendientes y Riesgo
+Hídrico}\label{vulnerabilidad-fuxedsica-pendientes-y-riesgo-huxeddrico}
+
+\emph{Detalle los riesgos por escorrentía pluvial y estabilidad de
+laderas.}
+
+\texttt{{[}Completar:\ Detallar\ los\ puntos\ críticos\ de\ acumulación\ de\ escorrentías\ pluviales\ en\ época\ invernal,\ erosión\ de\ calzadas\ no\ pavimentadas,\ falta\ de\ subdrenajes\ y\ desbordamientos\ hacia\ la\ microcuenca\ del\ río\ Capulí.{]}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 3: TEORÍA DE CAMBIO Y ESTRUCTURA LÓGICA (METODOLOGÍA
+GIZ)}\label{muxf3dulo-3-teoruxeda-de-cambio-y-estructura-luxf3gica-metodologuxeda-giz}
+
+\section{Árbol de Problemas (Causa -
+Efecto)}\label{uxe1rbol-de-problemas-causa---efecto}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Efecto Final:} Deterioro de la calidad de vida, vulnerabilidad
+  socioambiental y fragmentación socio-espacial de los habitantes del
+  Barrio El Capulí.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Efecto 1.1:} Altos costos y tiempos de desplazamiento;
+    aislamiento de grupos vulnerables.
+  \item
+    \textbf{Efecto 1.2:} Inseguridad vial para peatones y ciclistas;
+    alta siniestralidad potencial.
+  \item
+    \textbf{Efecto 1.3:} Pérdida de biodiversidad urbana, contaminación
+    hídrica y anegamiento constante.
+  \end{itemize}
+\item
+  \textbf{PROBLEMA CENTRAL:} \textbf{Deficiente conectividad vial,
+  precariedad del espacio público y alta vulnerabilidad ante amenazas
+  hídricas en el Barrio El Capulí.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Causa Directa 1:} Infraestructura vial incompleta,
+    desarticulada y carente de criterios de movilidad activa 8-80.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{Causa Raíz 1.1:} Crecimiento urbano no planificado en ladera
+      sin dotación reglamentaria de aceras.
+    \end{itemize}
+  \item
+    \textbf{Causa Directa 2:} Inexistencia de un sistema de drenaje
+    pluvial sostenible y desprotección de la microcuenca.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{Causa Raíz 2.1:} Ausencia de Soluciones basadas en la
+      Naturaleza (SbN / SUDS) para regular escorrentías.
+    \end{itemize}
+  \item
+    \textbf{Causa Directa 3:} Carencia de equipamiento público
+    estructurante e integración ambiental.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{Causa Raíz 3.1:} Falta de consolidación del Parque de río
+      Capulí dentro del Sistema Verde Urbano cantonal.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\section{Árbol de Objetivos (Medios -
+Fines)}\label{uxe1rbol-de-objetivos-medios---fines}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Fin Último:} Incremento del bienestar, integración territorial
+  sostenible y resiliencia climática en el Barrio El Capulí.
+\item
+  \textbf{OBJETIVO GENERAL:} \textbf{Implementar un modelo de
+  intervención integral urbana y ambiental en El Capulí mediante
+  conectividad activa, soluciones basadas en la naturaleza y
+  consolidación de espacio público resiliente.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Componente 1:} Red de movilidad activa segura, continua e
+    inclusiva (Calle Completa).
+  \item
+    \textbf{Componente 2:} Sistema de amortiguamiento y drenaje pluvial
+    sostenible en laderas (SbN).
+  \item
+    \textbf{Componente 3:} Parque de río Capulí consolidado como
+    infraestructura verde comunitaria activa.
+  \end{itemize}
+\end{itemize}
+
+\section{Alineación Estratégica con Instrumentos de
+Planificación}\label{alineaciuxf3n-estratuxe9gica-con-instrumentos-de-planificaciuxf3n}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Instrumento / Marco de Política
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Eje / Meta Específica
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Alineación del Proyecto
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Agenda Hábitat Sostenible del Ecuador (AHSE 2036):} & Eje
+Ciudades Resilientes y Accesibles & Intervención integral en periferia
+urbana y SbN. \\
+\textbf{Plan de Desarrollo y Ordenamiento Territorial (PDOT Loja):} &
+Eje Territorial y Movilidad Sostenible & Jerarquización vial y reducción
+de brechas periféricas. \\
+\textbf{Plan del Sistema Verde Urbano de Loja:} & Proyecto Estructurante
+N° 11 & Recuperación y anteproyecto del Parque de río Capulí. \\
+\textbf{Objetivos de Desarrollo Sostenible (ODS):} & ODS 11 (Ciudades
+Sostenibles), ODS 13 (Acción por el Clima), ODS 6 (Agua Limpia) &
+Mitigación climática y acceso a infraestructura básica. \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 4: PROPUESTA TÉCNICA Y COMPONENTES DE
+INTERVENCIÓN}\label{muxf3dulo-4-propuesta-tuxe9cnica-y-componentes-de-intervenciuxf3n}
+
+\section{Componente 1: Conectividad Vial y Movilidad Activa (Calle
+Completa
+8-80)}\label{componente-1-conectividad-vial-y-movilidad-activa-calle-completa-8-80}
+
+\emph{Describa el diseño geométrico, perfiles viales y distribución
+modal propuestos.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Perfil Transversal Tipo (Calle Completa):}\\
+  \texttt{{[}Completar:\ Ancho\ de\ calzada\ vehicular,\ ancho\ de\ veredas\ peatonales\ accesibles\ con\ guía\ podotáctil,\ ciclovía\ segregada/compartida,\ arbolado\ viario\ y\ franjas\ de\ amortiguamiento.{]}}
+\item
+  \textbf{Conexión Intermodal hacia el Campus La Argelia:}\\
+  \texttt{{[}Completar:\ Trazado\ de\ senderos\ de\ ladera\ escalonados\ y\ rampas\ universales\ que\ reduzcan\ el\ tiempo\ de\ traslado\ a\ pie\ de\ 25\ min\ a\ 10\ min.{]}}
+\item
+  \textbf{Seguridad Vial y Pacificación de Tráfico:}\\
+  \texttt{{[}Completar:\ Reductores\ de\ velocidad\ tipo\ lomo\ de\ buey/plataforma\ única\ en\ cruces\ peatonales,\ señalética\ horizontal/vertical\ e\ iluminación\ LED\ solar.{]}}
+\end{itemize}
+
+\section{Componente 2: Resiliencia Hídrica y Soluciones basadas en la
+Naturaleza (SbN /
+SUDS)}\label{componente-2-resiliencia-huxeddrica-y-soluciones-basadas-en-la-naturaleza-sbn-suds}
+
+\emph{Detalle las tecnologías ambientales propuestas para el manejo de
+aguas de lluvia y laderas.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Jardines de Lluvia y Cunetas Verdes Biofiltrantes:}\\
+  \texttt{{[}Completar:\ Ubicación\ en\ márgenes\ de\ vía\ para\ retener\ el\ primer\ flujo\ de\ escorrentía\ pluvial\ y\ filtrar\ sedimentos.{]}}
+\item
+  \textbf{Pavimentos Permeables y Zanjas de Infiltración:}\\
+  \texttt{{[}Completar:\ Materiales\ propuestos\ en\ aceras\ y\ senderos\ para\ evitar\ la\ escorrentía\ superficial\ acelerada.{]}}
+\item
+  \textbf{Bioingeniería de Estabilización de Taludes:}\\
+  \texttt{{[}Completar:\ Viveros\ de\ especies\ nativas\ (vetiver,\ aliso,\ sigse)\ para\ protección\ de\ taludes\ con\ pendientes\ superiores\ al\ 25\%.{]}}
+\end{itemize}
+
+\section{Componente 3: Espacio Público y Parque Fluvial de río
+Capulí}\label{componente-3-espacio-puxfablico-y-parque-fluvial-de-ruxedo-capuluxed}
+
+\emph{Describa el anteproyecto paisajístico y comunitario.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Zonificación del Parque Fluvial:}\\
+  \texttt{{[}Completar:\ Zona\ de\ conservación\ ribereña,\ senderos\ ecológicos,\ áreas\ lúdico-deportivas,\ mirador\ paisajístico\ y\ plazas\ de\ encuentro\ barrial.{]}}
+\item
+  \textbf{Equipamiento Urbano Sostenible:}\\
+  \texttt{{[}Completar:\ Mobiliario\ urbano\ en\ madera\ plástica\ reciclada,\ iluminación\ fotovoltaica,\ puntos\ limpios\ y\ señalética\ didáctica\ ambiental.{]}}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 5: MODELO DE GESTIÓN, PRESUPUESTO Y SOSTENIBILIDAD
+(CAPEX /
+OPEX)}\label{muxf3dulo-5-modelo-de-gestiuxf3n-presupuesto-y-sostenibilidad-capex-opex}
+
+\section{Estimación de Costos de Inversión Inicial
+(CAPEX)}\label{estimaciuxf3n-de-costos-de-inversiuxf3n-inicial-capex}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1379}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+N°
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Componente / Rubro General
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Unidad
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Cantidad
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Costo Unitario Est. (USD)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Costo Total (USD)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{1} & Estudios definitivos y geotecnia & Glb & 1 &
+\texttt{{[}Completar{]}} & \texttt{{[}Completar{]}} \\
+\textbf{2} & Movilidad Activa y Veredas Inclusivas & m² / km &
+\texttt{{[}Completar{]}} & \texttt{{[}Completar{]}} &
+\texttt{{[}Completar{]}} \\
+\textbf{3} & Soluciones basadas en la Naturaleza (SUDS) & m² &
+\texttt{{[}Completar{]}} & \texttt{{[}Completar{]}} &
+\texttt{{[}Completar{]}} \\
+\textbf{4} & Infraestructura Verde y Parque de río Capulí & ha &
+\texttt{{[}Completar{]}} & \texttt{{[}Completar{]}} &
+\texttt{{[}Completar{]}} \\
+\textbf{5} & Fiscalización y Control Ambiental (5\%) & Glb & 1 &
+\texttt{{[}Completar{]}} & \texttt{{[}Completar{]}} \\
+\textbf{--} & \textbf{TOTAL ESTIMADO DE INVERSIÓN (CAPEX):} & -- & -- &
+-- & \textbf{\texttt{{[}Completar\ USD{]}}} \\
+\end{longtable}
+}
+
+\section{Costos de Operación y Mantenimiento a Largo Plazo
+(OPEX)}\label{costos-de-operaciuxf3n-y-mantenimiento-a-largo-plazo-opex}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Periodo / Horizonte
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Actividades Clave de Mantenimiento
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Costo Anual Promedio (USD)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Responsable Operativo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Corto Plazo (Años 1 al 5):} & Limpieza de sedimentos en SUDS,
+podas de arbolado, reposición de pintura vial. &
+\texttt{{[}Completar\ USD{]}} & GAD Loja / Comité Barrial \\
+\textbf{Mediano Plazo (Años 6 al 10):} & Mantenimiento de carpetas y
+juntas en senderos, reforestación complementaria. &
+\texttt{{[}Completar\ USD{]}} & GAD Municipal de Loja \\
+\textbf{Largo Plazo (Años 11 al 20):} & Rehabilitación mayor de
+mobiliario y obras civiles de contención. &
+\texttt{{[}Completar\ USD{]}} & Presupuesto Participativo GAD \\
+\end{longtable}
+}
+
+\section{Esquema Institucional y Gobernanza del
+Proyecto}\label{esquema-institucional-y-gobernanza-del-proyecto}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Nivel Directivo / Financiero:} GAD Municipal de Loja y líneas
+  de financiamiento verde (BDE, Fondos Climáticos, GIZ).
+\item
+  \textbf{Nivel Técnico y Asistencia Académica:} Universidad Nacional de
+  Loja (carreras de Economía y Arquitectura - Vinculación con la
+  Sociedad).
+\item
+  \textbf{Nivel de Custodia Comunitaria:} Junta Directiva del Barrio El
+  Capulí (Comité Barrial de Vigilancia y Cuidado del Parque).
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 6: MATRIZ DE MARCO LÓGICO, INDICADORES Y MONITOREO
+(MRV)}\label{muxf3dulo-6-matriz-de-marco-luxf3gico-indicadores-y-monitoreo-mrv}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nivel de Objetivos
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Indicador Cuantitativo
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Línea Base (2026)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Meta del Proyecto
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fuente de Verificación
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Supuestos / Riesgos
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Fin:} & Reducción de la vulnerabilidad socio-urbana & NBI:
+38.4\% & Reducción en 15\% & Censo / Encuestas socioeconómicas &
+Estabilidad institucional y macroeconómica \\
+\textbf{Propósito:} & Población con acceso a movilidad segura y espacio
+público de calidad & 0 m² de parque consolidado / 0\% veredas accesibles
+& 100\% de cobertura en eje central; 1 Parque Fluvial habilitado &
+Auditoría urbana y actas de entrega-recepción & Aprobación del PDOT y
+asignación presupuestaria \\
+\textbf{Componente 1:} & Kilómetros de senderos y veredas 8-80
+implementadas & 0.0 km con diseño universal &
+\texttt{{[}Completar:\ ej.\ 2.5\ km{]}} & Planos As-Built y
+fiscalización de obra & Cumplimiento contractual de contratistas \\
+\textbf{Componente 2:} & Caudal pico de escorrentía amortiguado por SbN
+& 0\% retención & Reducción de al menos 30\% del volumen pico pluvial &
+Medición hidrológica de campo & Fenómenos climáticos extremos
+atípicos \\
+\textbf{Componente 3:} & Superficie de áreas verdes ribereñas
+recuperadas & Microcuenca degradada &
+\texttt{{[}Completar:\ ej.\ 1.8\ ha{]}} & Levantamiento topográfico y
+ortofotos satelitales & Respaldo y apropiación de los vecinos \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{MÓDULO 7: ANEXOS TÉCNICOS OBLIGATORIOS
+REQUERIDOS}\label{muxf3dulo-7-anexos-tuxe9cnicos-obligatorios-requeridos}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Anexo A:} Cartografía Temática en Alta Resolución (Planos
+  QGIS: Pendientes, Usos de Suelo, Isócronas y Propuesta).
+\item
+  \textbf{Anexo B:} Base de Datos Tabulada de Encuestas KoBoToolbox
+  (Microdatos de campo anonimizados).
+\item
+  \textbf{Anexo C:} Tabulados de Microdatos Censales REDATAM (INEC CPV
+  2022).
+\item
+  \textbf{Anexo D:} Memorias de Cálculo Hidrológico y Dimensionamiento
+  Preliminar de SUDS.
+\item
+  \textbf{Anexo E:} Planos Arquitectónicos y Secciones Viales del
+  Anteproyecto 8-80.
+\item
+  \textbf{Anexo F:} Registro Fotográfico Georreferenciado y Actas de
+  Talleres Comunitarios Participativos.
+\end{itemize}
+
+
+
+
+\end{document}

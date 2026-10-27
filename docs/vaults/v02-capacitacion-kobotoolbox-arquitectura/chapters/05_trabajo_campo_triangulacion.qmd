@@ -1,0 +1,35 @@
+La rigurosidad investigativa en campo demanda neutralidad en la comunicación, apego a la ética y capacidad de verificación técnica.
+
+### 1. Protocolo de Abordaje en Territorio
+
+::: {.card-unl}
+#### Libreto Estándar de Presentación
+*«Buenos días o tardes. Mi nombre es [Nombre del Investigador o Estudiante], de la Universidad Nacional de Loja. Estamos realizando un levantamiento técnico para diagnosticar requerimientos de infraestructura, edificación y espacio público. Solicitamos su colaboración voluntaria de cinco minutos para una consulta ciudadana estrictamente académica.»*
+:::
+
+---
+
+### 2. Consentimiento Informado Verbal Obligatorio
+
+El levantamiento sonoro, fotográfico y de datos se rige por los principios éticos de investigación y la Ley Orgánica de Protección de Datos Personales:
+
+::: {.card-unl .card-unl-gold}
+#### Pregunta de Consentimiento en KoboCollect
+Previo a cualquier registro, se enuncia textualmente:
+
+*«¿Acepta participar de manera voluntaria en este levantamiento y autoriza el uso de la información, fotografías y audios de forma anónima con fines académicos y de planificación técnica?»*
+
+* **Aceptación:** Se registra `acepta_consentimiento = 'si'` y se procede al diligenciamiento.
+* **Rechazo:** Se registra `acepta_consentimiento = 'no'`, se almacena únicamente la coordenada exterior en espacio público y se concluye la visita. Queda prohibido insistir o registrar material sin consentimiento explícito.
+:::
+
+---
+
+### 3. Matriz de Triangulación de la Verdad Técnica
+
+Ninguna versión aislada constituye prueba concluyente; rige la confrontación de tres fuentes independientes:
+
+| Fuente A: Declaración del Ciudadano | Fuente B: Observación Pericial in Situ | Fuente C: Cartografía o Norma Técnica | Juicio Técnico y Resolución |
+| :--- | :--- | :--- | :--- |
+| *«En este sector no se presentan problemas de inundación.»* | Marcas hidrológicas a 60 cm en muros y canal de escorrentía frontal. | Capa SIG: quebrada intermitente con cono de deyección activo. | **Zona de riesgo hidrológico comprobada.** Prevalece la evidencia física y cartográfica. |
+| *«La edificación cuenta con diseño estructural sismorresistente.»* | Vigas sin confinamiento, estribos a más de 25 cm y losa con flecha visible. | Norma Constructiva: Incumple cuantía y espaciamiento mínimo. | **Vivienda vulnerable.** Requiere dictamen de reforzamiento estructural. |

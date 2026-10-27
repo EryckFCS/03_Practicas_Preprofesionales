@@ -1,0 +1,22 @@
+# Modelo de Gestión, Presupuesto y Sostenibilidad
+
+## Estructura Presupuestaria de Inversión y Mantenimiento
+
+La sostenibilidad de la intervención vincula el costo de inversión inicial con la viabilidad operativa futura [@giz_felicity_methodology_2020; @giz_miduvi_guia_paradigma_2021]:
+
+- **Inversión de Capital Inicial:**
+  - Obras de calle completa en la Avenida Reinaldo Espinosa.
+  - Red de senderos y escalinatas drenantes en Capulí Loma.
+  - Conformación inicial del Parque Fluvial de río Capulí y bioingeniería de riberas.
+- **Costos de Operación y Mantenimiento a 15 Años:**
+  - Limpieza periódica de canales de drenaje sostenible y desarenadores de ladera.
+  - Reposición de luminarias solares y manejo silvicultural del arbolado nativo.
+  - Modelo de gobernanza comunitaria entre la directiva barrial y el GAD Municipal de Loja.
+
+## Marco de Indicadores y Sistema de Monitoreo
+
+| Dimensión | Indicador Específico | Línea Base 2026 | Meta del Proyecto | Método de Verificación |
+| :--- | :--- | :---: | :---: | :--- |
+| **Accesibilidad** | Población con acceso menor a 15 min a transporte público | 36% | **85%** | Análisis de isócronas y levantamiento digital |
+| **Seguridad** | Mujeres con percepción de seguridad en horario nocturno | 24% | **75%** | Encuesta comunitaria de percepción barrial |
+| **Resiliencia** | Superficie de ladera con drenaje y taludes estabilizados | 0 ha | **4,2 ha** | Planimetría técnica y fiscalización de obra |

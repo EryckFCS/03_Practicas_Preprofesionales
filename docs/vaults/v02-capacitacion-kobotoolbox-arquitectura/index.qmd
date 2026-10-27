@@ -1,0 +1,108 @@
+---
+title: "Capacitación Técnica en KoboToolbox"
+format:
+  html:
+    theme: cosmo
+    css: custom_unl.css
+    page-layout: full
+    toc: false
+    number-sections: false
+    code-copy: true
+    code-fold: false
+---
+
+```{=html}
+<div class="cabecera-unl-container">
+  <img src="assets/logos/logo_unl.png" class="logo-unl-img" alt="Logo UNL">
+  <div class="texto-institucional">
+    <h2 class="cabecera-titulo">Capacitación Técnica en KoboToolbox & Levantamiento de Información Territorial</h2>
+    <div class="cabecera-badges">
+      <span class="badge-rol badge-instructor"><strong>Instructor / Ponente:</strong> Erick Fabricio Condoy Seraquive</span>
+      <span class="badge-rol badge-docente"><strong>Supervisión Docente:</strong> Arq. Alexandra Elizabeth Aguilera Maldonado</span>
+    </div>
+  </div>
+</div>
+```
+
+::: {.panel-tabset}
+
+## 1. Fundamentos y Uso de KoboToolbox
+
+{{< include chapters/01_fundamentos_investigacion.qmd >}}
+
+## 2. Tipos de Preguntas y Variables
+
+{{< include chapters/02_diseno_fichas_encuestas.qmd >}}
+
+## 3. Restricciones y Condiciones de Validación
+
+### Validación Automática de Respuestas en KoboToolbox
+
+Para que los estudios territoriales, diagnósticos urbanos y peritajes técnicos gocen de plena validez metodológica, la aplicación móvil debe bloquear errores humanos de tipeo o contradicciones físicas.
+
+::: {.card-unl .card-unl-red}
+#### Regla 1: Restricciones Matemáticas: constraint
+Si el dato ingresado está fuera de los rangos admisibles, KoboCollect impide avanzar y emite un mensaje de error en pantalla:
+:::
+
+```yaml
+# A. Validación de número de pisos construidos, rango urbano: 1 a 6 pisos
+type: integer
+name: num_pisos
+label: "Número de pisos construidos"
+constraint: . >= 1 and . <= 6
+constraint_message: "Error: El número de pisos debe encontrarse entre 1 y 6 niveles."
+
+# B. Validación de frente de lote, rango admisible: 4.0 a 100.0 metros
+type: decimal
+name: frente_lote
+label: "Dimensión del frente del lote hacia la vía (metros)"
+constraint: . >= 4.0 and . <= 100.0
+constraint_message: "Error: El frente del lote no puede ser menor a 4 m ni mayor a 100 m."
+```
+
+::: {.card-unl .card-unl-gold}
+#### Regla 2: Saltos Condicionales: relevant
+Las preguntas solo se activan si guardan coherencia con las respuestas previas:
+:::
+
+```yaml
+# A. Si el lote es BALDÍO, se ocultan automáticamente las preguntas sobre la edificación
+relevant: ${estado_ocupacion} != 'baldio'
+
+# B. La foto y detalle de patología solo se activan si previamente se declaró daño estructural
+relevant: ${presenta_dano} = 'si'
+```
+
+## 4. Plantillas XLSForm Descargables
+
+{{< include chapters/08_plantillas_fichas_descargables.qmd >}}
+
+## 5. Entrevistas y Registro Pericial
+
+{{< include chapters/03_entrevistas_a_profundidad.qmd >}}
+
+{{< include chapters/04_evidencia_video_pericial.qmd >}}
+
+## 6. Protocolo y Triangulación de Campo
+
+{{< include chapters/05_trabajo_campo_triangulacion.qmd >}}
+
+## 7. Taller Práctico de Simulación
+
+{{< include chapters/06_taller_practico_el_capuli.qmd >}}
+
+## 8. Recursos y Acceso a la Plataforma
+
+{{< include chapters/07_enlaces_app_api.qmd >}}
+
+## 9. Actividad Práctica: Formulario desde Cero
+
+{{< include chapters/09_actividad_practica_encuesta_desde_cero.qmd >}}
+
+## 10. Tipos Avanzados y Errores Críticos de Diseño
+
+{{< include chapters/10_analisis_errores_diseno_cuestionarios.qmd >}}
+
+:::
+

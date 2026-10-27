@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Capacitación Técnica en KoboToolbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-ca54cbca69027f2e727ddaba63ec68f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="custom_unl.css">
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
+
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Capacitación Técnica en KoboToolbox</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cabecera-unl-container">
+  <img src="assets/logos/logo_unl.png" class="logo-unl-img" alt="Logo UNL">
+  <div class="texto-institucional">
+    <h2 class="cabecera-titulo anchored">Capacitación Técnica en KoboToolbox &amp; Levantamiento de Información Territorial</h2>
+    <div class="cabecera-badges">
+      <span class="badge-rol badge-instructor"><strong>Instructor / Ponente:</strong> Erick Fabricio Condoy Seraquive</span>
+      <span class="badge-rol badge-docente"><strong>Supervisión Docente:</strong> Arq. Alexandra Elizabeth Aguilera Maldonado</span>
+    </div>
+  </div>
+</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">1. Fundamentos y Uso de KoboToolbox</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">2. Tipos de Preguntas y Variables</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">3. Restricciones y Condiciones de Validación</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">4. Plantillas XLSForm Descargables</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">5. Entrevistas y Registro Pericial</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">6. Protocolo y Triangulación de Campo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">7. Taller Práctico de Simulación</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">8. Recursos y Acceso a la Plataforma</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false" href="">9. Actividad Práctica: Formulario desde Cero</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-10-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-10" role="tab" aria-controls="tabset-1-10" aria-selected="false" href="">10. Tipos Avanzados y Errores Críticos de Diseño</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="definición-de-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="definición-de-kobotoolbox">1. Definición de KoboToolbox</h3>
+<p><strong>KoboToolbox</strong> es una suite tecnológica de código abierto desarrollada originalmente por el <em>Harvard Humanitarian Initiative</em> y las Naciones Unidas, UN OCHA, para la recolección, auditoría y análisis de datos en campo, diseñada para operar en <strong>entornos de alta exigencia territorial y sin conectividad a internet</strong>.</p>
+<p>El ecosistema opera mediante dos componentes integrados:</p>
+<ol type="1">
+<li><strong>Servidor Web Central, KoboToolbox Cloud:</strong> Plataforma web donde se diseñan los formularios técnicos mediante constructor visual o estándares XLSForm en Excel, se administran los usuarios y proyectos, y se monitorea la base de datos geoespacial en tiempo real.</li>
+<li><strong>Aplicación Móvil de Campo, KoboCollect:</strong> Aplicación para dispositivos móviles en Android, iOS o navegador web que permite capturar formularios estructurados, coordenadas satelitales GPS, fotografías periciales, grabaciones de audio y video operando <strong>sin conexión a internet, en modo fuera de línea</strong>.</li>
+</ol>
+<hr>
+</section>
+<section id="justificación-técnica-del-uso-de-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="justificación-técnica-del-uso-de-kobotoolbox">2. Justificación Técnica del Uso de KoboToolbox</h3>
+<p>Frente a métodos tradicionales en papel o formularios web genéricos, KoboToolbox resuelve los requerimientos críticos del trabajo en territorio:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Criterio Técnico</th>
+<th style="text-align: center;">Cuaderno de Campo o Papel</th>
+<th style="text-align: center;">Google Forms o Formularios Web</th>
+<th style="text-align: center;">KoboToolbox y KoboCollect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Operación sin Internet, Fuera de Línea</strong></td>
+<td style="text-align: center;">Factible, proceso manual y lento</td>
+<td style="text-align: center;">Inviable sin plan de datos activo</td>
+<td style="text-align: center;"><strong>Operación fuera de línea con almacenamiento local seguro</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Captura Satelital GPS</strong></td>
+<td style="text-align: center;">Requiere receptor GPS externo</td>
+<td style="text-align: center;">Imprecisa o manual</td>
+<td style="text-align: center;"><strong>Nativa con umbral de precisión configurable, menor o igual a 5 m</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Validación de Errores en Tiempo Real</strong></td>
+<td style="text-align: center;">Nula, detección posterior</td>
+<td style="text-align: center;">Muy limitada</td>
+<td style="text-align: center;"><strong>Bloqueo inmediato de inconsistencias: constraint</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Saltos Condicionales</strong></td>
+<td style="text-align: center;">Propenso a errores del encuestador</td>
+<td style="text-align: center;">Requiere saltos de sección</td>
+<td style="text-align: center;"><strong>Activación dinámica en pantalla: relevant</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Evidencia Pericial: Audio y Video</strong></td>
+<td style="text-align: center;">No vinculable directamente</td>
+<td style="text-align: center;">Proceso complejo y pesado</td>
+<td style="text-align: center;"><strong>Integrada y georreferenciada a cada registro predial</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Exportación a SIG, CAD o Python</strong></td>
+<td style="text-align: center;">Digitalización manual prolongada</td>
+<td style="text-align: center;">Limitada a hojas de cálculo</td>
+<td style="text-align: center;"><strong>GeoJSON, Shapefile, Excel y API v2 en tiempo real</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="objetivo-de-la-capacitación" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo-de-la-capacitación">3. Objetivo de la Capacitación</h3>
+<section id="objetivo-central" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="objetivo-central">Objetivo Central</h4>
+<p>Capacitar de manera práctica y operativa a los estudiantes en el manejo de <strong>KoboToolbox y KoboCollect</strong>, permitiendo que cada uno configure, publique y aplique en territorio formularios técnicos con <strong>rigor pericial, precisión cartográfica y consistencia lógica</strong>, aplicable a:</p>
+<ul>
+<li><strong>Arquitectura y Urbanismo:</strong> Diagnósticos de lote, análisis de patologías estructurales, normas constructivas y aforos.</li>
+<li><strong>Obras Civiles e Infraestructura:</strong> Fiscalización de obras, verificación de redes de agua potable, vialidad y alcantarillado.</li>
+<li><strong>Gestión de Riesgos y Territorio:</strong> Identificación de taludes inestables, cercanía a quebradas e inundabilidad.</li>
+<li><strong>Diagnóstico Socioeconómico y Censal:</strong> Levantamiento de necesidades básicas, demografía y dinámica barrial.</li>
+</ul>
+</section>
+<hr>
+</section>
+<section id="enfoque-metodológico-del-levantamiento-de-información" class="level3">
+<h3 class="anchored" data-anchor-id="enfoque-metodológico-del-levantamiento-de-información">4. Enfoque Metodológico del Levantamiento de Información</h3>
+<p>Todo levantamiento técnico riguroso combina dos dimensiones:</p>
+<div class="card-unl">
+<ul>
+<li><strong>Dimensión Cuantitativa, Medición y Conteo:</strong> Número de niveles construidos, dimensión del frente del lote en metros, porcentaje de cobertura de servicios básicos. Se registra mediante variables numéricas, <code>integer</code> y <code>decimal</code>, y opciones cerradas, <code>select_one</code>.</li>
+<li><strong>Dimensión Cualitativa, Análisis Contextual:</strong> Registro de antecedentes de deslizamientos, percepción de seguridad del entorno e interpretaciones del habitante. Se captura con preguntas abiertas, <code>text</code>, testimonios directos en voz, <code>audio</code>, y registro visual del entorno, <code>video</code>.</li>
+</ul>
+</div>
+<p><em>En KoboToolbox, ambas dimensiones se consolidan en una única ficha digital integrada.</em></p>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="tipos-de-preguntas-y-variables-en-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-de-preguntas-y-variables-en-kobotoolbox">1. Tipos de Preguntas y Variables en KoboToolbox</h3>
+<p>En la arquitectura de KoboToolbox, basada en el estándar internacional XLSForm, cada variable técnica corresponde a un tipo estricto de entrada para garantizar que el dato sea limpio y procesable:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tipo de Pregunta</th>
+<th style="text-align: left;">Uso Operativo en Territorio</th>
+<th style="text-align: left;">Ejemplo de Aplicación Multidisciplinar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>geopoint</code></td>
+<td style="text-align: left;">Coordenada satelital puntual: latitud, longitud, altitud y precisión</td>
+<td style="text-align: left;">Ubicación exacta del predio, obra, poste o punto de muestreo</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>image</code></td>
+<td style="text-align: left;">Fotografía capturada con la cámara del dispositivo móvil</td>
+<td style="text-align: left;">Fachada frontal, fisura estructural o avance de obra</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>select_one</code></td>
+<td style="text-align: left;">Selección única cerrada con opciones mutuamente excluyentes</td>
+<td style="text-align: left;">Sistema estructural: hormigón, metal, madera o adobe</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>select_multiple</code></td>
+<td style="text-align: left;">Selección múltiple con opciones coexistentes</td>
+<td style="text-align: left;">Cobertura de servicios: agua, electricidad, alcantarillado</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>integer</code></td>
+<td style="text-align: left;">Números enteros sin decimales</td>
+<td style="text-align: left;">Número de pisos, número de familias, aforo de personas</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>decimal</code></td>
+<td style="text-align: left;">Mediciones métricas continuas</td>
+<td style="text-align: left;">Frente de lote en metros, ancho de calzada en metros, pendiente en porcentaje</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>audio</code></td>
+<td style="text-align: left;">Grabación directa con el micrófono del celular</td>
+<td style="text-align: left;">Testimonio directo del morador o informante clave</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>video</code></td>
+<td style="text-align: left;">Video corto pericial</td>
+<td style="text-align: left;">Paneo de talud inestable, quebrada, vía o falla constructiva</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>text</code></td>
+<td style="text-align: left;">Texto libre para anotaciones de campo</td>
+<td style="text-align: left;">Dictamen pericial u observaciones del encuestador</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="estructura-modular-universal-de-una-ficha-técnica-de-campo" class="level3">
+<h3 class="anchored" data-anchor-id="estructura-modular-universal-de-una-ficha-técnica-de-campo">2. Estructura Modular Universal de una Ficha Técnica de Campo</h3>
+<p>Toda ficha técnica de levantamiento territorial se organiza de manera lógica en módulos secuenciales para agilizar el trabajo de campo:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Módulo</th>
+<th style="text-align: left;">Objetivo Operativo</th>
+<th style="text-align: left;">Variables Recolectadas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1. Identificación y Control</strong></td>
+<td style="text-align: left;">Trazabilidad del registro y metadatos de auditoría</td>
+<td style="text-align: left;">Fecha y hora automática, código de estudiante, sector o zona</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2. Georreferenciación Satelital</strong></td>
+<td style="text-align: left;">Fijación cartográfica precisa en el plano SIG</td>
+<td style="text-align: left;">Coordenada GPS <code>geopoint</code> con precisión calibrada menor o igual a 5 m</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3. Características del Terreno o Lote</strong></td>
+<td style="text-align: left;">Geometría y estado físico del suelo</td>
+<td style="text-align: left;">Frente en metros, fondo en metros, topografía y condición de ocupación</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>4. Características Constructivas</strong></td>
+<td style="text-align: left;">Diagnóstico físico-estructural</td>
+<td style="text-align: left;">Sistema de pórticos o muros, número de niveles, estado de conservación</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>5. Cobertura y Factibilidad</strong></td>
+<td style="text-align: left;">Verificación de redes y servicios disponibles</td>
+<td style="text-align: left;">Agua potable de red, drenaje de aguas servidas, alumbrado público</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>6. Evidencia Pericial Multimedia</strong></td>
+<td style="text-align: left;">Respaldo probatorio inalterable</td>
+<td style="text-align: left;">Fotografía técnica de fachada, registro sonoro y video pericial</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="validación-automática-de-respuestas-en-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="validación-automática-de-respuestas-en-kobotoolbox">Validación Automática de Respuestas en KoboToolbox</h3>
+<p>Para que los estudios territoriales, diagnósticos urbanos y peritajes técnicos gocen de plena validez metodológica, la aplicación móvil debe bloquear errores humanos de tipeo o contradicciones físicas.</p>
+<section id="regla-1-restricciones-matemáticas-constraint" class="level4 card-unl card-unl-red">
+<h4 class="anchored" data-anchor-id="regla-1-restricciones-matemáticas-constraint">Regla 1: Restricciones Matemáticas: constraint</h4>
+<p>Si el dato ingresado está fuera de los rangos admisibles, KoboCollect impide avanzar y emite un mensaje de error en pantalla:</p>
+</section>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A. Validación de número de pisos construidos, rango urbano: 1 a 6 pisos</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">type</span><span class="kw">:</span><span class="at"> integer</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> num_pisos</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span><span class="kw">:</span><span class="at"> </span><span class="st">"Número de pisos construidos"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">constraint</span><span class="kw">:</span><span class="at"> . &gt;= 1 and . &lt;= 6</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">constraint_message</span><span class="kw">:</span><span class="at"> </span><span class="st">"Error: El número de pisos debe encontrarse entre 1 y 6 niveles."</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># B. Validación de frente de lote, rango admisible: 4.0 a 100.0 metros</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">type</span><span class="kw">:</span><span class="at"> decimal</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> frente_lote</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span><span class="kw">:</span><span class="at"> </span><span class="st">"Dimensión del frente del lote hacia la vía (metros)"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">constraint</span><span class="kw">:</span><span class="at"> . &gt;= 4.0 and . &lt;= 100.0</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">constraint_message</span><span class="kw">:</span><span class="at"> </span><span class="st">"Error: El frente del lote no puede ser menor a 4 m ni mayor a 100 m."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="regla-2-saltos-condicionales-relevant" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="regla-2-saltos-condicionales-relevant">Regla 2: Saltos Condicionales: relevant</h4>
+<p>Las preguntas solo se activan si guardan coherencia con las respuestas previas:</p>
+</section>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A. Si el lote es BALDÍO, se ocultan automáticamente las preguntas sobre la edificación</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">relevant</span><span class="kw">:</span><span class="at"> ${estado_ocupacion} != 'baldio'</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># B. La foto y detalle de patología solo se activan si previamente se declaró daño estructural</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">relevant</span><span class="kw">:</span><span class="at"> ${presenta_dano} = 'si'</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Cuatro instrumentos técnicos estandarizados bajo la norma internacional <strong>XLSForm de KoboToolbox</strong>, listos para que cada estudiante los descargue a su computadora, los cargue en su propia cuenta de KoboToolbox, los publique y los sincronice con su teléfono móvil:</p>
+<section id="procedimiento-individual-de-carga-y-sincronización" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="procedimiento-individual-de-carga-y-sincronización">Procedimiento Individual de Carga y Sincronización</h4>
+<ol type="1">
+<li><strong>Descargar</strong> el archivo <code>.xlsx</code> de la plantilla seleccionada a la computadora.</li>
+<li>Ingresar a la cuenta personal de KoboToolbox en <a href="https://kf.kobotoolbox.org/">kf.kobotoolbox.org</a>, pulsar <strong>New</strong> y seleccionar <strong>Upload an XLSForm</strong>.</li>
+<li>Cargar el archivo <code>.xlsx</code> y presionar <strong>Deploy</strong> para publicar el formulario.</li>
+<li>En el teléfono móvil, abrir KoboCollect, configurar la cuenta personal, seleccionar <strong>Descargar formulario en blanco</strong> y comenzar el levantamiento individual.</li>
+</ol>
+</section>
+<hr>
+<section id="plantilla-01-ficha-de-levantamiento-territorial-y-predial" class="level3">
+<h3 class="anchored" data-anchor-id="plantilla-01-ficha-de-levantamiento-territorial-y-predial">1. Plantilla 01: Ficha de Levantamiento Territorial y Predial</h3>
+<p>Diseñada para la caracterización física de suelo, frente, fondo, topografía y delimitación con GPS satelital.</p>
+<div class="card-unl">
+<ul>
+<li><strong>Uso Principal:</strong> Diagnóstico urbano, regularización de asentamientos, catastro de predios y estudios de factibilidad.</li>
+<li><strong>Tipos de Datos Integrados:</strong> <code>geopoint</code> con precisión menor o igual a 5 m, <code>decimal</code>, <code>select_one</code>, <code>image</code> de fachada.</li>
+<li><strong>Candados Activos:</strong> Frente de lote restringido entre 3.0 m y 120.0 m.</li>
+</ul>
+</div>
+<p><a href="plantillas_xlsform/01_plantilla_levantamiento_territorial.xlsx" class="btn btn-primary" target="_blank">Descargar Plantilla 01: Levantamiento Territorial xlsx</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable o Pregunta</th>
+<th style="text-align: center;">Tipo XLSForm</th>
+<th style="text-align: left;">Candado o Lógica de Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Identificación del Estudiante</strong></td>
+<td style="text-align: center;"><code>text</code></td>
+<td style="text-align: left;">Campo obligatorio <code>required = yes</code> para control individual</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Sector o Zona</strong></td>
+<td style="text-align: center;"><code>text</code></td>
+<td style="text-align: left;">Campo alfanumérico obligatorio</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Punto Satelital GPS</strong></td>
+<td style="text-align: center;"><code>geopoint</code></td>
+<td style="text-align: left;">Coordenada con umbral satelital exigido menor o igual a 5.0 m</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Estado Físico del Lote</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Baldío, Construido, En Obra Gris, Abandonado</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Frente del Lote en Metros</strong></td>
+<td style="text-align: center;"><code>decimal</code></td>
+<td style="text-align: left;">Restricción física: <code>constraint: . &gt;= 3.0 and . &lt;= 120.0</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Topografía o Pendiente</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Plano menor al 5%, Suave de 5 a 15%, Moderada de 16 a 30%, Fuerte mayor al 30%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Foto Frontal de Fachada</strong></td>
+<td style="text-align: center;"><code>image</code></td>
+<td style="text-align: left;">Encuadre horizontal a 90° respecto a la vía</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="plantilla-02-ficha-de-inspección-constructiva-y-patologías" class="level3">
+<h3 class="anchored" data-anchor-id="plantilla-02-ficha-de-inspección-constructiva-y-patologías">2. Plantilla 02: Ficha de Inspección Constructiva y Patologías</h3>
+<p>Diseñada para peritajes técnicos, evaluación estructural rápida y registro visual de vulnerabilidad física.</p>
+<div class="card-unl card-unl-red">
+<ul>
+<li><strong>Uso Principal:</strong> Auditoría de edificaciones, análisis de riesgo por sismo o deslizamiento y peritaje de patologías.</li>
+<li><strong>Tipos de Datos Integrados:</strong> <code>integer</code> de pisos, <code>select_multiple</code> de daños, foto pericial y <code>video</code> de 15 segundos.</li>
+<li><strong>Candados Activos:</strong> Preguntas y fotografías de daños se habilitan únicamente si previamente se declara daño en la estructura.</li>
+</ul>
+</div>
+<p><a href="plantillas_xlsform/02_plantilla_inspeccion_constructiva_patologias.xlsx" class="btn btn-danger" target="_blank">Descargar Plantilla 02: Inspección Constructiva y Patologías xlsx</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable o Pregunta</th>
+<th style="text-align: center;">Tipo XLSForm</th>
+<th style="text-align: left;">Candado o Lógica de Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Número de Pisos</strong></td>
+<td style="text-align: center;"><code>integer</code></td>
+<td style="text-align: left;">Restricción admisible: <code>constraint: . &gt;= 1 and . &lt;= 8</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Sistema Estructural</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Hormigón armado, mampostería confinada, metálica, madera, adobe, mixto</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Tipo de Cubierta</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Losa de hormigón, teja cerámica, zinc o fibrocemento</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Estado de Conservación</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Bueno, Regular, Malo, Riesgo inminente de colapso</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Presencia de Patología</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Disparador lógico ante presencia de fisuras o daño aparente</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Detalle de Daños</strong></td>
+<td style="text-align: center;"><code>select_multiple</code></td>
+<td style="text-align: left;"><code>relevant: ${presenta_dano} = 'si'</code> para fisuras a 45°, armadura expuesta o humedad</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Foto de la Patología</strong></td>
+<td style="text-align: center;"><code>image</code></td>
+<td style="text-align: left;"><code>relevant: ${presenta_dano} = 'si'</code> para enfoque cercano de la falla</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Video Pericial</strong></td>
+<td style="text-align: center;"><code>video</code></td>
+<td style="text-align: left;">Paneo horizontal continuo de 15 segundos del entorno y cimentación</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="plantilla-03-encuesta-socioeconómica-y-servicios-básicos" class="level3">
+<h3 class="anchored" data-anchor-id="plantilla-03-encuesta-socioeconómica-y-servicios-básicos">3. Plantilla 03: Encuesta Socioeconómica y Servicios Básicos</h3>
+<p>Diseñada para encuestas a hogares, medición de déficit habitacional y acceso a redes públicas.</p>
+<div class="card-unl card-unl-gold">
+<ul>
+<li><strong>Uso Principal:</strong> Diagnóstico socioterritorial, planes de desarrollo comunitario y medición de necesidades básicas insatisfechas.</li>
+<li><strong>Tipos de Datos Integrados:</strong> <code>select_one</code>, <code>integer</code>, <code>select_multiple</code> de servicios y <code>audio</code> testimonial.</li>
+<li><strong>Candados Activos:</strong> Si no se acepta el consentimiento verbal, el formulario se cierra de forma automática.</li>
+</ul>
+</div>
+<p><a href="plantillas_xlsform/03_plantilla_encuesta_socioeconomica_servicios.xlsx" class="btn btn-warning" target="_blank">Descargar Plantilla 03: Encuesta Socioeconómica xlsx</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable o Pregunta</th>
+<th style="text-align: center;">Tipo XLSForm</th>
+<th style="text-align: left;">Candado o Lógica de Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Consentimiento Verbal</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Candado maestro: si es negativo, se bloquea el resto de preguntas</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Régimen de Tenencia</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Propia con título, posesión, arrendada, cedida por familiar</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Número de Habitantes</strong></td>
+<td style="text-align: center;"><code>integer</code></td>
+<td style="text-align: left;">Restricción lógica: <code>constraint: . &gt;= 1 and . &lt;= 18</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Servicios Básicos</strong></td>
+<td style="text-align: center;"><code>select_multiple</code></td>
+<td style="text-align: left;">Agua de red, alcantarillado, electricidad con medidor, recolección, internet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Frecuencia de Agua</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;"><code>relevant: selected(${servicios_basicos}, 'agua_red')</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Necesidad Prioritaria</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Vialidad, alcantarillado pluvial, alumbrado, áreas verdes, salud</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Testimonio en Audio</strong></td>
+<td style="text-align: center;"><code>audio</code></td>
+<td style="text-align: left;">Grabación de 30 segundos justificando la prioridad ciudadana</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="plantilla-04-entrevista-cualitativa-a-informante-clave" class="level3">
+<h3 class="anchored" data-anchor-id="plantilla-04-entrevista-cualitativa-a-informante-clave">4. Plantilla 04: Entrevista Cualitativa a Informante Clave</h3>
+<p>Diseñada para recuperar la memoria hidrogeológica, historia comunitaria y percepciones de líderes del sector.</p>
+<div class="card-unl">
+<ul>
+<li><strong>Uso Principal:</strong> Levantamiento etnográfico, reconstrucción de riesgos históricos y consulta previa informada.</li>
+<li><strong>Tipos de Datos Integrados:</strong> <code>audio</code> directo de uno a dos minutos por tema, <code>select_one</code> de perfil y dictamen pericial.</li>
+<li><strong>Candados Activos:</strong> Consentimiento expreso de grabación y validación de años de residencia.</li>
+</ul>
+</div>
+<p><a href="plantillas_xlsform/04_plantilla_entrevista_cualitativa_audio.xlsx" class="btn btn-info" target="_blank">Descargar Plantilla 04: Entrevista Cualitativa xlsx</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable o Pregunta</th>
+<th style="text-align: center;">Tipo XLSForm</th>
+<th style="text-align: left;">Candado o Lógica de Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Autorización de Audio</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Autorización explícita para la grabación en audio</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Perfil del Actor</strong></td>
+<td style="text-align: center;"><code>select_one</code></td>
+<td style="text-align: left;">Dirigente barrial, morador fundador, maestro de obra, comerciante, técnico</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Años de Residencia</strong></td>
+<td style="text-align: center;"><code>integer</code></td>
+<td style="text-align: left;"><code>constraint: . &gt;= 1 and . &lt;= 90</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Audio 1: Memoria Barrial</strong></td>
+<td style="text-align: center;"><code>audio</code></td>
+<td style="text-align: left;">Grabación directa sobre orígenes del barrio, eventos climáticos y deslizamientos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Audio 2: Retos de Obra</strong></td>
+<td style="text-align: center;"><code>audio</code></td>
+<td style="text-align: left;">Grabación directa sobre problemas de cimentación, calidad de suelo y drenaje</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Juicio del Investigador</strong></td>
+<td style="text-align: center;"><code>text</code></td>
+<td style="text-align: left;">Síntesis pericial y balance de credibilidad de la información</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>La <strong>entrevista cualitativa semiestructurada</strong> recupera los significados, la memoria histórica de riesgos y la percepción social del territorio que escapan a los planos catastrales y registros censales.</p>
+<section id="identificación-y-selección-de-informantes-clave" class="level3">
+<h3 class="anchored" data-anchor-id="identificación-y-selección-de-informantes-clave">Identificación y Selección de Informantes Clave</h3>
+<p>El diagnóstico territorial exige seleccionar perfiles estratégicos con representatividad comunitaria:</p>
+<section id="perfiles-de-actores-estratégicos-en-territorio" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="perfiles-de-actores-estratégicos-en-territorio">Perfiles de Actores Estratégicos en Territorio</h4>
+<ul>
+<li><strong>1. Dirigentes Barriales y Líderes Comunitarios:</strong> Conocen la trayectoria organizativa, trámites ante el GAD Municipal de Loja, litigios de linderos colectivos y prioridades de equipamiento comunal.</li>
+<li><strong>2. Adultos Mayores y Familias Fundadoras:</strong> Preservan la memoria hidrogeológica del sector, cotas máximas de crecida en eventos climáticos extremos y zonas de deslizamiento histórico.</li>
+<li><strong>3. Maestros de Obra y Albañiles Locales:</strong> Identifican la capacidad portante aparente en zanjas de cimentación, presencia de nivel freático y patologías recurrentes en materiales de la zona.</li>
+</ul>
+</section>
+</section>
+<section id="guion-modelo-de-entrevista-semiestructurada" class="level3">
+<h3 class="anchored" data-anchor-id="guion-modelo-de-entrevista-semiestructurada">Guion Modelo de Entrevista Semiestructurada</h3>
+<p>El instrumento opera mediante una <strong>guía de pautas temáticas abiertas</strong>, facilitando la repregunta técnica ante puntos críticos:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Eje Temático</th>
+<th style="text-align: left;">Pregunta Detonante en Territorio</th>
+<th style="text-align: left;">Objetivo de Investigación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Origen y Ocupación</strong></td>
+<td style="text-align: left;"><em>«¿Cómo se originó el poblamiento de este sector y cómo consiguieron acceder a sus terrenos?»</em></td>
+<td style="text-align: left;">Identificar si el origen fue parcelación formal, posesión de hecho o herencia.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Memoria de Riesgos</strong></td>
+<td style="text-align: left;"><em>«En los inviernos más fuertes, ¿hasta qué punto ha crecido el agua de las quebradas o qué laderas se han agrietado?»</em></td>
+<td style="text-align: left;">Contrastar con los mapas de amenaza hidrológica y geológica del GAD.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Servicios y Carencias</strong></td>
+<td style="text-align: left;"><em>«¿Cómo resuelven el abastecimiento de agua cuando se corta la red y qué ocurre con las aguas servidas?»</em></td>
+<td style="text-align: left;">Detectar descargas clandestinas a quebradas y contaminación ambiental.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Espacio Público y Convivencia</strong></td>
+<td style="text-align: left;"><em>«¿Qué lugares del barrio consideran inseguros o inhabitables para niños y adultos mayores, y por qué?»</em></td>
+<td style="text-align: left;">Diagnosticar la necesidad de iluminación, parques y áreas verdes.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="captura-y-procesamiento-de-audio-en-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="captura-y-procesamiento-de-audio-en-kobotoolbox">Captura y Procesamiento de Audio en KoboToolbox</h3>
+<section id="protocolo-técnico-de-grabación-de-audio" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="protocolo-técnico-de-grabación-de-audio">Protocolo Técnico de Grabación de Audio</h4>
+<ol type="1">
+<li><strong>Pregunta de Consentimiento Previa:</strong> Condiciona la activación del micrófono mediante la variable <code>acepta_audio</code> con opciones afirmativa o negativa. Si la respuesta es negativa, el campo se oculta mediante <code>relevant: ${acepta_audio} = 'si'</code>.</li>
+<li><strong>Duración:</strong> Cápsulas concisas de <strong>2 a 4 minutos</strong>.</li>
+<li><strong>Síntesis Inmediata:</strong> Al finalizar la grabación, el encuestador registra en un campo <code>text</code> los <strong>tres hallazgos prioritarios</strong> del testimonio.</li>
+</ol>
+</section>
+<p>La <strong>fotografía técnica</strong> y el <strong>video pericial</strong> constituyen respaldo visual inalterable que valida físicamente las respuestas de la ficha técnica.</p>
+</section>
+<section id="aplicación-de-video-en-fenómenos-dinámicos" class="level3">
+<h3 class="anchored" data-anchor-id="aplicación-de-video-en-fenómenos-dinámicos">1. Aplicación de Video en Fenómenos Dinámicos</h3>
+<section id="cuándo-se-requiere-video-continuo" class="level4 card-unl">
+<h4 class="anchored" data-anchor-id="cuándo-se-requiere-video-continuo">Cuándo se requiere video continuo:</h4>
+<ul>
+<li><strong>Escorrentía y comportamiento hidráulico:</strong> Dirección y fuerza de aguas pluviales o proximidad a cauces.</li>
+<li><strong>Inestabilidad del terreno:</strong> Grietas en taludes, muros de contención o asentamientos diferenciales.</li>
+<li><strong>Topografía y accesibilidad:</strong> Paneo continuo de laderas con pendientes pronunciadas o barreras físicas.</li>
+<li><strong>Aforos dinámicos:</strong> Flujo de peatones o vehículos en nodos críticos de circulación.</li>
+</ul>
+</section>
+<section id="pauta-operativa-clave" class="level4 card-unl card-unl-red">
+<h4 class="anchored" data-anchor-id="pauta-operativa-clave">Pauta Operativa Clave</h4>
+<p>Los videos deben limitarse a <strong>clips cortos de 15 segundos en calidad estándar</strong>, garantizando que el peso del archivo se mantenga ligero para no saturar la memoria del teléfono ni retrasar la sincronización al servidor.</p>
+</section>
+</section>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<p>La rigurosidad investigativa en campo demanda neutralidad en la comunicación, apego a la ética y capacidad de verificación técnica.</p>
+<section id="protocolo-de-abordaje-en-territorio" class="level3">
+<h3 class="anchored" data-anchor-id="protocolo-de-abordaje-en-territorio">1. Protocolo de Abordaje en Territorio</h3>
+<section id="libreto-estándar-de-presentación" class="level4 card-unl">
+<h4 class="anchored" data-anchor-id="libreto-estándar-de-presentación">Libreto Estándar de Presentación</h4>
+<p><em>«Buenos días o tardes. Mi nombre es [Nombre del Investigador o Estudiante], de la Universidad Nacional de Loja. Estamos realizando un levantamiento técnico para diagnosticar requerimientos de infraestructura, edificación y espacio público. Solicitamos su colaboración voluntaria de cinco minutos para una consulta ciudadana estrictamente académica.»</em></p>
+</section>
+<hr>
+</section>
+<section id="consentimiento-informado-verbal-obligatorio" class="level3">
+<h3 class="anchored" data-anchor-id="consentimiento-informado-verbal-obligatorio">2. Consentimiento Informado Verbal Obligatorio</h3>
+<p>El levantamiento sonoro, fotográfico y de datos se rige por los principios éticos de investigación y la Ley Orgánica de Protección de Datos Personales:</p>
+<section id="pregunta-de-consentimiento-en-kobocollect" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="pregunta-de-consentimiento-en-kobocollect">Pregunta de Consentimiento en KoboCollect</h4>
+<p>Previo a cualquier registro, se enuncia textualmente:</p>
+<p><em>«¿Acepta participar de manera voluntaria en este levantamiento y autoriza el uso de la información, fotografías y audios de forma anónima con fines académicos y de planificación técnica?»</em></p>
+<ul>
+<li><strong>Aceptación:</strong> Se registra <code>acepta_consentimiento = 'si'</code> y se procede al diligenciamiento.</li>
+<li><strong>Rechazo:</strong> Se registra <code>acepta_consentimiento = 'no'</code>, se almacena únicamente la coordenada exterior en espacio público y se concluye la visita. Queda prohibido insistir o registrar material sin consentimiento explícito.</li>
+</ul>
+</section>
+<hr>
+</section>
+<section id="matriz-de-triangulación-de-la-verdad-técnica" class="level3">
+<h3 class="anchored" data-anchor-id="matriz-de-triangulación-de-la-verdad-técnica">3. Matriz de Triangulación de la Verdad Técnica</h3>
+<p>Ninguna versión aislada constituye prueba concluyente; rige la confrontación de tres fuentes independientes:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fuente A: Declaración del Ciudadano</th>
+<th style="text-align: left;">Fuente B: Observación Pericial in Situ</th>
+<th style="text-align: left;">Fuente C: Cartografía o Norma Técnica</th>
+<th style="text-align: left;">Juicio Técnico y Resolución</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>«En este sector no se presentan problemas de inundación.»</em></td>
+<td style="text-align: left;">Marcas hidrológicas a 60 cm en muros y canal de escorrentía frontal.</td>
+<td style="text-align: left;">Capa SIG: quebrada intermitente con cono de deyección activo.</td>
+<td style="text-align: left;"><strong>Zona de riesgo hidrológico comprobada.</strong> Prevalece la evidencia física y cartográfica.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>«La edificación cuenta con diseño estructural sismorresistente.»</em></td>
+<td style="text-align: left;">Vigas sin confinamiento, estribos a más de 25 cm y losa con flecha visible.</td>
+<td style="text-align: left;">Norma Constructiva: Incumple cuantía y espaciamiento mínimo.</td>
+<td style="text-align: left;"><strong>Vivienda vulnerable.</strong> Requiere dictamen de reforzamiento estructural.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<p>Aplicación práctica e individual de las técnicas de levantamiento técnico territorial:</p>
+<section id="rol-técnico-individual" class="level3">
+<h3 class="anchored" data-anchor-id="rol-técnico-individual">1. Rol Técnico Individual</h3>
+<section id="responsabilidades-del-estudiante" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="responsabilidades-del-estudiante">Responsabilidades del Estudiante</h4>
+<p>Cada estudiante opera de manera autónoma como responsable del levantamiento técnico de campo: * Calibrar la precisión GPS a un umbral menor o igual a 5 m antes de capturar el punto. * Registrar las variables métricas y constructivas con estricta rigurosidad física. * Capturar la evidencia pericial fotográfica, sonora y en video. * Validar que el formulario no contenga campos omitidos antes de finalizar el envío.</p>
+</section>
+<hr>
+</section>
+<section id="secuencia-operativa-del-ejercicio" class="level3">
+<h3 class="anchored" data-anchor-id="secuencia-operativa-del-ejercicio">2. Secuencia Operativa del Ejercicio</h3>
+<ol type="1">
+<li><strong>Apertura del Formulario:</strong> Iniciar KoboCollect en el teléfono móvil y abrir la ficha descargada desde la cuenta personal.</li>
+<li><strong>Fijación de Coordenada GPS Satelital:</strong> Ubicarse a cielo abierto frente al predio u objeto de estudio hasta que el radio de precisión satelital sea menor o igual a 5.0 metros.</li>
+<li><strong>Registro de Variables Cuantitativas:</strong> Ingresar número de pisos, dimensiones métricas, sistema estructural y redes de servicios.</li>
+<li><strong>Entrevista Testimonial en Audio:</strong> Grabar durante 30 segundos la respuesta a la pregunta abierta sobre prioridades del sector o dictamen pericial en voz propia.</li>
+<li><strong>Fotografía Técnica:</strong> Capturar la fachada frontal completa manteniendo el dispositivo horizontal a 90° respecto a la línea de acera.</li>
+<li><strong>Video Pericial:</strong> Grabar un video de 15 segundos realizando un paneo horizontal lento y continuo que registre la relación de la edificación con el terreno o la vía.</li>
+<li><strong>Control de Calidad Local:</strong> Verificar que la aplicación no señale campos obligatorios omitidos y marcar el registro como finalizado.</li>
+<li><strong>Sincronización:</strong> Enviar el formulario terminado al servidor de KoboToolbox mediante conexión de datos o Wi-Fi institucional.</li>
+</ol>
+<hr>
+</section>
+<section id="auditoría-en-servidor-central-en-tiempo-real" class="level3">
+<h3 class="anchored" data-anchor-id="auditoría-en-servidor-central-en-tiempo-real">3. Auditoría en Servidor Central en Tiempo Real</h3>
+<p>Una vez que cada estudiante sincroniza sus datos hacia el servidor, se ejecuta el control de calidad pericial:</p>
+<section id="puntos-clave-de-la-auditoría-técnica" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="puntos-clave-de-la-auditoría-técnica">Puntos Clave de la Auditoría Técnica</h4>
+<ul>
+<li><strong>Consistencia Cartográfica:</strong> Verificar que el punto GPS caiga dentro del polígono asignado sin dispersiones anómalas.</li>
+<li><strong>Control Acústico:</strong> Comprobar la nitidez de la grabación y el cumplimiento del protocolo de registro.</li>
+<li><strong>Integridad Relacional de la Matriz:</strong> Inspección en la tabla de datos para confirmar la coherencia entre las variables físicas registradas.</li>
+</ul>
+</section>
+</section>
+</div>
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<p>Acceso directo a las plataformas oficiales de KoboToolbox, descarga de aplicaciones móviles, curso de capacitación audiovisual y guía técnica de la API REST v2.</p>
+<section id="plataformas-oficiales-y-acceso-web" class="level3">
+<h3 class="anchored" data-anchor-id="plataformas-oficiales-y-acceso-web">1. Plataformas Oficiales y Acceso Web</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Servicio o Herramienta</th>
+<th style="text-align: left;">Finalidad Técnica</th>
+<th style="text-align: center;">Enlace Directo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>KoboToolbox: Servidor Global</strong></td>
+<td style="text-align: left;">Servidor general para investigación académica e institucional</td>
+<td style="text-align: center;"><a href="https://kf.kobotoolbox.org/" class="btn btn-outline-primary" target="_blank">kf.kobotoolbox.org</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>KoboToolbox: Servidor Humanitario</strong></td>
+<td style="text-align: left;">Servidor de alta capacidad soportado por OCHA</td>
+<td style="text-align: center;"><a href="https://eu.kobotoolbox.org/" class="btn btn-outline-primary" target="_blank">eu.kobotoolbox.org</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>KoboCollect: Android</strong></td>
+<td style="text-align: left;">Aplicación móvil oficial para recolección en campo fuera de línea</td>
+<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=org.koboc.collect.android" class="btn btn-success" target="_blank">Google Play Store</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Enketo Web Forms</strong></td>
+<td style="text-align: left;">Formulario web para iOS, navegador o computadora sin instalar aplicación</td>
+<td style="text-align: center;"><a href="https://enketo.org/" class="btn btn-outline-secondary" target="_blank">Enketo Web</a></td>
+</tr>
+</tbody>
+</table>
+<section id="configuración-rápida-en-kobocollect-móvil" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="configuración-rápida-en-kobocollect-móvil">Configuración Rápida en KoboCollect Móvil</h4>
+<ol type="1">
+<li>Abrir KoboCollect en el teléfono <span class="math inline">\(\rightarrow\)</span> <strong>Ajustes</strong> <span class="math inline">\(\rightarrow\)</span> <strong>Servidor</strong>.</li>
+<li><strong>URL del Servidor:</strong> ingresar <code>https://kf.kobotoolbox.org</code> o <code>https://eu.kobotoolbox.org</code>.</li>
+<li><strong>Credenciales:</strong> ingresar el usuario y contraseña de la cuenta personal de KoboToolbox.</li>
+<li>Volver a la pantalla principal <span class="math inline">\(\rightarrow\)</span> <strong>Descargar formulario en blanco</strong>.</li>
+</ol>
+</section>
+<hr>
+</section>
+<section id="curso-completo-en-video-para-profundizar-en-kobotoolbox" class="level3">
+<h3 class="anchored" data-anchor-id="curso-completo-en-video-para-profundizar-en-kobotoolbox">2. Curso Completo en Video para Profundizar en KoboToolbox</h3>
+<section id="lista-oficial-de-capacitación-integral-en-youtube" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="lista-oficial-de-capacitación-integral-en-youtube">Lista Oficial de Capacitación Integral en YouTube</h4>
+<p>Para profundizar en el diseño avanzado de formularios, lógica condicional compleja, gestión de datos y análisis:</p>
+<p><a href="https://www.youtube.com/playlist?list=PL2QAAd6mtvPJmgpwL4_6WAwVvq7dwX0S3" class="btn btn-danger" target="_blank">Acceder a la Lista de Reproducción Completa del Curso en YouTube</a></p>
+<p><em>Contenido del curso:</em> Desde la creación básica de cuentas y formularios XLSForm hasta el despliegue de proyectos en territorio y tratamiento de matrices.</p>
+</section>
+<hr>
+</section>
+<section id="ecosistema-de-desarrollo-api-rest-v2-y-automatización-en-python" class="level3">
+<h3 class="anchored" data-anchor-id="ecosistema-de-desarrollo-api-rest-v2-y-automatización-en-python">3. Ecosistema de Desarrollo: API REST v2 y Automatización en Python</h3>
+<p>KoboToolbox expone una API REST v2 completa para enlazar datos de campo directamente con QGIS, PostgreSQL, PostGIS o scripts analíticos:</p>
+<section id="endpoints-principales" class="level4">
+<h4 class="anchored" data-anchor-id="endpoints-principales">Endpoints Principales</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Endpoint</th>
+<th style="text-align: center;">Método</th>
+<th style="text-align: left;">Acción Técnica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>/api/v2/assets/</code></td>
+<td style="text-align: center;"><code>GET</code></td>
+<td style="text-align: left;">Listar formularios y consultar identificadores únicos <code>asset_uid</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>/api/v2/assets/{asset_uid}/data/</code></td>
+<td style="text-align: center;"><code>GET</code></td>
+<td style="text-align: left;">Descargar en tiempo real las respuestas registradas en formato JSON.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>/api/v2/assets/{asset_uid}/exports/</code></td>
+<td style="text-align: center;"><code>POST</code></td>
+<td style="text-align: left;">Disparar exportación automática a Excel, GeoJSON o CSV.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="script-de-extracción-en-python" class="level4">
+<h4 class="anchored" data-anchor-id="script-de-extracción-en-python">Script de Extracción en Python</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Parámetros de autenticación</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>TOKEN <span class="op">=</span> <span class="st">"TU_TOKEN_AQUI"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>ASSET_UID <span class="op">=</span> <span class="st">"TU_ASSET_UID_DEL_FORMULARIO"</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>KOBO_URL <span class="op">=</span> <span class="ss">f"https://kf.kobotoolbox.org/api/v2/assets/</span><span class="sc">{</span>ASSET_UID<span class="sc">}</span><span class="ss">/data.json"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>headers <span class="op">=</span> {</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Authorization"</span>: <span class="ss">f"Token </span><span class="sc">{</span>TOKEN<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Petición a la API v2</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> requests.get(KOBO_URL, headers<span class="op">=</span>headers)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> response.status_code <span class="op">==</span> <span class="dv">200</span>:</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> response.json()</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    registros <span class="op">=</span> data.get(<span class="st">"results"</span>, [])</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.DataFrame(registros)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Registros descargados: </span><span class="sc">{</span><span class="bu">len</span>(df)<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Exportar a CSV para carga directa en QGIS</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    df.to_csv(<span class="st">"datos_campo_kobo.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Error al consultar la API: </span><span class="sc">{</span>response<span class="sc">.</span>status_code<span class="sc">}</span><span class="ss"> - </span><span class="sc">{</span>response<span class="sc">.</span>text<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+</div>
+<div id="tabset-1-9" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-9-tab">
+<section id="actividad-práctica-creación-de-un-formulario-técnico-desde-cero" class="level3">
+<h3 class="anchored" data-anchor-id="actividad-práctica-creación-de-un-formulario-técnico-desde-cero">Actividad Práctica: Creación de un Formulario Técnico desde Cero</h3>
+<p>En esta actividad cada estudiante construirá en su computadora un formulario estructurado en el editor web de KoboToolbox, lo desplegará a su cuenta y lo sincronizará a su teléfono móvil en KoboCollect.</p>
+<hr>
+</section>
+<section id="especificación-de-variables-del-formulario" class="level3">
+<h3 class="anchored" data-anchor-id="especificación-de-variables-del-formulario">Especificación de Variables del Formulario</h3>
+<p>El formulario debe replicar la arquitectura estándar de las plantillas técnicas, organizada en los siguientes campos:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Orden</th>
+<th style="text-align: left;">Etiqueta de la Pregunta</th>
+<th style="text-align: left;">Tipo de Pregunta</th>
+<th style="text-align: left;">Nombre de Variable (<code>name</code>)</th>
+<th style="text-align: left;">Parámetros y Restricciones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Identificación del Estudiante</td>
+<td style="text-align: left;">Texto</td>
+<td style="text-align: left;"><code>id_estudiante</code></td>
+<td style="text-align: left;">Obligatorio</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Sector o Zona de Estudio</td>
+<td style="text-align: left;">Selección única</td>
+<td style="text-align: left;"><code>sector_estudio</code></td>
+<td style="text-align: left;">Opciones: <code>sector_norte</code>, <code>sector_centro</code>, <code>sector_sur</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Ubicación GPS del Predio</td>
+<td style="text-align: left;">Punto GPS</td>
+<td style="text-align: left;"><code>ubicacion_gps</code></td>
+<td style="text-align: left;">Precisión requerida menor o igual a 5 metros</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Estado de Ocupación</td>
+<td style="text-align: left;">Selección única</td>
+<td style="text-align: left;"><code>estado_ocupacion</code></td>
+<td style="text-align: left;">Opciones: <code>construido</code>, <code>en_construccion</code>, <code>baldio</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Frente del Lote en Metros</td>
+<td style="text-align: left;">Decimal</td>
+<td style="text-align: left;"><code>frente_lote</code></td>
+<td style="text-align: left;">Restricción: <code>. &gt;= 3.0 and . &lt;= 100.0</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Número de Pisos</td>
+<td style="text-align: left;">Entero</td>
+<td style="text-align: left;"><code>num_pisos</code></td>
+<td style="text-align: left;">Restricción: <code>. &gt;= 1 and . &lt;= 6</code>. Visible solo si <code>estado_ocupacion != 'baldio'</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Sistema Estructural</td>
+<td style="text-align: left;">Selección única</td>
+<td style="text-align: left;"><code>sistema_estructural</code></td>
+<td style="text-align: left;">Opciones: <code>hormigon</code>, <code>metalica</code>, <code>madera</code>, <code>mixto</code>. Visible solo si <code>estado_ocupacion != 'baldio'</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Presencia de Daño Aparente</td>
+<td style="text-align: left;">Selección única</td>
+<td style="text-align: left;"><code>presenta_dano</code></td>
+<td style="text-align: left;">Opciones: <code>si</code>, <code>no</code>. Visible solo si <code>estado_ocupacion != 'baldio'</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Fotografía de Fachada o Lote</td>
+<td style="text-align: left;">Imagen</td>
+<td style="text-align: left;"><code>foto_registro</code></td>
+<td style="text-align: left;">Obligatorio</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Dictamen Técnico u Observaciones</td>
+<td style="text-align: left;">Texto</td>
+<td style="text-align: left;"><code>observaciones</code></td>
+<td style="text-align: left;">Campo opcional</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="procedimiento-de-configuración-paso-a-paso" class="level3">
+<h3 class="anchored" data-anchor-id="procedimiento-de-configuración-paso-a-paso">Procedimiento de Configuración Paso a Paso</h3>
+<section id="fase-1-creación-en-la-plataforma-web" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="fase-1-creación-en-la-plataforma-web">Fase 1: Creación en la Plataforma Web</h4>
+<ol type="1">
+<li>Ingresar a <a href="https://kf.kobotoolbox.org/">kf.kobotoolbox.org</a> con la cuenta personal.</li>
+<li>Hacer clic en <strong>New</strong> y seleccionar <strong>Build from scratch</strong>.</li>
+<li>Asignar el título del proyecto: <code>Ejercicio Práctico: Levantamiento Técnico</code>.</li>
+<li>En Sector seleccionar <strong>Public Policy / Urban Planning</strong> y pulsar <strong>Create Project</strong>.</li>
+<li>Agregar secuencialmente las 10 preguntas listadas en la tabla anterior haciendo clic en el botón <code>+</code>.</li>
+</ol>
+</section>
+<section id="fase-2-configuración-de-candados-y-condiciones" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="fase-2-configuración-de-candados-y-condiciones">Fase 2: Configuración de Candados y Condiciones</h4>
+<ol type="1">
+<li>En la pregunta <code>num_pisos</code>, acceder a la configuración del engranaje <span class="math inline">\(\rightarrow\)</span> <strong>Validation Criteria</strong> y añadir la condición: <code>. &gt;= 1 and . &lt;= 6</code>.</li>
+<li>En esa misma pregunta, ir a <strong>Skip Logic</strong> y condicionar su visibilidad: mostrar solo si <code>estado_ocupacion</code> no es igual a <code>baldio</code>.</li>
+<li>Repetir la condición de <strong>Skip Logic</strong> para <code>sistema_estructural</code> y <code>presenta_dano</code>.</li>
+<li>En <code>frente_lote</code>, agregar el criterio de validación: <code>. &gt;= 3.0 and . &lt;= 100.0</code>.</li>
+<li>Guardar los cambios del formulario con el botón superior <strong>Save</strong> y pulsar <strong>Deploy</strong>.</li>
+</ol>
+</section>
+<section id="fase-3-sincronización-y-prueba-en-kobocollect" class="level4 card-unl">
+<h4 class="anchored" data-anchor-id="fase-3-sincronización-y-prueba-en-kobocollect">Fase 3: Sincronización y Prueba en KoboCollect</h4>
+<ol type="1">
+<li>En el teléfono móvil, abrir la aplicación <strong>KoboCollect</strong>.</li>
+<li>Verificar que el servidor y las credenciales apunten a la cuenta personal.</li>
+<li>Pulsar <strong>Descargar formulario en blanco</strong> y seleccionar <code>Ejercicio Práctico: Levantamiento Técnico</code>.</li>
+<li>Abrir <strong>Llenar nuevo formulario</strong>, capturar un registro de prueba completo y marcarlo como finalizado.</li>
+<li>Pulsar <strong>Enviar formulario finalizado</strong> y verificar en la computadora la recepción inmediata del dato en la pestaña <strong>Data</strong> de KoboToolbox.</li>
+</ol>
+</section>
+</section>
+</div>
+<div id="tabset-1-10" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-10-tab">
+<section id="tipos-avanzados-y-casos-de-uso-menos-obvios" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-avanzados-y-casos-de-uso-menos-obvios">1. Tipos Avanzados y Casos de Uso Menos Obvios</h3>
+<p>En el diseño de formularios técnicos con KoboToolbox (estándar XLSForm), existen tipos de preguntas y metadatos avanzados con aplicaciones directas para levantamientos barriales y análisis territorial riguroso:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Caso de uso interesante</th>
+<th style="text-align: left;">Aplicación a Capulí / Territorio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>geoshape</code> (Área)</td>
+<td style="text-align: left;">Delimita un polígono con varios puntos GPS</td>
+<td style="text-align: left;">Dibujar el límite de un sector o de un lote baldío. Después calculas superficie en QGIS.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>geotrace</code> (Línea)</td>
+<td style="text-align: left;">Registra una ruta con varios puntos GPS</td>
+<td style="text-align: left;">Trazar el tramo de calle sin pavimentar o el recorrido de una quebrada.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>rank</code> (Clasificación)</td>
+<td style="text-align: left;">Pide ordenar ítems por preferencia</td>
+<td style="text-align: left;">Ordenar de mayor a menor los problemas ambientales del barrio.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>audio</code></td>
+<td style="text-align: left;">Graba o sube un audio</td>
+<td style="text-align: left;">La “historia del sector”: un relato oral que luego se transcribe.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>file</code> (Archivo)</td>
+<td style="text-align: left;">Sube documentos como PDF u hojas de cálculo</td>
+<td style="text-align: left;">Adjuntar un plano, una escritura o un acta barrial.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>select_one_from_file</code> / CSV</td>
+<td style="text-align: left;">Toma las opciones de un CSV subido al proyecto</td>
+<td style="text-align: left;">Catálogos largos, como calles, barrios u ocupaciones, sin escribirlos a mano.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">XML externo (<code>pulldata</code>)</td>
+<td style="text-align: left;">Conecta con otro proyecto para traer datos</td>
+<td style="text-align: left;">Una segunda ola: recuperas la información de un hogar ya encuestado.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Auditoría (<code>audit</code> / metadatos)</td>
+<td style="text-align: left;">Registra cuándo se abrió/guardó el formulario, qué preguntas se vieron y tiempo por pantalla [<a href="https://github.com/kobotoolbox/docs/blob/master/source/form_meta.md">docs</a>]</td>
+<td style="text-align: left;">Detectar encuestadores que contestan demasiado rápido o saltan módulos.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Audio de fondo (<code>background-audio</code>)</td>
+<td style="text-align: left;">Graba en segundo plano mientras se llena el formulario [<a href="https://github.com/kobotoolbox/docs/blob/master/source/form_meta.md">docs</a>]</td>
+<td style="text-align: left;">Control de calidad de entrevistas periciales, siempre con consentimiento informado previo.</td>
+</tr>
+</tbody>
+</table>
+<section id="detalle-técnico-sobre-clasificación-rank" class="level4 card-unl card-unl-blue">
+<h4 class="anchored" data-anchor-id="detalle-técnico-sobre-clasificación-rank">Detalle Técnico sobre Clasificación (<code>rank</code>)</h4>
+<p>Si requieres que el ordenamiento de preferencias sea opcional, KoboToolbox por defecto impone validación obligatoria en la interfaz web. Para flexibilizarlo, es necesario descargar el archivo <strong>XLSForm (.xlsx)</strong> y remover el valor <code>true</code> de la columna <code>required</code> en la hoja <code>survey</code> [<a href="https://community.kobotoolbox.org/t/prevent-required-answers-for-ranking-feature/10244">community</a>].</p>
+</section>
+<section id="valor-metodológico-de-la-auditoría-y-audio-de-fondo" class="level4 card-unl card-unl-gold">
+<h4 class="anchored" data-anchor-id="valor-metodológico-de-la-auditoría-y-audio-de-fondo">Valor Metodológico de la Auditoría y Audio de Fondo</h4>
+<p>Los metadatos de auditoría (<code>audit</code>) y el audio de fondo son de alto valor en investigaciones académicas y peritajes. Aportan <strong>evidencia objetiva e inalterable</strong> de que el levantamiento de campo fue riguroso, trazable y veraz, algo decisivo para evaluadores y revisores. Los registros de auditoría se descargan como archivos CSV adjuntos a cada envío.</p>
+</section>
+<hr>
+</section>
+<section id="errores-críticos-de-diseño-y-redacción-en-cuestionarios" class="level3">
+<h3 class="anchored" data-anchor-id="errores-críticos-de-diseño-y-redacción-en-cuestionarios">2. Errores Críticos de Diseño y Redacción en Cuestionarios</h3>
+<p>Estos problemas corresponden a errores metodológicos y lógicos de diseño conceptual, no a fallas técnicas de la plataforma. La literatura especializada en metodología de encuestas los categoriza de la siguiente manera [<a href="https://www.surveymonkey.com/curiosity/double-barrel-survey-question/">SurveyMonkey</a>] [<a href="https://www.kantar.com/inspiration/research-services/double-barrelled-questions-pf">Kantar</a>] [<a href="https://www.displayr.com/common-mistakes-of-survey-design/">DisplayR</a>]:</p>
+<section id="a.-doble-pregunta-en-una-sola-double-barreled-questions" class="level4">
+<h4 class="anchored" data-anchor-id="a.-doble-pregunta-en-una-sola-double-barreled-questions">A. Doble Pregunta en una Sola (Double-Barreled Questions)</h4>
+<p>Consiste en mezclar dos o más ideas, eventos o condiciones distintas exigiendo una única respuesta:</p>
+<ul>
+<li><strong>Ejemplo detectado:</strong> <em>“¿Su vivienda o terreno ha sufrido afectaciones o está en riesgo por desborde de quebradas o deslizamientos?”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> Mezcla daño pasado con riesgo futuro, y confunde dos amenazas físicas distintas (desborde vs.&nbsp;deslizamiento). Deben separarse en preguntas independientes.</li>
+<li><strong>Ejemplo detectado:</strong> <em>“Colaborar con tiempo o dinero en una organización”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> Agrupa dos conductas no equivalentes. Una persona puede donar dinero sin disponer de tiempo, o viceversa.</li>
+<li><strong>Ejemplo detectado:</strong> <em>“¿Dispone de aparatos ahorradores (refrigerador, lavadora, secadora)?”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> Junta tres electrodomésticos distintos y asume que el encuestado conoce su etiquetado de eficiencia energética.</li>
+<li><strong>Ejemplo detectado:</strong> <em>“Sueldo o salario y otros ingresos”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> Mezcla ingreso laboral regular con ingresos extraordinarios o rentas en un solo valor agregado.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Regla Práctica de Redacción
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Identifica conectores lógicos (“y”, “o”) en cada enunciado y evalúa sistemáticamente si un informante podría responder de manera divergente a cada mitad de la frase [<a href="https://www.sogolytics.com/learning-center/survey-questionnaire/double-barreled-questions/">Sogolytics</a>].</p>
+</div>
+</div>
+</section>
+<section id="b.-preguntas-sesgadas-o-con-supuestos-previos-loaded-questions" class="level4">
+<h4 class="anchored" data-anchor-id="b.-preguntas-sesgadas-o-con-supuestos-previos-loaded-questions">B. Preguntas Sesgadas o con Supuestos Previos (Loaded Questions)</h4>
+<ul>
+<li><strong>Ejemplo detectado:</strong> <em>“¿Ha sido víctima de robo de auto?”</em> y <em>“¿Le han robado piezas de su auto?”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> Presuponen que el hogar cuenta con vehículo motorizado. Un hogar sin vehículo responderá “No”, distorsionando la muestra al clasificarlo incorrectamente como “hogar seguro”.<br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Solución:</strong> Incorporar una pregunta filtro previa (<em>“¿El hogar posee vehículo propio?”</em>) y vincular lógica condicional (<code>relevant</code>).</li>
+<li><strong>Ejemplo detectado:</strong> <em>“¿Ha sido víctima de algún crimen?”</em><br>
+<span class="math inline">\(\rightarrow\)</span> <strong>Problema:</strong> No delimita el concepto de delito y genera solapamiento directo con preguntas puntuales de robo.</li>
+</ul>
+</section>
+<section id="c.-dirección-inconsistente-en-escalas-y-prácticas" class="level4">
+<h4 class="anchored" data-anchor-id="c.-dirección-inconsistente-en-escalas-y-prácticas">C. Dirección Inconsistente en Escalas y Prácticas</h4>
+<ul>
+<li><strong>Ejemplo detectado:</strong> Si la mayoría de variables sobre eficiencia energética miden conductas positivas (ahorro), pero se formula <em>“¿Introducen alimentos calientes en el refrigerador?”</em>, esta última mide una práctica perjudicial.</li>
+<li><strong>Impacto analítico:</strong> Un “Sí” en una suma y en otra resta. Al calcular un índice sumativo simple, el puntaje final resultará sesgado.<br>
+</li>
+<li><strong>Corrección:</strong> Reformular hacia la misma dirección de deseabilidad: <em>“¿Esperan a que los alimentos se enfríen a temperatura ambiente antes de guardarlos en el refrigerador?”</em>.</li>
+</ul>
+</section>
+<section id="d.-categorías-incompletas-desbalanceadas-o-mal-rótuladas" class="level4">
+<h4 class="anchored" data-anchor-id="d.-categorías-incompletas-desbalanceadas-o-mal-rótuladas">D. Categorías Incompletas, Desbalanceadas o Mal Rótuladas</h4>
+<ul>
+<li><strong>Escala de vía de acceso desbalanceada:</strong> <em>Muy malo, Malo, Regular, Excelente</em>. Falta la categoría intermedia “Bueno”, provocando que la escala esté sesgada hacia valoraciones negativas.</li>
+<li><strong>Servicio de recolección de basura sin extremo positivo:</strong> <em>Muy mala, Mala, Regular, Buena</em>. Carece de una opción simétrica excelente/óptima.</li>
+<li><strong>Ocupación vs.&nbsp;Categoría de Ocupación:</strong> La pregunta se rotula como “ocupación” (profesión/oficio), pero sus opciones corresponden a categorías ocupacionales (empleado público, jornalero, cuenta propia). Además, si se define como selección múltiple, una persona con múltiples labores fragmentará la matriz de datos en múltiples columnas; debe emplearse selección única para la ocupación principal.</li>
+<li><strong>Autoidentificación étnica desalineada:</strong> La lista incluye opciones solapadas (<em>Afroecuatoriano, Afrodescendiente, Negro y Mulato</em>) y omite categorías oficiales como <em>Montubio</em> u <em>Otro</em>. Debe alinearse a los estándares censales del INEC antes del trabajo de campo.</li>
+<li><strong>Condición de actividad laboral incompleta:</strong> Restringir las opciones a <em>“Trabajó al menos una hora”</em> y <em>“No trabajó”</em> impide identificar a personas con empleo temporalmente ausentes o a desocupados en búsqueda activa, imposibilitando calcular tasas oficiales de desempleo o subempleo.</li>
+<li><strong>Criterio de compras forzado:</strong> Formular <em>“¿A usted le importa?”</em> con una única opción seleccionable obliga a descartar factores concurrentes; se debe estructurar mediante selección múltiple ponderada o jerarquización (<code>rank</code>).</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="vicios-de-formato-que-entorpecen-el-procesamiento-y-análisis" class="level3">
+<h3 class="anchored" data-anchor-id="vicios-de-formato-que-entorpecen-el-procesamiento-y-análisis">3. Vicios de Formato que Entorpecen el Procesamiento y Análisis</h3>
+<section id="problemas-en-la-estructura-de-datos" class="level4 card-unl card-unl-red">
+<h4 class="anchored" data-anchor-id="problemas-en-la-estructura-de-datos">Problemas en la Estructura de Datos</h4>
+<ol type="1">
+<li><strong>Ingreso monetario sin temporalidad ni rangos:</strong> Registrar ingresos como números enteros abiertos sin definir periodicidad (semanal, mensual) produce alta tasa de no respuesta y aproximaciones vagas. Se recomienda incluir rangos o categorías con códigos claros de omisión.</li>
+<li><strong>Códigos de datos faltantes inconsistentes:</strong> <em>“No sabe / No responde”</em> solo aparece en ciertas preguntas. Se debe estandarizar un esquema codificado uniforme (por ejemplo, <code>97 = No aplica</code>, <code>98 = No sabe</code>, <code>99 = No responde</code>) para no confundir omisiones con ceros o valores válidos.</li>
+<li><strong>Opciones “Otro” sin campo de especificación:</strong> Categorías abiertas de materiales constructivos (techo, piso, paredes) sin una variable de texto condicional asociada (<code>relevant</code>) impiden categorizar alternativas emergentes.</li>
+<li><strong>Dispersión en las escalas métricas:</strong> Emplear simultáneamente escalas de 0 a 10, 1 a 3 y 1 a 5 en distintos bloques destruye la comparabilidad directa y exige transformaciones complejas de estandarización previa.</li>
+<li><strong>Años aprobados desvinculados del nivel de instrucción:</strong> Permitir registrar libremente 12 años sin validar contra el nivel educativo (primaria, secundaria, superior) genera inconsistencias estructurales en el cálculo de escolaridad acumulada.</li>
+<li><strong>Inversión antinormativa de valores binarios:</strong> Usar <code>0</code> para “Sí” y <code>1</code> para “No” contraviene las normas de análisis cuantitativo y econométrico habitual (<code>1 = Sí / Presencia</code>, <code>0 = No / Ausencia</code>).</li>
+</ol>
+</section>
+<hr>
+</section>
+<section id="definición-clave-unidad-de-análisis-y-validación-piloto" class="level3">
+<h3 class="anchored" data-anchor-id="definición-clave-unidad-de-análisis-y-validación-piloto">4. Definición Clave: Unidad de Análisis y Validación Piloto</h3>
+<section id="el-dilema-de-la-unidad-de-análisis-hogar-vs.-persona" class="level4 card-unl card-unl-blue">
+<h4 class="anchored" data-anchor-id="el-dilema-de-la-unidad-de-análisis-hogar-vs.-persona">El Dilema de la Unidad de Análisis: Hogar vs.&nbsp;Persona</h4>
+<p>Uno de los fallos más graves en encuestas territoriales es mezclar unidades de observación sin control: * Las preguntas de percepción y satisfacción miden al <strong>individuo</strong>. * Las preguntas de infraestructura, vivienda y servicios básicos miden al <strong>hogar/predio</strong>. Si un único informante contesta por todos sin una jerarquía clara, se genera sesgo de representatividad. Es indispensable definir formalmente la unidad desde el diseño: determinar qué secciones corresponden a variables de nivel hogar y cuáles se desagregan a nivel individual mediante grupos repetidos (<code>begin_repeat</code> / <code>end_repeat</code>).</p>
+</section>
+<section id="por-qué-ocurren-estos-errores-y-cómo-prevenirlos" class="level4 card-unl card-unl-green">
+<h4 class="anchored" data-anchor-id="por-qué-ocurren-estos-errores-y-cómo-prevenirlos">¿Por Qué Ocurren estos Errores y Cómo Prevenirlos?</h4>
+<p>Suelen originarse cuando se ensamblan cuestionarios a partir de instrumentos dispares sin armonización técnica, cuando intervienen múltiples comités sin revisión metodológica unificada, o cuando se redacta pensando en la comodidad del encuestador y no en el análisis econométrico y espacial posterior.</p>
+<p><strong>Medida correctiva obligatoria:</strong> Ejecutar siempre una <strong>prueba piloto previa</strong> de 5 a 10 entrevistas reales en territorio. Observar dónde vacilan los encuestados, qué preguntas generan redundancia o rechazo, y corregir la matriz antes del levantamiento definitivo [<a href="https://www.kantar.com/inspiration/research-services/double-barrelled-questions-pf">Kantar</a>].</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

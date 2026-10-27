@@ -1,0 +1,50 @@
+### 1. Definición de KoboToolbox
+
+**KoboToolbox** es una suite tecnológica de código abierto desarrollada originalmente por el *Harvard Humanitarian Initiative* y las Naciones Unidas, UN OCHA, para la recolección, auditoría y análisis de datos en campo, diseñada para operar en **entornos de alta exigencia territorial y sin conectividad a internet**.
+
+El ecosistema opera mediante dos componentes integrados:
+
+1. **Servidor Web Central, KoboToolbox Cloud:** Plataforma web donde se diseñan los formularios técnicos mediante constructor visual o estándares XLSForm en Excel, se administran los usuarios y proyectos, y se monitorea la base de datos geoespacial en tiempo real.
+2. **Aplicación Móvil de Campo, KoboCollect:** Aplicación para dispositivos móviles en Android, iOS o navegador web que permite capturar formularios estructurados, coordenadas satelitales GPS, fotografías periciales, grabaciones de audio y video operando **sin conexión a internet, en modo fuera de línea**.
+
+---
+
+### 2. Justificación Técnica del Uso de KoboToolbox
+
+Frente a métodos tradicionales en papel o formularios web genéricos, KoboToolbox resuelve los requerimientos críticos del trabajo en territorio:
+
+| Criterio Técnico | Cuaderno de Campo o Papel | Google Forms o Formularios Web | KoboToolbox y KoboCollect |
+| :--- | :---: | :---: | :---: |
+| **Operación sin Internet, Fuera de Línea** | Factible, proceso manual y lento | Inviable sin plan de datos activo | **Operación fuera de línea con almacenamiento local seguro** |
+| **Captura Satelital GPS** | Requiere receptor GPS externo | Imprecisa o manual | **Nativa con umbral de precisión configurable, menor o igual a 5 m** |
+| **Validación de Errores en Tiempo Real** | Nula, detección posterior | Muy limitada | **Bloqueo inmediato de inconsistencias: constraint** |
+| **Saltos Condicionales** | Propenso a errores del encuestador | Requiere saltos de sección | **Activación dinámica en pantalla: relevant** |
+| **Evidencia Pericial: Audio y Video** | No vinculable directamente | Proceso complejo y pesado | **Integrada y georreferenciada a cada registro predial** |
+| **Exportación a SIG, CAD o Python** | Digitalización manual prolongada | Limitada a hojas de cálculo | **GeoJSON, Shapefile, Excel y API v2 en tiempo real** |
+
+---
+
+### 3. Objetivo de la Capacitación
+
+::: {.card-unl .card-unl-gold}
+#### Objetivo Central
+Capacitar de manera práctica y operativa a los estudiantes en el manejo de **KoboToolbox y KoboCollect**, permitiendo que cada uno configure, publique y aplique en territorio formularios técnicos con **rigor pericial, precisión cartográfica y consistencia lógica**, aplicable a:
+
+* **Arquitectura y Urbanismo:** Diagnósticos de lote, análisis de patologías estructurales, normas constructivas y aforos.
+* **Obras Civiles e Infraestructura:** Fiscalización de obras, verificación de redes de agua potable, vialidad y alcantarillado.
+* **Gestión de Riesgos y Territorio:** Identificación de taludes inestables, cercanía a quebradas e inundabilidad.
+* **Diagnóstico Socioeconómico y Censal:** Levantamiento de necesidades básicas, demografía y dinámica barrial.
+:::
+
+---
+
+### 4. Enfoque Metodológico del Levantamiento de Información
+
+Todo levantamiento técnico riguroso combina dos dimensiones:
+
+::: {.card-unl}
+* **Dimensión Cuantitativa, Medición y Conteo:** Número de niveles construidos, dimensión del frente del lote en metros, porcentaje de cobertura de servicios básicos. Se registra mediante variables numéricas, `integer` y `decimal`, y opciones cerradas, `select_one`.
+* **Dimensión Cualitativa, Análisis Contextual:** Registro de antecedentes de deslizamientos, percepción de seguridad del entorno e interpretaciones del habitante. Se captura con preguntas abiertas, `text`, testimonios directos en voz, `audio`, y registro visual del entorno, `video`.
+:::
+
+*En KoboToolbox, ambas dimensiones se consolidan en una única ficha digital integrada.*

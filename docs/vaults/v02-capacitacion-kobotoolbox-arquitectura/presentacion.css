@@ -1,0 +1,142 @@
+/* ==========================================================================
+   Estilos Personalizados para Reveal.js - Taller KoboToolbox Arquitectura
+   Paleta: Slate Blue (#1e293b), Arch Blue (#0284c7), Amber Gold (#d97706), Crisp White
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --r-main-font: 'Outfit', sans-serif;
+  --r-heading-font: 'Outfit', sans-serif;
+  --r-code-font: 'JetBrains Mono', monospace;
+  --r-link-color: #0284c7;
+  --r-link-color-hover: #0369a1;
+  --arch-navy: #0f172a;
+  --arch-blue: #0284c7;
+  --arch-accent: #f59e0b;
+  --arch-success: #10b981;
+  --arch-danger: #ef4444;
+  --arch-surface: #f8fafc;
+  --arch-border: #e2e8f0;
+}
+
+.reveal {
+  font-family: var(--r-main-font);
+  font-size: 26px;
+  color: #1e293b;
+  background-color: #ffffff;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: var(--r-heading-font);
+  font-weight: 700;
+  color: var(--arch-navy);
+  letter-spacing: -0.02em;
+  text-transform: none;
+}
+
+.reveal h2 {
+  font-size: 1.55em;
+  border-bottom: 2px solid var(--arch-blue);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.reveal h3 {
+  font-size: 1.25em;
+  color: var(--arch-blue);
+}
+
+/* Tarjetas y Contenedores */
+.arch-card {
+  background: var(--arch-surface);
+  border: 1px solid var(--arch-border);
+  border-left: 5px solid var(--arch-blue);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 12px 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.arch-card-warning {
+  background: #fffbeb;
+  border-left-color: var(--arch-accent);
+}
+
+.arch-card-success {
+  background: #ecfdf5;
+  border-left-color: var(--arch-success);
+}
+
+.arch-card-danger {
+  background: #fef2f2;
+  border-left-color: var(--arch-danger);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-blue { background: #e0f2fe; color: #0369a1; }
+.badge-gold { background: #fef3c7; color: #b45309; }
+.badge-green { background: #d1fae5; color: #047857; }
+.badge-red { background: #fee2e2; color: #b91c1c; }
+
+/* Tablas técnicas */
+.reveal table {
+  font-size: 0.8em;
+  margin: 16px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.reveal table th {
+  background-color: var(--arch-navy);
+  color: #ffffff;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.reveal table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--arch-border);
+}
+
+.reveal table tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+
+/* Fragmentos de código / XLSForm */
+.reveal pre code {
+  font-family: var(--r-code-font);
+  font-size: 0.78em;
+  border-radius: 6px;
+  padding: 14px;
+  line-height: 1.4;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* Énfasis visual */
+.highlight-text {
+  color: var(--arch-blue);
+  font-weight: 700;
+}
+
+.rule-pill {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: var(--r-code-font);
+  font-size: 0.85em;
+  color: #0f172a;
+}

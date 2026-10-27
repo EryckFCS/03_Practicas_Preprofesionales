@@ -1,0 +1,15 @@
+# Propuesta de Diseño Urbano y Soluciones basadas en la Naturaleza
+
+## Componentes de Intervención Urbana
+
+La propuesta técnica integra los criterios de diseño urbano y ambiental [@giz_miduvi_guia_paradigma_2021; @gad_loja_sistema_verde_urbano_2021]:
+
+1. **Perfil de Calle Completa en la Avenida Reinaldo Espinosa:**
+   - Incorporación de aceras permeables de 2,20 m con franja vegetal de amortiguamiento y arbolado nativo.
+   - Ciclovía segregada unidireccional que enlaza con las puertas de acceso de la UNL en el Campus La Argelia.
+2. **Sistema de Conectores Peatonales de Ladera en Capulí Loma:**
+   - Escalinatas y rampas continuas con descansos intergeneracionales de diseño universal.
+   - Canales de drenaje sostenible integrados a los laterales de las escalinatas para disipar la energía de las lluvias torrenciales.
+3. **Anteproyecto del Parque Fluvial de río Capulí:**
+   - Zona de conservación y amortiguamiento de la quebrada Malacatos y Capulí.
+   - Equipamiento recreativo pasivo, senderos de contemplación y estabilización biológica de riberas.

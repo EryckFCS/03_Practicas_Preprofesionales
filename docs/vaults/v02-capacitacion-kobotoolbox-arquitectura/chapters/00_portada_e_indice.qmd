@@ -1,0 +1,137 @@
+<div class="navbar-unl">
+<a href="#inicio-indice" class="navbar-brand-unl">
+<img src="assets/logos/logo_unl.png" alt="UNL" class="logo-nav">
+<div class="navbar-brand-texto">
+<span class="titulo-u">Universidad Nacional de Loja</span>
+<span class="sub-carrera">Investigación en Territorio &bull; KoboToolbox</span>
+</div>
+</a>
+<div class="navbar-cinta-opciones">
+<a href="#inicio-indice" class="nav-link-btn btn-active">Índice</a>
+<a href="#hoja-1" class="nav-link-btn">1. Fundamentos</a>
+<a href="#hoja-2" class="nav-link-btn">2. Fichas & Encuestas</a>
+<a href="#hoja-3" class="nav-link-btn">3. Entrevistas</a>
+<a href="#hoja-4" class="nav-link-btn">4. Video Pericial</a>
+<a href="#hoja-5" class="nav-link-btn">5. Tips de Campo</a>
+<a href="#hoja-6" class="nav-link-btn">6. Taller Práctico</a>
+</div>
+</div>
+
+<div id="inicio-indice"></div>
+
+<div class="portada-unl">
+<div class="portada-badge">Prácticas Preprofesionales Finales — Memorando UNL-FJSA-CE-2026-0621-M</div>
+<h1>Capacitación Técnica en Levantamiento de Información & Métodos de Investigación</h1>
+<p class="sub">Guía metodológica para el diseño, validación y aplicación de encuestas cuantitativas, entrevistas semiestructuradas, fichas técnicas de campo y registro pericial audiovisual estructurados para KoboToolbox y validación ante el INEC.</p>
+
+<div class="portada-meta-grid">
+<div class="portada-meta-item">
+<strong>Supervisión de Arquitectura:</strong>
+Arq. Alexandra Aguilera / Arq. Pablo Araki
+</div>
+<div class="portada-meta-item">
+<strong>Responsable de Prácticas:</strong>
+Sra. Liliana De Jesus Matailo Yaguana
+</div>
+<div class="portada-meta-item">
+<strong>Equipo Técnico Docente:</strong>
+Erick Condoy, Amanda Gálvez y Erick Barba
+</div>
+<div class="portada-meta-item">
+<strong>Territorio de Aplicación:</strong>
+Barrio El Capulí — Parroquia Punzara, Loja
+</div>
+<div class="portada-meta-item">
+<strong>Duración del Taller:</strong>
+Dos horas: 120 minutos
+</div>
+<div class="portada-meta-item">
+<strong>Salida Tecnológica:</strong>
+KoboToolbox &bull; QGIS EPSG 32717 &bull; CAD
+</div>
+</div>
+</div>
+
+---
+
+# Hoja 0: Índice General del Curso
+
+> Panel de navegación directa por Hojas de Trabajo:
+
+<div class="bento-indice">
+
+<a href="#hoja-1" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 1</span>
+<span class="bento-tiempo">15 Min</span>
+</div>
+<h3>Fundamentos del Levantamiento de Información</h3>
+<p>Principios del dato riguroso en investigación. Diferencias metodológicas entre abordaje cuantitativo, cualitativo y pericial. Trazabilidad y principio de no invención.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 1 <span>→</span></div>
+</a>
+
+<a href="#hoja-2" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 2</span>
+<span class="bento-tiempo">25 Min</span>
+</div>
+<h3>Diseño de Fichas y Encuestas Estructuradas</h3>
+<p>Anatomía de una ficha técnica: variables de conteo, escalas, selección única y múltiple. Prevención de sesgos en la formulación y candados lógicos <code>constraint</code> en XLSForm.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 2 <span>→</span></div>
+</a>
+
+<a href="#hoja-3" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 3</span>
+<span class="bento-tiempo">25 Min</span>
+</div>
+<h3>Técnica de Entrevistas a Profundidad</h3>
+<p>Recuperación de la memoria histórica y percepción de riesgo territorial. Guiones semiestructurados, selección de informantes clave y registro sonoro de audio en KoboCollect.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 3 <span>→</span></div>
+</a>
+
+<a href="#hoja-4" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 4</span>
+<span class="bento-tiempo">15 Min</span>
+</div>
+<h3>Evidencia Audiovisual y Registro en Video</h3>
+<p>Fenómenos territoriales dinámicos: escorrentías de quebradas, taludes y aforos. Especificaciones técnicas de 720p y duración de 15 a 20 segundos para optimizar el almacenamiento.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 4 <span>→</span></div>
+</a>
+
+<a href="#hoja-5" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 5</span>
+<span class="bento-tiempo">20 Min</span>
+</div>
+<h3>Trabajo de Campo, Ética y Triangulación</h3>
+<p>Abordaje comunitario neutral, Consentimiento Informado Verbal obligatorio, matriz de triangulación de la verdad y logística ante variaciones climáticas en Loja.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 5 <span>→</span></div>
+</a>
+
+<a href="#hoja-6" class="bento-card">
+<div>
+<div class="bento-header">
+<span class="bento-hoja-tag">Hoja 6</span>
+<span class="bento-tiempo">20 Min</span>
+</div>
+<h3>Taller Práctico: Caso El Capulí</h3>
+<p>Dinámica en parejas: levantamiento de coordenada GPS con precisión menor o igual a 5 m, encuesta predial, audio testimonial de 30 segundos, paneo de video y proyección del mapa general.</p>
+</div>
+<div class="bento-btn">Ingresar a Hoja 6 <span>→</span></div>
+</a>
+
+</div>
+
+---

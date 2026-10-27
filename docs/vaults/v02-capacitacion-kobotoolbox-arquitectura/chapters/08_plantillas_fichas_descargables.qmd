@@ -1,0 +1,105 @@
+Cuatro instrumentos técnicos estandarizados bajo la norma internacional **XLSForm de KoboToolbox**, listos para que cada estudiante los descargue a su computadora, los cargue en su propia cuenta de KoboToolbox, los publique y los sincronice con su teléfono móvil:
+
+::: {.card-unl .card-unl-green}
+#### Procedimiento Individual de Carga y Sincronización
+1. **Descargar** el archivo `.xlsx` de la plantilla seleccionada a la computadora.
+2. Ingresar a la cuenta personal de KoboToolbox en [kf.kobotoolbox.org](https://kf.kobotoolbox.org/), pulsar **New** y seleccionar **Upload an XLSForm**.
+3. Cargar el archivo `.xlsx` y presionar **Deploy** para publicar el formulario.
+4. En el teléfono móvil, abrir KoboCollect, configurar la cuenta personal, seleccionar **Descargar formulario en blanco** y comenzar el levantamiento individual.
+:::
+
+---
+
+### 1. Plantilla 01: Ficha de Levantamiento Territorial y Predial
+
+Diseñada para la caracterización física de suelo, frente, fondo, topografía y delimitación con GPS satelital.
+
+::: {.card-unl}
+* **Uso Principal:** Diagnóstico urbano, regularización de asentamientos, catastro de predios y estudios de factibilidad.
+* **Tipos de Datos Integrados:** `geopoint` con precisión menor o igual a 5 m, `decimal`, `select_one`, `image` de fachada.
+* **Candados Activos:** Frente de lote restringido entre 3.0 m y 120.0 m.
+:::
+
+[Descargar Plantilla 01: Levantamiento Territorial xlsx](plantillas_xlsform/01_plantilla_levantamiento_territorial.xlsx){.btn .btn-primary target="_blank"}
+
+| Variable o Pregunta | Tipo XLSForm | Candado o Lógica de Control |
+| :--- | :---: | :--- |
+| **Identificación del Estudiante** | `text` | Campo obligatorio `required = yes` para control individual |
+| **Sector o Zona** | `text` | Campo alfanumérico obligatorio |
+| **Punto Satelital GPS** | `geopoint` | Coordenada con umbral satelital exigido menor o igual a 5.0 m |
+| **Estado Físico del Lote** | `select_one` | Baldío, Construido, En Obra Gris, Abandonado |
+| **Frente del Lote en Metros** | `decimal` | Restricción física: `constraint: . >= 3.0 and . <= 120.0` |
+| **Topografía o Pendiente** | `select_one` | Plano menor al 5%, Suave de 5 a 15%, Moderada de 16 a 30%, Fuerte mayor al 30% |
+| **Foto Frontal de Fachada**| `image` | Encuadre horizontal a 90° respecto a la vía |
+
+---
+
+### 2. Plantilla 02: Ficha de Inspección Constructiva y Patologías
+
+Diseñada para peritajes técnicos, evaluación estructural rápida y registro visual de vulnerabilidad física.
+
+::: {.card-unl .card-unl-red}
+* **Uso Principal:** Auditoría de edificaciones, análisis de riesgo por sismo o deslizamiento y peritaje de patologías.
+* **Tipos de Datos Integrados:** `integer` de pisos, `select_multiple` de daños, foto pericial y `video` de 15 segundos.
+* **Candados Activos:** Preguntas y fotografías de daños se habilitan únicamente si previamente se declara daño en la estructura.
+:::
+
+[Descargar Plantilla 02: Inspección Constructiva y Patologías xlsx](plantillas_xlsform/02_plantilla_inspeccion_constructiva_patologias.xlsx){.btn .btn-danger target="_blank"}
+
+| Variable o Pregunta | Tipo XLSForm | Candado o Lógica de Control |
+| :--- | :---: | :--- |
+| **Número de Pisos** | `integer` | Restricción admisible: `constraint: . >= 1 and . <= 8` |
+| **Sistema Estructural** | `select_one` | Hormigón armado, mampostería confinada, metálica, madera, adobe, mixto |
+| **Tipo de Cubierta** | `select_one` | Losa de hormigón, teja cerámica, zinc o fibrocemento |
+| **Estado de Conservación** | `select_one` | Bueno, Regular, Malo, Riesgo inminente de colapso |
+| **Presencia de Patología** | `select_one` | Disparador lógico ante presencia de fisuras o daño aparente |
+| **Detalle de Daños** | `select_multiple` | `relevant: ${presenta_dano} = 'si'` para fisuras a 45°, armadura expuesta o humedad |
+| **Foto de la Patología** | `image` | `relevant: ${presenta_dano} = 'si'` para enfoque cercano de la falla |
+| **Video Pericial** | `video` | Paneo horizontal continuo de 15 segundos del entorno y cimentación |
+
+---
+
+### 3. Plantilla 03: Encuesta Socioeconómica y Servicios Básicos
+
+Diseñada para encuestas a hogares, medición de déficit habitacional y acceso a redes públicas.
+
+::: {.card-unl .card-unl-gold}
+* **Uso Principal:** Diagnóstico socioterritorial, planes de desarrollo comunitario y medición de necesidades básicas insatisfechas.
+* **Tipos de Datos Integrados:** `select_one`, `integer`, `select_multiple` de servicios y `audio` testimonial.
+* **Candados Activos:** Si no se acepta el consentimiento verbal, el formulario se cierra de forma automática.
+:::
+
+[Descargar Plantilla 03: Encuesta Socioeconómica xlsx](plantillas_xlsform/03_plantilla_encuesta_socioeconomica_servicios.xlsx){.btn .btn-warning target="_blank"}
+
+| Variable o Pregunta | Tipo XLSForm | Candado o Lógica de Control |
+| :--- | :---: | :--- |
+| **Consentimiento Verbal** | `select_one` | Candado maestro: si es negativo, se bloquea el resto de preguntas |
+| **Régimen de Tenencia** | `select_one` | Propia con título, posesión, arrendada, cedida por familiar |
+| **Número de Habitantes** | `integer` | Restricción lógica: `constraint: . >= 1 and . <= 18` |
+| **Servicios Básicos** | `select_multiple` | Agua de red, alcantarillado, electricidad con medidor, recolección, internet |
+| **Frecuencia de Agua** | `select_one` | `relevant: selected(${servicios_basicos}, 'agua_red')` |
+| **Necesidad Prioritaria** | `select_one` | Vialidad, alcantarillado pluvial, alumbrado, áreas verdes, salud |
+| **Testimonio en Audio** | `audio` | Grabación de 30 segundos justificando la prioridad ciudadana |
+
+---
+
+### 4. Plantilla 04: Entrevista Cualitativa a Informante Clave
+
+Diseñada para recuperar la memoria hidrogeológica, historia comunitaria y percepciones de líderes del sector.
+
+::: {.card-unl}
+* **Uso Principal:** Levantamiento etnográfico, reconstrucción de riesgos históricos y consulta previa informada.
+* **Tipos de Datos Integrados:** `audio` directo de uno a dos minutos por tema, `select_one` de perfil y dictamen pericial.
+* **Candados Activos:** Consentimiento expreso de grabación y validación de años de residencia.
+:::
+
+[Descargar Plantilla 04: Entrevista Cualitativa xlsx](plantillas_xlsform/04_plantilla_entrevista_cualitativa_audio.xlsx){.btn .btn-info target="_blank"}
+
+| Variable o Pregunta | Tipo XLSForm | Candado o Lógica de Control |
+| :--- | :---: | :--- |
+| **Autorización de Audio** | `select_one` | Autorización explícita para la grabación en audio |
+| **Perfil del Actor** | `select_one` | Dirigente barrial, morador fundador, maestro de obra, comerciante, técnico |
+| **Años de Residencia** | `integer` | `constraint: . >= 1 and . <= 90` |
+| **Audio 1: Memoria Barrial**| `audio` | Grabación directa sobre orígenes del barrio, eventos climáticos y deslizamientos |
+| **Audio 2: Retos de Obra** | `audio` | Grabación directa sobre problemas de cimentación, calidad de suelo y drenaje |
+| **Juicio del Investigador** | `text` | Síntesis pericial y balance de credibilidad de la información |

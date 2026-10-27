@@ -1,0 +1,256 @@
+---
+title: "EXPEDIENTE TÉCNICO Y PERFIL DE PROYECTO DE ESPACIO PÚBLICO"
+subtitle: "Estructura Operativa y Guía de Formulación conforme a la Guía Estratégica: Cambio de Paradigma en la Planificación Territorial aplicado al Espacio Público (MIT - Viceministerio de Desarrollo Urbano Sostenible y Vivienda / GIZ Ecuador - CIS II)"
+author: 
+  - name: "Equipo Técnico Interdisciplinario (Economía & Arquitectura - UNL)"
+date: "2026-10-26"
+format:
+  docx:
+    toc: true
+    number-sections: false
+    highlight-style: github
+    reference-doc: giz_apa_reference.docx
+  pdf:
+    output-file: plantilla_giz_institucional_apa.pdf
+    documentclass: scrreprt
+    toc: true
+    number-sections: false
+    colorlinks: true
+    pdf-engine: lualatex
+    include-in-header:
+      - text: |
+          \input{giz_preamble_apa.tex}
+---
+
+# Presentación y Marco Metodológico GIZ / MIT
+
+La presente plantilla institucional constituye el instrumento técnico exigido para la estructuración del expediente técnico y perfil de proyectos urbanos según la *Guía Estratégica: Cambio de Paradigma en la Planificación Territorial aplicado al Espacio Público* (Ministerio de Infraestructura y Transporte [MIT], Viceministerio de Desarrollo Urbano Sostenible y Vivienda, y Deutsche Gesellschaft für Internationale Zusammenarbeit [GIZ], 2025).
+
+El propósito central de este marco es superar el paradigma tradicional de obras aisladas (*plan-obra-abandono*), reemplazándolo por un enfoque sistémico de red, derechos ciudadanos y ciclo de vida integral (Planificación $\rightarrow$ Diseño $\rightarrow$ Implementación $\rightarrow$ Puesta en servicio $\rightarrow$ Gestión y Monitoreo). Los campos delimitados entre corchetes `[Completar: ...]` representan los registros específicos que deben ser completados por el equipo formulador a partir de los levantamientos de campo, microdatos censales (INEC CPV 2022) y el anteproyecto urbano.
+
+# Ficha de Proyecto (Project Factsheet) y Trazabilidad en Cascada
+
+## Identificación General del Proyecto y Localización
+
+::: {#tbl-identificacion}
+| Parámetro Institucional | Registro Técnico / Evidencia Territorial |
+| :--- | :--- |
+| Nombre Oficial del Proyecto: | `[Completar: Ej. Intervención Integral, Movilidad Activa y Resiliencia Hídrica en el Barrio El Capulí]` |
+| Código de Registro Territorial / Expediente: | `[Completar: Ej. GAD-LOJA-CIS-II-2026-001]` |
+| Entidad Proponente y Promotora: | GAD Municipal de Loja en articulación técnica con la Universidad Nacional de Loja |
+| Nivel Territorial / Jurisdicción: | Ecuador $\rightarrow$ Provincia de Loja $\rightarrow$ Cantón Loja $\rightarrow$ Parroquia Punzara $\rightarrow$ Sector El Capulí |
+| Coordenadas Georreferenciadas (WGS84 / UTM 17S): | `[Completar: Coordenadas Centroide X: ... , Y: ... / Polígono Shapefile en QGIS]` |
+| Área de Intervención Directa: | `[Completar: Superficie en hectáreas / m² del polígono de obra prioritaria]` |
+| Área de Influencia Indirecta: | `[Completar: Hectáreas de cuenca urbana y buffer de caminabilidad (5-15 min)]` |
+| Población Beneficiaria Directa (Habitantes): | `[Completar: Residentes desagregados por sexo, niñez, adultos mayores y PcD]` |
+| Población Beneficiaria Flotante / Indirecta: | `[Completar: Usuarios del campus UNL La Argelia, estudiantes y peatones del corredor]` |
+| Horizonte Temporal del Proyecto: | Formulación: 2026 \| Ejecución: 2027 \| Operación: 2028 \| Vida útil: 25 años |
+
+: Identificación general del proyecto y localización político-administrativa
+:::
+
+*Nota.* Datos consolidados a partir del Censo de Población y Vivienda (INEC, 2022) y cartografía base del GAD Municipal de Loja.
+
+## Cadena de Trazabilidad Causal del Proyecto
+
+Conforme a la metodología GIZ/MIT, la justificación del proyecto debe establecer una conexión causal continua que enlace el déficit estructural con indicadores verificables de calidad de vida.
+
+::: {#tbl-trazabilidad}
+| Eslabón de la Cadena | Definición Operativa | Registro Específico del Proyecto |
+| :--- | :--- | :--- |
+| 1. Brecha Principal Identificada: | Problema estructural territorial y de derechos a resolver. | `[Completar: ej. Aislamiento físico, déficit >80% de aceras accesibles y riesgo hídrico]` |
+| 2. Objetivo de Calidad de Vida: | Propósito de bienestar y cambio conductual en la población. | `[Completar: ej. Garantizar accesibilidad universal y seguridad ante escorrentías]` |
+| 3. Estrategia Territorial: | Intervención en red orientada al cambio de paradigma. | `[Completar: ej. Red de Calle Completa 8-80 articulada con SUDS y Parque Fluvial]` |
+| 4. Meta Verificable del Proyecto: | Producto físico o estándar de servicio cuantificable. | `[Completar: ej. 2.5 km de veredas continuas y 100% de escorrentía amortiguada]` |
+| 5. Indicador de Impacto: | Métrica de resultado vinculada a la vida cotidiana. | `[Completar: ej. Reducción de tiempo a pie de 25 a 10 min hacia el campus UNL]` |
+
+: Cadena de trazabilidad causal: brecha, objetivo, estrategia, meta e indicador
+:::
+
+*Nota.* Elaboración con base en los lineamientos de la Fase 2 (Diseño) de la Guía Estratégica (MIT & GIZ, 2025).
+
+## Inserción y Rol Estructural en la Red de Espacio Público
+
+El espacio público se formula como un sistema continuo (vial + verde-azul + estancial) que supera la fragmentación urbana:
+
+* **Rol Estructural en la Red Cantonal:** Conector de proximidad y amortiguamiento ambiental que articula el tejido barrial con la red estructurante sur del cantón Loja.
+* **Continuidad de Red Garantizada:** `[Completar: Describir la conexión fluida entre la vía arterial Av. Reinaldo Espinosa, el transporte colectivo urbano, los senderos peatonales hacia el Campus La Argelia y la microcuenca ribereña del río Capulí.]`
+
+## Matriz de Correspondencia de Tipologías en Tres Capas
+
+La Guía GIZ/MIT exige que todo espacio público cuente con una clasificación simultánea bajo tres dimensiones analíticas complementarias.
+
+::: {#tbl-tipologias}
+| Dimensión de Análisis | Pregunta Orientadora | Categorización Técnica y Normativa del Proyecto |
+| :--- | :--- | :--- |
+| 1. Dimensión Normativa (PUGS / LOOTUS) | *¿Qué es legalmente este espacio y quién lo gestiona?* | Sistemas Públicos de Soporte: Vía pública municipal terciaria, margen de protección hídrica y área de cesión. |
+| 2. Dimensión Estratégica (PEEP) | *¿Para qué propósito prioritario se interviene y qué brecha resuelve?* | Conector de Proximidad y Amortiguamiento Ambiental: Movilidad activa, equidad periférica y resiliencia climática. |
+| 3. Dimensión Morfológica - Funcional | *¿Cómo se configura físicamente y qué estándar garantiza?* | Calle Completa 8-80 y Corredor Verde-Azul: Aceras accesibles continuas, cunetas verdes SUDS y pavimento permeable. |
+
+: Matriz de correspondencia de tipologías en tres dimensiones
+:::
+
+*Nota.* Clasificación reglamentaria del marco habilitante nacional de espacio público (Sección 5.3, MIT & GIZ, 2025).
+
+# Alineación con el Marco Habilitante y los Seis Enfoques del Paradigma
+
+## Enfoque Articulador: Gobernanza Democrática y Financiamiento por Ciclo de Vida
+
+El espacio público se concibe como un proceso dinámico de gestión social y corresponsabilidad comunitaria:
+
+* **Gestión Democrática del Conflicto:** `[Completar: Protocolo de mediación y acuerdos de uso para regular ventas locales, accesos vehiculares de residentes y prioridad peatonal.]`
+* **Arquitectura de Gobernanza Institucional:** `[Completar: Coordinación formal entre el GAD Municipal de Loja, la asistencia técnica de la Universidad Nacional de Loja y la Directiva Barrial.]`
+* **Sostenibilidad Financiera por Ciclo de Vida (CAPEX + OPEX):** `[Completar: Declaración de viabilidad donde la ejecución de la obra civil queda supeditada a la reserva presupuestaria anual de operación y mantenimiento preventivo.]`
+
+## Enfoques Transversales
+
+### Equidad, Inclusión y Enfoque de Cuidados (Criterio 8-80)
+El diseño garantiza la autonomía de los grupos prioritarios:
+
+* **Criterio 8-80 y Accesibilidad Universal:** `[Completar: Aceras con ancho libre efectivo superior a 1.80 m, pendientes controladas (<8%), vados peatonales a nivel y guías podotáctiles.]`
+* **Red de Cuidados Cotidianos:** `[Completar: Recorridos seguros y continuos que conectan con escuelas, guarderías, áreas lúdicas y paradas de bus.]`
+* **Seguridad Ciudadana Integral:** `[Completar: Alumbrado peatonal uniforme, frentes activos, visibilidad visual directa y erradicación de puntos ciegos.]`
+
+### Economía Urbana y Vitalidad Económica Cotidiana
+* **Espacio para el Trabajo Digno:** `[Completar: Ordenamiento de ferias vecinales y actividades de subsistencia en zonas de ensanche peatonal sin obstaculizar la circulación.]`
+* **Protección contra la Expulsión:** `[Completar: Medidas para resguardar la permanencia de los habitantes tradicionales ante dinámicas de valorización del suelo.]`
+
+### Salud, Bienestar y Confort Ambiental
+* **Promoción de la Actividad Física:** `[Completar: Trazados amigables para caminata y bicicleta con pacificación vehicular de calzada (máximo 30 km/h).]`
+* **Confort Térmico y Sombreamiento:** `[Completar: Arbolado nativo de copa densa y microclimas agradables en áreas de descanso y paradas de transporte.]`
+
+## Enfoques Integradores
+
+### Urbanismo de Proximidad (Ciudad de 10-15 Minutos)
+* **Caminabilidad Real y Cobertura de Servicios:** `[Completar: Isócronas peatonales reales hacia equipamientos de salud, educación y abastecimiento.]`
+* **Intermodalidad:** `[Completar: Articulación fluida entre modos activos y líneas de transporte público colectivo.]`
+
+### Ecología Urbana + Ciudad Esponja y Resiliencia Hídrica
+* **Soluciones basadas en la Naturaleza (SbN / SUDS):** `[Completar: Implementación de jardines de lluvia, alcorques biofiltrantes y zanjas de infiltración en ladera.]`
+* **Suelo Permeable y Cobertura Vegetal:** `[Completar: Proporción de superficie permeable recuperada y estabilización de taludes con especies nativas adaptadas.]`
+
+# Expediente Técnico de Diseño (Fase 2 del Ciclo de Vida)
+
+## Evaluación Multicriterio de Alternativas de Diseño (Trade-offs)
+
+La Guía GIZ/MIT exige documentar la comparación técnica, social y económica de alternativas de intervención para justificar la solución seleccionada.
+
+::: {#tbl-alternativas}
+| Criterio Metodológico / Trade-Off | Alternativa 1: Intervención Tradicional (Gris) | Alternativa 2: Cambio de Paradigma (SbN + 8-80) | Justificación de la Alternativa Seleccionada |
+| :--- | :--- | :--- | :--- |
+| Distribución de Sección Vial: | 75% calzada vehicular; aceras residuales estrechas. | Calzada pacificada (40%), veredas amplias (35%), verde (25%). | Prioriza movilidad activa y derechos peatonales. |
+| Manejo Pluvial: | Sumideros y tuberías de hormigón (rápida saturación). | SUDS, cunetas verdes y biofiltración in situ. | Amortigua escorrentías y previene deslaves en ladera. |
+| Accesibilidad Universal: | Rampas aisladas sin continuidad; bordillos altos. | Diseño 8-80 integral y plataforma compartida en cruces. | Garantiza autonomía para niñez y adultos mayores. |
+| Inversión Inicial (CAPEX): | `[Completar USD]` | `[Completar USD]` | Sostenible técnica y financieramente. |
+| Costo Operativo a 20 Años (OPEX): | Alto por bacheo constante y desazolve de ductos. | Moderado; mantenimiento de jardines y biofiltros. | Menor costo del ciclo de vida total. |
+| Dictamen de Selección: | Descartada por perpetuar dependencia automotriz. | **Seleccionada como Alternativa Oficial del Expediente.** | Cumple estándares PEEP y GIZ CIS II. |
+
+: Evaluación multicriterio y trade-offs entre alternativas de diseño
+:::
+
+*Nota.* La comparación de alternativas es un producto obligatorio para el cierre de la Fase 2 (Diseño) según el estándar MIT & GIZ (2025).
+
+## Planimetría, Dimensionamiento Espacial y Secciones Tipo
+
+* **Perfil Transversal Tipo (Calle Completa 8-80):** `[Completar: Ancho total de derecho de vía (m), ancho de calzada vehicular (m), ancho de aceras peatonales libres (m) y franjas verdes SUDS.]`
+* **Zonificación del Parque Fluvial de río Capulí:** `[Completar: Superficie de protección hídrica ribereña (m²), áreas lúdicas y deportivas (m²), y senderos permeables (m²).]`
+
+## Reglas Espaciales de Convivencia y Gestión de Conflictos
+
+* **Criterios Espaciales de No Exclusión:** `[Completar: Espacios públicos abiertos sin barreras físicas privatizadoras, accesibles las 24 horas.]`
+* **Plan de Convivencia y Compatibilidad de Usos:** `[Completar: Horarios de abastecimiento comercial, zonas para recreación canina y protocolos de coexistencia peatón-bicicleta.]`
+
+# Modelo de Implementación, Puesta en Servicio y Gestión (Fases 3, 4 y 5)
+
+## Fase 3 (Implementación): Plan de Manejo de Obra y Mitigación
+
+* **Itinerarios Peatonales Provisionales:** `[Completar: Dispositivos de seguridad física, pasarelas accesibles y señalización informativa temporal durante la construcción.]`
+* **Veeduría Ciudadana:** `[Completar: Comisión barrial de fiscalización social y reuniones mensuales de seguimiento de avance de obra.]`
+
+## Fase 4 (Puesta en Servicio): Activación Inicial y Cierre Técnico
+
+* **Verificación Previa a la Apertura:** `[Completar: Lista de chequeo: alumbrado operativo, señalética colocada, pruebas de absorción en SUDS y recepción municipal.]`
+* **Programa de Activación Temprana (Primeros 3 a 6 Meses):** `[Completar: Agenda de ferias comunitarias, talleres de siembra de especies nativas y campañas barriales de cuidado del espacio.]`
+
+## Fase 5 (Gestión): Costos del Ciclo de Vida (CAPEX + OPEX)
+
+### Presupuesto de Inversión Inicial (CAPEX)
+
+::: {#tbl-capex}
+| Código | Rubro General de Intervención | Unidad | Cantidad | Costo Unitario (USD) | Costo Total (USD) | Fuente de Financiamiento |
+| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
+| C1 | Estudios definitivos, geotecnia y diseño | Glb | 1 | `[Completar]` | `[Completar]` | GAD Loja / UNL |
+| C2 | Movilidad activa y aceras accesibles 8-80 | m² / km | `[Completar]` | `[Completar]` | `[Completar]` | Presupuesto GAD |
+| C3 | Soluciones basadas en la Naturaleza (SUDS) | m² | `[Completar]` | `[Completar]` | `[Completar]` | Fondos Climáticos / BDE |
+| C4 | Infraestructura verde y Parque Fluvial | ha | `[Completar]` | `[Completar]` | `[Completar]` | Cooperación Técnica GIZ |
+| C5 | Mobiliario urbano accesible e iluminación LED | Glb | 1 | `[Completar]` | `[Completar]` | Presupuesto Municipal |
+| C6 | Fiscalización técnica y control ambiental | Glb | 1 | `[Completar]` | `[Completar]` | GAD Loja |
+| **--** | **Costo Total Estimado de Inversión (CAPEX):** | -- | -- | -- | **`[Completar USD]`** | -- |
+
+: Estructura del presupuesto de inversión inicial (CAPEX)
+:::
+
+*Nota.* Valores calculados a precios de mercado vigentes de la construcción pública en el cantón Loja.
+
+### Presupuesto Operativo y de Mantenimiento Preventivo (OPEX)
+
+::: {#tbl-opex}
+| Horizonte Temporal | Actividades Principales de Mantenimiento | Frecuencia | Costo Anual Est. (USD) | Entidad Responsable |
+| :--- | :--- | :--- | :---: | :--- |
+| Corto Plazo (Años 1-5): | Limpieza de sedimentos en SUDS, podas y jardinería. | Mensual | `[Completar USD]` | UMAT / Comité Barrial |
+| Mediano Plazo (Años 6-10): | Reemplazo de áridos en zanjas, pintura y luminarias. | Semestral | `[Completar USD]` | Dirección de Obras Públicas |
+| Largo Plazo (Años 11-25): | Rehabilitación de pavimentos y estructuras mayores. | Quinquenal | `[Completar USD]` | Presupuesto Participativo GAD |
+
+: Plan de operación y mantenimiento preventivo por horizonte temporal (OPEX)
+:::
+
+*Nota.* La disponibilidad garantizada de recursos OPEX constituye un requisito de elegibilidad del financiamiento GIZ.
+
+# Sistema de Monitoreo, Evaluación y Retroalimentación (SMER / MNI)
+
+## Batería de Indicadores de Impacto en Calidad de Vida
+
+::: {#tbl-indicadores}
+| Dimensión del Paradigma | Indicador de Desempeño / Impacto | Línea Base (2026) | Meta del Proyecto (2028) | Método y Fuente de Verificación |
+| :--- | :--- | :--- | :--- | :--- |
+| 1. Proximidad y Accesibilidad: | % de población con acceso continuo a pie en $\le$ 15 min al sistema. | `[Completar: ej. 20%]` | 95% de la población del polígono | Isócronas QGIS y encuestas KoBo |
+| 2. Seguridad y Autonomía: | Tasa de incidentes viales / percepción de seguridad nocturna. | `[Completar]` | Reducción del 80% en incidentes | Registros de tránsito y sondeos |
+| 3. Inclusión y Cuidados: | Frecuencia de uso del espacio por infancia, mujeres y mayores. | `[Completar]` | Incremento del 50% en permanencia | Aforos peatonales clasificados |
+| 4. Salud y Bienestar: | Actividad física cotidiana y cobertura de sombra arbórea. | `[Completar]` | 100% de tramos con sombra continua | Mediciones ambientales y aforos |
+| 5. Resiliencia Ambiental: | Porcentaje de escorrentía pluvial amortiguada in situ por SUDS. | 0% retención | $\ge$ 35% del volumen de escorrentía | Monitoreo hidrológico de campo |
+| 6. Vitalidad Económica: | Permanencia de microactividades comerciales locales de proximidad. | `[Completar]` | Cero desplazamientos forzados | Censo de actividades barriales |
+
+: Batería de indicadores de impacto alineada al Marco Nacional de Indicadores (MNI)
+:::
+
+*Nota.* Indicadores estructurados a partir de las orientaciones del Capítulo VII de la Guía Estratégica (MIT & GIZ, 2025).
+
+## Trazabilidad de Participación Ciudadana Incidente
+
+::: {#tbl-participacion}
+| Hito del Proceso | Fecha / Momento | Actores Convocados | Aportes Principales de la Comunidad | Estado de Incorporación | Justificación Técnica |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Hito 1: Diagnóstico | `[Completar]` | Vecinos, mujeres, adultos mayores | Reporte de zonas oscuras y lodo en lluvias | Incorporado | Se incluyeron cunetas biofiltrantes y LED |
+| Hito 2: Alternativas | `[Completar]` | Frentistas y usuarios de transporte | Demanda de aceras amplias vs. autopista | Incorporado | Elección de la Alternativa 2 (Calle Completa) |
+| Hito 3: Devolución | `[Completar]` | Asamblea barrial general y UNL | Ajuste en localización de juegos infantiles | Incorporado | Reubicación a zona protegida de ladera |
+
+: Registro de trazabilidad de acuerdos y aportes de la participación ciudadana
+:::
+
+*Nota.* Cumplimiento del estándar nacional de participación incidente con trazabilidad verificable (Sección 5.1, MIT & GIZ, 2025).
+
+# Anexos Técnicos del Expediente
+
+* **Anexo A:** Cartografía y Modelación Espacial SIG (Planos de pendientes, isócronas y zonificación en QGIS).
+* **Anexo B:** Base de Datos Tabulada de Diagnóstico Socioeconómico (Microdatos INEC CPV 2022 y encuestas KoBoToolbox).
+* **Anexo C:** Memorias de Cálculo Hidrológico y Dimensionamiento de Soluciones basadas en la Naturaleza (SUDS).
+* **Anexo D:** Planos Arquitectónicos y Constructivos del Anteproyecto (Secciones de Calle Completa 8-80 y Parque Fluvial).
+* **Anexo E:** Expediente Social y Actas Notoriadas de Participación Ciudadana Incidente.
+
+# Referencias
+
+* Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ). (2024). *Guía para elaborar perfiles de proyecto de cambio climático en ciudades del Ecuador*. Proyecto Ciudades Intermedias Sostenibles (CIS II). GIZ Ecuador.
+* Instituto Nacional de Estadística y Censos (INEC). (2022). *Censo de Población y Vivienda 2022: Base de datos REDATAM*. INEC Ecuador.
+* Ministerio de Infraestructura y Transporte (MIT), Viceministerio de Desarrollo Urbano Sostenible y Vivienda, & Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ). (2025). *Guía estratégica: Cambio de paradigma en la planificación territorial aplicado al espacio público*. Programa Ciudades Intermedias Sostenibles (CIS II). MIT & GIZ.
+* Organización Mundial de la Salud (OMS). (2020). *Integrar la salud en la planificación urbana y territorial: Manual de consulta*. OMS & ONU-Hábitat.
+* Secretaría Nacional de Planificación (SNP). (2025). *Plan Nacional de Desarrollo 2025–2029: Ecuador no se detiene*. Gobierno de la República del Ecuador.

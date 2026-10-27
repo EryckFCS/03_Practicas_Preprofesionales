@@ -10,6 +10,7 @@ lake/processed/*
 !lake/processed/campos_arr.json
 !lake/processed/campos_arr.md
 !lake/processed/cruce_preguntas_arr_vs_kobo.md
+!lake/processed/Barrio_El_Capuli.gpkg
 
 # Exclusión de archivos multimedia pesados
 *.mp4
