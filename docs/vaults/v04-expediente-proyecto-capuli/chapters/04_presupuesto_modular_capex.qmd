@@ -1,0 +1,41 @@
+# Estructura Presupuestaria de Inversión y Operación (CAPEX + OPEX)
+
+El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco FELICITY [@giz_felicity_methodology_2020] y la guía de espacio público [@giz_miduvi_guia_paradigma_2021].
+
+## Presupuesto de Inversión Inicial (CAPEX)
+
+El monto total de inversión de capital asciende a USD 1.250.000,00, distribuido en seis rubros de intervención:
+
+::: {#tbl-capex}
+| Código | Componente de Inversión | Meta Física Cuantificable | Presupuesto (USD) | Participación |
+| :---: | :--- | :--- | :---: | :---: |
+| **C1** | Parque Fluvial Capulí y bioingeniería ribereña | $19.513 \text{ m}^2$ regenerados y equipados | $520.000,00$ | 41,6% |
+| **C2** | Vías completas, ciclorrutas y aceras accesibles | $2,4 \text{ km}$ lineales intervenidos | $310.000,00$ | 24,8% |
+| **C3** | Red de drenaje urbano sostenible (SUDs) | 8 biofiltros y zanjas de infiltración | $185.000,00$ | 14,8% |
+| **C4** | Alumbrado público solar fotovoltaico | 120 luminarias solares autónomas | $95.000,00$ | 7,6% |
+| **C5** | Puntos limpios y compostera comunitaria | 3 islas ecológicas y módulo de compostaje | $50.000,00$ | 4,0% |
+| **C6** | Medidas de mitigación ambiental y fiscalización | Plan de manejo ambiental y control de obra | $90.000,00$ | 7,2% |
+| **TOTAL** | **Inversión de Capital Estimada (CAPEX):** | **Intervención Integral Barrial** | **$1.250.000,00$** | **100,0%** |
+
+: Presupuesto modular del Proyecto El Capulí
+:::
+
+Los costos unitarios toman como referencia los rendimientos de obra del PDOT de Loja [@gad_loja_pdot_diagnostico_2021]. La asistencia técnica de aceleración no requiere contraparte financiera al GAD Loja durante la fase de formulación.
+
+## Estimación de Costos de Operación y Mantenimiento (OPEX)
+
+Para garantizar la sostenibilidad a 25 años y evitar el abandono de los activos, se proyecta el gasto recurrente anual estimado:
+
+::: {#tbl-opex}
+| Actividad de Mantenimiento | Frecuencia | Responsable Operativo | Costo Anual Estimado (USD) |
+| :--- | :--- | :--- | :---: |
+| Limpieza de sedimentadores y trampas en biofiltros SUDs | Mensual y post-lluvia | GAD Loja (Obras Públicas / UMAPAL) | $4.800,00$ |
+| Poda, riego y reposición de especies vegetales nativas | Bimensual | GAD Loja (Gestión Ambiental) + Junta Barrial | $6.200,00$ |
+| Mantenimiento de luminarias solares e inversores/baterías | Semestral | GAD Loja (Electricidad) | $3.500,00$ |
+| Gestión del centro de compostaje barrial y recolección | Semanal | Junta Barrial El Capulí + Gestión Ambiental | $2.400,00$ |
+| **TOTAL OPEX ANUAL:** | **Operación recurrente del sistema** | **Modelo de co-gestión municipal-comunitaria** | **$16.900,00$** |
+
+: Estimación de costos anuales de operación y mantenimiento (OPEX)
+:::
+
+El costo de operación anual representa apenas el 1,35% del CAPEX, constituyendo un sistema financiero de bajo costo recurrente para el municipio debido al alumbrado autónomo fuera de red y al drenaje biofísico pasivo por gravedad.

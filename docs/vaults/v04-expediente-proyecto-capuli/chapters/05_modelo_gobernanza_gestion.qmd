@@ -1,0 +1,14 @@
+# Modelo de Gobernanza y Gestión Operativa
+
+## Coordinación Institucional
+
+El modelo operativo distribuye responsabilidades entre tres actores:
+
+1. **Titular del proyecto (GAD Municipal del Cantón Loja):**
+   Postulante formal y receptor de la asistencia técnica de la GIZ. Designa el equipo contraparte en las Direcciones de Planificación, Obras Públicas y Gestión Ambiental. Asume la titularidad del activo público y su posterior mantenimiento.
+
+2. **Equipo formulador (Universidad Nacional de Loja):**
+   Las Carreras de Economía y Arquitectura Sostenible elaboran el perfil técnico, procesan los microdatos territoriales en KoBoToolbox [@kobotoolbox_data_collection_2024], desarrollan la cartografía en QGIS y estructuran la evaluación socioeconómica bajo el marco de prácticas preprofesionales [@unl_reglamento_practicas_2024].
+
+3. **Contraparte social (Junta de Desarrollo Barrial El Capulí):**
+   Participa mediante el mecanismo de planificación barrial participativa [@gad_loja_planificacion_barrial_2020; @unl_plan_barrial_la_palmira_2022]. Valida el diseño en asambleas comunitarias y co-administra las áreas verdes mediante convenios barriales de cuidado del espacio público.

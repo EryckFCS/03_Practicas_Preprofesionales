@@ -1,0 +1,30 @@
+# Justificación Territorial y Diagnóstico de Necesidades
+
+## Alineación con la Planificación Cantonal y Nacional
+
+La intervención se desprende de tres instrumentos de planificación vinculantes a nivel nacional y local:
+
+1. **Plan de Desarrollo y Ordenamiento Territorial de Loja [@gad_loja_pdot_diagnostico_2021]:**
+   El diagnóstico cantonal identifica a la parroquia Punzara como un área de expansión periférica deficitaria en drenaje pluvial, con discontinuidad vial y carencia de parques urbanos. La intervención aplica las directrices del Eje Loja Habitable y Sostenible para mitigar la segregación espacial periurbana y consolidar la infraestructura verde en bordes fluviales.
+
+2. **Plan del Sistema Verde Urbano de Loja [@gad_loja_sistema_verde_urbano_2021]:**
+   El instrumento clasifica el área dentro del Eje 1 (Red Verde Urbana), subprograma de Parques Urbanos, jerarquizando formalmente el **Proyecto N° 11: Parque de río Capulí** en el Subsistema 3 con una valoración técnica multicriterio de 0,491 sobre variables de cambio climático, dinamización socioeconómica y justicia espacial. El plan define la Av. Ruta Éxodo de Yangana como Conector Artificial Primario (Corredor Verde) para integrar movilidad activa con la red hídrica, y la Av. Reinaldo Espinosa como conector socio-ecológico articulador entre el nodo universitario La Argelia, el Parque Capulí y el Bioparque Punzara.
+
+3. **Agenda de Hábitat Sostenible del Ecuador 2036 [@ministerio_desarrollo_urbano_2020] y Objetivos de Desarrollo Sostenible:**
+   El proyecto operacionaliza cuatro áreas de gestión prioritarias establecidas en la política nacional de hábitat del Ministerio de Desarrollo Urbano y Vivienda:
+   * **Área de Gestión 1 (Servicios públicos, equipamientos e infraestructura):** Implementación de la regla de proximidad 3-30-300 del estándar nacional [@giz_miduvi_guia_paradigma_2021], garantizando que cada habitante cuente con al menos tres árboles a la vista, 30% de cobertura de copa en el barrio y un parque público de calidad a menos de 300 metros (ODS 11, Meta 11.7).
+   * **Área de Gestión 3 (Sistemas de movilidad y transporte sostenible):** Consolidación de 2,4 km de calle completa y pacificación vial con estándar universal 8-80, habilitando la ciclorruta y aceras continuas hacia el Campus Universitario La Argelia (ODS 3, Meta 3.6).
+   * **Área de Gestión 5 (Conservación ambiental y gestión de recursos):** Restauración de la ribera fluvial mediante Soluciones basadas en la Naturaleza (SbN), fijación vegetal de taludes y tres islas comunitarias de economía circular y compostaje barrial (ODS 12, Meta 12.5).
+   * **Área de Gestión 6 (Gestión de riesgos, resiliencia y cambio climático):** Mitigación de riesgos hidro-geomorfológicos mediante ocho celdas de drenaje urbano sostenible (SUDs) que retienen y laminan $1.850 \text{ m}^3$ de escorrentía superficial durante eventos de precipitación extrema (ODS 6, Meta 6.6 y ODS 13, Meta 13.1).
+
+## Caracterización Socioeconómica y Brechas Físicas
+
+Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_ecuador_2022] y el levantamiento georreferenciado municipal identifican fallas estructurales críticas en el polígono barrial de 115,12 hectáreas:
+
+* **Vulnerabilidad socioeconómica y habitacional:**
+  En el Barrio El Capulí habitan 980 personas residentes en 245 edificaciones censales. El 38,4% de los hogares registra Necesidades Básicas Insatisfechas (NBI). Más del 80% de los predios carece de red de alcantarillado pluvial, originando que el 72% de las aguas pluviales escurra de manera superficial erosionando calzadas y taludes habitados.
+* **Inestabilidad morfodinámica y riesgo hidrogeológico:**
+  La topografía de ladera presenta pendientes pronunciadas de entre el 15% y el 35%. La Dirección de Gestión de Riesgos y el catastro municipal clasifican las laderas y márgenes ribereños bajo niveles de susceptibilidad geomorfológica media y alta (categorías 02 y 03 por socavamiento fluvial y saturación del estrato limoso-arcilloso).
+* **Precariedad de la red vial y movilidad no motorizada:**
+  De los 9,64 km lineales de vías públicas registradas en el catastro barrial, 1,09 km son calzadas de tierra compactada y 2,37 km son calzadas de lastre sin cunetas ni veredas peatonales. A pesar de que la distancia hacia el nodo equipamental de La Argelia es inferior a 2.000 metros, la falta de continuidad peatonal obliga a circular por la calzada vehicular, afectando severamente a estudiantes, infancias, adultos mayores y mujeres en tareas de cuidado.
+

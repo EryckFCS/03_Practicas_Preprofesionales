@@ -1,0 +1,25 @@
+# Propuesta Técnica del Anteproyecto
+
+El proyecto adopta como sector estructurante el espacio público y la conservación de márgenes naturales, incorporando cuatro componentes complementarios para maximizar el desempeño en la matriz de priorización del CIS II [@giz_miduvi_guia_paradigma_2021; @giz_felicity_methodology_2020].
+
+![Estructura operativa del Proyecto Integral El Capulí articulada a los sectores de la convocatoria CIS II](assets/estructura_proyecto_cinco_sectores.png){#fig-estructura-proyecto width=100%}
+
+
+
+## Componente 1: Parque Fluvial y Soluciones basadas en la Naturaleza (SbN)
+* **Emplazamiento:** Predios municipales rurales ID 905 ($14.516,75 \text{ m}^2$) e ID 908 ($4.996,82 \text{ m}^2$), colindantes con el cauce del río Capulí.
+* **Diseño funcional multifuncional:** Cumple la directriz MIT/GIZ [@giz_miduvi_guia_paradigma_2021] de generar servicios ecosistémicos verificables por metro cuadrado. Integra estabilización de riberas con vegetación nativa de raíces profundas, terraceo de retención biológica, plazoletas de estancia y pasarelas peatonales permeables. Se utilizan materiales de baja huella de carbono y mampostería en piedra local.
+
+## Componente 2: Movilidad Activa y Vía Completa de Proximidad
+* **Trazado:** Intervención en 2,4 km de calzadas municipales sin consolidar (`muni_vialidad_capuli`), articulando el circuito con los conectores primarios de la Av. Reinaldo Espinosa y la Ruta Éxodo de Yangana [@gad_loja_sistema_verde_urbano_2021].
+* **Estándar:** Aceras peatonales continuas de estándar universal 8-80, ciclorruta segregada, pacificación del tráfico rodado y alcorques drenantes de infiltración directa.
+
+## Componente 3: Eficiencia Hídrica y Drenaje Urbano Sostenible (SUDs)
+* **Infraestructura de agua visible:** Siguiendo la normativa MIT/GIZ [@giz_miduvi_guia_paradigma_2021], el drenaje no se oculta en tuberías ciegas sino que opera en superficie mediante ocho celdas de biorretención, jardines de lluvia, cunetas vegetadas y disipadores de energía con trampas de sedimentos accesibles.
+* **Función hidrológica:** Restituye la capacidad de infiltración del terreno (efecto esponja), reduciendo el pico de escorrentía superficial hacia el cauce del río Capulí y eliminando anegamientos en las manzanas bajas.
+
+## Componente 4: Alumbrado Eficiente y Generación Fotovoltaica
+* **Infraestructura energética:** Instalación de 120 luminarias solares LED autónomas de 60W con panel monocristalino integrado y batería de litio LiFePO4. La red opera al 100% fuera de la red eléctrica cantonal, reduciendo el gasto corriente del municipio.
+
+## Componente 5: Gestión de Residuos Sólidos y Circularidad
+* **Equipamiento ambiental:** Tres puntos limpios comunitarios semisoterrados de tres fracciones (reciclables, no reciclables y especiales) y un centro barrial de compostaje para procesar biomasa vegetal generada en el mantenimiento de las áreas verdes.

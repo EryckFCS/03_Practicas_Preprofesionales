@@ -5,6 +5,7 @@
 
 \usepackage{fontspec}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{scrlayer-scrpage}
 \usepackage{booktabs}
@@ -27,11 +28,11 @@
 % --- Geometría APA 7 (1 pulgada / 2.54 cm en los cuatro márgenes) ---
 \geometry{
   letterpaper,
-  top=25.4mm,
+  top=28mm,
   bottom=25.4mm,
   left=25.4mm,
   right=25.4mm,
-  headheight=15pt,
+  headheight=22pt,
   footskip=12mm
 }
 
@@ -50,7 +51,7 @@
 
 % Color formal de texto (Negro / Escala de grises formal APA)
 \definecolor{APABlack}{RGB}{0, 0, 0}
-\definecolor{APAGray}{RGB}{60, 60, 60}
+\definecolor{APAGray}{RGB}{90, 90, 90}
 \definecolor{APALink}{RGB}{0, 45, 98} % Azul sobrio para enlaces
 
 \color{APABlack}
@@ -60,14 +61,27 @@
 \setlength{\parindent}{1.27cm} % Sangría de primera línea reglamentaria de 0.5 pulgadas
 \setlength{\parskip}{0pt}       % APA 7 no deja espacio adicional entre párrafos normales
 
-% --- Encabezados y Números de Página (APA 7) ---
+% --- Encabezados y Pies de Página (scrlayer-scrpage) ---
 \clearpairofpagestyles
 \addtokomafont{pageheadfoot}{\normalfont\footnotesize\color{APAGray}}
 \addtokomafont{pagenumber}{\normalfont\normalsize\color{APABlack}}
 
-% Numeración de página en la esquina superior derecha según APA 7
-\ohead{\pagemark}
-\ihead{\textnormal{\footnotesize EXPEDIENTE TÉCNICO: GIZ CIS II / PEEP}}
+% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha
+\ihead{%
+  \raisebox{-0.2\height}{%
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
+    }{}%
+  }%
+}
+\ohead{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
+
+% Pie de página: numeración centrada en estilo regular y plain
+\cfoot[\pagemark]{\pagemark}
+
+% Reglas de separación sutiles
+\KOMAoptions{headsepline=0.4pt, footsepline=false}
+\setkomafont{headsepline}{\color{APAGray}}
 
 % --- Jerarquía de Títulos APA 7ma Edición ---
 \addtokomafont{disposition}{\normalfont\bfseries\color{APABlack}}

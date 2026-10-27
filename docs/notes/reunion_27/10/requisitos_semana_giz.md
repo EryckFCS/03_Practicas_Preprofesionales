@@ -10,11 +10,14 @@
 
 ## A. Desde la UNL (nuestra responsabilidad)
 
+- [ ] **Configurar repositorio remoto en GitHub:** Crear repo `practicas-preprofesionales-capuli` bajo usuario `EryckFCS` y subir rama `main` (`git push -u origin main`).
 - [ ] **Leer las bases completas** y confirmar los criterios con la Arq. Aguilera.
 - [ ] **Solicitar a GFA (diego.cevallos@gfa-group.de):** formato de la carta de compromiso, link del formulario de la Fase I y fechas de las sesiones de orientación.
 - [ ] **Carta de aval de la carrera/facultad** o confirmar el convenio vigente con el GAD que ampare las prácticas en este proyecto.
 - [ ] **Oficio de designación del equipo UNL:** Arq. Alexandra Aguilera (responsable), Erick Condoy, Amanda Gálvez y Erick Barba (apoyo, desde el 12-oct-2026).
-- [ ] **Instrumento de levantamiento** (encuesta KoBo, ficha A.R.R., entrevistas) listo para aplicar o con resultados parciales.
+- [ ] **Instrumento de levantamiento y ficha metodológica:** Coordinar con Erick Barba el diseño y redacción del instrumento de campo (encuesta KoBoToolbox, ficha de observación o entrevistas semiestructuradas) con su correspondiente ficha metodológica.
+- [ ] **Diagnóstico socioeconómico y cuantificación de beneficiarios:** Procesamiento de microdatos del Censo 2022 (INEC) para cuantificar beneficiarios directos e indirectos en El Capulí y la parroquia Punzara.
+- [ ] **Alineación con la Agenda de Hábitat Sostenible 2036:** Justificación de complementariedad con las metas nacionales de hábitat y espacio público verde.
 - [ ] **Sistematizar el diagnóstico existente** (Censo 2022, capas del Municipio) con archivo y fecha de cada cifra.
 - [ ] **Borrador del formulario de Fase I** con las cifras trazadas a su fuente.
 - [ ] **Matriz de los 14 criterios de priorización:** evidencia disponible y qué falta. Usar la skill [revisor-convocatoria-giz-cis2](../../../../.agents/skills/revisor-convocatoria-giz-cis2/SKILL.md).

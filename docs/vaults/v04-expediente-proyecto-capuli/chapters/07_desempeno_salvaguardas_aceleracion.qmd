@@ -1,0 +1,80 @@
+# Desempeño Climático, Salvaguardas y Ruta de Aceleración GIZ
+
+El presente capítulo operacionaliza los criterios de priorización de la convocatoria CIS II [@giz_ciudades_que_transforman_convocatoria_2026; @giz_rosero_perfiles_climaticos_2024], cuantificando el impacto biofísico, gestionando los riesgos de ejecución y trazando la asistencia técnica requerida.
+
+## Matriz de Cumplimiento de Criterios de Selección y Priorización CIS II
+
+Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_convocatoria_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
+
+::: {#tbl-criterios-giz}
+| N.° | Criterio de Selección CIS II | Nivel de Cumplimiento | Evidencia Técnica Documentada en Expediente |
+| :---: | :--- | :---: | :--- |
+| **01** | Elegibilidad territorial (ciudad intermedia) | Cumple | Cantón Loja registra 249.658 habitantes (Censo CPV INEC 2022), dentro del rango de 30.000 a 1.000.000 hab. |
+| **02** | Sector elegible principal | Cumple | Espacio público y recuperación del espacio natural (19.513 m² en ribera fluvial del río Capulí). |
+| **03** | Adicionalidad multisectorial integrada | Cumple | Integra 4 sectores complementarios: energía solar, drenaje urbano sostenible (SUDs), movilidad activa y residuos. |
+| **04** | Monto de inversión referencial | Cumple | Presupuesto referencial de USD 1.250.000,00 estructurado bajo metodología CAPEX + OPEX bancable. |
+| **05** | Titularidad y dominio del suelo | Cumple | 2,14 ha de suelo municipal directo (predios rurales ID 905 e ID 908) colindantes al margen hídrico. |
+| **06** | Compromiso de máxima autoridad | Cumple | Carta de compromiso suscrita por la Alcaldía del Cantón Loja para liderar la postulación formal. |
+| **07** | Equipo contraparte técnica asignado | Cumple | Equipo municipal interdisciplinario (Planificación, Obras Públicas, Gestión Ambiental) articulado a la UNL. |
+| **08** | Alineación con planificación local | Cumple | Incorporado en el PDOT Loja 2021 y priorizado como Proyecto N.° 11 en el Plan del Sistema Verde Urbano. |
+| **09** | Alineación con política nacional | Cumple | Articulado a la Agenda de Hábitat Sostenible del Ecuador 2036 (Áreas de Gestión 1, 3, 5 y 6) y ODS 11. |
+| **10** | Mitigación y resiliencia climática | Cumple | Capacidad de laminación de 1.850 m³ de escorrentía pluvial y ahorro de 14,2 tCO2e/año con 120 luminarias solares. |
+| **11** | Enfoque de género y accesibilidad universal | Cumple | Diseño vial peatonal inclusivo bajo estándar 8-80 para infancias, adultos mayores y movilidad del cuidado. |
+| **12** | Co-gobernanza y participación comunitaria | Cumple | Participación y corresponsabilidad operativa acordada con la Junta de Desarrollo Barrial El Capulí. |
+| **13** | Sostenibilidad financiera de operación | Cumple | Costo OPEX anual de USD 16.900,00 (1,35% del CAPEX), financiado con ahorro energético fuera de red. |
+| **14** | Madurez y ruta crítica de asistencia técnica | Cumple | Nivel de perfil avanzado con catastro georreferenciado y ruta de maduración de 6 meses hacia financiamiento BDE. |
+
+: Matriz de correspondencia con los catorce criterios de priorización CIS II / GIZ
+:::
+
+## Métricas Cuantitativas de Mitigación y Adaptación Climática
+
+El proyecto genera beneficios ecosistémicos medibles que sustentan la calificación técnica de la propuesta:
+
+
+::: {#tbl-metricas-climaticas}
+| Indicador de Desempeño | Línea Base (Sin Proyecto) | Meta con Proyecto | Mecanismo Físico de Verificación |
+| :--- | :--- | :--- | :--- |
+| **Capacidad de laminación hídrica** | $0 \text{ m}^3$ (escorrentía directa) | $1.850 \text{ m}^3$ por evento crítico | 8 celdas de biorretención y cunetas verdes para tormentas de $Q_{24h}$ |
+| **Restitución de suelo permeable** | $0 \text{ m}^2$ (vías compactadas) | $14.200 \text{ m}^2$ de suelo vivo | Sustitución de calzadas de tierra por pavimentos permeables y alcorques |
+| **Reducción de emisiones de GEI** | $14,2 \text{ tCO}_2\text{e/año}$ (red fósil) | $0 \text{ tCO}_2\text{e/año}$ en alumbrado | 120 luminarias solares autónomas de 60W (ahorro: $14,2 \text{ tCO}_2\text{e/año}$) |
+| **Tratamiento de biomasa urbana** | 0% (quema o botadero) | 24 toneladas/año | Centro barrial de compostaje para residuos de poda y huertos |
+| **Cobertura vegetal nativa de rivera** | 15% (borde erosionado) | 85% de margen protegido | Reforestación de 1,2 km de ribera fluvial con especies fijadoras |
+
+: Matriz de indicadores cuantitativos de impacto ambiental y climático
+:::
+
+## Matriz de Riesgos y Salvaguardas Socioambientales
+
+Conforme al marco de salvaguardas de la banca multilateral [@giz_felicity_methodology_2020; @banco_desarrollo_ecuador_2022], se identifican las amenazas operativas y sus medidas de control preventivo:
+
+::: {#tbl-salvaguardas}
+| Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y Mitigación Vinculante |
+| :--- | :--- | :---: | :--- |
+| **Tenencia y Franjas de Protección** | Presión de ocupación privada sobre el margen del río Capulí | Medio | Delimitación topográfica georreferenciada y registro municipal de servidumbre ecológica sobre los lotes 905 y 908. |
+| **Geotécnico y Erosión** | Deslizamiento de taludes durante movimientos de tierra en época lluviosa | Alto | Ejecución de bioingeniería escalonada previa, terraceo con muros vivos y programación de obras civiles en estiaje. |
+| **Colmatación de Biofiltros** | Taponamiento temprano de capas filtrantes por arrastre de sedimentos y basura | Medio | Incorporación de trampas de grasa/arenas de fácil acceso y suscripción de actas de corresponsabilidad con la Junta Barrial. |
+| **Institucional y Rotación** | Discontinuidad técnica por cambios de autoridades seccionales | Bajo | Formalización del proyecto mediante Resolución de Concejo Cantonal y Convenio Marco UNL - GAD Loja. |
+
+: Matriz de riesgos, salvaguardas y mecanismos de mitigación
+:::
+
+## Escalabilidad y Replicabilidad en el Cantón Loja
+
+El proyecto trasciende la escala barrial al estructurarse como un modelo tipológico para la red de quebradas y márgenes fluviales del Cantón Loja:
+
+1. **Prototipo Piloto Cantonal:**
+   El Parque Fluvial El Capulí establece la metodología de intervención para los 14 núcleos verdes periurbanos priorizados en el Plan del Sistema Verde Urbano [@gad_loja_sistema_verde_urbano_2021], particularmente las microcuencas de Shushuayco, San Cayetano y Punzara.
+2. **Estandarización Normativa (Calle Completa Periurbana):**
+   Los detalles constructivos de cunetas vegetadas y secciones viales 8-80 se transferirán a la Dirección de Planificación Territorial del GAD Loja para incorporarse como perfiles viales tipo en la actualización del PUGS.
+
+## Ruta Crítica de Asistencia Técnica y Aceleración (Horizonte de 6 Meses)
+
+Durante la fase de aceleración del Programa CIS II, el equipo interdisciplinario UNL - GAD Loja focalizará la asistencia técnica en cuatro paquetes de trabajo:
+
+![Ruta crítica del proceso de asistencia técnica y maduración del proyecto (Fase CIS II)](assets/ruta_critica_aceleracion.png){#fig-ruta-aceleracion width=100%}
+
+
+1. **Meses 1 - 2 (Levantamiento de Precisión):** Estudios de mecánica de suelos, topografía LiDAR de la ribera fluvial y modelación hidrológica de escorrentía para dimensionamiento exacto de los 8 biofiltros.
+2. **Meses 3 - 4 (Ingeniería de Detalle y Presupuesto):** Elaboración de planos constructivos definitivos, Análisis de Precios Unitarios (APUs) referenciales y pliegos técnicos de contratación.
+3. **Meses 5 - 6 (Viabilidad Ambiental y Bancabilidad):** Regularización ambiental cantonal y estructuración del expediente de crédito no reembolsable o mixto ante el Banco de Desarrollo del Ecuador (BDE) y fondos climáticos internacionales.

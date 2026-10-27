@@ -1,0 +1,24 @@
+# Ficha de Proyecto y Resumen Ejecutivo
+
+El presente expediente técnico fundamenta la postulación del Cantón Loja a la convocatoria Ciudades que Transforman (CIS II / GIZ), aplicando los estándares de perfiles climáticos urbanos [@giz_rosero_perfiles_climaticos_2024] y los criterios de diseño de espacio público del Ministerio de Desarrollo Urbano y Vivienda junto con la Cooperación Alemana [@giz_miduvi_guia_paradigma_2021].
+
+::: {#tbl-factsheet}
+| Parámetro Institucional | Especificación Técnica Verificable |
+| :--- | :--- |
+| **Nombre del Proyecto:** | Parque Fluvial y Red de Conectividad Ecológica El Capulí: Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible |
+| **Entidad Postulante:** | Gobierno Autónomo Descentralizado Municipal del Cantón Loja (GAD Loja) |
+| **Equipo Técnico Formulador:** | Universidad Nacional de Loja (UNL), Carreras de Economía y Arquitectura Sostenible |
+| **Localización Político-Administrativa:** | Ecuador, Provincia de Loja, Cantón Loja, Parroquia Punzara, Barrio El Capulí |
+| **Coordenadas y Polígono Oficial:** | Proyección EPSG:32717 (UTM 17S). Centroide: $X=700.420$, $Y=9.551.855$ ($-4,0524^\circ$, $-79,1947^\circ$). Base: `Barrio_El_Capuli.gpkg` |
+| **Superficie del Polígono Barrial:** | 115,12 hectáreas ($1.151.178,11 \text{ m}^2$) |
+| **Suelo Municipal para Intervención Directa:** | 2,14 hectáreas públicas (Predios rurales ID 905 de 1,45 ha, ID 908 de 0,50 ha y predio urbano `1101020202110024` de 0,13 ha) |
+| **Red Vial Pública a Intervenir:** | 9,64 km lineales (44 tramos viales municipales: 1,09 km en tierra, 2,37 km en lastre, fajas de servidumbre y pasos peatonales) |
+| **Sector Elegible Principal:** | Espacio público y recuperación del espacio natural (Bases CIS II, p. 11) |
+| **Ejes Complementarios Integrados:** | Eficiencia hídrica y resiliencia climática (SUDs), movilidad activa no motorizada, iluminación fotovoltaica autónoma y compostaje barrial |
+| **Población Beneficiaria Directa:** | 245 edificaciones censales registradas (CPV INEC 2022); 980 habitantes residentes |
+| **Población Beneficiaria Indirecta:** | 15.000 usuarios del cuadrante sur (Campus Universitario La Argelia, unidades educativas y parroquia Punzara) |
+| **Inversión Referencial (CAPEX):** | USD 1.250.000,00 |
+| **Nivel de Madurez:** | Etapa de Preparación (Nivel Perfil con catastro municipal, cartografía georreferenciada y diagnóstico censal) |
+
+: Ficha técnica institucional del Proyecto El Capulí
+:::
