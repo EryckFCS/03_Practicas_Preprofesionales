@@ -21,6 +21,7 @@ El modelo operativo distribuye responsabilidades entre tres niveles instituciona
 
 Para mitigar eventualidades que comprometan los plazos de maduración o la aceptación social de las obras, se estructura el plan de contingencia institucional:
 
+::: {.landscape}
 ::: {#tbl-riesgos}
 | Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y de Mitigación | Responsable Institucional |
 | :--- | :--- | :---: | :--- | :--- |
@@ -31,6 +32,9 @@ Para mitigar eventualidades que comprometan los plazos de maduración o la acept
 
 : Matriz de gestión de riesgos institucionales, ambientales y sociales
 :::
+:::
+
+
 
 ## Hoja de Ruta para el Fondo de Aceleración GIZ (Fase III)
 

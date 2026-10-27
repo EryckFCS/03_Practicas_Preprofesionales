@@ -28,6 +28,25 @@ Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_2022] y el lev
 * **Precariedad de la red vial y movilidad no motorizada:**
   De los 9,64 km lineales de vías públicas registradas en el catastro barrial, 1,09 km son calzadas de tierra compactada y 2,37 km son calzadas de lastre sin cunetas ni veredas peatonales. A pesar de que la distancia hacia el nodo equipamental de La Argelia es inferior a 2.000 metros, la falta de continuidad peatonal obliga a circular por la calzada vehicular, afectando severamente a estudiantes, infancias, adultos mayores y mujeres en tareas de cuidado.
 
+## Balance Oferta - Demanda y Diagnóstico de Brechas por Componente
+
+Conforme a los lineamientos metodológicos de la Guía de Procesos Crediticios y Preinversión del Banco de Desarrollo del Ecuador [@bde_guia_procesos_crediticios_2021] y la Guía de Espacio Público [@miduvi_giz_guia_espacio_publico_2021], la @tbl-balance-oferta-demanda desagrega el déficit territorial insatisfecho que justifica la intervención modular:
+
+::: {.landscape}
+::: {#tbl-balance-oferta-demanda}
+| Componente del Proyecto | Oferta Existente (Línea Base Sin Proyecto) | Demanda Social y Territorial Estimada | Brecha / Demanda Insatisfecha Cuantificada | Meta Física del Proyecto (Solución Técnica Modular) |
+| :--- | :--- | :--- | :--- | :--- |
+| **C1: Parque Fluvial y SbN** | $0 \text{ m}^2$ de espacio verde público ribereño equipado. Margen degradado y socavado. | Regla biofísica 3-30-300: $9 \text{ m}^2/\text{hab}$ de área verde accesible para 980 hab ($8.820 \text{ m}^2$). | **100% de déficit** en parques públicos equipados y seguros en el polígono barrial. | $20.800 \text{ m}^2$ de parque fluvial bioclimático regenerado en predios ID 905 e ID 908 con bioingeniería. |
+| **C2: Movilidad Activa y Vía Completa** | 0 km de ciclorrutas; 1,09 km en tierra y 2,37 km en lastre sin veredas continuas ni pasos seguros. | 980 residentes barriales + 15.000 viajes/semana hacia el nodo universitario y de salud La Argelia. | **2,4 km de vía sin accesibilidad universal 8-80**, forzando al peatón a circular por calzada vehicular. | 2,4 km de vía completa pacificada a $30 \text{ km/h}$, aceras continuas de 2,00 m y ciclorruta segregada de 2,20 m. |
+| **C3: Drenaje Urbano y SUDs** | 0 celdas de drenaje biofísico. Más del 80% de predios sin red pluvial (72% de escorrentía superficial libre). | Evacuación y laminación de tormentas de diseño decenales ($Q_{24h}$) de $1.850 \text{ m}^3$ sobre ladera limosa. | **$1.850 \text{ m}^3$ de sobrecarga pluvial sin amortiguamiento**, provocando erosión y anegamiento predial. | 8 celdas de biorretención en serie con grava y fito-depuración (capacidad de amortiguamiento de $1.850 \text{ m}^3$). |
+| **C4: Alumbrado Autónomo Solar** | Iluminación intermitente sobre postes de madera; zonas de penumbra con riesgo de acoso e inseguridad. | Cobertura lumínica vial continua Clase M4/P3 en 2,4 km de vías y senderos fluviales (120 luminarias). | **Déficit del 75%** en cobertura lumínica eficiente y gasto recurrente de consumo eléctrico para el GAD. | 120 luminarias solares LED autónomas de 60 W con LiFePO4 fuera de red ($0 \text{ USD}$ en consumo eléctrico mensual). |
+| **C5: Residuos y Economía Circular** | Botaderos informales y quema a cielo abierto de podas y biomasa orgánica ribereña. | Gestión de 24 toneladas anuales de residuos orgánicos domiciliarios y podas de mantenimiento verde. | **24 t/año de residuos orgánicos dispuestos en vertederos**, generando lixiviados y emisiones de metano. | 3 islas ecológicas de 3 fracciones + Centro Comunal de Compostaje de $150 \text{ m}^2$ para producir enmienda local. |
+
+: Matriz de Desagregación Oferta - Demanda y Diagnóstico de Brechas (Metodología BDE / SNIP)
+:::
+:::
+
+
 ## Delimitación Cartográfica Oficial y Tenencia del Suelo
 
 La @fig-plano-delimitacion sintetiza la estructura geoespacial del polígono de intervención y consolida las capas temáticas obtenidas del Sistema de Información Geográfica municipal y la base catastral institucional:

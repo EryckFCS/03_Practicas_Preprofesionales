@@ -6,6 +6,7 @@ El presente capítulo operacionaliza los criterios de priorización de la convoc
 
 Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
 
+::: {.landscape}
 ::: {#tbl-criterios-giz}
 | N.° | Criterio de Selección CIS II | Nivel de Cumplimiento | Evidencia Técnica Documentada en Expediente |
 | :---: | :--- | :---: | :--- |
@@ -13,12 +14,12 @@ Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_
 | **02** | Sector elegible principal | Cumple | Espacio público y recuperación del espacio natural (19.513 m² en ribera fluvial del río Capulí). |
 | **03** | Adicionalidad multisectorial integrada | Cumple | Integra 4 sectores complementarios: energía solar, drenaje urbano sostenible (SUDs), movilidad activa y residuos. |
 | **04** | Monto de inversión referencial | Cumple | Presupuesto referencial de USD 1.250.000,00 estructurado bajo metodología CAPEX + OPEX bancable. |
-| **05** | Titularidad y dominio del suelo | Cumple | 2,14 ha de suelo municipal directo (predios rurales ID 905 e ID 908) colindantes al margen hídrico. |
+| **05** | Titularidad y dominio del suelo | Cumple | 2,08 ha de suelo municipal directo (predios rurales ID 905 e ID 908) colindantes al margen hídrico. |
 | **06** | Compromiso de máxima autoridad | Cumple | Carta de compromiso suscrita por la Alcaldía del Cantón Loja para liderar la postulación formal. |
 | **07** | Equipo contraparte técnica asignado | Cumple | Equipo municipal interdisciplinario (Planificación, Obras Públicas, Gestión Ambiental) articulado a la UNL. |
-| **08** | Alineación con planificación local | Cumple | Incorporado en el PDOT Loja 2021 y priorizado como Proyecto N.° 11 en el Plan del Sistema Verde Urbano. |
+| **08** | Alineación con planificación local | Cumple | Incorporado en el PDOT Loja y priorizado como Proyecto N.° 11 en el Plan del Sistema Verde Urbano. |
 | **09** | Alineación con política nacional | Cumple | Articulado a la Agenda de Hábitat Sostenible del Ecuador 2036 (Áreas de Gestión 1, 3, 5 y 6) y ODS 11. |
-| **10** | Mitigación y resiliencia climática | Cumple | Capacidad de laminación de 1.850 m³ de escorrentía pluvial y ahorro de 14,2 tCO2e/año con 120 luminarias solares. |
+| **10** | Mitigación y resiliencia climática | Cumple | Capacidad de laminación de 1.850 m³ de escorrentía pluvial y bioingeniería contra socavamiento fluvial. |
 | **11** | Enfoque de género y accesibilidad universal | Cumple | Diseño vial peatonal inclusivo bajo estándar 8-80 para infancias, adultos mayores y movilidad del cuidado. |
 | **12** | Co-gobernanza y participación comunitaria | Cumple | Participación y corresponsabilidad operativa acordada con la Junta de Desarrollo Barrial El Capulí. |
 | **13** | Sostenibilidad financiera de operación | Cumple | Costo OPEX anual de USD 16.900,00 (1,35% del CAPEX), financiado con ahorro energético fuera de red. |
@@ -26,6 +27,9 @@ Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_
 
 : Matriz de correspondencia con los catorce criterios de priorización CIS II / GIZ
 :::
+:::
+
+
 
 ## Métricas Cuantitativas de Mitigación y Adaptación Climática
 
