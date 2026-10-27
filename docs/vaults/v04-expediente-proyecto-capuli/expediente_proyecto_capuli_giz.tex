@@ -8,10 +8,10 @@
   spanish,
   letterpaper,
   DIV=11,
-  numbers=noendperiod]{scrreprt}
+  numbers=noendperiod]{scrartcl}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -149,7 +149,6 @@
  
 
 
-\input{plantillas/giz_preamble_apa.tex}
 \KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -231,13 +230,8 @@ Interinstitucional)}
 \begin{document}
 \maketitle
 
-\renewcommand*\contentsname{Tabla de contenidos}
-{
-\setcounter{tocdepth}{2}
-\tableofcontents
-}
 
-\chapter{Ficha de Proyecto y Resumen
+\section{Ficha de Proyecto y Resumen
 Ejecutivo}\label{ficha-de-proyecto-y-resumen-ejecutivo}
 
 El presente expediente técnico fundamenta la postulación del Cantón Loja
@@ -306,10 +300,10 @@ catastro municipal, cartografía georreferenciada y diagnóstico
 censal) \\
 \end{longtable}
 
-\chapter{Justificación Territorial y Diagnóstico de
+\section{Justificación Territorial y Diagnóstico de
 Necesidades}\label{justificaciuxf3n-territorial-y-diagnuxf3stico-de-necesidades}
 
-\section{Alineación con la Planificación Cantonal y
+\subsection{Alineación con la Planificación Cantonal y
 Nacional}\label{alineaciuxf3n-con-la-planificaciuxf3n-cantonal-y-nacional}
 
 La intervención se desprende de tres instrumentos de planificación
@@ -377,7 +371,7 @@ vinculantes a nivel nacional y local:
   \end{itemize}
 \end{enumerate}
 
-\section{Caracterización Socioeconómica y Brechas
+\subsection{Caracterización Socioeconómica y Brechas
 Físicas}\label{caracterizaciuxf3n-socioeconuxf3mica-y-brechas-fuxedsicas}
 
 Los datos oficiales del Censo de Población y Vivienda (Instituto
@@ -412,7 +406,7 @@ el polígono barrial de 115,12 hectáreas:
   mayores y mujeres en tareas de cuidado.
 \end{itemize}
 
-\chapter{Propuesta Técnica del
+\section{Propuesta Técnica del
 Anteproyecto}\label{propuesta-tuxe9cnica-del-anteproyecto}
 
 El proyecto adopta como sector estructurante el espacio público y la
@@ -435,7 +429,7 @@ CIS II}
 
 \end{figure}%
 
-\section{Componente 1: Parque Fluvial y Soluciones basadas en la
+\subsection{Componente 1: Parque Fluvial y Soluciones basadas en la
 Naturaleza
 (SbN)}\label{componente-1-parque-fluvial-y-soluciones-basadas-en-la-naturaleza-sbn}
 
@@ -455,7 +449,7 @@ Naturaleza
   de carbono y mampostería en piedra local.
 \end{itemize}
 
-\section{Componente 2: Movilidad Activa y Vía Completa de
+\subsection{Componente 2: Movilidad Activa y Vía Completa de
 Proximidad}\label{componente-2-movilidad-activa-y-vuxeda-completa-de-proximidad}
 
 \begin{itemize}
@@ -472,7 +466,7 @@ Proximidad}\label{componente-2-movilidad-activa-y-vuxeda-completa-de-proximidad}
   alcorques drenantes de infiltración directa.
 \end{itemize}
 
-\section{Componente 3: Eficiencia Hídrica y Drenaje Urbano Sostenible
+\subsection{Componente 3: Eficiencia Hídrica y Drenaje Urbano Sostenible
 (SUDs)}\label{componente-3-eficiencia-huxeddrica-y-drenaje-urbano-sostenible-suds}
 
 \begin{itemize}
@@ -491,7 +485,7 @@ Proximidad}\label{componente-2-movilidad-activa-y-vuxeda-completa-de-proximidad}
   las manzanas bajas.
 \end{itemize}
 
-\section{Componente 4: Alumbrado Eficiente y Generación
+\subsection{Componente 4: Alumbrado Eficiente y Generación
 Fotovoltaica}\label{componente-4-alumbrado-eficiente-y-generaciuxf3n-fotovoltaica}
 
 \begin{itemize}
@@ -503,7 +497,7 @@ Fotovoltaica}\label{componente-4-alumbrado-eficiente-y-generaciuxf3n-fotovoltaic
   eléctrica cantonal, reduciendo el gasto corriente del municipio.
 \end{itemize}
 
-\section{Componente 5: Gestión de Residuos Sólidos y
+\subsection{Componente 5: Gestión de Residuos Sólidos y
 Circularidad}\label{componente-5-gestiuxf3n-de-residuos-suxf3lidos-y-circularidad}
 
 \begin{itemize}
@@ -515,7 +509,7 @@ Circularidad}\label{componente-5-gestiuxf3n-de-residuos-suxf3lidos-y-circularida
   vegetal generada en el mantenimiento de las áreas verdes.
 \end{itemize}
 
-\chapter{Estructura Presupuestaria de Inversión y Operación (CAPEX +
+\section{Estructura Presupuestaria de Inversión y Operación (CAPEX +
 OPEX)}\label{estructura-presupuestaria-de-inversiuxf3n-y-operaciuxf3n-capex-opex}
 
 El expediente técnico evalúa la viabilidad económica en el ciclo de vida
@@ -523,7 +517,7 @@ completo de la infraestructura conforme al marco FELICITY (GIZ \&
 European Investment Bank, 2020) y la guía de espacio público (GIZ
 Ecuador \& Ministerio de Desarrollo Urbano y Vivienda, 2021).
 
-\section{Presupuesto de Inversión Inicial
+\subsection{Presupuesto de Inversión Inicial
 (CAPEX)}\label{presupuesto-de-inversiuxf3n-inicial-capex}
 
 El monto total de inversión de capital asciende a USD 1.250.000,00,
@@ -590,7 +584,7 @@ PDOT de Loja (Gobierno Autónomo Descentralizado Municipal del Cantón
 Loja, 2021a). La asistencia técnica de aceleración no requiere
 contraparte financiera al GAD Loja durante la fase de formulación.
 
-\section{Estimación de Costos de Operación y Mantenimiento
+\subsection{Estimación de Costos de Operación y Mantenimiento
 (OPEX)}\label{estimaciuxf3n-de-costos-de-operaciuxf3n-y-mantenimiento-opex}
 
 Para garantizar la sostenibilidad a 25 años y evitar el abandono de los
@@ -647,10 +641,10 @@ constituyendo un sistema financiero de bajo costo recurrente para el
 municipio debido al alumbrado autónomo fuera de red y al drenaje
 biofísico pasivo por gravedad.
 
-\chapter{Modelo de Gobernanza y Gestión
+\section{Modelo de Gobernanza y Gestión
 Operativa}\label{modelo-de-gobernanza-y-gestiuxf3n-operativa}
 
-\section{Coordinación
+\subsection{Coordinación
 Institucional}\label{coordinaciuxf3n-institucional}
 
 El modelo operativo distribuye responsabilidades entre tres actores:
@@ -679,7 +673,7 @@ El modelo operativo distribuye responsabilidades entre tres actores:
   barriales de cuidado del espacio público.
 \end{enumerate}
 
-\chapter{Desempeño Climático, Salvaguardas y Ruta de Aceleración
+\section{Desempeño Climático, Salvaguardas y Ruta de Aceleración
 GIZ}\label{desempeuxf1o-climuxe1tico-salvaguardas-y-ruta-de-aceleraciuxf3n-giz}
 
 El presente capítulo operacionaliza los criterios de priorización de la
@@ -687,8 +681,8 @@ convocatoria CIS II (GIZ Ecuador \& GFA Consulting Group, 2026; Rosero,
 2024), cuantificando el impacto biofísico, gestionando los riesgos de
 ejecución y trazando la asistencia técnica requerida.
 
-\section{Matriz de Cumplimiento de Criterios de Selección y Priorización
-CIS
+\subsection{Matriz de Cumplimiento de Criterios de Selección y
+Priorización CIS
 II}\label{matriz-de-cumplimiento-de-criterios-de-selecciuxf3n-y-priorizaciuxf3n-cis-ii}
 
 Conforme a las bases de la convocatoria Ciudades que Transforman (GIZ
@@ -773,7 +767,7 @@ Nivel de perfil avanzado con catastro georreferenciado y ruta de
 maduración de 6 meses hacia financiamiento BDE. \\
 \end{longtable}
 
-\section{Métricas Cuantitativas de Mitigación y Adaptación
+\subsection{Métricas Cuantitativas de Mitigación y Adaptación
 Climática}\label{muxe9tricas-cuantitativas-de-mitigaciuxf3n-y-adaptaciuxf3n-climuxe1tica}
 
 El proyecto genera beneficios ecosistémicos medibles que sustentan la
@@ -831,7 +825,7 @@ huertos \\
 especies fijadoras \\
 \end{longtable}
 
-\section{Matriz de Riesgos y Salvaguardas
+\subsection{Matriz de Riesgos y Salvaguardas
 Socioambientales}\label{matriz-de-riesgos-y-salvaguardas-socioambientales}
 
 Conforme al marco de salvaguardas de la banca multilateral (Banco de
@@ -889,7 +883,7 @@ de autoridades seccionales & Bajo & Formalización del proyecto mediante
 Resolución de Concejo Cantonal y Convenio Marco UNL - GAD Loja. \\
 \end{longtable}
 
-\section{Escalabilidad y Replicabilidad en el Cantón
+\subsection{Escalabilidad y Replicabilidad en el Cantón
 Loja}\label{escalabilidad-y-replicabilidad-en-el-cantuxf3n-loja}
 
 El proyecto trasciende la escala barrial al estructurarse como un modelo
@@ -914,8 +908,8 @@ Loja:
   PUGS.
 \end{enumerate}
 
-\section{Ruta Crítica de Asistencia Técnica y Aceleración (Horizonte de
-6
+\subsection{Ruta Crítica de Asistencia Técnica y Aceleración (Horizonte
+de 6
 Meses)}\label{ruta-cruxedtica-de-asistencia-tuxe9cnica-y-aceleraciuxf3n-horizonte-de-6-meses}
 
 Durante la fase de aceleración del Programa CIS II, el equipo
@@ -954,9 +948,9 @@ asistencia técnica y maduración del proyecto (Fase CIS II)}
   Ecuador (BDE) y fondos climáticos internacionales.
 \end{enumerate}
 
-\chapter*{Referencias
+\section*{Referencias
 Bibliográficas}\label{referencias-bibliogruxe1ficas}
-\addcontentsline{toc}{chapter}{Referencias Bibliográficas}
+\addcontentsline{toc}{section}{Referencias Bibliográficas}
 
 \protect\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}

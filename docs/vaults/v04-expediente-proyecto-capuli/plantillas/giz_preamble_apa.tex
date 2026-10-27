@@ -66,15 +66,21 @@
 \addtokomafont{pageheadfoot}{\normalfont\footnotesize\color{APAGray}}
 \addtokomafont{pagenumber}{\normalfont\normalsize\color{APABlack}}
 
-% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha
-\ihead{%
+% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha (en estilo regular y plain)
+\ihead[{%
+  \raisebox{-0.2\height}{%
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
+    }{}%
+  }%
+}]{%
   \raisebox{-0.2\height}{%
     \IfFileExists{assets/logos/logo_unl.png}{%
       \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
     }{}%
   }%
 }
-\ohead{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
+\ohead[\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}]{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
 
 % Pie de página: numeración centrada en estilo regular y plain
 \cfoot[\pagemark]{\pagemark}
