@@ -1,6 +1,6 @@
 # Estructura Presupuestaria de Inversión y Operación (CAPEX + OPEX)
 
-El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco metodológico de proyectos urbanos sostenibles [@giz_bmz_ciudades_sostenibles_2020] y la guía de espacio público [@miduvi_giz_guia_espacio_publico_2021].
+El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco metodológico de proyectos urbanos sostenibles [@bde_guia_procesos_crediticios_2021; @rosero_guia_perfil_climatico_2024] y la guía de espacio público [@miduvi_giz_guia_espacio_publico_2021].
 
 ## Presupuesto de Inversión Inicial (CAPEX)
 

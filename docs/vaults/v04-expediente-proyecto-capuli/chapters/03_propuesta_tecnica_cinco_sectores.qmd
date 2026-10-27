@@ -1,6 +1,6 @@
 # Propuesta Técnica del Anteproyecto
 
-El proyecto adopta como sector estructurante el espacio público y la conservación de márgenes naturales, incorporando cuatro componentes complementarios para maximizar el desempeño en la matriz de priorización del CIS II [@miduvi_giz_guia_espacio_publico_2021; @giz_bmz_ciudades_sostenibles_2020].
+El proyecto adopta como sector estructurante el espacio público y la conservación de márgenes naturales, incorporando cuatro componentes complementarios para maximizar el desempeño en la matriz de priorización del CIS II [@miduvi_giz_guia_espacio_publico_2021; @giz_ciudades_que_transforman_2026].
 
 ![Estructura operativa del Proyecto Integral El Capulí articulada a los sectores de la convocatoria CIS II](assets/estructura_proyecto_cinco_sectores.png){#fig-estructura-proyecto width=100%}
 

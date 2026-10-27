@@ -46,7 +46,7 @@ El proyecto genera beneficios ecosistémicos medibles que sustentan la calificac
 
 ## Matriz de Riesgos y Salvaguardas Socioambientales
 
-Conforme al marco de salvaguardas de proyectos urbanos sostenibles y preinversión [@giz_bmz_ciudades_sostenibles_2020; @bde_guia_procesos_crediticios_2021], se identifican las amenazas operativas y sus medidas de control preventivo:
+Conforme al marco de salvaguardas de proyectos urbanos sostenibles y preinversión [@bde_guia_procesos_crediticios_2021; @rosero_guia_perfil_climatico_2024], se identifican las amenazas operativas y sus medidas de control preventivo:
 
 ::: {#tbl-salvaguardas}
 | Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y Mitigación Vinculante |
