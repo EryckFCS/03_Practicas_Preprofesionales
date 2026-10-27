@@ -1,0 +1,38 @@
+---
+title: "EXPEDIENTE TÉCNICO Y PERFIL DE PROYECTO: PARQUE FLUVIAL Y RED DE CONECTIVIDAD ECOLÓGICA EL CAPULÍ"
+subtitle: "Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible — Convocatoria Ciudades que Transforman (GIZ / CIS II)"
+author: 
+  - name: "Erick Fabricio Condoy Seraquive (Carrera de Economía - UNL)"
+  - name: "Amanda Salomé Gálvez Macas (Carrera de Economía - UNL)"
+  - name: "Erick Sebastián Barba Sisalima (Carrera de Economía - UNL)"
+  - name: "Arq. Alexandra Aguilera Maldonado (Docente Tutora - Carrera de Arquitectura Sostenible UNL)"
+  - name: "Arq. Pablo (Contraparte Técnica Interinstitucional)"
+date: "2026-10-27"
+bibliography: plantillas/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+lang: es
+format:
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+    colorlinks: true
+    pdf-engine: lualatex
+    include-in-header:
+      - text: |
+          \input{plantillas/giz_preamble_apa.tex}
+---
+
+{{< include chapters/01_ficha_resumen_ejecutivo.qmd >}}
+
+{{< include chapters/02_justificacion_diagnostico_territorial.qmd >}}
+
+{{< include chapters/03_propuesta_tecnica_cinco_sectores.qmd >}}
+
+{{< include chapters/04_presupuesto_modular_capex.qmd >}}
+
+{{< include chapters/05_modelo_gobernanza_gestion.qmd >}}
+
+{{< include chapters/07_desempeno_salvaguardas_aceleracion.qmd >}}
+
+{{< include chapters/06_referencias_bibliograficas.qmd >}}

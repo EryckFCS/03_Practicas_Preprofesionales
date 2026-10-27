@@ -28,3 +28,19 @@ Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_ecuador_2022] 
 * **Precariedad de la red vial y movilidad no motorizada:**
   De los 9,64 km lineales de vías públicas registradas en el catastro barrial, 1,09 km son calzadas de tierra compactada y 2,37 km son calzadas de lastre sin cunetas ni veredas peatonales. A pesar de que la distancia hacia el nodo equipamental de La Argelia es inferior a 2.000 metros, la falta de continuidad peatonal obliga a circular por la calzada vehicular, afectando severamente a estudiantes, infancias, adultos mayores y mujeres en tareas de cuidado.
 
+## Delimitación Cartográfica Oficial y Tenencia del Suelo
+
+La @fig-plano-delimitacion sintetiza la estructura geoespacial del polígono de intervención y consolida las capas temáticas obtenidas del Sistema de Información Geográfica municipal y la base catastral institucional:
+
+![Plano Oficial de Delimitación Territorial, Reserva Predial Municipal y Eje Hídrico Río Capulí](assets/mapa_oficial_delimitacion_capuli.png){#fig-plano-delimitacion width=100%}
+
+El análisis espacial del polígono y sus áreas de influencia establece las siguientes condiciones físico-legales:
+
+1. **Polígono Barrial Integral (115,12 ha):** Define el perímetro de intervención socio-territorial donde se concentran los 980 habitantes directos, la red vial periurbana (9,64 km) y los sectores críticos de ladera con riesgo hidrogeológico.
+2. **Reserva Predial Municipal de Dominio Público (2,08 ha consolidadas):**
+   * **Predio Rural Clave 110150201300905000000000 (ID 905):** Superficie de $14.500 \text{ m}^2$ (1,45 ha), de titularidad municipal directa, destinado a la implantación del parque fluvial bioclimático, terrazas de retención biofísica y módulos recreativo-culturales.
+   * **Predio Rural Clave 110150201300908000000000 (ID 908):** Superficie de $5.000 \text{ m}^2$ (0,50 ha), de dominio público del GAD Loja, reservado para el sistema de celdas de biorretención, humedales artificiales y el centro barrial de economía circular.
+   * **Predio Urbano Municipal Complementario:** Fracción de $1.300 \text{ m}^2$ (0,13 ha) adyacente a la red vial principal que garantiza el acceso libre y servidumbres públicas hacia la ribera fluvial.
+3. **Eje Hídrico y Zona de Protección Fluvial (Río Capulí):** Se establece un buffer de retiro y protección hidrológica a lo largo de los márgenes del río Capulí, recuperando el lecho fluvial degradado mediante Soluciones basadas en la Naturaleza y contención de crecidas extraordinarias.
+4. **Articulación Urbana Estratégica:** El plano evidencia la proximidad caminable ($< 2,0 \text{ km}$) con el nodo equipamental y científico del Campus Universitario La Argelia (UNL), conectando mediante la Av. Reinaldo Espinosa y el Corredor Ecológico Éxodo de Yangana, lo que viabiliza la consolidación de un sistema de movilidad activa y descarbonizada.
+
