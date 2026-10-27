@@ -12,11 +12,6 @@ bibliography: plantillas/references.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 lang: es
 format:
-  docx:
-    toc: true
-    number-sections: true
-    highlight-style: github
-    reference-doc: plantillas/giz_apa_reference.docx
   pdf:
     documentclass: scrreprt
     toc: true
