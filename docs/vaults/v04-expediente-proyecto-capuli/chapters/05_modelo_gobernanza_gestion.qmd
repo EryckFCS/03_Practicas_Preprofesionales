@@ -1,14 +1,41 @@
-# Modelo de Gobernanza y Gestión Operativa
+# Modelo de Gobernanza, Gestión Institucional y Hoja de Ruta
 
-## Coordinación Institucional
+## Estructura de Coordinación Interinstitucional
 
-El modelo operativo distribuye responsabilidades entre tres actores:
+El modelo operativo distribuye responsabilidades entre tres niveles institucionales para asegurar la viabilidad técnica, social y legal durante la aceleración y posterior ejecución:
 
-1. **Titular del proyecto (GAD Municipal del Cantón Loja):**
-   Postulante formal y receptor de la asistencia técnica de la GIZ. Designa el equipo contraparte en las Direcciones de Planificación, Obras Públicas y Gestión Ambiental. Asume la titularidad del activo público y su posterior mantenimiento.
+1. **Entidad Postulante y Titular del Activo (GAD Municipal del Cantón Loja):**
+   * Receptor legal de la asistencia técnica del Fondo de Aceleración GIZ / CIS II.
+   * Designa el equipo técnico contraparte en las Direcciones Estratégicas: Dirección de Planificación Territorial, Dirección de Obras Públicas, Dirección de Gestión Ambiental y UMAPAL.
+   * Otorga la certificación de disponibilidad predial y asume la titularidad de las obras públicas y el presupuesto de mantenimiento preventivo y correctivo (OPEX anual).
 
-2. **Equipo formulador (Universidad Nacional de Loja):**
-   Las Carreras de Economía y Arquitectura Sostenible elaboran el perfil técnico, procesan los microdatos territoriales en KoBoToolbox [@kobotoolbox_data_collection_2024], desarrollan la cartografía en QGIS y estructuran la evaluación socioeconómica bajo el marco de prácticas preprofesionales [@unl_reglamento_practicas_2024].
+2. **Equipo Formulador y Soporte Analítico (Universidad Nacional de Loja):**
+   * Las Carreras de Economía y Arquitectura Sostenible elaboran el perfil técnico, estructuran la matriz de viabilidad financiera y efectúan el análisis multicriterio.
+   * Conduce el levantamiento socioeconómico primario georreferenciado mediante KoBoToolbox [@kobotoolbox_data_collection_2024], el procesamiento censal INEC CPV 2022 y la cartografía oficial satelital en entorno QGIS bajo el marco de vinculación con la sociedad y prácticas preprofesionales [@unl_reglamento_practicas_2024].
 
-3. **Contraparte social (Junta de Desarrollo Barrial El Capulí):**
-   Participa mediante el mecanismo de planificación barrial participativa [@gad_loja_planificacion_barrial_2020; @unl_plan_barrial_la_palmira_2022]. Valida el diseño en asambleas comunitarias y co-administra las áreas verdes mediante convenios barriales de cuidado del espacio público.
+3. **Contraparte Social y Veeduría Comunitaria (Junta de Desarrollo Barrial El Capulí):**
+   * Aplica la metodología de planificación barrial participativa [@gad_loja_planificacion_barrial_2020; @unl_plan_barrial_la_palmira_2022].
+   * Conforma el Comité Ciudadano de Gestión y Veeduría con paridad de género, garantizando la co-administración del centro de compostaje y el cuidado activo de las terrazas ribereñas.
+
+## Matriz de Gestión de Riesgos y Salvaguardas Ambientales y Sociales
+
+Para mitigar eventualidades que comprometan los plazos de maduración o la aceptación social de las obras, se estructura el plan de contingencia institucional:
+
+::: {#tbl-riesgos}
+| Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y de Mitigación | Responsable Institucional |
+| :--- | :--- | :---: | :--- | :--- |
+| **Legal / Predial** | Reclamos de linderación en márgenes ribereños | Bajo | Levantamiento topográfico catastral oficial; delimitación estricta en predios municipales ID 905 e ID 908 con afectación de dominio público. | GAD Loja (Dirección de Regulación Urbana) |
+| **Climático / Físico** | Crecidas torrenciales del río Capulí durante la fase de bioingeniería | Medio | Diseño de diques de bio-retención escalonados; calendario de obras concentrado en época de estiaje (junio a noviembre). | GAD Loja (Obras Públicas / Riesgos) |
+| **Social / Participativo** | Resistencia de frentistas por pacificación vial y reducción de velocidad vehicular | Bajo | Asambleas barriales de socialización; señalización pedagógica bajo estándar 8-80; talleres sobre seguridad infantil y accesibilidad universal. | UNL + Junta Barrial El Capulí |
+| **Financiero / Fiscal** | Retrasos en desembolsos de cofinanciamiento para la fase de construcción | Medio | Estructuración del presupuesto en 6 paquetes de trabajo modulares e independientes; gestión coordinada de crédito verde ante el Banco de Desarrollo del Ecuador (BDE) y fondos multilaterales. | GAD Loja (Dirección Financiera) |
+
+: Matriz de gestión de riesgos institucionales, ambientales y sociales
+:::
+
+## Hoja de Ruta para el Fondo de Aceleración GIZ (Fase III)
+
+El ingreso a la asistencia técnica de la GIZ viabilizará los siguientes saltos cualitativos en un horizonte de 6 meses:
+
+* **Hito 1 (Meses 1-2):** Consolidación de estudios hidrológicos de detalle a escala de microcuenca y modelación hidráulica 2D del río Capulí para periodos de retorno de 25, 50 y 100 años.
+* **Hito 2 (Meses 3-4):** Diseño estructural definitivo de celdas SUDs, manual constructivo de bioingeniería con vegetación nativa y formalización del Plan de Manejo Ambiental y Social (PMAS).
+* **Hito 3 (Meses 5-6):** Cierre de la estructura financiera, dictamen favorable del Sistema Nacional de Inversión Pública (SNIP) y elaboración del expediente de licitación para financiamiento concesional del Banco de Desarrollo del Ecuador (BDE) o banca multilateral.
