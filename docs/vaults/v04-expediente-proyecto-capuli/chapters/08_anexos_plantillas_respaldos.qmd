@@ -1,0 +1,145 @@
+# Anexos Técnicos, Modelos Habilitantes y Respaldos Reproducibles
+
+El presente compendio reúne los modelos administrativos preparados para suscripción institucional en las Fases I y II de la convocatoria *Ciudades que Transforman* (CIS II), seguidos de la matriz maestra de trazabilidad documental y el tabulado estadístico reproducible auditado del Censo de Población y Vivienda (CPV INEC 2022) y de su diccionario oficial de variables.
+
+\clearpage
+
+## Anexo A: Borrador Oficial de Carta de Compromiso de la Máxima Autoridad (Pendiente de Suscripción)
+
+*Estado documental: Plantilla administrativa redactada con los datos catastrales, normativos y presupuestarios conciliados del proyecto, lista para numeración y firma electrónica o manuscrita de la Alcaldesa del Cantón Loja previo al cierre del formulario de postulación (Fase I).*
+
+**OFICIO Nro.:** GADM-LOJA-ALC-2026-[POR ASIGNAR EN DESPACHO]  
+**Lugar y Fecha:** Loja, [Día] de octubre de 2026  
+
+**A:**  
+Equipo Técnico de la Convocatoria "Ciudades que Transforman"  
+Programa Ciudades Intermedias Sostenibles (CIS II)  
+Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH / GFA Consulting Group  
+Correo electrónico de contacto: `diego.cevallos@gfa-group.de`  
+
+**ASUNTO:** Carta de Compromiso Institucional y Postulación del Proyecto "Parque Fluvial y Red de Conectividad Ecológica El Capulí" al Programa de Aceleración CIS II.
+
+De mi consideración:
+
+En mi calidad de Alcaldesa del Gobierno Autónomo Descentralizado Municipal del Cantón Loja, expreso el interés formal y el compromiso institucional de esta administración municipal para postular a la convocatoria nacional "Ciudades que Transforman", impulsada por la Cooperación Técnica Alemana (GIZ) y ejecutada junto a GFA Consulting Group en el marco del programa Ciudades Intermedias Sostenibles (CIS II).
+
+El proyecto denominado "Parque Fluvial y Red de Conectividad Ecológica El Capulí: Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible" responde a una prioridad territorial del sur de la ciudad de Loja, encontrándose alineado con el Plan de Desarrollo y Ordenamiento Territorial (PDOT 2023–2027) y el Plan de Uso y Gestión del Suelo (PUGS 2023–2033) vigentes conforme a las Ordenanzas Municipales N.° 0070-2025 y N.° 0086-2026, así como jerarquizado como Proyecto N.° 11 dentro del Plan del Sistema Verde Urbano del Cantón Loja.
+
+Con el propósito de cumplir los requisitos habilitantes y asegurar el desarrollo efectivo de la asistencia técnica solicitada, el GAD Municipal del Cantón Loja asume formalmente los siguientes compromisos:
+
+1. Acreditación y Saneamiento de Suelo Municipal: Poner a disposición del proyecto los predios de dominio público municipal ubicados en el sector El Capulí (claves catastrales `1101500220083` de $14.516,75 \text{ m}^2$, `1101500220086` de $4.996,82 \text{ m}^2$ y área comunal `1101020202110024` de $1.307,91 \text{ m}^2$, que suman $20.821,48 \text{ m}^2$ de intervención directa, más $10.828,54 \text{ m}^2$ de reserva municipal colindante en los lotes `1101500220081` y `1101500220084`, conformando un corredor público continuo de $31.650,02 \text{ m}^2$ equivalentes a $3,17 \text{ hectáreas}$), e instruir a la Dirección de Avalúos y Catastros y al Registro de la Propiedad la emisión de las certificaciones actualizadas de titularidad y gravámenes requeridas para la verificación documental.
+2. Designación de Equipo Contraparte Técnica: Designar como puntos focales municipales a profesionales delegados de las Direcciones de Planificación Territorial, Obras Públicas, Gestión Ambiental, Higiene y de la Unidad Municipal de Agua Potable y Alcantarillado (UMAPAL), quienes participarán durante todo el proceso de aceleración en coordinación con el equipo técnico de soporte de la Universidad Nacional de Loja (UNL).
+3. Entrega de Información y Coordinación Interdepartamental: Facilitar de manera oportuna la cartografía oficial, expedientes de regulación urbana, registros hidrológicos, tabuladores de precios unitarios y pronunciamientos administrativos necesarios para el desarrollo de los cinco paquetes de trabajo de la hoja de ruta acordada con GIZ/GFA.
+4. Previsión Presupuestaria de Operación y Mantenimiento (OPEX): Gestionar a través de la Dirección Financiera y las direcciones operativas competentes la programación presupuestaria anual requerida para la operación, mantenimiento rutinario y reserva de reposición periódica de los activos generados por el proyecto (estimada a nivel de perfil en $\text{USD } 26.500,00$ anuales).
+5. Ausencia de Impedimentos: Declarar que la municipalidad no mantiene impedimentos administrativos o legales manifiestos que obstaculicen el proceso de acompañamiento técnico dentro del horizonte del programa CIS II.
+
+Con la convicción de que el fortalecimiento técnico de esta iniciativa permitirá consolidar un proyecto riguroso para la resiliencia climática del cantón Loja, suscribo la presente carta de compromiso.
+
+Atentamente,
+
+\vspace{1.6cm}
+
+___________________________________________________  
+**Mgtr. Diana Carolina Guayanay Llanes**  
+Alcaldesa del Cantón Loja  
+Gobierno Autónomo Descentralizado Municipal del Cantón Loja  
+
+\clearpage
+
+## Anexo B: Formato de Certificación Catastral de Titularidad Municipal (Pendiente de Emisión)
+
+*Estado documental: Borrador técnico elaborado a partir de los atributos verificados en la geodatabase catastral oficial del GAD Municipal de Loja (`PrediosRurales.shp` y `PrediosUrbanos.shp`), preparado para constatación registral y firma de la Dirección de Avalúos y Catastros como requisito habilitante de tenencia de tierra.*
+
+**CERTIFICACIÓN TÉCNICA CATASTRAL Nro.:** GADM-LOJA-DAC-2026-[POR ASIGNAR]  
+
+La Dirección de Avalúos y Catastros del Gobierno Autónomo Descentralizado Municipal del Cantón Loja, en atención al requerimiento de la Dirección de Planificación Territorial para la postulación al programa *Ciudades que Transforman (CIS II / GIZ)*, HACE CONSTAR:
+
+Que, efectuada la verificación técnica en las bases gráficas y alfanuméricas del Sistema Catastral Municipal (`PrediosRurales.shp` y `PrediosUrbanos.shp`, proyección UTM WGS84 Zona 17S) correspondientes al sector El Capulí, jurisdicción de la Parroquia Urbana Punzara, se encuentran catastrados a nombre del Municipio de Loja bajo régimen de Dominio Público (`PUBLICO`) los siguientes cinco predios destinados a áreas verdes, equipamiento comunal y protección hídrica:
+
+1. Predio Municipal Clave Catastral `1101500220083` (`id=61316`, `fid=906`): Superficie gráfica de $14.516,75 \text{ m}^2$ ($1,45 \text{ ha}$). Uso y antecedente administrativo registrado en base catastral: *Área Verde Municipal*, según plano aprobado por la Jefatura de Regulación Urbana en fecha 06 de octubre de 2016 (` SEGUN PLANO APROBADO POR REGULACION URBANA el 06-10-2016`). Destino en anteproyecto: Núcleo del Parque Fluvial Capulí y senderos permeables (Componente 1).
+2. Predio Municipal Clave Catastral `1101500220086` (`id=61319`, `fid=909`): Superficie gráfica de $4.996,82 \text{ m}^2$ ($0,50 \text{ ha}$). Uso y antecedente administrativo registrado en base catastral: *Área Verde y Protección de Quebrada de Dominio Público*, según plano aprobado por Regulación Urbana en fecha 21 de abril de 2006 (` SEGUN PLANO APROBADO POR REGULACION URBANA EL 21-04-2006`). Destino en anteproyecto: Celdas de biorretención SUDs (Componente 3) y módulo piloto de economía circular (Componente 5).
+3. Predio Comunal Urbano Clave Catastral `1101020202110024` (`ID=54797`, `fid=679`): Superficie gráfica de $1.307,91 \text{ m}^2$ ($0,13 \text{ ha}$). Uso catastral: *Área Comunal Pública*. Destino en anteproyecto: Nodo de articulación vial y acceso peatonal universal 8-80 (Componente 2).
+4. Predios Municipales Colindantes de Reserva Ecológica (`1101500220081` [`id=61314`, `fid=904`] y `1101500220084` [`id=61317`, `fid=907`]): Superficies gráficas de $983,89 \text{ m}^2$ ($0,10 \text{ ha}$, según plano aprobado por Regulación Urbana el 14 de abril de 2005) y $9.844,65 \text{ m}^2$ ($0,98 \text{ ha}$, según plano aprobado por Regulación Urbana el 21 de abril de 2006), respectivamente, que suman un subtotal de $10.828,54 \text{ m}^2$ ($1,08 \text{ ha}$) de áreas verdes municipales colindantes.
+
+La superficie pública de intervención directa suma $20.821,48 \text{ m}^2$ ($2,08 \text{ hectáreas}$), integrando un corredor público continuo de $31.650,02 \text{ m}^2$ ($3,17 \text{ hectáreas}$) al incluir los dos lotes municipales colindantes de reserva ecológica. Se deja constancia de que los predios signados con prefijo `110150` provienen de cesiones obligatorias de urbanización aprobadas por la Jefatura de Regulación Urbana dentro del sector El Capulí, encontrándose en proceso de homologación de clave al catastro urbano y verificación de inexistencia de gravámenes ante el Registro de la Propiedad del Cantón Loja.
+
+Loja, [Completar fecha de emisión] de 2026.
+
+\vspace{1.6cm}
+
+___________________________________________________  
+**Director(a) de Avalúos y Catastros**  
+Gobierno Autónomo Descentralizado Municipal del Cantón Loja
+
+\clearpage
+
+## Anexo C: Matriz de Trazabilidad Documental y Estado de Evidencias
+
+La @tbl-anexo-trazabilidad sintetiza el respaldo documental primario de las afirmaciones contenidas en el informe, diferenciando explícitamente entre evidencia comprobada, estimaciones paramétricas, propuestas de diseño y trámites pendientes:
+
+```{=latex}
+\begin{landscapepage}
+```
+
+::: {#tbl-anexo-trazabilidad}
+| Componente / Afirmación del Informe | Valor / Parámetro Auditado Reportado | Clasificación de Evidencia | Fuente Primaria / Respaldo Técnico | Archivo / Código de Verificación |
+| :--- | :--- | :---: | :--- | :--- |
+| Población y Viviendas Parroquia Punzara (2022) | $8.669 \text{ hab.}$, $5.382 \text{ viv. reg.}$, $2.589 \text{ VOPA}$, $2.787 \text{ hog.}$ ($2.781$ válidos NBI). | Comprobada | VIII Censo de Población y VII de Vivienda (CPV INEC 2022), código parroquial `110156`. | `cpv2022_loja_vivienda_sector.csv` y `DICCIONARIO_BDD_SECTOR.xlsx` [@inec_cpv_2022]. |
+| Población y Viviendas 10 Sectores Inmediatos | $2.950 \text{ hab.}$, $1.172 \text{ viv. reg.}$, $797 \text{ VOPA}$ ($375$ excl.), $847 \text{ hog.}$ | Comprobada | CPV INEC 2022: agregación de los 10 sectores censales que intersectan el entorno de El Capulí. | Capa `sectores_estudio_capuli_10` en `capuli_punzara_estudio.gpkg` (véase @tbl-censo-sectores). |
+| Población Residente en Polígono Estricto ($115,12\text{ ha}$) | $245 \text{ puntos edif\_p}$ ($214$ hab., $24$ lotes vacíos, $7$ no hab.) $\rightarrow 793 \text{ hab.}$ (rango $603\text{--}980$). | Comprobada / Estimada | Intersección espacial de `edificaciones_estudio_capuli` con `Barrio_El_Capuli.gpkg` ponderada por los 4 sectores censales del polígono ($1.386\text{ hab.}$). | @tbl-estimacion-poligono y geodatabase del proyecto. |
+| Flujo de Movilidad en Corredor Vial | Escenario exploratorio de hasta $15.000 \text{ desplazamientos/sem.}$ (sin equivalencia a usuarios únicos). | Estimada *(Exploratoria)* | Hipótesis de flujo en el eje Av. Reinaldo Espinosa y Campus UNL La Argelia; requiere conteo O-D. | Validación mediante aforos direccionales en el Paquete de Trabajo 3. |
+| Indicadores de Servicios Básicos y NBI (CPV 2022) | 10 sectores (sobre $797$ VOPA / $847$ hog.): `V10=1` $42,3\%$, `V09=1` $85,3\%$, `V11=1` $41,7\%$, `V12=1` $98,9\%$, `V14=1` $79,3\%$, `NBI=1` $35,2\%$. | Comprobada | Procesamiento auditado de microdatos CPV INEC 2022 conforme al diccionario oficial de variables. | Tabulado reproducible en @tbl-auditoria-indicadores y @tbl-censo-sectores (Anexo D). |
+| Déficit de Rodadura y Drenaje Pluvial Vial | $9,64 \text{ km}$ totales ($44\text{ tramos}$): $3,46 \text{ km}$ sin pavimento ($35,9\%$) y $2,40 \text{ km}$ priorizados. | Comprobada / Propuesta | Inventario vial georreferenciado en campo y cruce con capa `vias_estudio_capuli`. | Geodatabase `capuli_punzara_estudio.gpkg`. |
+| Codificación Catastral `RIESGO` en Predios Urbanos | $706\text{ predios}$: `RIESGO 02` $= 231$ ($32,7\%$); `RIESGO 03` $= 467$ ($66,1\%$); sin dato $= 8$ ($1,1\%$). | Comprobada (GIS) / Pendiente (Catálogo) | Conteo exacto del campo `RIESGO` en la capa `muni_predios_urbanos_capuli`; catálogo técnico a homologar. | Geodatabase `.gpkg`; homologación y geotecnia en el Paquete 2. |
+| Superficie Pública Municipal Conciliada (5 Predios) | $19.513,57 \text{ m}^2$ (C1) + $1.307,91 \text{ m}^2$ (C2) = $20.821,48 \text{ m}^2$ directos + $10.828,54 \text{ m}^2$ reserva = $31.650,02 \text{ m}^2$ ($3,17\text{ ha}$). | Comprobada (GIS) / Pendiente (Cert.) | Polimetría oficial de claves `1101500220083`, `1101500220086`, `1101020202110024`, `...081` y `...084`. | Capas `PrediosRurales.shp` y `PrediosUrbanos.shp`; certificación en Fase II y Paquete 1. |
+| Marco Normativo PDOT, PUGS y Presupuesto 2026 | Ord. 0070-2025 (PDOT/PUGS), Ord. 0086-2026 (PND) y Ord. 0079-2025 ($\approx \text{USD } 76,80\text{ M}$ en resumen institucional). | Comprobada / Estimada | Gaceta Oficial y nota institucional de aprobación presupuestaria 2026 del GAD Municipal de Loja. | [@gad_loja_pdot_pugs_2025; @gad_loja_alineacion_pdot_2026; @gad_loja_presupuesto_2026]; cédula POA en Paquete 5. |
+| Predimensionamiento Hidráulico SUDs y Solar | $1.850 \text{ m}^3$ geométricos ($T=10\text{ años}$); autonomía teórica $\approx 2,5\text{ noches}$; $17,87 \text{ MWh/año}$ ($6,25 \text{ tCO}_2\text{e/año}$) solar + $8,41 \text{ MWh/año}$ ($2,94 \text{ tCO}_2\text{e/año}$) *dimming*. | Propuesta / Estimada | Cálculo geométrico preliminar de 8 celdas y balance energético con baterías $\text{LiFePO}_4$ ($1.024\text{ Wh}$ útiles). | Calibración hidráulica 2D y respaldo oficial del factor SNI en los Paquetes 2 y 3. |
+
+: Matriz maestra de trazabilidad documental, estado de evidencia y ubicación de respaldos
+:::
+
+```{=latex}
+\end{landscapepage}
+```
+
+\clearpage
+
+## Anexo D: Ficha Metodológica Auditada y Tabulado Reproducible del Censo INEC 2022
+
+Con el objeto de que cualquier evaluador de GIZ, GFA o entidad financiera pueda verificar y reproducir de manera exacta las cifras demográficas y de servicios básicos reportadas en el Capítulo 2, se detalla a continuación el protocolo de filtrado aplicado sobre los microdatos oficiales del VIII Censo de Población y VII de Vivienda (`cpv2022_loja_vivienda_sector.csv`, `cpv2022_loja_hogar_sector.csv` y `cpv2022_loja_poblacion_sector.csv`) conforme al diccionario oficial del INEC (`DICCIONARIO_BDD_SECTOR.xlsx`) [@inec_cpv_2022], junto con el desglose íntegro de los diez sectores censales que conforman el entorno inmediato del proyecto (`sectores_estudio_capuli_10`).
+
+### Reglas de Filtrado Censal, Universo Válido y Exclusiones (CPV INEC 2022)
+
+1. Universo de viviendas para tasas de cobertura de servicios (`VOPA`): De acuerdo con el diccionario de variables del CPV 2022, las preguntas sobre proveedor de agua (`V10`), ubicación de tubería (`V09`), eliminación de excretas (`V11`), energía eléctrica (`V12`) y eliminación de basura (`V14`) se registran exclusivamente para las viviendas particulares (`V01` de `1` a `8`: casa/villa, departamento, cuarto en inquilinato, mediagua, rancho, covacha, choza u otra vivienda particular) que se encontraban ocupadas con personas presentes el día del censo (`V0201 == 1`). En consecuencia, todas las tasas porcentuales de servicios básicos tienen como denominador único el total de `VOPA` de cada unidad territorial, excluyendo del denominador las viviendas particulares con personas ausentes (`V0201 == 2`), de uso ocasional o vacacional (`V0201 == 3`), por alquilar o vender (`V0201 == 4`), en construcción (`V0201 == 5`) y las viviendas colectivas (`V01` de `9` a `18`). En los 10 sectores inmediatos de El Capulí existen $1.172$ viviendas registradas, de las cuales $797$ son `VOPA` (denominador válido) y $375$ corresponden a exclusiones por desocupación, temporada o construcción ($32,00\%$).
+2. Distinción entre empresa pública municipal y juntas de agua (`V10`): La variable `V10` (*El agua que reciben la provee o es comprada a*) distingue la categoría `1` (*Empresa pública / municipio*: $337 / 797 = 42,28\%$ en los 10 sectores) de la categoría `2` (*Junta de agua / organización comunitaria / GAD parroquial*: $380 / 797 = 47,68\%$). Sumadas ambas modalidades, el $89,96\%$ de las viviendas ocupadas recibe agua por red canalizada ($717 / 797$), mientras que el $10,04\%$ restante depende de carro repartidor o fuentes superficiales. Por su parte, la variable `V09` (*El agua que recibe la vivienda es*) mide la ubicación de la acometida, registrando un $85,32\%$ ($680 / 797$) con tubería dentro de la vivienda (`V09 == 1`).
+3. Eliminación de excretas (`V11`) frente a drenaje pluvial vial: La variable `V11` mide la conexión de aguas servidas domésticas a red pública de alcantarillado (`V11 == 1`: $332 / 797 = 41,66\%$ en los 10 sectores) o pozo séptico (`V11 == 2`: $332 / 797 = 41,66\%$). No mide la existencia de sumideros o colectores de aguas lluvias en las vías, cuyo déficit se documenta mediante el inventario vial de campo ($3,46\text{ km}$ de calles en tierra o lastre sin drenaje pluvial).
+4. Universo de hogares para pobreza por NBI (`NBI == 1`) y separación de residuos (`H0701 == 1`): En la base de hogares (`cpv2022_loja_hogar_sector.csv`), el indicador oficial `NBI` (*Pobreza por Necesidades Básicas Insatisfechas*) clasifica como `1` (*Pobre por NBI*) a los hogares con al menos una carencia crítica y como `2` (*No pobre por NBI*) al resto, sobre el total de hogares particulares con información válida ($847$ hogares en los 10 sectores inmediatos, sin valores perdidos; $2.781$ hogares válidos y $6$ excluidos en Punzara; $75.654$ hogares válidos y $70$ excluidos en el cantón Loja). La variable `H0701` (*Acostumbra este hogar a separar la basura entre orgánica e inorgánica*) registra $784 / 847$ hogares afirmativos ($92,56\%$) en los 10 sectores inmediatos.
+
+```{=latex}
+\begin{landscapepage}
+```
+
+::: {#tbl-censo-sectores}
+| Código Sector Censal (`ID_SECTOR`) | Pob. 2022 (hab.) | Viv. Reg. (uds.) | Viv. Ocup. `VOPA` (uds.) | Viv. Excl. (uds.) | Hog. Válidos (uds.) | Agua Muni `V10=1` (%) | Agua Junta `V10=2` (%) | Agua Dentro `V09=1` (%) | Alcant. Red `V11=1` (%) | Pozo Sépt. `V11=2` (%) | Elec. Red `V12=1` (%) | Basura Carro `V14=1` (%) | Hog. Pobres `NBI=1` (%) | Separa Basura `H0701=1` (%) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `110150063001` | $254$ | $127$ | $78$ | $49$ | $80$ | $82,1\%$ | $16,7\%$ | $92,3\%$ | $96,2\%$ | $3,8\%$ | $100,0\%$ | $97,4\%$ | $18,8\%$ | $96,3\%$ |
+| `110150063003` | $468$ | $214$ | $150$ | $64$ | $156$ | $98,7\%$ | $1,3\%$ | $98,7\%$ | $99,3\%$ | $0,7\%$ | $100,0\%$ | $99,3\%$ | $1,3\%$ | $98,7\%$ |
+| `110150063005` | $199$ | $109$ | $62$ | $47$ | $68$ | $100,0\%$ | $0,0\%$ | $98,4\%$ | $98,4\%$ | $0,0\%$ | $100,0\%$ | $98,4\%$ | $1,5\%$ | $100,0\%$ |
+| `110150063006` (*) | $270$ | $98$ | $66$ | $32$ | $74$ | $48,5\%$ | $48,5\%$ | $97,0\%$ | $45,5\%$ | $42,4\%$ | $98,5\%$ | $97,0\%$ | $20,3\%$ | $85,1\%$ |
+| `110150063007` (*) | $482$ | $142$ | $120$ | $22$ | $127$ | $4,2\%$ | $92,5\%$ | $71,7\%$ | $0,8\%$ | $90,0\%$ | $99,2\%$ | $88,3\%$ | $42,5\%$ | $84,3\%$ |
+| `110150063008` (*) | $438$ | $146$ | $116$ | $30$ | $120$ | $12,1\%$ | $87,1\%$ | $96,6\%$ | $5,2\%$ | $58,6\%$ | $98,3\%$ | $98,3\%$ | $46,7\%$ | $100,0\%$ |
+| `110150999024` | $280$ | $100$ | $70$ | $30$ | $71$ | $2,9\%$ | $84,3\%$ | $72,9\%$ | $0,0\%$ | $91,4\%$ | $98,6\%$ | $2,9\%$ | $45,1\%$ | $98,6\%$ |
+| `110150999025` | $109$ | $43$ | $26$ | $17$ | $27$ | $11,5\%$ | $80,8\%$ | $73,1\%$ | $7,7\%$ | $34,6\%$ | $100,0\%$ | $84,6\%$ | $74,1\%$ | $81,5\%$ |
+| `110150999029` (*) | $196$ | $78$ | $48$ | $30$ | $52$ | $4,2\%$ | $58,3\%$ | $58,3\%$ | $8,3\%$ | $45,8\%$ | $95,8\%$ | $70,8\%$ | $73,1\%$ | $80,8\%$ |
+| `110150999030` | $254$ | $115$ | $61$ | $54$ | $72$ | $8,2\%$ | $21,3\%$ | $63,9\%$ | $6,6\%$ | $45,9\%$ | $96,7\%$ | $6,6\%$ | $90,3\%$ | $84,7\%$ |
+| **Subtotal 4 Sectores Polígono (*)** | **$1.386$** | **$464$** | **$350$** | **$114$** | **$373$** | **$15,1\%$** | **$78,0\%$** | **$82,9\%$** | **$11,7\%$** | **$64,9\%$** | **$98,3\%$** | **$90,9\%$** | **$43,7\%$** | **$89,0\%$** |
+| **Total 10 Sectores Inmediatos** | **$2.950$** | **$1.172$** | **$797$** | **$375$** | **$847$** | **$42,3\%$** | **$47,7\%$** | **$85,3\%$** | **$41,7\%$** | **$41,7\%$** | **$98,9\%$** | **$79,3\%$** | **$35,2\%$** | **$92,6\%$** |
+| **Parroquia Punzara (`110156`)** | **$8.669$** | **$5.382$** | **$2.589$** | **$2.793$** | **$2.781$** | **$47,2\%$** | **$45,4\%$** | **$76,6\%$** | **$31,8\%$** | **$60,0\%$** | **$98,5\%$** | **$61,3\%$** | **$35,7\%$** | **$79,5\%$** |
+| **Cantón Loja (`1101`)** | **$250.028$** | **$100.257$** | **$70.466$** | **$29.791$** | **$75.654$** | **$82,3\%$** | **$9,9\%$** | **$86,2\%$** | **$80,8\%$** | **$11,8\%$** | **$99,1\%$** | **$85,1\%$** | **$22,7\%$** | **$95,7\%$** |
+
+: Tabulado reproducible auditado del Censo INEC 2022 sobre viviendas particulares ocupadas con personas presentes (`VOPA`) y hogares válidos para los 10 sectores inmediatos de El Capulí, los 4 sectores del polígono (*), la Parroquia Punzara y el Cantón Loja
+:::
+
+```{=latex}
+\end{landscapepage}
+```

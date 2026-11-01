@@ -1,23 +1,43 @@
-# Ficha de Proyecto y Resumen Ejecutivo
+# Ficha de Proyecto, Resumen Ejecutivo y Asistencia Solicitada
 
-El presente expediente técnico fundamenta la postulación del Cantón Loja a la convocatoria Ciudades que Transforman (CIS II / GIZ), aplicando los estándares de perfiles climáticos urbanos [@rosero_guia_perfil_climatico_2024] y los criterios de diseño de espacio público del Ministerio de Desarrollo Urbano y Vivienda junto con la Cooperación Alemana [@miduvi_giz_guia_espacio_publico_2021].
+El presente informe técnico sustenta la postulación del Gobierno Autónomo Descentralizado Municipal del Cantón Loja (GAD Loja) a la convocatoria Ciudades que Transforman del Proyecto Ciudades Intermedias Sostenibles (CIS II / GIZ) [@giz_ciudades_que_transforman_2026], elaborada con el soporte técnico de las Carreras de Economía y Arquitectura Sostenible de la Universidad Nacional de Loja (UNL). La formulación observa los lineamientos de preparación de perfiles climáticos urbanos [@rosero_guia_perfil_climatico_2024] y la guía nacional de planificación del espacio público [@miduvi_giz_guia_espacio_publico_2021].
+
+Atendiendo al propósito del Programa de Aceleración CIS II, orientado a iniciativas en etapa de preparación que requieren asistencia técnica para resolver brechas específicas antes de su licitación o financiamiento, el documento clasifica cada dato, cálculo o compromiso bajo una de las cuatro categorías definidas en la @tbl-taxonomia-evidencia. Esta distinción separa los registros empíricos verificables en las bases oficiales adjuntas de las estimaciones preliminares, las metas exploratorias de prediseño y los requisitos administrativos en gestión.
+
+::: {#tbl-taxonomia-evidencia}
+| Estado de la Información | Definición Metodológica en el Informe | Criterio de Verificación |
+| :--- | :--- | :--- |
+| **Comprobada** | Dato empírico extraído de fuentes oficiales primarias con fecha, código de variable, universo explícito y respaldo en el repositorio del proyecto. | Microdatos INEC CPV 2022 (`DICCIONARIO_BDD_SECTOR.xlsx`), GeoPackage catastral del GAD Loja, ordenanzas vigentes y Plan del Sistema Verde Urbano. |
+| **Estimada** | Cálculo preliminar obtenido mediante fórmulas explícitas, supuestos declarados y rango exploratorio de incertidumbre propio de la etapa de perfil. | Desagregación poblacional por sector y uso de edificaciones, proyección intercensal parroquial y presupuesto paramétrico ($\pm 20\%$). |
+| **Propuesta** | Meta física o parámetro conceptual de prediseño sujeto a validación de ingeniería durante la asistencia técnica de aceleración. | Dimensionamiento geométrico preliminar de celdas SUDs, sección vial, perfil de atenuación solar y módulo piloto de compostaje. |
+| **Pendiente de acreditación** | Certificación jurídica, pronunciamiento administrativo, estudio de detalle o acta comunitaria exigible en Fase I/II o programada para la Fase III. | Suscripción de carta de compromiso (Fase I), certificación registral e IRU (Fase II) y estudios definitivos (Fase III). |
+
+: Clasificación del estado de la información y trazabilidad de la evidencia
+:::
+
+La iniciativa aborda la degradación de las riberas del río Capulí, el déficit de espacio público recreativo y la discontinuidad peatonal en el borde sur de la ciudad de Loja. Para reducir riesgos de implementación, el alcance se organiza en tres niveles de prelación: un núcleo prioritario integrado por la recuperación ecológica ribereña (Componente 1) y el drenaje pluvial controlado (Componente 3); un segundo nivel de accesibilidad peatonal segura bajo estándar 8-80 (Subcomponente C2a); y un tercer nivel de complementos condicionados (alumbrado solar autónomo C4, ciclorruta conectora C2b y piloto de residuos/compostaje C5), cuya incorporación definitiva se sujeta a las validaciones técnicas y operativas previstas en la hoja de ruta.
+
+```{=latex}
+\begin{landscapepage}
+```
 
 ::: {#tbl-factsheet}
-| Parámetro Institucional | Especificación Técnica Verificable |
-| :--- | :--- |
-| **Nombre del Proyecto:** | Parque Fluvial y Red de Conectividad Ecológica El Capulí: Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible |
-| **Entidad Postulante:** | Gobierno Autónomo Descentralizado Municipal del Cantón Loja (GAD Loja) |
-| **Equipo Técnico Formulador:** | Universidad Nacional de Loja (UNL), Carreras de Economía y Arquitectura Sostenible |
-| **Localización Político-Administrativa:** | Ecuador, Provincia de Loja, Cantón Loja, Parroquia Punzara, Barrio El Capulí |
-| **Coordenadas y Polígono Oficial:** | Proyección EPSG:32717 (UTM 17S). Centroide: $X=700.420$, $Y=9.551.855$ ($-4,0524^\circ$, $-79,1947^\circ$). Base: `Barrio_El_Capuli.gpkg` |
-| **Superficie del Polígono Barrial:** | 115,12 hectáreas ($1.151.178,11 \text{ m}^2$) |
-| **Suelo Municipal para Intervención Directa:** | 2,08 hectáreas públicas (Predios rurales ID 905 de 1,45 ha, ID 908 de 0,50 ha y predio urbano de 0,13 ha) |
-| **Red Vial Pública a Intervenir:** | 9,64 km lineales (44 tramos viales municipales: 1,09 km en tierra, 2,37 km en lastre, fajas de servidumbre y pasos peatonales) |
-| **Sector Elegible Principal:** | Espacio público y recuperación del espacio natural (Bases CIS II, p. 11) |
-| **Ejes Complementarios Integrados:** | Eficiencia hídrica y resiliencia climática (SUDs), movilidad activa no motorizada, iluminación fotovoltaica autónoma y compostaje barrial |
-| **Población Beneficiaria Directa:** | 245 edificaciones censales registradas (CPV INEC 2022); 980 habitantes residentes |
-| **Población Beneficiaria Indirecta:** | 15.000 usuarios del cuadrante sur (Campus Universitario La Argelia, unidades educativas y parroquia Punzara) |
-| **Inversión Referencial (CAPEX):** | USD 1.250.000,00 |
+| Parámetro Institucional | Especificación Técnica y Conciliación de Magnitudes | Estado de Evidencia |
+| :--- | :--- | :---: |
+| **Nombre del Proyecto:** | Parque Fluvial y Red de Conectividad Ecológica El Capulí: Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible | Propuesta |
+| **Entidad Postulante y Autoridad:** | Gobierno Autónomo Descentralizado Municipal del Cantón Loja (GAD Loja) — Mgtr. Diana Carolina Guayanay Llanes (Alcaldesa del Cantón Loja) | Comprobada |
+| **Equipo Técnico Formulador:** | Universidad Nacional de Loja (UNL), Carreras de Economía y Arquitectura Sostenible (Memorando UNL-FJSA-CE-2026-0621-M) | Comprobada |
+| **Localización y Polígono Barrial:** | Provincia de Loja (`11`), Cantón Loja (`1101`), borde suroriental Punzara / San Sebastián. Polígono `Barrio_El_Capuli.gpkg` (OBJECTID 56, EPSG:32717, centroide $X=700.420$, $Y=9.551.855$) de $115,12 \text{ ha}$ ($1.151.178,11 \text{ m}^2$). | Comprobada |
+| **Conciliación de Suelo Municipal:** | Intervención directa sobre $20.821,48 \text{ m}^2$ ($2,08 \text{ ha}$), conformados por: (1) $19.513,57 \text{ m}^2$ ($1,95 \text{ ha}$) de ribera para el Parque Fluvial en los lotes municipales `1101500220083` ($14.516,75 \text{ m}^2$, ID 61316) y `1101500220086` ($4.996,82 \text{ m}^2$, ID 61319); y (2) $1.307,91 \text{ m}^2$ ($0,13 \text{ ha}$) de acceso comunal en el lote urbano `1101020202110024` (ID 54797). Adicionalmente existen $10.828,54 \text{ m}^2$ ($1,08 \text{ ha}$) en los lotes verdes colindantes `1101500220081` y `1101500220084`, sumando un corredor público total de $31.650,02 \text{ m}^2$ ($3,17 \text{ ha}$). | Comprobada en SIG / Certificación registral pendiente (Fase II) |
+| **Red Vial vs. Trazado Intervenido:** | Red vial existente en el polígono: $9,64 \text{ km}$ lineales (44 tramos, de los cuales $1,09 \text{ km}$ son de tierra y $2,37 \text{ km}$ de lastre). Alcance priorizado de intervención vial: $2,40 \text{ km}$ lineales sobre el eje conector hacia La Argelia. | Comprobada ($9,64 \text{ km}$) / Propuesta ($2,40 \text{ km}$) |
+| **Población del Entorno y Polígono:** | $2.950 \text{ habitantes}$ empadronados en los 10 sectores censales inmediatos (`sectores_estudio_capuli_10`: $1.172 \text{ viviendas registradas}$, $797 \text{ viviendas ocupadas con personas presentes}$ y $847 \text{ hogares}$ en CPV 2022), de los cuales $1.386 \text{ hab.}$ residen en los 4 sectores que intersectan el polígono. Dentro de las $115,12 \text{ ha}$ se ubican $245 \text{ puntos}$ de edificación (`edif_p`), de los cuales $214$ son de uso residencial (excluyendo $24$ lotes vacíos y $7$ equipamientos), arrojando una estimación central por sector de $793 \text{ residentes}$ (rango de $603 \text{ a } 980 \text{ hab.}$). | Comprobada ($2.950 \text{ y } 1.386 \text{ hab.}$) / Estimada ($793 \text{ hab.}$, rango $603\text{--}980$) |
+| **Población Parroquial y Flujos:** | $8.669 \text{ habitantes}$ censados en la jurisdicción parroquial de Punzara (`110156`) en 2022, con proyección referencial a $9.379 \text{ hab.}$ en 2026 ($r_{\text{geom}} = 1,988\%$). En el eje vial Av. Reinaldo Espinosa / entorno Campus UNL La Argelia se plantea un escenario exploratorio preliminar del orden de $15.000 \text{ desplazamientos semanales}$, sujeto a aforos y encuesta origen-destino. | Comprobada (CPV) / Estimada exploratoria (flujo) |
+| **Estructura por Nivel de Prelación:** | Nivel 1 (Núcleo prioritario): Parque fluvial ribereño (C1) y drenaje controlado SUDs (C3). Nivel 2 (Acceso seguro): Conectividad peatonal 8-80 (C2a). Nivel 3 (Complementos condicionados): Alumbrado solar autónomo (C4), ciclorruta (C2b) y piloto de residuos/compostaje (C5). | Propuesta |
+| **Presupuesto Preliminar (CAPEX/OPEX):** | CAPEX estimado sin impuestos: $\text{USD } 1.250.000,00$ (rango exploratorio de incertidumbre $\pm 20\%$: $\text{USD } 1,00\text{ M a } 1,50\text{ M}$). Requerimiento bruto de caja con IVA ($15\%$): $\text{USD } 1.437.500,00$. OPEX estimado: $\text{USD } 16.900,00/\text{año}$ de mantenimiento rutinario más $\text{USD } 9.600,00/\text{año}$ de reserva anualizada de reposición ($\text{USD } 26.500,00/\text{año}$ total). | Estimada |
 
-: Ficha técnica institucional del Proyecto El Capulí
+: Ficha técnica institucional y conciliación de magnitudes del Proyecto El Capulí
 :::
+
+```{=latex}
+\end{landscapepage}
+```

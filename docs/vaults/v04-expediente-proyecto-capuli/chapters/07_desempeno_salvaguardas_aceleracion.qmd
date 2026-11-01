@@ -1,91 +1,103 @@
-# Desempeño Climático, Salvaguardas y Ruta de Aceleración GIZ
+# Desempeño Climático, Autoevaluación CIS II y Salvaguardas
 
-El presente capítulo operacionaliza los criterios de priorización de la convocatoria CIS II [@giz_ciudades_que_transforman_2026; @rosero_guia_perfil_climatico_2024], cuantificando el impacto biofísico, gestionando los riesgos de ejecución y trazando la asistencia técnica requerida.
+El presente capítulo sistematiza la autoevaluación técnica de la propuesta frente a los requisitos de elegibilidad y criterios de priorización contenidos en las bases de la convocatoria *Ciudades que Transforman* [@giz_ciudades_que_transforman_2026], delimitando qué documentos son exigibles al momento de postular y cuáles corresponden al desarrollo de la asistencia técnica. Asimismo, presenta las métricas de adaptación y mitigación climática siguiendo la guía metodológica de GIZ [@rosero_guia_perfil_climatico_2024] y la clasificación de evidencia definida en el Capítulo 1 (@tbl-taxonomia-evidencia).
 
-## Matriz de Cumplimiento de Criterios de Selección y Priorización CIS II
+## Delimitación Temporal de Requisitos y Matriz de Autoevaluación frente a las Bases CIS II
 
-Conforme a las bases de la convocatoria Ciudades que Transforman [@giz_ciudades_que_transforman_2026], la propuesta cumple y desarrolla los catorce criterios de priorización técnica, desempeño y riesgo de ejecución:
+Para evitar que requisitos habilitantes de responsabilidad municipal inmediata se confundan con entregables de la consultoría solicitada a GIZ, la @tbl-fases-requisitos distingue explícitamente las condiciones que el GAD Municipal de Loja debe acreditar al cierre de la postulación (Fase I) y en la etapa de verificación documental (Fase II), respecto de los estudios de profundización que se ejecutarán durante la asistencia técnica (Fase III).
+
+::: {#tbl-fases-requisitos}
+| Requisito / Condición de las Bases CIS II | Exigido al Postular (Fase I: Formulario y Perfil) | Exigido en Verificación Documental (Fase II: Preselección) | Desarrollable durante la Asistencia Técnica (Fase III: Paquetes 1 a 5) | Estado Actual en este Informe |
+| :--- | :--- | :--- | :--- | :---: |
+| 1. Carta de compromiso institucional de la máxima autoridad | Suscripción oficial por la Alcaldesa del Cantón Loja declarando interés, contraparte y ausencia de impedimentos. | Ratificación de puntos focales nominales por dirección municipal mediante oficio. | Suscripción de acuerdos interdepartamentales de operación (OPEX) y convenios de financiamiento (Paquetes 4 y 5). | Borrador listo en Anexo A (*Pendiente de firma Fase I*) |
+| 2. Tenencia y disponibilidad jurídica del suelo público | Identificación precisa de claves catastrales, superficies y dominio público en el perfil técnico. | Certificación de titularidad catastral emitida por Avalúos y Catastros y certificado del Registro de la Propiedad libre de gravámenes. | Homologación de código rural `110150` al catastro urbano y amojonamiento físico de la franja hídrica (Paquete 1). | Polimetría GIS de 5 lotes ($31.650,02\text{ m}^2$) *Comprobada*; certificado en Anexo B (*Pendiente*) |
+| 3. Compatibilidad con planificación territorial (PDOT / PUGS / Sistema Verde) | Sustento normativo de alineación con PDOT 2023–2027 (Ord. 0070-2025 / 0086-2026) y Proyecto N.° 11 del Plan Verde. | Informe técnico de compatibilidad de uso de suelo emitido por la Dirección de Planificación Territorial. | Informe de Regulación Urbana (IRU) definitivo para planos constructivos de licitación (Paquete 1). | Alineación documental *Comprobada*; IRU definitivo en Fase III |
+| 4. Viabilidad y permisos administrativos ambientales | Pre-clasificación del impacto ambiental (bajo/moderado, sin reasentamiento involuntario) e identificación de salvaguardas. | Pronunciamiento ambiental preliminar de la Dirección de Gestión Ambiental del GAD Loja. | Registro o certificado ambiental oficial en plataforma SUIA del MAATE y Plan de Manejo Ambiental sobre diseño definitivo (Paquetes 1 y 3). | Salvaguardas *Propuestas*; registro SUIA en Fase III |
+| 5. Estudios técnicos de ingeniería y factibilidad financiera | Perfil técnico con diagnóstico comprobado, prediseño modular, presupuesto paramétrico ($\ge \text{USD } 1,00\text{ M}$) y estimación OPEX. | Entrega de bases de datos GIS, planos de urbanización antecedente (2005–2016) y proforma presupuestaria municipal. | Topografía de detalle, hidrología 2D, geotecnia en laderas `RIESGO 02/03`, planos constructivos, APU y evaluación VAN/TIR (Paquetes 2, 3 y 5). | Perfil *Comprobado / Estimado*; factibilidad en Fase III |
+
+: Delimitación temporal de requisitos entre postulación (Fase I), verificación documental (Fase II) y asistencia técnica (Fase III)
+:::
+
+Sobre esta base, la @tbl-criterios-giz presenta la matriz de autoevaluación de la propuesta frente a los seis criterios de elegibilidad y los catorce criterios de priorización de la página 13 de las bases de la convocatoria CIS II [@giz_ciudades_que_transforman_2026]. Se deja constancia del cumplimiento del requisito demográfico de ciudad intermedia, dado que el cantón Loja cuenta con una población censada de $250.028 \text{ habitantes}$ en el CPV INEC 2022 ($248.742 \text{ habitantes}$ en hogares particulares, categoría *Comprobada*, dentro del rango habilitante de $30.000 \text{ a } 1.000.000 \text{ hab.}$).
 
 ```{=latex}
 \begin{landscapepage}
 ```
 
 ::: {#tbl-criterios-giz}
-| N.° | Criterio de Selección CIS II | Nivel de Cumplimiento | Evidencia Técnica Documentada en Expediente |
+| Código | Criterio de las Bases CIS II (p. 13) | Estado de la Información | Autoevaluación Técnica Conciliada y Brecha a Resolver en Fase I/II o Fase III |
 | :---: | :--- | :---: | :--- |
-| **01** | Elegibilidad territorial (ciudad intermedia) | Cumple | Cantón Loja registra 249.658 habitantes (Censo CPV INEC 2022), dentro del rango de 30.000 a 1.000.000 hab. |
-| **02** | Sector elegible principal | Cumple | Espacio público y recuperación del espacio natural (19.513 m² en ribera fluvial del río Capulí). |
-| **03** | Adicionalidad multisectorial integrada | Cumple | Integra 4 sectores complementarios: energía solar, drenaje urbano sostenible (SUDs), movilidad activa y residuos. |
-| **04** | Monto de inversión referencial | Cumple | Presupuesto referencial de USD 1.250.000,00 estructurado bajo metodología CAPEX + OPEX bancable. |
-| **05** | Titularidad y dominio del suelo | Cumple | 2,08 ha de suelo municipal directo (predios rurales ID 905 e ID 908) colindantes al margen hídrico. |
-| **06** | Compromiso de máxima autoridad | Cumple | Carta de compromiso suscrita por la Alcaldía del Cantón Loja para liderar la postulación formal. |
-| **07** | Equipo contraparte técnica asignado | Cumple | Equipo municipal interdisciplinario (Planificación, Obras Públicas, Gestión Ambiental) articulado a la UNL. |
-| **08** | Alineación con planificación local | Cumple | Incorporado en el PDOT Loja y priorizado como Proyecto N.° 11 en el Plan del Sistema Verde Urbano. |
-| **09** | Alineación con política nacional | Cumple | Articulado a la Agenda de Hábitat Sostenible del Ecuador 2036 (Áreas de Gestión 1, 3, 5 y 6) y ODS 11. |
-| **10** | Mitigación y resiliencia climática | Cumple | Capacidad de laminación de 1.850 m³ de escorrentía pluvial y bioingeniería contra socavamiento fluvial. |
-| **11** | Enfoque de género y accesibilidad universal | Cumple | Diseño vial peatonal inclusivo bajo estándar 8-80 para infancias, adultos mayores y movilidad del cuidado. |
-| **12** | Co-gobernanza y participación comunitaria | Cumple | Participación y corresponsabilidad operativa acordada con la Junta de Desarrollo Barrial El Capulí. |
-| **13** | Sostenibilidad financiera de operación | Cumple | Costo OPEX anual de USD 16.900,00 (1,35% del CAPEX), financiado con ahorro energético fuera de red. |
-| **14** | Madurez y ruta crítica de asistencia técnica | Cumple | Nivel de perfil avanzado con catastro georreferenciado y ruta de maduración de 6 meses hacia financiamiento BDE. |
+| E-01 | Sectores elegibles *(Elegibilidad)* | Comprobada / Propuesta | Correspondencia con el sector principal *Espacio público y recuperación del espacio natural* (Proyecto N.° 11 del Plan del Sistema Verde Urbano, p. 114) e integración de 3 sectores elegibles complementarios: *Energías renovables*, *Eficiencia energética* y *Gestión integral de residuos sólidos*. |
+| E-02 | Permisos administrativos ambientales *(Elegibilidad)* | Pendiente | Intervención de regeneración barrial y bioingeniería en suelo público sin reasentamiento (impacto ambiental previsible bajo/moderado). El pronunciamiento preliminar municipal se adjuntará en Fase II y el registro ambiental SUIA sobre el diseño definitivo se tramitará en el Paquete 1 (Fase III). |
+| E-03 | Monto de inversión *(Elegibilidad)* | Estimada | CAPEX neto estimado en $\text{USD } 1.250.000,00$ sin IVA ($\text{USD } 1.437.500,00$ bruto con IVA 15%; rango exploratorio $\pm 20\%$: $\text{USD } 1,00\text{ M a } 1,50\text{ M}$). Incluso en la Etapa I Prioritaria ($\text{USD } 1.005.000,00$ netos) supera el umbral habilitante ($\ge \text{USD } 1.000.000$). Se precisará con APU en el Paquete 3. |
+| E-04 | Compromiso institucional *(Elegibilidad)* | Pendiente de firma | Borrador de Carta de Compromiso de la Alcaldesa del Cantón Loja (Mgtr. Diana Carolina Guayanay Llanes) redactado en el Anexo A, requisito indispensable para suscripción antes del envío de la postulación (Fase I). |
+| E-05 | Madurez de proyecto *(Elegibilidad)* | Comprobada | Nivel de Perfil Técnico: dispone de auditoría reproducible de microdatos CPV 2022, polimetría catastral y de susceptibilidad geomorfológica en QGIS, prediseño jerarquizado en 3 niveles y hoja de ruta en 5 paquetes de trabajo hacia la factibilidad. |
+| E-06 | Tenencia de tierra *(Elegibilidad)* | Comprobada (GIS) / Pendiente (Cert.) | Identificación catastral de $20.821,48 \text{ m}^2$ ($2,08 \text{ ha}$) de intervención directa en predios públicos municipales (`1101500220083`, `1101500220086` y `1101020202110024`) más $10.828,54 \text{ m}^2$ de reserva municipal colindante ($31.650,02\text{ m}^2$ totales). Certificación catastral y registral a entregarse en Fase II (Anexo B) y homologación urbana en Paquete 1. |
+| P-01 | Escalabilidad *(Priorización)* | Comprobada / Propuesta | Metodología de manejo hidrogeomorfológico de riberas y calles pacificadas 8-80 transferible a los otros 13 núcleos verdes periurbanos del Plan del Sistema Verde Urbano de Loja [@municipio_loja_utpl_giz_sistema_verde_2020]. |
+| P-02 | Beneficiarios *(Priorización)* | Comprobada / Estimada | Cuantificación multiescala auditada: $2.950 \text{ hab.}$ ($797$ VOPA y $847$ hogares) en los 10 sectores censales inmediatos (*Comprobada*, CPV 2022); $1.386 \text{ hab.}$ en los 4 sectores del polígono; estimación central de $793 \text{ residentes}$ (rango de $603 \text{ a } 980 \text{ hab.}$) en las $214$ edificaciones habitacionales del polígono de $115,12\text{ ha}$ (*Estimada*). |
+| P-03 | Alineación a Agenda de Hábitat Sostenible 2036 *(Priorización)* | Comprobada | Articulación con los 4 ejes de la Agenda de Hábitat Sostenible del Ecuador 2036 [@miduvi_agenda_habitat_2020] (Equidad e inclusión 8-80, Sostenibilidad ambiental y resiliencia, Productividad urbana y Gobernanza) y con las Ordenanzas Municipales N.° 0070-2025 y N.° 0086-2026. |
+| P-04 | Superficie intervenida *(Priorización)* | Comprobada / Propuesta | $19.513,57 \text{ m}^2$ de parque fluvial directo, $1.307,91 \text{ m}^2$ de nodo de acceso comunal ($20.821,48 \text{ m}^2$ directos; $31.650,02 \text{ m}^2$ con reserva colindante) y $2,40 \text{ km}$ lineales de corredor vial priorizado dentro de una unidad de análisis de $115,12 \text{ ha}$. |
+| P-05 | Grupos de interés y participación *(Priorización)* | Comprobada / Pendiente | Levantamiento territorial de línea base ejecutado con la UNL (*Comprobada*). Las asambleas formales de co-diseño con enfoque de género 8-80 y las actas de veeduría con la directiva barrial El Capulí se realizarán en el Paquete de Trabajo 4 (*Pendiente*). |
+| P-06 | Diseño del proyecto *(Priorización)* | Propuesta | Evaluación de 4 alternativas sobre población de referencia constante ($2.950\text{ hab.}$) (@tbl-alternativas) y arquitectura modular en Nivel 1 (Núcleo C1+C3), Nivel 2 (Acceso C2a) y Nivel 3 (Complementos condicionados C4, C2b y C5). |
+| P-07 | Económico financiero *(Priorización)* | Comprobada / Estimada | Referencia en la Ordenanza N.° 0079-2025 ($\approx \text{USD } 76,80\text{ M}$ totales; $41\%$ inversión en resumen institucional). CAPEX con escenarios de sensibilidad ($+15\%/+25\%$) y OPEX integral de $\text{USD } 26.500/\text{año}$ incluyendo reposición (*Estimada*). Certificación de saldo POA y cálculo de VAN/TIR en el Paquete 5. |
+| P-08 | Eficiencia energética *(Priorización)* | Propuesta / Estimada | Luminarias LED de $60 \text{ W}$ ($180 \text{ lm/W}$) con perfil de atenuación nocturna (*dimming* al $35\%$ en madrugada), que reduce el consumo unitario de $600 \text{ Wh/noche}$ a $408 \text{ Wh/noche}$ y aporta un ahorro por control de $8,41 \text{ MWh/año}$ ($2,94 \text{ tCO}_2\text{e/año}$). |
+| P-09 | Energía renovable *(Priorización)* | Propuesta / Estimada | Generación solar *off-grid* mediante 120 paneles de $180 \text{ Wp}$ ($21,6 \text{ kWp}$) y baterías $\text{LiFePO}_4$ de $1.280 \text{ Wh}$ ($1.024 \text{ Wh}$ útiles, autonomía teórica aproximada de $2,5\text{ noches}$), desplazando $17,87 \text{ MWh/año}$ de demanda neta con *dimming* ($26,28 \text{ MWh/año}$ respecto a operación nominal continua). |
+| P-10 | Eficiencia hídrica *(Priorización)* | Propuesta / Estimada | Tren de 8 celdas de biorretención ($T=10\text{ años}$) con volumen geométrico preliminar de $1.850 \text{ m}^3$ y $1.150\text{ m}$ de cunetas impermeabilizadas con sub-drenaje en laderas $>15\%$. El porcentaje de reducción de caudal pico se cuantificará en el Paquete 2. |
+| P-11 | Gestión integral de residuos y desechos *(Priorización)* | Propuesta (Condicionada) | Instalación de 3 puntos limpios de separación en origen y módulo piloto de compostaje barrial ($24 \text{ t/año}$, Nivel 3), condicionado a estudio de caracterización de residuos y asignación de operador municipal en los Paquetes 3 y 4. |
+| P-12 | Mitigación del cambio climático *(Priorización)* | Estimada | Emisiones operativas evitadas estimadas en $6,25 \text{ tCO}_2\text{e/año}$ por generación fotovoltaica a igual servicio y $9,20 \text{ tCO}_2\text{e/año}$ combinadas con atenuación inteligente ($\text{FE referencial} = 0,350 \text{ tCO}_2\text{e/MWh}$ SNI, documento oficial a anexar en Paquete 3). |
+| P-13 | Resiliencia *(Priorización)* | Comprobada / Propuesta | Respuesta precautoria ante la codificación catastral de los 706 predios urbanos (`RIESGO 02`: $32,7\%$; `RIESGO 03`: $66,1\%$) mediante restricción de infiltración libre en pendientes $>15\%$, captación impermeabilizada, bioingeniería fluvial y cota de resguardo $T=25\text{ años}$. |
+| P-14 | Vivienda Sostenible *(Priorización)* | No aplica directo | El proyecto no financia edificación habitacional privada; su intervención mitiga riesgos de escorrentía y mejora las condiciones ambientales del entorno inmediato de las $214$ edificaciones residenciales del polígono y de las viviendas de los sectores colindantes. |
 
-: Matriz de correspondencia con los catorce criterios de priorización CIS II / GIZ
+: Matriz de autoevaluación frente a las bases de la convocatoria CIS II (6 criterios de elegibilidad y 14 de priorización, p. 13)
 :::
 
 ```{=latex}
 \end{landscapepage}
 ```
 
+## Métricas Cuantitativas de Adaptación y Mitigación Climática
 
+Con el fin de mantener rigor metodológico entre los beneficios de adaptación hidrológica y las reducciones de emisiones operativas de gases de efecto invernadero (GEI), la @tbl-metricas-climaticas separa ambos ámbitos de desempeño climático, explicita las ecuaciones de predimensionamiento empleadas en esta etapa de perfil y precisa los parámetros que se calibrarán durante la asistencia técnica:
 
-
-## Métricas Cuantitativas de Mitigación y Adaptación Climática
-
-El proyecto genera beneficios ecosistémicos medibles que sustentan la calificación técnica de la propuesta:
-
+```{=latex}
+\begin{landscapepage}
+```
 
 ::: {#tbl-metricas-climaticas}
-| Indicador de Desempeño | Línea Base (Sin Proyecto) | Meta con Proyecto | Mecanismo Físico de Verificación |
-| :--- | :--- | :--- | :--- |
-| **Capacidad de laminación hídrica** | $0 \text{ m}^3$ (escorrentía directa) | $1.850 \text{ m}^3$ por evento crítico | 8 celdas de biorretención y cunetas verdes para tormentas de $Q_{24h}$ |
-| **Restitución de suelo permeable** | $0 \text{ m}^2$ (vías compactadas) | $14.200 \text{ m}^2$ de suelo vivo | Sustitución de calzadas de tierra por pavimentos permeables y alcorques |
-| **Reducción de emisiones de GEI** | $14,2 \text{ tCO}_2\text{e/año}$ (red fósil) | $0 \text{ tCO}_2\text{e/año}$ en alumbrado | 120 luminarias solares autónomas de 60W (ahorro: $14,2 \text{ tCO}_2\text{e/año}$) |
-| **Tratamiento de biomasa urbana** | 0% (quema o botadero) | 24 toneladas/año | Centro barrial de compostaje para residuos de poda y huertos |
-| **Cobertura vegetal nativa de rivera** | 15% (borde erosionado) | 85% de margen protegido | Reforestación de 1,2 km de ribera fluvial con especies fijadoras |
+| Ámbito Climático e Indicador | Línea Base (Sin Proyecto) | Meta / Parámetro de Prediseño con Proyecto | Estado del Dato | Ecuación de Predimensionamiento y Verificación en Asistencia Técnica |
+| :--- | :--- | :--- | :---: | :--- |
+| ADAPTACIÓN: Capacidad volumétrica de retención pluvial (SUDs) | $0 \text{ m}^3$ (escorrentía superficial libre sobre $3,46\text{ km}$ de vías sin pavimento). | $1.850 \text{ m}^3$ de capacidad geométrica de retención y laminación ($T=10\text{ años}$). | Propuesta / Estimada *(Hipótesis)* | Suma de 8 celdas de biorretención ($\approx 380\text{ m}^2\text{/ud.} \times 0,48\text{ m}$ de lámina equivalente $= 1.460\text{ m}^3$) más $1.150\text{ m}$ de cunetas impermeabilizadas ($\approx 390\text{ m}^3$). El porcentaje de reducción de caudal pico se determinará mediante curvas IDF y modelación 2D en el Paquete 2. |
+| ADAPTACIÓN: Control de escorrentía en laderas y resguardo fluvial | Lavado de finos en pendientes pronunciadas y erosión de márgenes en el río Capulí. | $1.150 \text{ m}$ de cunetas impermeabilizadas con sub-drenaje en pendientes $>15\%$ y cota libre $T=25\text{ años}$. | Propuesta | Criterio precautorio aplicado sobre los sectores con atributo catastral `RIESGO 02` ($32,7\%$) y `RIESGO 03` ($66,1\%$). Se calibrará con ensayos de infiltración y estudio geotécnico en el Paquete 2. |
+| ADAPTACIÓN: Superficie permeable y estabilización ribereña | Bordes fluviales degradados y déficit de espacio público accesible en la expansión sur. | $14.200 \text{ m}^2$ de cobertura vegetal permeable y $1,20 \text{ km}$ de ribera bioestabilizada. | Propuesta | Polimetría GIS sobre los lotes municipales `1101500220083` y `1101500220086` ($19.513,57\text{ m}^2$). Se verificará mediante planos constructivos en el Paquete 3. |
+| MITIGACIÓN: Desplazamiento energético por generación fotovoltaica (a igual servicio) | Alumbrado LED con control de atenuación conectado a la red eléctrica: $17,87 \text{ MWh/año}$ ($120\text{ uds.}\times 408\text{ Wh/noche}$). | $0 \text{ MWh/año}$ tomados del SNI (desplazamiento fotovoltaico neto de $17,87 \text{ MWh/año}$). | Estimada | Balance de 120 columnas solares autónomas ($180\text{ Wp}$ y batería $\text{LiFePO}_4$ de $1.280\text{ Wh}$ nominales / $1.024\text{ Wh}$ útiles al $80\%$ DoD $\rightarrow$ autonomía teórica aproximada de $2,5\text{ noches}$). Se validará con memoria fotométrica en el Paquete 3. |
+| MITIGACIÓN: Ahorro energético adicional por control de atenuación (*dimming*) | Alumbrado LED de $60\text{ W}$ operando a potencia nominal continua ($10\text{ h/noche}$): $26,28 \text{ MWh/año}$. | Reducción de demanda de $8,41 \text{ MWh/año}$ por atenuación al $35\%$ durante $6\text{ h}$ de madrugada ($26,28 - 17,87\text{ MWh/año}$). | Estimada | Comparación entre régimen nominal ($600\text{ Wh/noche}$) y régimen regulado ($408\text{ Wh/noche}$). El efecto combinado de generación solar + atenuación equivale a $26,28 \text{ MWh/año}$. |
+| MITIGACIÓN: Reducción anual de emisiones operativas de GEI | Emisión operativa anual en red: $6,25 \text{ tCO}_2\text{e/año}$ (con *dimming*) o $9,20 \text{ tCO}_2\text{e/año}$ (a potencia nominal). | $0,00 \text{ tCO}_2\text{e/año}$ operativas: $-6,25 \text{ tCO}_2\text{e/año}$ por efecto solar puro y $-2,94 \text{ tCO}_2\text{e/año}$ por *dimming* ($-9,20 \text{ tCO}_2\text{e/año}$ combinadas). | Estimada | Aplicación del factor referencial de $0,350\text{ tCO}_2\text{e/MWh}$ del SNI. En el Paquete 3 se anexará el oficio/tabla vigente del Ministerio de Energía y Minas y ARCONEL para el cálculo definitivo de ciclo de vida. |
+| MITIGACIÓN / CIRCULARIDAD: Valorización de biomasa orgánica | Disposición sin aprovechamiento o quema difusa de restos de poda y orgánicos. | Hasta $24,0 \text{ t/año}$ de restos vegetales y orgánicos procesados en compostera piloto. | Propuesta *(Condicionada)* | Capacidad proyectada del módulo de $150\text{ m}^2$ (Subcomponente C5.2). Las emisiones evitadas de metano ($\text{CH}_4$) se cuantificarán tras el estudio de caracterización en los Paquetes 3 y 4. |
 
-: Matriz de indicadores cuantitativos de impacto ambiental y climático
+: Matriz desagregada de indicadores cuantitativos de adaptación y mitigación climática con estado de trazabilidad
 :::
 
-## Matriz de Riesgos y Salvaguardas Socioambientales
+```{=latex}
+\end{landscapepage}
+```
 
-Conforme al marco de salvaguardas de proyectos urbanos sostenibles y preinversión [@bde_guia_procesos_crediticios_2021; @rosero_guia_perfil_climatico_2024], se identifican las amenazas operativas y sus medidas de control preventivo:
+## Salvaguardas Socioambientales Vinculantes
+
+De conformidad con los estándares de salvaguardas ambientales y sociales aplicables a la banca de desarrollo y a la cooperación técnica internacional [@bde_guia_procesos_crediticios_2021; @rosero_guia_perfil_climatico_2024], el proyecto incorpora cuatro criterios técnicos y jurídicos de cumplimiento obligatorio durante las fases de ingeniería definitiva y construcción (@tbl-salvaguardas):
 
 ::: {#tbl-salvaguardas}
-| Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y Mitigación Vinculante |
-| :--- | :--- | :---: | :--- |
-| **Tenencia y Franjas de Protección** | Presión de ocupación privada sobre el margen del río Capulí | Medio | Delimitación topográfica georreferenciada y registro municipal de servidumbre ecológica sobre los lotes 905 y 908. |
-| **Geotécnico y Erosión** | Deslizamiento de taludes durante movimientos de tierra en época lluviosa | Alto | Ejecución de bioingeniería escalonada previa, terraceo con muros vivos y programación de obras civiles en estiaje. |
-| **Colmatación de Biofiltros** | Taponamiento temprano de capas filtrantes por arrastre de sedimentos y basura | Medio | Incorporación de trampas de grasa/arenas de fácil acceso y suscripción de actas de corresponsabilidad con la Junta Barrial. |
-| **Institucional y Rotación** | Discontinuidad técnica por cambios de autoridades seccionales | Bajo | Formalización del proyecto mediante Resolución de Concejo Cantonal y Convenio Marco UNL - GAD Loja. |
+| Salvaguarda Aplicable | Condición Territorial Detectada | Medida de Control Vinculante Incorporada al Proyecto | Paquete de Verificación |
+| :--- | :--- | :--- | :---: |
+| 1. Salvaguarda Geotécnica Precautoria en Laderas | En la capa catastral de 706 predios urbanos del entorno, el $32,7\%$ registra el código `RIESGO 02` (231 predios) y el $66,1\%$ el código `RIESGO 03` (467 predios), pendientes de homologación documental. | Restricción precautoria de zanjas de infiltración libre en pendientes $>15\%$. Uso de cunetas y celdas de biorretención impermeabilizadas con geomembrana HDPE y tubería de sub-drenaje hacia el cauce hasta contar con el estudio geotécnico definitivo. | Paquete 2 (Estudio Geotécnico y Homologación) |
+| 2. Salvaguarda de No Reasentamiento e Integridad Predial | Presencia de edificaciones privadas colindantes al corredor vial y a las riberas de la quebrada. | Emplazamiento del parque fluvial y biofiltros exclusivamente dentro de los predios municipales `1101500220083`, `1101500220086` y `1101020202110024` ($20.821,48\text{ m}^2$ directos; $31.650,02\text{ m}^2$ con reserva colindante). Ningún componente conlleva expropiación ni desplazamiento físico o económico. | Fase II (Certificación) y Paquete 1 (Linderación) |
+| 3. Salvaguarda de Biodiversidad y Conectividad Ribereña | Degradación de la vegetación nativa en el margen del río Capulí e interferencia lumínica nocturna sobre la fauna local. | Exclusión de especies exóticas invasoras (como *Eucalyptus globulus* o *Pennisetum clandestinum*); empleo de flora nativa andina y luminarias LED cálidas ($3.000\text{ K}$) con óptica direccional hacia el sendero. | Paquete 3 (Ingeniería y Paisajismo) |
+| 4. Salvaguarda de Género, Cuidado y Trabajo Digno | Barreras de movilidad para mujeres, infancias y adultos mayores; riesgo de sobrecarga comunitaria en labores de mantenimiento. | Diseño vial bajo estándar 8-80 con iluminación continua; prohibición de asignar trabajo físico no remunerado a los moradores para la operación municipal del parque o el manejo de los residuos. | Paquete 4 (Social y Operativo) |
 
-: Matriz de riesgos, salvaguardas y mecanismos de mitigación
+: Matriz de salvaguardas socioambientales y geotécnicas vinculantes del proyecto
 :::
 
 ## Escalabilidad y Replicabilidad en el Cantón Loja
 
-El proyecto trasciende la escala barrial al estructurarse como un modelo tipológico para la red de quebradas y márgenes fluviales del Cantón Loja:
+El alcance metodológico del proyecto trasciende el ámbito barrial de El Capulí y aporta insumos técnicos y normativos transferibles para la gestión de bordes fluviales periurbanos en el cantón Loja y en otras ciudades intermedias andinas del Ecuador.
 
-1. **Prototipo Piloto Cantonal:**
-   El Parque Fluvial El Capulí establece la metodología de intervención para los 14 núcleos verdes periurbanos priorizados en el Plan del Sistema Verde Urbano [@municipio_loja_utpl_giz_sistema_verde_2020], particularmente las microcuencas de Shushuayco, San Cayetano y Punzara.
-2. **Estandarización Normativa (Calle Completa Periurbana):**
-   Los detalles constructivos de cunetas vegetadas y secciones viales 8-80 se transferirán a la Dirección de Planificación Territorial del GAD Loja para incorporarse como perfiles viales tipo en la actualización del PUGS.
-
-## Ruta Crítica de Asistencia Técnica y Aceleración
-
-Durante la fase de aceleración del Programa CIS II, el equipo interdisciplinario UNL - GAD Loja focalizará la asistencia técnica en cuatro paquetes de trabajo:
-
-![Ruta crítica del proceso de asistencia técnica y maduración del proyecto (Fase CIS II)](assets/ruta_critica_aceleracion.png){#fig-ruta-aceleracion width=100%}
-
-
-1. **Meses 1 - 2 (Levantamiento de Precisión):** Estudios de mecánica de suelos, topografía LiDAR de la ribera fluvial y modelación hidrológica de escorrentía para dimensionamiento exacto de los 8 biofiltros.
-2. **Meses 3 - 4 (Ingeniería de Detalle y Presupuesto):** Elaboración de planos constructivos definitivos, Análisis de Precios Unitarios (APUs) referenciales y pliegos técnicos de contratación.
-3. **Meses 5 - 6 (Viabilidad Ambiental y Bancabilidad):** Regularización ambiental cantonal y estructuración del expediente de crédito no reembolsable o mixto ante el Banco de Desarrollo del Ecuador (BDE) y fondos climáticos internacionales.
+En primer término, la intervención desarrolla a escala de ingeniería el Proyecto N.° 11 (Parque de río Capulí) del *Plan del Sistema Verde Urbano de Loja* [@municipio_loja_utpl_giz_sistema_verde_2020], estableciendo criterios de diseño hidrogeomorfológico (combinación de captación impermeabilizada en ladera con bioingeniería en terraza aluvial) aplicables a los otros trece núcleos verdes periurbanos y a las microcuencas de Punzara, Shushuayco, San Cayetano y Zamora Huayco. En segundo término, las secciones constructivas de calles pacificadas bajo estándar 8-80 y los Análisis de Precios Unitarios (APU) de infraestructura verde que se elaborarán en el Paquete de Trabajo 3 quedarán a disposición de la Dirección de Planificación Territorial y de UMAPAL como insumos técnicos para la implementación del PUGS 2023–2033 reformado mediante la Ordenanza N.° 0070-2025 [@gad_loja_pdot_pugs_2025].

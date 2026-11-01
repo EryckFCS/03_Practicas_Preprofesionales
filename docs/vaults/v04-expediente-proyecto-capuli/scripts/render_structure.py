@@ -3,28 +3,31 @@ import json
 import urllib.request
 
 mermaid_code = """flowchart TD
-    A["<b>PROYECTO INTEGRAL EL CAPULÍ</b><br>(Presupuesto referencial: USD 1.250.000,00)"]
+    A["<b>PROYECTO EL CAPULÍ: ARQUITECTURA MODULAR POR PRELACIÓN</b><br>(Inversión estimada referencial: USD 1.250.000,00 ± 20% sin IVA)"]
     
-    A --> B["<b>SECTOR PRINCIPAL ELEGIBLE</b><br>Espacio público y recuperación del espacio natural"]
-    A --> C["<b>COMPONENTES COMPLEMENTARIOS</b><br>Desempeño en criterios de priorización CIS II"]
+    A --> B["<b>NIVEL 1: NÚCLEO PRIORITARIO</b><br>Recuperación ribereña y control de escorrentía"]
+    A --> C["<b>NIVEL 2: ACCESO Y USO SEGURO</b><br>Conectividad peatonal y pacificación vial"]
+    A --> D["<b>NIVEL 3: COMPLEMENTOS CONDICIONADOS</b><br>Sujetos a validación técnica y operativa"]
     
-    B --> B1["Parque Fluvial río Capulí<br>(1,45 ha suelo municipal)"]
-    B --> B2["Corredor de movilidad activa 8-80<br>(2,4 km de senderos y ciclorruta)"]
-    B --> B3["Fijación de laderas con bioingeniería<br>(Soluciones basadas en la Naturaleza)"]
+    B --> B1["<b>C1. Parque Fluvial y Bioingeniería</b><br>19.513,57 m² en predios municipales<br>(Claves 1101500220083 y 1101500220086)"]
+    B --> B2["<b>C3. Drenaje Sostenible Controlado (SUDs)</b><br>8 celdas de laminación y retención impermeabilizada<br>precautoria en tramos de ladera susceptible"]
     
-    C --> C1["Eficiencia hídrica y resiliencia<br>(8 biofiltros y red SUDs)"]
-    C --> C2["Eficiencia y energía renovable<br>(120 luminarias solares autónomas)"]
-    C --> C3["Gestión de residuos y circularidad<br>(Puntos limpios y compostera barrial)"]
+    C --> C1["<b>C2a. Accesibilidad Universal 8-80</b><br>2,40 km priorizados sobre 9,64 km de red<br>Aceras continuas, vados y lote 1101020202110024"]
+    
+    D --> D1["<b>C4. Alumbrado Solar Off-Grid</b><br>120 luminarias LED 60W con dimming<br>Batería LiFePO4 1.280 Wh (~2,5 noches)"]
+    D --> D2["<b>C2b. Ciclorruta Conectora</b><br>Sujeta a verificación de sección vial<br>hacia nodo universitario La Argelia"]
+    D --> D3["<b>C5. Piloto de Biomasa y Compostaje</b><br>3 puntos limpios y módulo comunal<br>(sujeto a estudio de residuos y operador)"]
 
     style A fill:#1a365d,stroke:#0f172a,stroke-width:2px,color:#ffffff
-    style B fill:#2b6cb0,stroke:#1e3a8a,stroke-width:2px,color:#ffffff
-    style C fill:#2c7a7b,stroke:#134e4a,stroke-width:2px,color:#ffffff
-    style B1 fill:#edf2f7,stroke:#cbd5e0,stroke-width:1px,color:#1a202c
-    style B2 fill:#edf2f7,stroke:#cbd5e0,stroke-width:1px,color:#1a202c
-    style B3 fill:#edf2f7,stroke:#cbd5e0,stroke-width:1px,color:#1a202c
-    style C1 fill:#f0fdf4,stroke:#bbf7d0,stroke-width:1px,color:#14532d
-    style C2 fill:#fefce8,stroke:#fef08a,stroke-width:1px,color:#713f12
-    style C3 fill:#eff6ff,stroke:#bfdbfe,stroke-width:1px,color:#1e3a8a
+    style B fill:#1e40af,stroke:#1e3a8a,stroke-width:2px,color:#ffffff
+    style C fill:#0f766e,stroke:#115e59,stroke-width:2px,color:#ffffff
+    style D fill:#475569,stroke:#334155,stroke-width:2px,color:#ffffff
+    style B1 fill:#eff6ff,stroke:#93c5fd,stroke-width:1px,color:#1e3a8a
+    style B2 fill:#eff6ff,stroke:#93c5fd,stroke-width:1px,color:#1e3a8a
+    style C1 fill:#f0fdf4,stroke:#86efac,stroke-width:1px,color:#14532d
+    style D1 fill:#f8fafc,stroke:#cbd5e1,stroke-width:1px,color:#334155
+    style D2 fill:#f8fafc,stroke:#cbd5e1,stroke-width:1px,color:#334155
+    style D3 fill:#f8fafc,stroke:#cbd5e1,stroke-width:1px,color:#334155
 """
 
 mmd_path = r"d:\08_Ciclo\03_Practicas_Preprofesionales\docs\vaults\v04-expediente-proyecto-capuli\assets\estructura_proyecto_cinco_sectores.mmd"

@@ -1,37 +1,33 @@
 import base64
 import json
 import urllib.request
-import os
 
 mermaid_code = """gantt
-    title Cronograma de Asistencia Técnica y Aceleración (CIS II - GIZ)
+    title Plan de Asistencia Técnica por Paquetes de Trabajo (Fase III CIS II - GIZ)
     dateFormat  X
     axisFormat Mes %s
     
-    section Paquete 1: Ingeniería
-    Topografía de detalle y geotecnia en lotes municipales :active, p1, 0, 2
-    Modelación hidrológica de biofiltros y SUDs             :p2, 1, 3
+    section P1: Ingeniería Legal
+    Homologación catastral urbana, amojonamiento hídrico e IRU definitivo :active, p1, 0, 2
     
-    section Paquete 2: Financiero
-    Elaboración de APUs y presupuesto definitivo            :p3, 2, 4
-    Estructuración de modelo CAPEX + OPEX bancable          :p4, 3, 5
+    section P2: Hidrológico-Geotécnico
+    Topografía de detalle, suelos y evaluación de laderas (Riesgo 02/03)  :p2, 1, 3
+    Modelación hidráulica y validación de infiltración/conducción SUDs    :p3, 2, 4
     
-    section Paquete 3: Habilitantes
-    Ficha y categorización ambiental MAATE / GAD            :p5, 2, 5
-    Certificación catastral y fajas de protección           :p6, 1, 3
+    section P3: Anteproyecto y Costos
+    Diseño validado del núcleo prioritario, cómputos métricos y APUs      :p4, 3, 5
     
-    section Paquete 4: Bancabilidad
-    Carpeta final para financiamiento BDE / Fondos Verdes   :p7, 4, 6
+    section P4: Social y Operativo
+    Talleres participativos, actas de veeduría y manual operativo OPEX    :p5, 1, 4
+    
+    section P5: Económico-Financiero
+    Evaluación socioeconómica, certificación POA y carpeta BDE/Fondos     :p6, 4, 6
 """
 
-# Save .mmd file first
 mmd_path = r"d:\08_Ciclo\03_Practicas_Preprofesionales\docs\vaults\v04-expediente-proyecto-capuli\assets\ruta_critica_aceleracion.mmd"
 with open(mmd_path, "w", encoding="utf-8") as f:
     f.write(mermaid_code)
-print(f"Saved mermaid definition to {mmd_path}")
 
-# Mermaid.ink accepts base64 encoded json or base64 encoded string
-# Using mermaid.ink API: https://mermaid.ink/img/<base64>
 graph_state = {
     "code": mermaid_code,
     "mermaid": {"theme": "default"}
@@ -40,7 +36,6 @@ json_bytes = json.dumps(graph_state).encode('utf-8')
 base64_str = base64.urlsafe_b64encode(json_bytes).decode('ascii')
 
 url = f"https://mermaid.ink/img/{base64_str}?bgColor=!white"
-print(f"Fetching from {url}")
 
 req = urllib.request.Request(
     url,

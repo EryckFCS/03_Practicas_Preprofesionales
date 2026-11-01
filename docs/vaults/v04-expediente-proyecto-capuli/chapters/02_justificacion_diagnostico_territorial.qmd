@@ -1,74 +1,174 @@
-# Justificación Territorial y Diagnóstico de Necesidades
+# Problema Territorial, Población Afectada y Compatibilidad Normativa
 
-## Alineación con la Planificación Cantonal y Nacional
+## Compatibilidad Territorial y Vinculación con Instrumentos Vigentes
 
-La intervención se desprende de tres instrumentos de planificación vinculantes a nivel nacional y local:
+La formulación del proyecto se articula con el ordenamiento territorial vigente del cantón Loja, distinguiendo entre la alineación estratégica ya documentada en instrumentos públicos y las certificaciones administrativas que deben ser emitidas por las dependencias municipales para la verificación documental.
 
-1. **Plan de Desarrollo y Ordenamiento Territorial de Loja [@gad_loja_pdot_cantonal_2020]:**
-   El diagnóstico cantonal identifica a la parroquia Punzara como un área de expansión periférica deficitaria en drenaje pluvial, con discontinuidad vial y carencia de parques urbanos. La intervención aplica las directrices del Eje Loja Habitable y Sostenible para mitigar la segregación espacial periurbana y consolidar la infraestructura verde en bordes fluviales.
+En el ámbito cantonal, el marco regulatorio corresponde al Plan de Desarrollo y Ordenamiento Territorial (PDOT) 2023–2027 y al Plan de Uso y Gestión de Suelo (PUGS) 2023–2033 del Cantón Loja, actualizados mediante la Ordenanza N.° 0070-2025 (publicada en el Registro Oficial Edición Especial N.° 104 de abril de 2025) [@gad_loja_pdot_pugs_2025], así como a la Ordenanza N.° 0086-2026 (febrero de 2026) que alinea el PDOT 2023–2027 al Plan Nacional de Desarrollo 2025–2029 [@gad_loja_alineacion_pdot_2026]. Estos instrumentos dan continuidad al diagnóstico territorial cantonal [@gad_loja_pdot_cantonal_2020], donde el borde suroriental de expansión (interfase entre Punzara y San Sebastián) presenta carencias de espacio público recreativo, discontinuidad de la red vial secundaria y restricciones morfodinámicas en márgenes de quebrada.
 
-2. **Plan del Sistema Verde Urbano de Loja [@municipio_loja_utpl_giz_sistema_verde_2020]:**
-   El instrumento clasifica el área dentro del Eje 1 (Red Verde Urbana), subprograma de Parques Urbanos, jerarquizando formalmente el **Proyecto N° 11: Parque de río Capulí** en el Subsistema 3 con una valoración técnica multicriterio de 0,491 sobre variables de cambio climático, dinamización socioeconómica y justicia espacial. El plan define la Av. Ruta Éxodo de Yangana como Conector Artificial Primario (Corredor Verde) para integrar movilidad activa con la red hídrica, y la Av. Reinaldo Espinosa como conector socio-ecológico articulador entre el nodo universitario La Argelia, el Parque Capulí y el Bioparque Punzara.
+En materia de infraestructura verde, la iniciativa recoge el antecedente del Plan del Sistema Verde Urbano de Loja [@municipio_loja_utpl_giz_sistema_verde_2020], elaborado por el Municipio de Loja, la UTPL y la GIZ durante la primera fase del programa CIS. Dicho documento prioriza dentro de su Eje 1 (Red Verde Urbana, Subsistema 3, p. 114) al Proyecto N.° 11: Parque de río Capulí, asignándole una valoración multicriterio de 0,491 en función de su potencial de adaptación climática y equidad territorial, e identifica a la Av. Ruta Éxodo de Yangana como conector primario y a la Av. Reinaldo Espinosa como eje de articulación hacia el Campus Universitario La Argelia y el Bioparque Punzara. A escala nacional, estas directrices se vinculan con las Áreas de Gestión 1 (proximidad 3-30-300), 3 (movilidad activa), 5 (conservación ribereña) y 6 (gestión de riesgos) de la Agenda de Hábitat Sostenible del Ecuador 2036 [@miduvi_agenda_habitat_2020; @miduvi_giz_guia_espacio_publico_2021].
 
-3. **Agenda de Hábitat Sostenible del Ecuador 2036 [@miduvi_agenda_habitat_2020] y Objetivos de Desarrollo Sostenible:**
-   El proyecto operacionaliza cuatro áreas de gestión prioritarias establecidas en la política nacional de hábitat del Ministerio de Desarrollo Urbano y Vivienda:
-   * **Área de Gestión 1 (Servicios públicos, equipamientos e infraestructura):** Implementación de la regla de proximidad 3-30-300 del estándar nacional [@miduvi_giz_guia_espacio_publico_2021], garantizando que cada habitante cuente con al menos tres árboles a la vista, 30% de cobertura de copa en el barrio y un parque público de calidad a menos de 300 metros (ODS 11, Meta 11.7).
-   * **Área de Gestión 3 (Sistemas de movilidad y transporte sostenible):** Consolidación de 2,4 km de calle completa y pacificación vial con estándar universal 8-80, habilitando la ciclorruta y aceras continuas hacia el Campus Universitario La Argelia (ODS 3, Meta 3.6).
-   * **Área de Gestión 5 (Conservación ambiental y gestión de recursos):** Restauración de la ribera fluvial mediante Soluciones basadas en la Naturaleza (SbN), fijación vegetal de taludes y tres islas comunitarias de economía circular y compostaje barrial (ODS 12, Meta 12.5).
-   * **Área de Gestión 6 (Gestión de riesgos, resiliencia y cambio climático):** Mitigación de riesgos hidro-geomorfológicos mediante ocho celdas de drenaje urbano sostenible (SUDs) que retienen y laminan $1.850 \text{ m}^3$ de escorrentía superficial durante eventos de precipitación extrema (ODS 6, Meta 6.6 y ODS 13, Meta 13.1).
-
-## Caracterización Socioeconómica y Brechas Físicas
-
-Los datos oficiales del Censo de Población y Vivienda [@inec_cpv_2022] y el levantamiento georreferenciado municipal identifican fallas estructurales críticas en el polígono barrial de 115,12 hectáreas:
-
-* **Vulnerabilidad socioeconómica y habitacional:**
-  En el Barrio El Capulí habitan 980 personas residentes en 245 edificaciones censales. El 38,4% de los hogares registra Necesidades Básicas Insatisfechas (NBI). Más del 80% de los predios carece de red de alcantarillado pluvial, originando que el 72% de las aguas pluviales escurra de manera superficial erosionando calzadas y taludes habitados.
-* **Inestabilidad morfodinámica y riesgo hidrogeológico:**
-  La topografía de ladera presenta pendientes pronunciadas de entre el 15% y el 35%. La Dirección de Gestión de Riesgos y el catastro municipal clasifican las laderas y márgenes ribereños bajo niveles de susceptibilidad geomorfológica media y alta (categorías 02 y 03 por socavamiento fluvial y saturación del estrato limoso-arcilloso).
-* **Precariedad de la red vial y movilidad no motorizada:**
-  De los 9,64 km lineales de vías públicas registradas en el catastro barrial, 1,09 km son calzadas de tierra compactada y 2,37 km son calzadas de lastre sin cunetas ni veredas peatonales. A pesar de que la distancia hacia el nodo equipamental de La Argelia es inferior a 2.000 metros, la falta de continuidad peatonal obliga a circular por la calzada vehicular, afectando severamente a estudiantes, infancias, adultos mayores y mujeres en tareas de cuidado.
-
-## Balance Oferta - Demanda y Diagnóstico de Brechas por Componente
-
-Conforme a los lineamientos metodológicos de la Guía de Procesos Crediticios y Preinversión del Banco de Desarrollo del Ecuador [@bde_guia_procesos_crediticios_2021] y la Guía de Espacio Público [@miduvi_giz_guia_espacio_publico_2021], la @tbl-balance-oferta-demanda desagrega el déficit territorial insatisfecho que justifica la intervención modular:
+Un aspecto técnico-jurídico que requiere explicación explícita es la codificación catastral de los predios municipales frente al carácter urbano de la intervención. En la base gráfica municipal (`PrediosRurales.shp`), los lotes públicos colindantes al cauce del río Capulí mantienen claves con prefijo `110150` (`1101500220083` y `1101500220086`, además de los lotes adyacentes `1101500220081` y `1101500220084`). Sin embargo, el campo de observaciones de la propia base catastral registra que dichos predios se originaron mediante planos de cesión urbanística aprobados por la Jefatura de Regulación y Control Urbano Municipal (de fechas 06/10/2016, 21/04/2006 y 14/04/2005) bajo las categorías de Área Verde Municipal y Franja de Protección de Quebrada en aplicación del artículo 55, literales g) y j), del COOTAD, formando un continuo físico con el predio urbano municipal `1101020202110024` (Área Comunal). Para formalizar esta condición ante el PUGS 2023–2033, la emisión del certificado catastral actualizado y del Informe de Regulación Urbana (IRU) por parte de las direcciones municipales competentes se registra como requisito exigible para la Fase II de verificación documental, mientras que la homologación definitiva de claves al catastro urbano se contempla en el Paquete de Trabajo 1. La @tbl-compatibilidad-territorial resume el estado de cada instrumento.
 
 ```{=latex}
 \begin{landscapepage}
 ```
 
-::: {#tbl-balance-oferta-demanda}
-| Componente del Proyecto | Oferta Existente (Línea Base Sin Proyecto) | Demanda Social y Territorial Estimada | Brecha / Demanda Insatisfecha Cuantificada | Meta Física del Proyecto (Solución Técnica Modular) |
-| :--- | :--- | :--- | :--- | :--- |
-| **C1: Parque Fluvial y SbN** | $0 \text{ m}^2$ de espacio verde público ribereño equipado. Margen degradado y socavado. | Regla biofísica 3-30-300: $9 \text{ m}^2/\text{hab}$ de área verde accesible para 980 hab ($8.820 \text{ m}^2$). | **100% de déficit** en parques públicos equipados y seguros en el polígono barrial. | $20.800 \text{ m}^2$ de parque fluvial bioclimático regenerado en predios ID 905 e ID 908 con bioingeniería. |
-| **C2: Movilidad Activa y Vía Completa** | 0 km de ciclorrutas; 1,09 km en tierra y 2,37 km en lastre sin veredas continuas ni pasos seguros. | 980 residentes barriales + 15.000 viajes/semana hacia el nodo universitario y de salud La Argelia. | **2,4 km de vía sin accesibilidad universal 8-80**, forzando al peatón a circular por calzada vehicular. | 2,4 km de vía completa pacificada a $30 \text{ km/h}$, aceras continuas de 2,00 m y ciclorruta segregada de 2,20 m. |
-| **C3: Drenaje Urbano y SUDs** | 0 celdas de drenaje biofísico. Más del 80% de predios sin red pluvial (72% de escorrentía superficial libre). | Evacuación y laminación de tormentas de diseño decenales ($Q_{24h}$) de $1.850 \text{ m}^3$ sobre ladera limosa. | **$1.850 \text{ m}^3$ de sobrecarga pluvial sin amortiguamiento**, provocando erosión y anegamiento predial. | 8 celdas de biorretención en serie con grava y fito-depuración (capacidad de amortiguamiento de $1.850 \text{ m}^3$). |
-| **C4: Alumbrado Autónomo Solar** | Iluminación intermitente sobre postes de madera; zonas de penumbra con riesgo de acoso e inseguridad. | Cobertura lumínica vial continua Clase M4/P3 en 2,4 km de vías y senderos fluviales (120 luminarias). | **Déficit del 75%** en cobertura lumínica eficiente y gasto recurrente de consumo eléctrico para el GAD. | 120 luminarias solares LED autónomas de 60 W con LiFePO4 fuera de red ($0 \text{ USD}$ en consumo eléctrico mensual). |
-| **C5: Residuos y Economía Circular** | Botaderos informales y quema a cielo abierto de podas y biomasa orgánica ribereña. | Gestión de 24 toneladas anuales de residuos orgánicos domiciliarios y podas de mantenimiento verde. | **24 t/año de residuos orgánicos dispuestos en vertederos**, generando lixiviados y emisiones de metano. | 3 islas ecológicas de 3 fracciones + Centro Comunal de Compostaje de $150 \text{ m}^2$ para producir enmienda local. |
+::: {#tbl-compatibilidad-territorial}
+| Instrumento o Evidencia | Contenido Técnico y Disposición Vinculada | Función en la Evaluación CIS II | Estado de Verificación |
+| :--- | :--- | :--- | :---: |
+| **PDOT Cantonal 2023–2027 (Ord. 0070-2025 y Ord. 0086-2026)** | Lineamientos de reducción de brechas en barrios periféricos, recuperación de riberas y movilidad sostenible articulados al PND 2025–2029 [@gad_loja_pdot_pugs_2025; @gad_loja_alineacion_pdot_2026]. | Contextualizar la intervención dentro de los objetivos cantonales vigentes. | Comprobada (Marco general) / Certificación específica pendiente |
+| **PUGS 2023–2033 (Ord. 0070-2025)** | Régimen de suelo de protección ecológica y equipamiento recreativo en márgenes hídricos del borde sur. Conciliación entre codificación catastral (`110150`) y planos aprobados por Regulación Urbana. | Verificar la compatibilidad urbanística de los predios intervenidos con la norma vigente. | Propuesta / Informe de Regulación Urbana (IRU) pendiente |
+| **Atributo Catastral `RIESGO` (`PrediosUrbanos.shp`)** | En los 706 predios urbanos del entorno de estudio, 231 (32,7%) registran código `02`, 467 (66,1%) código `03` y 8 (1,1%) carecen de código. | Establecer precauciones provisionales sobre infiltración en laderas hasta contar con el catálogo oficial del atributo y estudios geotécnicos. | Comprobada en tabla SIG / Metadato oficial y geotecnia pendientes |
+| **Plan del Sistema Verde Urbano de Loja (2020)** | Ficha de priorización del Proyecto N.° 11: Parque de río Capulí (Subsistema 3, valoración multicriterio 0,491) y conectores Éxodo de Yangana y Reinaldo Espinosa [@municipio_loja_utpl_giz_sistema_verde_2020]. | Documentar el antecedente técnico de planificación verde desarrollado en Loja con apoyo de GIZ. | Comprobada |
+| **Agenda de Hábitat Sostenible 2036 y Guía MIDUVI/GIZ** | Áreas de Gestión 1, 3, 5 y 6; criterio de proximidad 3-30-300, accesibilidad universal 8-80 y análisis de ciclo de vida [@miduvi_agenda_habitat_2020; @miduvi_giz_guia_espacio_publico_2021]. | Sustentar la alineación con los criterios de priorización de política pública nacional. | Comprobada |
+| **Presupuesto Municipal 2026 (Ord. 0079-2025)** | Proforma 2026 aprobada por aproximadamente USD 76,8 millones (41% inversión, 41% corriente y 18% capital según difusión institucional). El proyecto no cuenta aún con partida plurianual codificada en el POA 2026. | Contextualizar el tamaño relativo del proyecto y reconocer la necesidad de estructuración financiera. | Síntesis institucional comprobada / Cédula y partida POA pendientes |
+| **Compromiso y Contraparte Municipal** | Carta de compromiso de la Alcaldía (Anexo A) y designación de puntos focales de Planificación, Obras Públicas, Gestión Ambiental, Higiene y UMAPAL. | Cumplir el requisito habilitante de respaldo institucional en Fase I y Fase II. | Pendiente de suscripción (Fase I) |
 
-: Matriz de Desagregación Oferta - Demanda y Diagnóstico de Brechas (Metodología BDE / SNIP)
+: Matriz de compatibilidad territorial y vinculación con instrumentos vigentes
 :::
 
 ```{=latex}
 \end{landscapepage}
 ```
 
+## Auditoría Demográfica, Universos de Cálculo y Cobertura de Servicios (CPV 2022)
 
+El diagnóstico sociodemográfico y de servicios básicos se sustenta en la auditoría directa de los archivos de microdatos del VIII Censo de Población y VII de Vivienda (`cpv2022_loja_poblacion_sector.csv`, `cpv2022_loja_vivienda_sector.csv` y `cpv2022_loja_hogar_sector.csv`) conforme al diccionario oficial de variables del INEC (`DICCIONARIO_BDD_SECTOR.xlsx`) [@inec_cpv_2022].
 
+### Clarificación de Denominadores y Universos Válidos en Indicadores de Vivienda y Hogar
 
-## Delimitación Cartográfica Oficial y Tenencia del Suelo
+En el procesamiento censal del INEC, las preguntas sobre provisión de agua (`V09` y `V10`), alcantarillado (`V11`), energía eléctrica (`V12`) y eliminación de basura (`V14`) se aplican únicamente al universo de viviendas particulares ocupadas con personas presentes (`V01` entre 1 y 8, y `V0201 = 1`), quedando en blanco (no aplica) para las viviendas con personas ausentes, de temporada o vacacionales, desocupadas, en construcción (`V0201` entre 2 y 5) y viviendas colectivas (`V01 > 8`). En reportes preliminares elaborados con anterioridad, el cálculo de porcentajes había tomado como denominador el total bruto de viviendas registradas (5.382 en Punzara y 1.172 en los diez sectores de El Capulí) e indexado columnas desplazadas respecto al diccionario 2022, lo que subestimaba artificialmente las coberturas (reportando, por ejemplo, 19,3% en agua y 38,1% en alcantarillado en Punzara).
 
-La @fig-plano-delimitacion sintetiza la estructura geoespacial del polígono de intervención y consolida las capas temáticas obtenidas del Sistema de Información Geográfica municipal y la base catastral institucional:
+Para corregir de raíz dicha distorsión y permitir una verificación inmediata por parte de los evaluadores, la @tbl-auditoria-indicadores presenta cada indicador especificando el código y etiqueta oficial de la variable en `DICCIONARIO_BDD_SECTOR.xlsx`, el universo pertinente, el numerador exacto, el denominador de casos válidos, las exclusiones por condición de ocupación y el porcentaje resultante en las tres escalas territoriales de análisis (el desglose sector por sector se incluye en el Anexo D).
 
-![Plano Oficial de Delimitación Territorial, Reserva Predial Municipal y Eje Hídrico Río Capulí](assets/mapa_oficial_delimitacion_capuli.png){#fig-plano-delimitacion width=100% height=19cm fig-align="center"}
+```{=latex}
+\begin{landscapepage}
+```
 
+::: {#tbl-auditoria-indicadores}
+| Variable Oficial INEC (`DICCIONARIO_BDD_SECTOR.xlsx`) | Universo de Aplicación | Escala Territorial | Total Registros | Exclusiones (No aplica / Sin dato) | Denominador Válido | Numerador (Cumple condición) | Resultado sobre Universo Válido (%) |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **`V10 = 1`**: El agua proviene o es suministrada por Empresa Pública / Municipio *(Nota: `V10 = 2` corresponde a Junta de Agua comunitaria)* | Viviendas particulares ocupadas con personas presentes (`V0201 = 1`) | 10 sectores El Capulí | $1.172$ viv. | $375$ viv. | $797$ viv. | $337$ ($+380$ Junta) | $42,28\%$ red muni. ($57,72\%$ déficit municipal; $47,68\%$ Junta) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $5.382$ viv. | $2.793$ viv. | $2.589$ viv. | $1.222$ ($+1.174$ Junta) | $47,20\%$ red muni. ($52,80\%$ déficit municipal; $45,35\%$ Junta) |
+| ^ | ^ | Cantón Loja (`1101`) | $100.257$ viv. | $29.791$ viv. | $70.466$ viv. | $57.986$ ($+8.704$ Junta) | $82,29\%$ red muni. ($17,71\%$ déficit municipal) |
+| **`V09 = 1`**: El agua que recibe la vivienda es por tubería, dentro de la vivienda | Viviendas particulares ocupadas con personas presentes (`V0201 = 1`) | 10 sectores El Capulí | $1.172$ viv. | $375$ viv. | $797$ viv. | $680$ viv. | $85,32\%$ ($14,68\%$ fuera de vivienda o sin tubería) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $5.382$ viv. | $2.793$ viv. | $2.589$ viv. | $1.982$ viv. | $76,55\%$ ($23,45\%$ fuera de vivienda o sin tubería) |
+| ^ | ^ | Cantón Loja (`1101`) | $100.257$ viv. | $29.791$ viv. | $70.466$ viv. | $60.716$ viv. | $86,16\%$ ($13,84\%$ fuera de vivienda o sin tubería) |
+| **`V11 = 1`**: Servicio higiénico conectado a red pública de alcantarillado *(Nota: `V11 = 2` es pozo séptico; `3..7` pozo ciego/descarga directa/no tiene)* | Viviendas particulares ocupadas con personas presentes (`V0201 = 1`) | 10 sectores El Capulí | $1.172$ viv. | $375$ viv. | $797$ viv. | $332$ ($+332$ séptico) | $41,66\%$ alcant. ($58,34\%$ déficit red; $41,66\%$ pozo séptico y $16,69\%$ pozo ciego/quebrada) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $5.382$ viv. | $2.793$ viv. | $2.589$ viv. | $823$ ($+1.553$ séptico) | $31,79\%$ alcant. ($68,21\%$ déficit red; $59,98\%$ pozo séptico) |
+| ^ | ^ | Cantón Loja (`1101`) | $100.257$ viv. | $29.791$ viv. | $70.466$ viv. | $56.949$ ($+10.173$ sép.) | $80,82\%$ alcant. ($19,18\%$ déficit red) |
+| **`V12 = 1`**: Disponibilidad de energía eléctrica por red pública | Viviendas particulares ocupadas con personas presentes (`V0201 = 1`) | 10 sectores El Capulí | $1.172$ viv. | $375$ viv. | $797$ viv. | $788$ viv. | $98,87\%$ cobertura domiciliaria ($1,13\%$ sin red) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $5.382$ viv. | $2.793$ viv. | $2.589$ viv. | $2.551$ viv. | $98,53\%$ cobertura domiciliaria ($1,47\%$ sin red) |
+| ^ | ^ | Cantón Loja (`1101`) | $100.257$ viv. | $29.791$ viv. | $70.466$ viv. | $69.856$ viv. | $99,13\%$ cobertura domiciliaria ($0,87\%$ sin red) |
+| **`V14 = 1`**: Eliminación de basura por carro recolector *(Nota: `V14 = 2` es contenedor municipal; `3..7` quema/entierra/terreno/quebrada)* | Viviendas particulares ocupadas con personas presentes (`V0201 = 1`) | 10 sectores El Capulí | $1.172$ viv. | $375$ viv. | $797$ viv. | $632$ ($+122$ cont.) | $79,30\%$ carro ($94,60\%$ municipal total; $5,40\%$ [$43\text{ viv.}$] quema/terreno) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $5.382$ viv. | $2.793$ viv. | $2.589$ viv. | $1.587$ ($+449$ cont.) | $61,30\%$ carro ($38,70\%$ sin carro puerta a puerta; $21,36\%$ [$553\text{ viv.}$] sin servicio) |
+| ^ | ^ | Cantón Loja (`1101`) | $100.257$ viv. | $29.791$ viv. | $70.466$ viv. | $59.976$ ($+4.078$ cont.) | $85,11\%$ carro ($90,90\%$ municipal total) |
+| **`NBI = 1`**: Pobreza por Necesidades Básicas Insatisfechas (Tabla Hogar) | Hogares particulares con dato válido en indicador NBI | 10 sectores El Capulí | $847$ hog. | $0$ hog. | $847$ hog. | $298$ hog. | $35,18\%$ de hogares con NBI (hasta $90,28\%$ en sector disperso `030`) |
+| ^ | ^ | Parroquia Punzara (`110156`) | $2.787$ hog. | $6$ hog. | $2.781$ hog. | $992$ hog. | $35,67\%$ de hogares con NBI |
+| ^ | ^ | Cantón Loja (`1101`) | $75.724$ hog. | $70$ hog. | $75.654$ hog. | $17.147$ hog. | $22,67\%$ de hogares con NBI |
+| **`H0701 = 1`**: Hogar acostumbra separar basura en orgánica e inorgánica | Hogares particulares con respuesta válida | 10 sectores / Punzara | $847$ / $2.787$ | $0$ / $6$ | $847$ / $2.781$ | $784$ / $2.212$ | $92,56\%$ en 10 sectores / $79,54\%$ en Punzara |
 
-El análisis espacial del polígono y sus áreas de influencia establece las siguientes condiciones físico-legales:
+: Auditoría metodológica de indicadores del Censo CPV 2022 con especificación de variables, universos, numeradores, denominadores y exclusiones
+:::
 
-1. **Polígono Barrial Integral (115,12 ha):** Define el perímetro de intervención socio-territorial donde se concentran los 980 habitantes directos, la red vial periurbana (9,64 km) y los sectores críticos de ladera con riesgo hidrogeológico.
-2. **Reserva Predial Municipal de Dominio Público (2,08 ha consolidadas):**
-   * **Predio Rural Clave 110150201300905000000000 (ID 905):** Superficie de $14.500 \text{ m}^2$ (1,45 ha), de titularidad municipal directa, destinado a la implantación del parque fluvial bioclimático, terrazas de retención biofísica y módulos recreativo-culturales.
-   * **Predio Rural Clave 110150201300908000000000 (ID 908):** Superficie de $5.000 \text{ m}^2$ (0,50 ha), de dominio público del GAD Loja, reservado para el sistema de celdas de biorretención, humedales artificiales y el centro barrial de economía circular.
-   * **Predio Urbano Municipal Complementario:** Fracción de $1.300 \text{ m}^2$ (0,13 ha) adyacente a la red vial principal que garantiza el acceso libre y servidumbres públicas hacia la ribera fluvial.
-3. **Eje Hídrico y Zona de Protección Fluvial (Río Capulí):** Se establece un buffer de retiro y protección hidrológica a lo largo de los márgenes del río Capulí, recuperando el lecho fluvial degradado mediante Soluciones basadas en la Naturaleza y contención de crecidas extraordinarias.
-4. **Articulación Urbana Estratégica:** El plano evidencia la proximidad caminable ($< 2,0 \text{ km}$) con el nodo equipamental y científico del Campus Universitario La Argelia (UNL), conectando mediante la Av. Reinaldo Espinosa y el Corredor Ecológico Éxodo de Yangana, lo que viabiliza la consolidación de un sistema de movilidad activa y descarbonizada.
+```{=latex}
+\end{landscapepage}
+```
 
+Los resultados auditados de la @tbl-auditoria-indicadores permiten precisar el diagnóstico territorial en tres aspectos sustantivos:
+
+1. En el entorno inmediato de los diez sectores censales de El Capulí (`797` viviendas ocupadas con personas presentes), el $58,34\%$ carece de conexión a la red pública de alcantarillado (`V11 = 1`), dependiendo el $41,66\%$ (`332` viviendas) de pozos sépticos y el $16,69\%$ (`133` viviendas) de pozos ciegos o descargas directas. Más aún, al desagregar entre los sectores consolidados del norte (`001`, `003` y `005`) y los sectores en transición del centro y sur donde se ubica el proyecto (`006`, `007`, `008`, `024`, `025`, `029` y `030`), en estos últimos la cobertura de alcantarillado público cae entre el $0,00\%$ y el $8,33\%$ (con excepción del sector `006` con $45,45\%$), lo que significa que la casi totalidad de las aguas residuales domésticas en las laderas del polígono se infiltra mediante pozos sépticos y ciegos sobre suelos arcillo-limosos.
+2. En provisión de agua (`V10`), solo el $42,28\%$ de las viviendas ocupadas de los diez sectores recibe agua de la empresa pública municipal, mientras que el $47,68\%$ (`380` viviendas, especialmente en los sectores `007`, `008`, `024` y `025`) se abastece mediante juntas de agua comunitarias y el $10,04\%$ por pozos o vertientes. Por su parte, las variables censales no miden drenaje pluvial vial: el déficit de captación de aguas lluvias se documenta a través del inventario físico de la red vial (`muni_vialidad_capuli`), donde de los $9,64 \text{ km}$ de vías dentro del polígono (44 tramos), $1,09 \text{ km}$ son de tierra y $2,37 \text{ km}$ de lastre ($3,46 \text{ km}$ sin pavimento ni cunetas revestidas).
+3. En energía eléctrica (`V12 = 1`), el $98,87\%$ de las viviendas ocupadas dispone de conexión domiciliaria a la red pública; por consiguiente, el déficit energético que atiende el Componente 4 no es de electrificación residencial, sino de alumbrado público peatonal en los senderos ribereños y tramos viales de tierra y lastre. Asimismo, el indicador `H0701` revela que el $92,56\%$ de los hogares de los diez sectores declara el hábito de separar residuos orgánicos e inorgánicos, lo cual constituye una base conductual favorable para los puntos limpios del Componente 5, aunque en los sectores dispersos (`029` y `025`) entre el $11,5\%$ y el $29,2\%$ de las viviendas aún carece de recolección municipal y recurre a la quema o arrojo en quebradas.
+
+### Auditoría de la Capa de Edificaciones (`edif_p`) y Estimación Poblacional en el Polígono de 115,12 ha
+
+Dado que el límite del polígono barrial (`Barrio_El_Capuli.gpkg`, $115,12 \text{ ha}$) corta parcialmente la geometría de los sectores censales del INEC, se auditó espacialmente la intersección entre dicho polígono, los diez sectores del entorno (`sectores_estudio_capuli_10`) y los 1.047 puntos de la capa precensal de edificaciones (`edificaciones_estudio_capuli`, código `fcode = BB006`).
+
+La verificación espacial demuestra que los 245 puntos de edificación situados dentro de las $115,12 \text{ ha}$ se distribuyen exclusivamente en cuatro sectores censales (`110150063006`, `110150063007`, `110150063008` y `110150999029`), cuya población total empadronada en el CPV 2022 suma exactamente 1.386 habitantes ($270 + 482 + 438 + 196$, categoría *Comprobada*). Al inspeccionar los atributos alfanuméricos (`cod_otros`, `nom_edif` y `otros`) de los 245 registros internos al polígono, se identifican tres categorías distintas:
+
+- 214 puntos sin clasificador especial (`cod_otros = None` y `otros = None`): corresponden a estructuras de uso residencial o mixto.
+- 24 puntos registrados como `otros = LOTE VACIO`: predios sin edificación habitada contabilizados durante la actualización cartográfica precensal.
+- 7 puntos de equipamiento no residencial (`cod_otros` con valor): Escuela Dorotea Carrión (`1`), Unidad Educativa Particular San Gerardo (`1`), Iglesia de Capulí (`1`), Fiscalía General del Estado (`1`), Sindicato de Trabajadores de la UNL (`1`), Casa de Campo del Parque Universitario (`1`) y un campo deportivo (`1`).
+
+Como observó la revisión metodológica, aplicar un factor uniforme de $4,0 \text{ hab./edificación}$ sobre el total bruto de 245 puntos ($980 \text{ hab.}$) sin descontar los 24 lotes vacíos ni los 7 equipamientos, o sin contrastarlo con la razón media de los diez sectores ($2.950 \text{ hab.} / 1.047 \text{ edif.} = 2,82 \text{ hab./edif.}$), requería una desagregación por sector censal. La @tbl-estimacion-poligono presenta el cálculo desagregado para cada uno de los cuatro sectores que intersectan el polígono, relacionando la población censada de cada sector con sus edificaciones residenciales y totales.
+
+::: {#tbl-estimacion-poligono}
+| Sector Censal INEC que Intersecta el Polígono | Población CPV 2022 del Sector (hab.) | Viviendas Ocupadas `VOPA` (uds.) | Edificaciones Totales en Sector (`edif_p`) | Edificaciones Residenciales en Sector | Puntos `edif_p` dentro del Polígono ($115,12\text{ ha}$) | Desglose en Polígono (Resid. / Vacío / Equip.) | Razón Sectorial (hab. / edif. resid.) | Población Estimada en Polígono por Sector (hab.) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `110150063006` | $270$ | $66$ | $102$ | $82$ | $39$ | $31 / 6 / 2$ | $3,29$ | $102,1$ |
+| `110150063007` | $482$ | $120$ | $132$ | $119$ | $99$ | $91 / 7 / 1$ | $4,05$ | $368,6$ |
+| `110150063008` | $438$ | $116$ | $144$ | $120$ | $97$ | $82 / 11 / 4$ | $3,65$ | $299,3$ |
+| `110150999029` | $196$ | $48$ | $86$ | $85$ | $10$ | $10 / 0 / 0$ | $2,31$ | $23,1$ |
+| **Total 4 Sectores Intersectados** | **$1.386$** | **$350$** | **$464$** | **$406$** | **$245$** | **$214 / 24 / 7$** | **$3,41$** *(pond.)* | **$793,0$** *(central)* |
+
+: Estimación desagregada por sector censal de la población residente dentro del polígono de 115,12 ha
+:::
+
+En consecuencia, la población residente estrictamente dentro del recorte poligonal de $115,12 \text{ ha}$ se reporta como una magnitud *Estimada* con un valor central ponderado por sector de 793 habitantes (o 783 habitantes si se calcula sobre la razón de edificaciones totales de cada sector), dentro de un rango de incertidumbre de 603 habitantes (aplicando la razón media general de $2,82 \text{ hab./edif.}$ a las 214 estructuras residenciales) a 980 habitantes (cota superior histórica de $4,0 \text{ hab./edif.}$ sobre 245 estructuras). Se reconoce explícitamente la limitación de este método areal —dado que la capa precensal `edif_p` no distingue el número de pisos o departamentos por edificio ni qué viviendas específicas se encontraban desocupadas el día del censo—, por lo que para efectos de evaluación comparativa se adopta como población de referencia comprobada del proyecto a los 2.950 habitantes de los diez sectores censales inmediatos (y los 1.386 habitantes de los cuatro sectores directamente intersectados), reservando el padrón habitacional exacto del polígono para el levantamiento de campo previsto en el Paquete de Trabajo 4.
+
+### Ficha de Proyección Intercensal (2010–2022) y Comparabilidad Territorial
+
+Para contextualizar la dinámica demográfica de la parroquia Punzara (`110156`), se documentan los parámetros empleados en la proyección referencial:
+
+- Población inicial y fecha de referencia: $P_{2010} = 6.845 \text{ habitantes}$ empadronados en la jurisdicción parroquial de Punzara en el VII Censo de Población y VI de Vivienda (noviembre de 2010).
+- Población final y fecha de referencia: $P_{2022} = 8.669 \text{ habitantes}$ empadronados en los 51 sectores de la jurisdicción `110156` en el VIII Censo de Población y VII de Vivienda (noviembre de 2022; $8.605 \text{ hab.}$ en hogares particulares).
+- Periodo intercensal ($t$) y fórmulas: $t = 12,0 \text{ años}$. Tasa geométrica anual: $r_{\text{geom}} = (8.669 / 6.845)^{1/12} - 1 = 0,019881$ ($1,988\%$ anual), con proyección $P_{2026} = 8.669 \times (1 + r_{\text{geom}})^4 = 9.379 \text{ habitantes}$ y $P_{2030} = 10.148 \text{ habitantes}$. Tasa exponencial: $r_{\text{exp}} = \ln(8.669 / 6.845) / 12 = 0,019686$ ($1,969\%$ anual).
+- Advertencia sobre comparabilidad territorial: En el clasificador geográfico estadístico del INEC, los diez sectores inmediatos al barrio El Capulí (`110150063001` a `110150999030`, que suman $2.950 \text{ hab.}$) están codificados bajo la cabecera cantonal urbana de Loja (`110150`, Zona `063` amanzanada y Zona `999` dispersa), en el límite administrativo con la jurisdicción `110156` (Punzara periférica). Debido a la actualización y fraccionamiento de polígonos censales efectuado por el INEC entre 2010 y 2022 en las zonas de expansión urbana, no se dispone de una serie intercensal 2010–2022 homologada a escala exclusiva de los diez sectores. Por ello, la tasa de $1,988\%$ se presenta únicamente como indicador de contexto parroquial y no se extrapola linealmente para inflar metas de beneficiarios directos.
+
+Respecto a los flujos de movilidad en el eje de la Av. Reinaldo Espinosa y el entorno del Campus Universitario La Argelia, se retira cualquier equivalencia no verificada en número de usuarios únicos y se mantiene la cifra de 15.000 desplazamientos semanales exclusivamente como un escenario exploratorio preliminar de volumen de viajes en el corredor, cuya cuantificación real dependerá de los conteos volumétricos y encuestas origen-destino del Paquete de Trabajo 3.
+
+## Balance Oferta - Demanda y Diagnóstico de Brechas por Componente
+
+Siguiendo la estructura de preinversión municipal [@bde_guia_procesos_crediticios_2021; @miduvi_giz_guia_espacio_publico_2021], la @tbl-balance-oferta-demanda sintetiza la oferta verificada en línea base, la demanda estimada, la brecha diagnosticada y la meta física propuesta por componente.
+
+```{=latex}
+\begin{landscapepage}
+```
+
+::: {#tbl-balance-oferta-demanda}
+| Componente del Proyecto | Oferta Existente (Línea Base Sin Proyecto) | Demanda Social y Territorial Estimada | Brecha / Demanda Insatisfecha | Meta Física Propuesta (Sujeta a Validación en Fase III) |
+| :--- | :--- | :--- | :--- | :--- |
+| **C1: Parque Fluvial y Recuperación Ribereña (Nivel 1)** | $0 \text{ m}^2$ de parque ribereño equipado. Suelo municipal de ribera ($19.513,57 \text{ m}^2$) sin habilitación ni estabilización biofísica (*Comprobada*). | Estándar OMS ($9 \text{ m}^2/\text{hab}$): $7.137 \text{ m}^2$ para la estimación central del polígono ($793 \text{ hab.}$), $12.474 \text{ m}^2$ para los 4 sectores intersectados ($1.386 \text{ hab.}$) o $26.550 \text{ m}^2$ para los 10 sectores ($2.950 \text{ hab.}$) (*Estimada*). | Inexistencia de espacio público verde equipado y accesible a menos de 300 m en el polígono barrial (*Comprobada*). | $19.513,57 \text{ m}^2$ ($1,95 \text{ ha}$) de parque fluvial y bioingeniería en lotes `1101500220083` y `1101500220086`, articulados a $1.307,91 \text{ m}^2$ del lote comunal `1101020202110024` ($20.821,48 \text{ m}^2$ de intervención directa) (*Propuesta*). |
+| **C3: Drenaje Urbano Sostenible Controlado SUDs (Nivel 1)** | $0$ unidades de biorretención o laminación. $3,46 \text{ km}$ de vías en tierra y lastre sin cunetas revestidas sobre laderas del 15% al 35% (*Comprobada*). | Captación, retención y conducción controlada de escorrentía vial hacia el cauce (meta geométrica exploratoria de prediseño: $1.850 \text{ m}^3$ para $T=10\text{ años}$) (*Propuesta*). | Erosión superficial de calzadas, aporte de sedimentos al río y saturación en sectores con atributo `RIESGO 02` (32,7%) y `03` (66,1%) (*Comprobada*). | 8 celdas de biorretención y cunetas con impermeabilización precautoria y sub-drenaje en tramos de ladera susceptible, sujetas a modelación hidrológica y estudio geotécnico (*Propuesta*). |
+| **C2: Conectividad Peatonal 8-80 y Ciclorruta (Niveles 2 y 3)** | De los $9,64 \text{ km}$ de red vial barrial, $1,09 \text{ km}$ son de tierra y $2,37 \text{ km}$ de lastre; el eje conector carece de aceras continuas y rampas accesibles (*Comprobada*). | Desplazamiento peatonal cotidiano de la población de referencia ($2.950 \text{ hab.}$ en los 10 sectores; $1.386 \text{ hab.}$ en los 4 sectores del polígono) y flujo exploratorio en el corredor hacia La Argelia (*Estimada*). | $2,40 \text{ km}$ del corredor conector principal sin aceras accesibles 8-80, obligando al peatón a circular por la calzada vehicular (*Comprobada*). | Regeneración priorizada en $2,40 \text{ km}$ lineales (sobre los $9,64 \text{ km}$ de red) con aceras continuas de $1,80\text{--}2,00 \text{ m}$ (Nivel 2) y ciclorruta condicionada a verificación de sección vial (Nivel 3) (*Propuesta*). |
+| **C4: Alumbrado Fotovoltaico Autónomo (Nivel 3)** | Cobertura eléctrica domiciliaria del $98,87\%$ (`V12=1`), pero carencia de alumbrado público peatonal en senderos ribereños y vías de tierra/lastre (*Comprobada*). | Iluminación peatonal y vial Clase P3/M4 a lo largo de los $2,40 \text{ km}$ de corredor y senderos principales (120 puntos lumínicos cada $20 \text{ m}$) (*Propuesta*). | Penumbra nocturna en el corredor peatonal y borde ribereño que limita el uso seguro del espacio público (*Comprobada*). | 120 columnas solares LED autónomas de $60 \text{ W}$ con atenuación horaria ($408 \text{ Wh/noche}$), panel de $180 \text{ Wp}$ y batería $\text{LiFePO}_4$ de $1.280 \text{ Wh}$ ($\approx 2,5$ noches teóricas) (*Propuesta*). |
+| **C5: Gestión de Residuos y Piloto de Biomasa (Nivel 3)** | Cobertura municipal de recolección del $94,60\%$ en los 10 sectores ($79,30\%$ carro y $15,31\%$ contenedor), pero $5,40\%$ ($43 \text{ viv.}$ en sectores dispersos) quema o arroja en quebrada; $92,56\%$ declara hábito de separación (`H0701`) (*Comprobada*). | Captación diferenciada en bordes de quebrada y valorización de biomasa de poda del parque y fracción orgánica (capacidad exploratoria de diseño: $24 \text{ t/año}$) (*Propuesta*). | Puntos de arrojo disperso en márgenes de quebrada y ausencia de infraestructura barrial de acopio diferenciado (*Comprobada*). | 3 puntos limpios diferenciados y módulo piloto de compostaje ($150 \text{ m}^2$), condicionado a caracterización de residuos, asignación de operador municipal y validación de costos (*Propuesta*). |
+
+: Matriz de desagregación Oferta - Demanda, diagnóstico de brechas y nivel de evidencia
+:::
+
+```{=latex}
+\end{landscapepage}
+```
+
+## Delimitación Cartográfica Oficial y Conciliación de la Reserva Predial Municipal
+
+La implantación espacial del proyecto integra el polígono barrial (`Barrio_El_Capuli.gpkg`) con las capas catastrales vectoriales de predios urbanos (`PrediosUrbanos.shp`) y predios rurales (`PrediosRurales.shp`) del GAD Municipal de Loja, representadas en la @fig-plano-delimitacion.
+
+![Plano Oficial de Delimitación Territorial, Reserva Predial Municipal y Eje Hídrico Río Capulí](assets/mapa_oficial_delimitacion_capuli.png){#fig-plano-delimitacion width=100% height=18.5cm fig-align="center"}
+
+La @tbl-conciliacion-predial detalla los registros extraídos de la geodatabase catastral (`capuli_punzara_estudio.gpkg`), conciliando las superficies parciales y totales sin discrepancias aritméticas:
+
+1. La suma de los dos lotes municipales ribereños (`1101500220083` de $14.516,75 \text{ m}^2$ y `1101500220086` de $4.996,82 \text{ m}^2$) es exactamente $19.513,57 \text{ m}^2$ ($1,95 \text{ ha}$), que corresponde a la superficie de intervención del Componente 1 (Parque Fluvial).
+2. Al sumar el lote municipal urbano de Área Comunal (`1101020202110024` de $1.307,91 \text{ m}^2$, $0,13 \text{ ha}$), destinado al nodo de articulación vial del Componente 2, la superficie pública de intervención directa asciende exactamente a $20.821,48 \text{ m}^2$ ($2,08 \text{ ha}$).
+3. Adicionalmente, en el mismo conglomerado ribereño existen dos lotes municipales de área verde (`1101500220081` de $983,89 \text{ m}^2$ y `1101500220084` de $9.844,65 \text{ m}^2$) que suman $10.828,54 \text{ m}^2$ ($1,08 \text{ ha}$). La adición de la superficie de intervención directa ($20.821,48 \text{ m}^2$) y de la reserva colindante ($10.828,54 \text{ m}^2$) arroja un total acumulado de $31.650,02 \text{ m}^2$ ($3,17 \text{ hectáreas}$) en cinco claves catastrales de dominio público municipal.
+
+Si bien la titularidad a nombre del Municipio de Loja y el atributo `dominio = PUBLICO` constan en la base SIG municipal, la certificación actualizada de historia de dominio y ausencia de gravámenes emitida por el Registro de la Propiedad y la Dirección de Avalúos y Catastros se mantiene como requisito exigible en trámite para la Fase II de verificación documental.
+
+::: {#tbl-conciliacion-predial}
+| FID / ID Catastral | Clave Catastral Oficial | Denominación y Observación en Base Catastral Municipal | Superficie Gráfica ($\text{m}^2$) | Función Asignada en el Proyecto |
+| :---: | :---: | :--- | :---: | :--- |
+| `FID 906` / `ID 61316` | `1101500220083` | Área Verde Municipal (`MUNICIPIO DE LOJA`, Dominio Público). Plano aprobado por Regulación y Control Urbano Municipal el 06/10/2016 (Art. 55 lit. g y j COOTAD). | $14.516,75$ | Núcleo C1: Implantación principal del Parque Fluvial, senderos permeables y bioingeniería de ribera. |
+| `FID 909` / `ID 61319` | `1101500220086` | Franja de Protección de Quebrada (`MUNICIPIO DE LOJA`, Dominio Público). Plano aprobado por Regulación y Control Urbano el 21/04/2006 (Art. 55 lit. g y j COOTAD). | $4.996,82$ | Núcleo C1 y C3: Restauración ribereña, celdas de biorretención SUDs en terraza baja y módulo piloto C5. |
+| **Subtotal Ribereño** | **2 predios colindantes** | **Superficie de restauración del Parque Fluvial (Meta C1)** | **$19.513,57$ ($1,95 \text{ ha}$)** | **Superficie intervenida en presupuesto del Componente 1.** |
+| `FID 679` / `ID 54797` | `1101020202110024` | Área Comunal Urbana (`MUNICIPIO DE LOJA`, atributo `RIESGO = 02`, Borde Punzara). | $1.307,91$ | Acceso C2a: Nodo de acceso universal, plazoleta de articulación vial y conexión peatonal hacia el cauce. |
+| **Subtotal Directo** | **3 predios integrados** | **Superficie predial municipal de intervención directa** | **$20.821,48$ ($2,08 \text{ ha}$)** | **Superficie total intervenida por las obras del anteproyecto.** |
+| `FID 904` / `ID 61314` | `1101500220081` | Área Verde Municipal Adyacente (Plano aprobado por Regulación y Control Urbano el 14/04/2005, Dominio Público). | $983,89$ | Reserva colindante de amortiguamiento y expansión futura. |
+| `FID 907` / `ID 61317` | `1101500220084` | Área Verde Municipal Adyacente (Plano aprobado por Regulación y Control Urbano el 21/04/2006, Dominio Público). | $9.844,65$ | Reserva colindante de amortiguamiento y expansión futura. |
+| **Subtotal Reserva** | **2 predios adyacentes** | **Superficie municipal de reserva ecológica contigua** | **$10.828,54$ ($1,08 \text{ ha}$)** | **Amortiguamiento ribereño y potencial de escalamiento.** |
+| **TOTAL GENERAL** | **5 claves municipales** | **Corredor público municipal total identificado en SIG** | **$31.650,02$ ($3,17 \text{ ha}$)** | **Patrimonio público continuo en el eje del río Capulí.** |
+
+: Conciliación catastral exacta de las cinco claves municipales identificadas en SIG
+:::

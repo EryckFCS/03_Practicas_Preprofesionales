@@ -1,41 +1,118 @@
-# Estructura Presupuestaria de Inversión y Operación (CAPEX + OPEX)
+# Estructura Presupuestaria de Inversión, Operación y Capacidad Fiscal Municipal
 
-El expediente técnico evalúa la viabilidad económica en el ciclo de vida completo de la infraestructura conforme al marco metodológico de proyectos urbanos sostenibles [@bde_guia_procesos_crediticios_2021; @rosero_guia_perfil_climatico_2024] y la guía de espacio público [@miduvi_giz_guia_espacio_publico_2021].
+El presente capítulo evalúa la estructura de costos de inversión (CAPEX), los requerimientos de operación, mantenimiento y reposición en el ciclo de vida de los activos (OPEX) y la relación entre dichos montos y el presupuesto del Gobierno Autónomo Descentralizado Municipal del Cantón Loja, conforme a las guías metodológicas de preinversión del Banco de Desarrollo del Ecuador [@bde_guia_procesos_crediticios_2021], la guía de perfiles climáticos de GIZ [@rosero_guia_perfil_climatico_2024] y las bases de la convocatoria CIS II [@giz_ciudades_que_transforman_2026].
 
-## Presupuesto de Inversión Inicial (CAPEX)
+## Sustento Paramétrico del Presupuesto de Inversión Inicial (CAPEX)
 
-El monto total de inversión de capital asciende a USD 1.250.000,00, distribuido en seis rubros de intervención:
+En correspondencia con el nivel actual de madurez de la propuesta (etapa de perfil), el presupuesto de inversión se ha estimado mediante costos paramétricos de referencia en dólares de los Estados Unidos de América (USD de 2026, categoría *Estimada*), tomando como base precios unitarios históricos de contratación pública del portal SERCOP, tabuladores de infraestructura urbana de la Dirección de Obras Públicas del GAD Municipal de Loja y valores referenciales de proyectos similares de espacio público y drenaje sostenible en la región interandina [@miduvi_giz_guia_espacio_publico_2021].
+
+El monto central estimado de inversión neta asciende a $\text{USD } 1.250.000,00$ (sin impuestos), compuesto por $\text{USD } 1.160.000,00$ en costos directos de obra civil y $\text{USD } 90.000,00$ en costos indirectos transversales. Dentro de esta estructura, los componentes del Nivel 1 Prioritario ($\text{C1} = \text{USD } 520.000,00$ y $\text{C3} = \text{USD } 185.000,00$, que suman $\text{USD } 705.000,00$) representan el $60,78\%$ del costo directo de obra ($\text{USD } 1.160.000,00$) y el $56,40\%$ del presupuesto total de inversión ($\text{USD } 1.250.000,00$).
+
+En materia tributaria, y a fin de no asumir de forma automática una recuperación líquida inmediata del Impuesto al Valor Agregado (IVA del $15\%$) antes de contar con el pronunciamiento de la Dirección Financiera municipal sobre el mecanismo aplicable conforme al artículo 73 de la Ley de Régimen Tributario Interno, la @tbl-capex reporta de manera diferenciada tanto el costo neto sin impuestos ($\text{USD } 1.250.000,00$) como el requerimiento bruto de flujo de caja con IVA incluido ($\text{USD } 1.437.500,00$, incorporando $\text{USD } 187.500,00$ de tributo causado).
+
+```{=latex}
+\begin{landscapepage}
+```
 
 ::: {#tbl-capex}
-| Código | Componente de Inversión | Meta Física Cuantificable | Presupuesto (USD) | Participación |
-| :---: | :--- | :--- | :---: | :---: |
-| **C1** | Parque Fluvial Capulí y bioingeniería ribereña | $19.513 \text{ m}^2$ regenerados y equipados | $520.000,00$ | 41,6% |
-| **C2** | Vías completas, ciclorrutas y aceras accesibles | $2,4 \text{ km}$ lineales intervenidos | $310.000,00$ | 24,8% |
-| **C3** | Red de drenaje urbano sostenible (SUDs) | 8 biofiltros y zanjas de infiltración | $185.000,00$ | 14,8% |
-| **C4** | Alumbrado público solar fotovoltaico | 120 luminarias solares autónomas | $95.000,00$ | 7,6% |
-| **C5** | Puntos limpios y compostera comunitaria | 3 islas ecológicas y módulo de compostaje | $50.000,00$ | 4,0% |
-| **C6** | Medidas de mitigación ambiental y fiscalización | Plan de manejo ambiental y control de obra | $90.000,00$ | 7,2% |
-| **TOTAL** | **Inversión de Capital Estimada (CAPEX):** | **Intervención Integral Barrial** | **$1.250.000,00$** | **100,0%** |
+| Código y Prelación | Subcomponente y Rubro Principal de Obra | Unidad | Cantidad Estimada | Costo Unitario Neto (USD) | Subtotal Neto sin IVA (USD) | Subtotal Bruto con IVA 15% (USD) | Part. sobre Total (%) |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| C1.1 [Nivel 1] | Limpieza, conformación topográfica y bioingeniería de taludes ribereños (fajinas, mantos y revegetación nativa) | $\text{m}^2$ | $11.500,00$ | $18,00$ | $207.000,00$ | $238.050,00$ | $16,56\%$ |
+| C1.2 [Nivel 1] | Senderos peatonales permeables, suelo estabilizado y pasarelas sobre cota $T=25\text{ años}$ | $\text{m}^2$ | $4.200,00$ | $52,00$ | $218.400,00$ | $251.160,00$ | $17,47\%$ |
+| C1.3 [Nivel 1] | Miradores fluviales seguros (3 uds.), mobiliario urbano inclusivo, señalética y equipamiento estancial | $\text{Global}$ | $1,00$ | $94.600,00$ | $94.600,00$ | $108.790,00$ | $7,57\%$ |
+| **Subtotal C1** | **Parque Fluvial Capulí y Soluciones basadas en la Naturaleza ($19.513,57\text{ m}^2$)** | — | — | — | **$520.000,00$** | **$598.000,00$** | **$41,60\%$** |
+| C3.1 [Nivel 1] | Celdas de biorretención y jardines de lluvia estratificados ($T=10\text{ años}$, vol. geométrico $1.850\text{ m}^3$) | $\text{Unidad}$ | $8,00$ | $14.500,00$ | $116.000,00$ | $133.400,00$ | $9,28\%$ |
+| C3.2 [Nivel 1] | Cunetas de retención impermeabilizadas (geomembrana HDPE), sub-drenes en laderas $>15\%$ y disipadores | $\text{m}$ | $1.150,00$ | $60,00$ | $69.000,00$ | $79.350,00$ | $5,52\%$ |
+| **Subtotal C3** | **Eficiencia Hídrica y Drenaje Urbano Sostenible Controlado (SUDs)** | — | — | — | **$185.000,00$** | **$212.750,00$** | **$14,80\%$** |
+| C2a [Nivel 2] | Regeneración peatonal accesible 8-80 (aceras continuas, vados podotáctiles y calzada pacificada en tramos críticos) | $\text{m}$ | $2.400,00$ | $95,00$ | $228.000,00$ | $262.200,00$ | $18,24\%$ |
+| C2b [Nivel 3] | Ciclorruta bidireccional segregada y señalización horizontal/vertical (condicionada a sección vial) | $\text{m}$ | $2.400,00$ | $34,17$ | $82.000,00$ | $94.300,00$ | $6,56\%$ |
+| **Subtotal C2** | **Movilidad Activa y Vía Completa de Proximidad ($2,40\text{ km}$)** | — | — | — | **$310.000,00$** | **$356.500,00$** | **$24,80\%$** |
+| C4 [Nivel 3] | Columnas de alumbrado solar autónomo (LED $60\text{ W}$ con *dimming*, panel $180\text{ Wp}$ y batería $\text{LiFePO}_4$ $1.280\text{ Wh}$) | $\text{Unidad}$ | $120,00$ | $791,67$ | $95.000,00$ | $109.250,00$ | $7,60\%$ |
+| C5.1 [Nivel 3] | Puntos limpios barriales de acopio diferenciado en superficie (3 islas ecológicas cubiertas) | $\text{Unidad}$ | $3,00$ | $6.000,00$ | $18.000,00$ | $20.700,00$ | $1,44\%$ |
+| C5.2 [Nivel 3] | Módulo piloto de compostaje barrial ($150\text{ m}^2$, aireación pasiva y trituradora, condicionado a operador) | $\text{m}^2$ | $150,00$ | $213,33$ | $32.000,00$ | $36.800,00$ | $2,56\%$ |
+| **Subtotal C5** | **Gestión de Residuos, Economía Circular y Biomasa Barrial** | — | — | — | **$50.000,00$** | **$57.500,00$** | **$4,00\%$** |
+| **SUBTOTAL DIRECTO** | **Total Costos Directos de Obra Civil (C1 + C2 + C3 + C4 + C5)** | — | — | — | **$1.160.000,00$** | **$1.334.000,00$** | **$92,80\%$** |
+| C6.1 [Transv.] | Plan de Manejo Ambiental, monitoreo comunitario y medidas de mitigación constructiva | $\text{Global}$ | $1,00$ | $25.000,00$ | $25.000,00$ | $28.750,00$ | $2,00\%$ |
+| C6.2a [Transv.] | Fiscalización técnica de obra ($3,45\%$ sobre el costo directo de obra civil) | $\text{Global}$ | $1,00$ | $40.000,00$ | $40.000,00$ | $46.000,00$ | $3,20\%$ |
+| C6.2b [Transv.] | Reserva para contingencias físicas menores de ejecución ($2,16\%$ sobre costo directo / $2,00\%$ del total) | $\text{Global}$ | $1,00$ | $25.000,00$ | $25.000,00$ | $28.750,00$ | $2,00\%$ |
+| **Subtotal C6** | **Costos Indirectos, Salvaguardas Ambientales y Fiscalización** | — | — | — | **$90.000,00$** | **$103.500,00$** | **$7,20\%$** |
+| **TOTAL CAPEX** | **Inversión de Capital Estimada (USD de 2026, rango exploratorio $\pm 20\%$)** | — | — | — | **$1.250.000,00$** | **$1.437.500,00$** | **$100,00\%$** |
 
-: Presupuesto modular del Proyecto El Capulí
+: Desglose paramétrico del presupuesto de inversión (CAPEX) neto y bruto por niveles de prioridad y partidas referenciales
 :::
 
-Los costos unitarios toman como referencia los rendimientos de obra del PDOT de Loja [@gad_loja_pdot_cantonal_2020]. La asistencia técnica de aceleración no requiere contraparte financiera al GAD Loja durante la fase de formulación.
+```{=latex}
+\end{landscapepage}
+```
 
-## Estimación de Costos de Operación y Mantenimiento (OPEX)
+### Delimitación entre Contingencia Presupuestaria, Incertidumbre de Estimación y Sensibilidad de Costos
 
-Para garantizar la sostenibilidad a 25 años y evitar el abandono de los activos, se proyecta el gasto recurrente anual estimado:
+Para evitar ambigüedades metodológicas en la lectura financiera del perfil, el informe distingue explícitamente tres conceptos de variación presupuestaria y reconcilia su aritmética en la @tbl-sensibilidad-capex:
+
+1. Reserva para contingencias físicas menores incorporada en el presupuesto base ($\text{C6.2b} = \text{USD } 25.000,00$): constituye una provisión contractual interna ($2,00\%$ del CAPEX total o $2,16\%$ del costo directo) destinada a cubrir ajustes ordinarios de replanteo u obras menores durante la ejecución normal del caso base. No está diseñada para absorber incrementos estructurales de precios ni hallazgos geotécnicos mayores.
+2. Rango exploratorio de incertidumbre paramétrica de la etapa de perfil ($\pm 20\%$, de $\text{USD } 1.000.000,00$ a $\text{USD } 1.500.000,00$ sin IVA): refleja la dispersión propia de una estimación pre-APU conforme a los estándares de preinversión (AACE Clase 4 / Guías BDE), antes de contar con topografía de detalle y ensayos de suelos. No corresponde a un intervalo de confianza estadístico probabilístico, sino a un margen de precisión de ingeniería preliminar. En el límite inferior de dicho rango ($\text{USD } 1.000.000,00$), la iniciativa mantiene el cumplimiento del umbral mínimo de elegibilidad de la convocatoria CIS II ($\ge \text{USD } 1,00\text{ millón}$).
+3. Escenarios de sensibilidad ante incrementos de costos ($+15\%$ y $+25\%$): evalúan qué ocurriría si los estudios del Paquete de Trabajo 2 determinan mayores requerimientos de cimentación o sub-drenaje en laderas con susceptibilidad `RIESGO 02` y `RIESGO 03`, cuantificando cuánto puede absorberse por diferimiento de componentes Nivel 3 y cuál sería la brecha neta remanente a financiar:
+   - Ante un incremento moderado del $+15\%$ sobre el presupuesto base ($\text{Total Neto} = \text{USD } 1.437.500,00$, equivalente a un sobrecosto de $+\text{USD } 187.500,00$), el diferimiento temporal del módulo piloto de compostaje ($\text{C5.2}$ a costo indexado: $\text{USD } 32.000,00 \times 1,15 = \text{USD } 36.800,00$) y de la ciclorruta segregada ($\text{C2b}$ a costo indexado: $\text{USD } 82.000,00 \times 1,15 = \text{USD } 94.300,00$) libera únicamente $\text{USD } 131.100,00$. En consecuencia, queda una brecha financiera neta remanente de $\text{USD } 56.400,00$ (o de $\text{USD } 150.700,00$ si solo se difiere el Subcomponente C5.2), la cual deberá cubrirse mediante programación presupuestaria plurianual en dos ejercicios fiscales.
+   - Ante un escenario de estrés geotécnico uniforme del $+25\%$ ($\text{Total Neto} = \text{USD } 1.562.500,00$, sobrecosto de $+\text{USD } 312.500,00$), el proyecto se divide en dos etapas constructivas verificables: la Etapa I Prioritaria agrupa los Niveles 1 y 2 ($\text{C1} = \text{USD } 520.000$, $\text{C3} = \text{USD } 185.000$, $\text{C2a} = \text{USD } 228.000$ y $\text{C6 proporcional} = \text{USD } 72.000$, con un costo base de $\text{USD } 1.005.000,00$), cuyo monto indexado al $+25\%$ asciende exactamente a $\text{USD } 1.256.250,00$ (requiriendo apenas $\text{USD } 6.250,00$ adicionales respecto al techo original de $\text{USD } 1,25\text{ millones}$); mientras que la Etapa II Complementaria agrupa el Nivel 3 ($\text{C2b} = \text{USD } 82.000$, $\text{C4} = \text{USD } 95.000$, $\text{C5} = \text{USD } 50.000$ y $\text{C6 remanente} = \text{USD } 18.000$, con un costo base de $\text{USD } 245.000,00$), cuyo monto indexado al $+25\%$ equivale a $\text{USD } 306.250,00$ y se programa para una segunda fase presupuestaria.
+
+```{=latex}
+\begin{landscapepage}
+```
+
+::: {#tbl-sensibilidad-capex}
+| Escenario Presupuestario | Supuesto Técnico de Simulación | Monto Total Neto sin IVA (USD) | Monto Total Bruto con IVA 15% (USD) | Variación Neta vs. Base (USD) | Mecanismo Conciliado de Ajuste Modular y Brecha Neta Remanente |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| Escenario 1: Límite Inferior ($-20\%$) | Optimización de precios unitarios en licitación o ejecución de Etapa I Prioritaria ($\text{C1}+\text{C3}+\text{C2a}+\text{C6 prop.}$). | $1.000.000,00$ | $1.150.000,00$ | $-250.000,00$ | Cumple el piso mínimo habilitante CIS II ($\ge \text{USD } 1,00\text{ M}$) y ejecuta la solución hidrogeomorfológica y de espacio público esencial. |
+| Escenario 2: Caso Base Paramétrico | Ejecución integral de los Niveles 1, 2 y 3 conforme a las cantidades de la @tbl-capex (incluye $\text{C6.2b} = \text{USD } 25.000$). | $1.250.000,00$ | $1.437.500,00$ | $0,00$ | Presupuesto central de referencia para estructuración financiera en el Paquete de Trabajo 5. |
+| Escenario 3: Sensibilidad Moderada ($+15\%$) | Incremento del $15\%$ por encarecimiento de insumos o mayores obras de sub-drenaje en laderas. | $1.437.500,00$ | $1.653.125,00$ | $+187.500,00$ | El diferimiento de C5.2 ($\text{USD } 36.800$) y C2b ($\text{USD } 94.300$) absorbe $\text{USD } 131.100,00$; la brecha remanente de $\text{USD } 56.400,00$ se programa en el segundo ejercicio fiscal. |
+| Escenario 4: Estrés Geotécnico ($+25\%$) | Incremento uniforme del $25\%$ por obras adicionales de estabilización e impermeabilización en sectores `RIESGO 03`. | $1.562.500,00$ | $1.796.875,00$ | $+312.500,00$ | Fasificación constructiva: Etapa I Prioritaria ($\text{USD } 1.005.000 \times 1,25 = \text{USD } 1.256.250,00$, brecha de $+\text{USD } 6.250$ sobre techo base) y Etapa II Complementaria ($\text{USD } 245.000 \times 1,25 = \text{USD } 306.250,00$). |
+
+: Escenarios de sensibilidad del CAPEX, conciliación aritmética de diferimientos y brechas financieras remanentes
+:::
+
+```{=latex}
+\end{landscapepage}
+```
+
+## Estimación de Costos de Operación, Mantenimiento y Reposición (OPEX)
+
+Un riesgo frecuente en los proyectos de infraestructura verde y alumbrado solar consiste en presupuestar únicamente las labores rutinarias de limpieza o jardinería, omitiendo la depreciación y el reemplazo periódico de componentes electromecánicos y medios filtrantes. Para prever una vida útil operativa de 25 años, el modelo de costos recurrentes del proyecto distingue dos categorías de gasto anual (@tbl-opex):
+
+1. Gasto de operación y mantenimiento rutinario anual ($\text{USD } 16.900,00/\text{año}$): cubre las cuadrillas de desazolve de trampas de sedimentos antes y después de la estación invernal, las podas fitosanitarias y el riego de establecimiento durante los primeros tres años, la limpieza óptica semestral de paneles solares y la logística de recolección diferenciada en los puntos limpios.
+2. Reserva técnica anualizada de reposición periódica ($\text{USD } 9.600,00/\text{año}$): contabiliza de manera lineal la provisión requerida para sustituir los 120 bancos de baterías $\text{LiFePO}_4$ ($1.280 \text{ Wh}$) y reguladores MPPT al cumplirse su ciclo de vida útil estimada cada 7 años (costo referencial de reposición por lote de $\text{USD } 42.000,00$, equivalente a $\text{USD } 6.000,00/\text{año}$), así como la rehabilitación del sustrato filtrante, geotextiles y replantación en las 8 celdas de biorretención cada 5 años (costo estimado por ciclo de $\text{USD } 18.000,00$, equivalente a $\text{USD } 3.600,00/\text{año}$).
 
 ::: {#tbl-opex}
-| Actividad de Mantenimiento | Frecuencia | Responsable Operativo | Costo Anual Estimado (USD) |
-| :--- | :--- | :--- | :---: |
-| Limpieza de sedimentadores y trampas en biofiltros SUDs | Mensual y post-lluvia | GAD Loja (Obras Públicas / UMAPAL) | $4.800,00$ |
-| Poda, riego y reposición de especies vegetales nativas | Bimensual | GAD Loja (Gestión Ambiental) + Junta Barrial | $6.200,00$ |
-| Mantenimiento de luminarias solares e inversores/baterías | Semestral | GAD Loja (Electricidad) | $3.500,00$ |
-| Gestión del centro de compostaje barrial y recolección | Semanal | Junta Barrial El Capulí + Gestión Ambiental | $2.400,00$ |
-| **TOTAL OPEX ANUAL:** | **Operación recurrente del sistema** | **Modelo de co-gestión municipal-comunitaria** | **$16.900,00$** |
+| Categoría y Actividad de Mantenimiento | Frecuencia | Entidad Responsable Principal | Costo Anual Estimado (USD/año) | Estado del Compromiso |
+| :--- | :--- | :--- | :---: | :---: |
+| **1. Mantenimiento Rutinario Anual** | — | — | **$16.900,00$** | *Estimada* |
+| 1.1 Limpieza de sedimentadores, sub-drenes y estructuras de alivio SUDs | Mensual y post-tormenta | GAD Loja (UMAPAL / Obras Públicas) | $4.800,00$ | *Propuesta* |
+| 1.2 Manejo silvicultural, poda, control de invasoras y reposición vegetal | Bimensual | GAD Loja (Gestión Ambiental / Parques y Jardines) | $6.200,00$ | *Propuesta* |
+| 1.3 Inspección preventiva y limpieza de paneles y luminarias solares | Semestral | GAD Loja (Unidad de Alumbrado / Electricidad) | $3.500,00$ | *Propuesta* |
+| 1.4 Operación de puntos limpios y asistencia técnica al módulo de compostaje | Semanal | GAD Loja (Dirección de Higiene) + Operador validado | $2.400,00$ | *Pendiente* |
+| **2. Reserva Anualizada de Reposición Periódica** | — | — | **$9.600,00$** | *Estimada* |
+| 2.1 Reposición programada de baterías $\text{LiFePO}_4$ ($1.280\text{ Wh}$) y controladores MPPT | Cada 7 años ($\text{USD } 42.000$/ciclo) | GAD Loja (Dirección Administrativa / Obras Públicas) | $6.000,00$ | *Propuesta* |
+| 2.2 Renovación de sustrato filtrante de biofiltros y rehabilitación de fajinas | Cada 5 años ($\text{USD } 18.000$/ciclo) | GAD Loja (UMAPAL / Gestión Ambiental) | $3.600,00$ | *Propuesta* |
+| **TOTAL OPEX INTEGRAL (Rutinario + Reposición)** | **Ciclo de 25 años** | **Presupuesto Municipal GAD Loja** | **$26.500,00$** | *Pendiente de partida* |
 
-: Estimación de costos anuales de operación y mantenimiento (OPEX)
+: Estructura de costos anuales de operación, mantenimiento rutinario y reserva de reposición (OPEX)
 :::
 
-El costo de operación anual representa apenas el 1,35% del CAPEX, constituyendo un sistema financiero de bajo costo recurrente para el municipio debido al alumbrado autónomo fuera de red y al drenaje biofísico pasivo por gravedad.
+Si bien la operación autónoma (*off-grid*) de las 120 luminarias solares evita al municipio una facturación adicional de energía eléctrica estimada entre $\text{USD } 1.965,70/\text{año}$ (sobre los $17,87 \text{ MWh/año}$ de demanda con atenuación nocturna) y $\text{USD } 2.890,80/\text{año}$ (sobre los $26,28 \text{ MWh/año}$ a potencia nominal continua, considerando una tarifa referencial de alumbrado público de $\text{USD } 0,11/\text{kWh}$), dicho ahorro energético constituye un costo evitado y no un ingreso líquido recaudado en caja. Por consiguiente, el financiamiento de los $\text{USD } 26.500,00$ anuales de OPEX integral ($2,12\%$ del CAPEX neto) debe programarse dentro de las partidas ordinarias de las direcciones operativas del GAD Municipal de Loja, sin depender de ingresos propios del parque ni de mano de obra comunitaria gratuita.
+
+## Capacidad Fiscal del GAD Municipal de Loja y Sostenibilidad Financiera
+
+Para situar el costo del proyecto dentro de la escala presupuestaria municipal, se incorpora la información referente a la Ordenanza N.° 0079-2025, mediante la cual el Concejo Municipal aprobó la *Proforma Presupuestaria para el Ejercicio Económico Financiero 2026* [@gad_loja_presupuesto_2026] (@tbl-capacidad-fiscal). Con rigor documental, se precisa que el monto global de $\approx \text{USD } 76,80 \text{ millones}$ y su distribución porcentual agregada ($41\%$ para gasto de inversión, $41\%$ para gasto corriente y $18\%$ para gasto de capital) provienen de la nota institucional oficial de aprobación presupuestaria difundida por el GAD Municipal de Loja, por lo que los subtotales en dólares calculados a partir de dichos porcentajes se clasifican como *Estimada (difusión institucional)* hasta anexar las cédulas presupuestarias desagregadas y el saldo no comprometido certificado por la Dirección Financiera en el Paquete de Trabajo 5.
+
+::: {#tbl-capacidad-fiscal}
+| Agregado Presupuestario Municipal (Ejercicio Fiscal 2026) | Monto de Referencia (USD) | Participación Difundida (%) | Relación Proporcional con el Proyecto El Capulí | Estado de Evidencia |
+| :--- | :---: | :---: | :--- | :---: |
+| Presupuesto General Total GAD Municipal de Loja (Ord. 0079-2025) | $\approx 76.803.658,64$ | $100,0\%$ | El CAPEX neto ($\text{USD } 1,25\text{ M}$) equivale al $1,63\%$ del presupuesto general anual (o al $1,87\%$ incluyendo IVA bruto). | *Comprobada (resumen)* |
+| Presupuesto de Gasto de Inversión (Obras y Proyectos, $41\%$) | $\approx 31.489.500,04$ | $41,0\%$ | El CAPEX neto equivale al $3,97\%$ del agregado anual de inversión (o al $1,98\%$ anual si se distribuye en 2 ejercicios fiscales). | *Estimada (difusión inst.)* |
+| Presupuesto de Gasto Corriente (Operación Municipal, $41\%$) | $\approx 31.489.500,04$ | $41,0\%$ | El OPEX integral ($\text{USD } 26.500/\text{año}$) equivale al $0,084\%$ del agregado anual de gasto corriente municipal. | *Estimada (difusión inst.)* |
+| Presupuesto de Gasto de Capital (Activos de Larga Duración, $18\%$) | $\approx 13.824.658,56$ | $18,0\%$ | Marco referencial para el registro contable y la reposición periódica de activos públicos. | *Estimada (difusión inst.)* |
+| Asignación Específica en POA 2026–2027 y Saldo Libre de Inversión | Por certificar | — | Requiere cédula presupuestaria oficial y certificación de disponibilidad o reforma POA previo a la fase de licitación. | *Pendiente* |
+
+: Relación entre los agregados del Presupuesto Municipal 2026 (Ord. 0079-2025) y los requerimientos de CAPEX y OPEX del proyecto
+:::
+
+En síntesis, la comparación presupuestaria muestra que el monto del proyecto guarda proporción con la escala agregada del presupuesto municipal, pero la viabilidad financiera efectiva dependerá de la certificación de disponibilidad en el Plan Operativo Anual (POA), de la programación plurianual de inversiones y de la estructuración de fuentes externas o mixtas (crédito concesional o subvención climática ante el Banco de Desarrollo del Ecuador, KfW o fondos internacionales) que se desarrollará durante el Paquete de Trabajo 5 de la asistencia técnica.

@@ -1,52 +1,69 @@
-# Modelo de Gobernanza, Gestión Institucional y Hoja de Ruta
+# Modelo de Gobernanza, Gestión Institucional y Hoja de Ruta de Asistencia Técnica
 
-## Estructura de Coordinación Interinstitucional
+## Estructura de Coordinación Interinstitucional y Estado de los Arreglos
 
-El modelo operativo distribuye responsabilidades entre tres niveles institucionales para asegurar la viabilidad técnica, social y legal durante la aceleración y posterior ejecución:
+El esquema de gobernanza del proyecto articula tres niveles institucionales complementarios para respaldar las fases de preparación técnica, ejecución de obras y operación a largo plazo. Con el propósito de mantener trazabilidad sobre la madurez real de cada arreglo institucional, se distingue entre las funciones ya ejercidas, las propuestas en el diseño organizacional y los documentos formales pendientes de suscripción:
 
-1. **Entidad Postulante y Titular del Activo (GAD Municipal del Cantón Loja):**
-   * Receptor legal de la asistencia técnica del Fondo de Aceleración GIZ / CIS II.
-   * Designa el equipo técnico contraparte en las Direcciones Estratégicas: Dirección de Planificación Territorial, Dirección de Obras Públicas, Dirección de Gestión Ambiental y UMAPAL.
-   * Otorga la certificación de disponibilidad predial y asume la titularidad de las obras públicas y el presupuesto de mantenimiento preventivo y correctivo (OPEX anual).
+En el nivel directivo y titular del activo, el Gobierno Autónomo Descentralizado Municipal del Cantón Loja actúa como entidad postulante y propietaria catastral de los cinco predios públicos del corredor ($31.650,02\text{ m}^2$ totales, de los cuales $20.821,48\text{ m}^2$ corresponden a intervención directa, categoría *Comprobada en base gráfica catastral*), constituyéndose en el beneficiario directo de la asistencia técnica del programa CIS II. El modelo operativo plantea la conformación de una mesa técnica interdepartamental integrada por cinco dependencias municipales según sus competencias orgánicas (*Propuesta*): la Dirección de Planificación Territorial (compatibilidad con el PDOT 2023–2027 y PUGS 2023–2033 bajo las Ordenanzas 0070-2025 y 0086-2026); la Dirección de Obras Públicas (ingeniería vial, geotecnia y fiscalización civil); la Dirección de Gestión Ambiental (bioingeniería ribereña, arbolado urbano y regularización ambiental); la Unidad Municipal de Agua Potable y Alcantarillado de Loja — UMAPAL (validación hidráulica de los sistemas SUDs y descargas pluviales); y la Dirección de Higiene junto con la Unidad de Alumbrado Público (operación de puntos limpios y mantenimiento eléctrico solar). La designación nominal mediante oficio de los funcionarios titulares y suplentes que actuarán como puntos focales ante GIZ/GFA, así como la suscripción de la Carta de Compromiso por la Alcaldesa del Cantón Loja, se incluyen como modelos administrativos en el Anexo A (*Pendiente de suscripción oficial previo al envío de la postulación*).
 
-2. **Equipo Formulador y Soporte Analítico (Universidad Nacional de Loja):**
-   * Las Carreras de Economía y Arquitectura Sostenible elaboran el perfil técnico, estructuran la matriz de viabilidad financiera y efectúan el análisis multicriterio.
-   * Conduce el levantamiento socioeconómico primario georreferenciado mediante KoBoToolbox [@kobo_kobotoolbox_nd], el procesamiento censal INEC CPV 2022 [@inec_cpv_2022] y la cartografía oficial satelital en entorno QGIS bajo el marco de vinculación con la sociedad y prácticas preprofesionales [@unl_reglamento_practicas_2022].
+En el nivel técnico-académico de soporte, la Universidad Nacional de Loja (UNL) participa como entidad formuladora del perfil y aliada científica a través de las Carreras de Economía y Arquitectura Sostenible (*Comprobada*). El equipo académico ha ejecutado la auditoría reproducible de microdatos del CPV INEC 2022, la integración cartográfica de las capas catastrales y censales en entorno QGIS y el reconocimiento territorial georreferenciado mediante formularios digitales KoBoToolbox [@kobo_kobotoolbox_nd; @inec_cpv_2022], enmarcados en los programas institucionales de vinculación con la sociedad y prácticas preprofesionales [@unl_reglamento_practicas_2022]. Durante la fase de asistencia técnica, la UNL mantendrá el acompañamiento académico en el procesamiento socioeconómico y en la facilitación de talleres participativos sin costo financiero para el municipio.
 
-3. **Contraparte Social y Veeduría Comunitaria (Junta de Desarrollo Barrial El Capulí):**
-   * Aplica la metodología de planificación barrial participativa [@municipio_loja_giz_planificacion_barrial_2019; @esparza_plan_barrial_la_palmira_2023].
-   * Conforma el Comité Ciudadano de Gestión y Veeduría con paridad de género, garantizando la co-administración del centro de compostaje y el cuidado activo de las terrazas ribereñas.
+En el nivel comunitario y de apropiación social, la propuesta se vincula con los moradores y la directiva barrial de El Capulí siguiendo los lineamientos de planificación participativa desarrollados en el cantón Loja junto a la Cooperación Alemana [@municipio_loja_giz_planificacion_barrial_2019; @esparza_plan_barrial_la_palmira_2023]. Para evitar supuestos operativos no verificados, se diferencian tres ámbitos de participación ciudadana:
 
-## Matriz de Gestión de Riesgos y Salvaguardas Ambientales y Sociales
+1. Diagnóstico y levantamiento de línea base (*Comprobada*): recorridos técnicos de campo, identificación de puntos críticos de escorrentía sobre los $3,46\text{ km}$ de vías sin pavimento, mapeo de bordes ribereños y aplicación de fichas de observación territorial realizados por el equipo formulador de la UNL en el polígono de $115,12 \text{ ha}$.
+2. Consulta, co-diseño y validación social con enfoque de género (*Pendiente*): realización de asambleas barriales formalmente convocadas, caminatas exploratorias con mujeres, adultos mayores y personas con discapacidad para ajustar los detalles de accesibilidad universal 8-80, y suscripción de actas de socialización durante el Paquete de Trabajo 4 de la asistencia técnica.
+3. Delimitación entre veeduría ciudadana y mantenimiento municipal (*Propuesta*): la comunidad participará a través de un Comité Barrial de Veeduría y Corresponsabilidad con paridad de género en actividades de cuidado cívico, alerta temprana contra invasiones o arrojo de escombros en la quebrada, uso adecuado de las islas de separación en la fuente y programación cultural del parque. No se traslada a los moradores ninguna obligación de mano de obra no remunerada para el mantenimiento pesado, quedando la limpieza hidráulica de sedimentadores SUDs, el manejo silvicultural, la reposición de baterías solares y la operación técnica de residuos bajo responsabilidad presupuestaria y laboral exclusiva del GAD Municipal de Loja.
 
-Para mitigar eventualidades que comprometan los plazos de maduración o la aceptación social de las obras, se estructura el plan de contingencia institucional:
+## Matriz de Gestión de Riesgos Institucionales, Técnicos y Socioambientales
+
+Para anticipar contingencias que pudieran afectar la preparación, contratación o sostenibilidad de las obras, la @tbl-riesgos sistematiza los riesgos identificados en el diagnóstico y las medidas preventivas incorporadas al diseño:
 
 ```{=latex}
 \begin{landscapepage}
 ```
 
 ::: {#tbl-riesgos}
-| Categoría de Riesgo | Evento Identificado | Nivel de Riesgo | Medida Preventiva y de Mitigación | Responsable Institucional |
+| Categoría de Riesgo | Evento Crítico Identificado | Nivel de Riesgo | Medida Preventiva y Salvaguarda de Mitigación | Responsable Institucional |
 | :--- | :--- | :---: | :--- | :--- |
-| **Legal / Predial** | Reclamos de linderación en márgenes ribereños | Bajo | Levantamiento topográfico catastral oficial; delimitación estricta en predios municipales ID 905 e ID 908 con afectación de dominio público. | GAD Loja (Dirección de Regulación Urbana) |
-| **Climático / Físico** | Crecidas torrenciales del río Capulí durante la fase de bioingeniería | Medio | Diseño de diques de bio-retención escalonados; calendario de obras concentrado en época de estiaje (junio a noviembre). | GAD Loja (Obras Públicas / Riesgos) |
-| **Social / Participativo** | Resistencia de frentistas por pacificación vial y reducción de velocidad vehicular | Bajo | Asambleas barriales de socialización; señalización pedagógica bajo estándar 8-80; talleres sobre seguridad infantil y accesibilidad universal. | UNL + Junta Barrial El Capulí |
-| **Financiero / Fiscal** | Retrasos en desembolsos de cofinanciamiento para la fase de construcción | Medio | Estructuración del presupuesto en 6 paquetes de trabajo modulares e independientes; gestión coordinada de crédito verde ante el Banco de Desarrollo del Ecuador (BDE) y fondos multilaterales. | GAD Loja (Dirección Financiera) |
+| Geotécnico y de Laderas | Inestabilidad o deslizamiento en taludes con codificación catastral `RIESGO 02` ($32,7\%$) o `RIESGO 03` ($66,1\%$ de los 706 predios urbanos) por infiltración concentrada de agua. | Alto | Criterio precautorio de prohibición de infiltración libre en pendientes $>15\%$; uso de cunetas y celdas SUDs impermeabilizadas con geomembrana HDPE y sub-drenes; homologación del catálogo `RIESGO` y ensayos de suelos en el Paquete 2. | GAD Loja (Obras Públicas / Gestión de Riesgos) + Consultoría GIZ (Paquete 2) |
+| Hidrológico / Fluvial | Crecidas torrenciales extraordinarias del río Capulí que afecten senderos o bioingeniería recién plantada. | Medio | Diseño de captura SUDs para $T=10\text{ años}$ y cota de resguardo de miradores, pasarelas y obras de alivio para $T=25\text{ años}$; modelación hidráulica bidimensional en el Paquete 2 y anclaje mecánico temporal de fajinas vivas. | GAD Loja (UMAPAL / Gestión Ambiental) + Consultoría GIZ (Paquete 2) |
+| Legal / Catastral | Demora en la emisión de los respaldos de elegibilidad predial (Fase I/II) o desfase entre el código rural `110150` de los lotes municipales y el régimen urbano del PUGS. | Medio | Emisión municipal inmediata de la certificación catastral y registral de los 5 predios ($31.650,02\text{ m}^2$) para las Fases I y II; homologación al catastro urbano y amojonamiento físico de la franja hídrica durante el Paquete 1. | GAD Loja (Dirección de Avalúos y Catastros / Procuraduría Síndica / Planificación) |
+| Operativo / Residuos | Deficiente separación domiciliaria o falta de operador permanente que genere vectores y olores en la compostera barrial (C5.2). | Medio | Clasificación del centro de compostaje como piloto condicionado (Nivel 3): solo se ejecuta si los Paquetes 3 y 4 validan la caracterización de residuos y asignan un operador municipal formal con presupuesto. | GAD Loja (Dirección de Higiene / Gestión Ambiental) |
+| Fiscal y Financiero | Restricciones de liquidez municipal, tratamiento del IVA ($15\%$) o demora en la asignación de partida presupuestaria plurianual para CAPEX y OPEX. | Medio | Arquitectura modular en 3 niveles de prioridad (Etapa I Prioritaria desde $\text{USD } 1.005.000,00$ netos); certificación de saldo POA y estructuración de financiamiento BDE/KfW en el Paquete 5 de asistencia técnica. | GAD Loja (Dirección Financiera / Alcaldía) |
 
-: Matriz de gestión de riesgos institucionales, ambientales y sociales
+: Matriz integrada de gestión de riesgos técnicos, legales, socioambientales y financieros
 :::
 
 ```{=latex}
 \end{landscapepage}
 ```
 
+## Solicitud Concreta de Asistencia Técnica y Hoja de Ruta por Paquetes de Trabajo (Fase CIS II)
 
+El propósito de postular el proyecto *Parque Fluvial y Red de Conectividad Ecológica El Capulí* al Programa de Aceleración CIS II consiste en cerrar, mediante estudios especializados de ingeniería y estructuración financiera, las brechas técnicas que separan su estado actual (perfil con diagnóstico censal y catastral verificado) de un expediente de factibilidad definitivo listo para licitación y financiamiento (*ready-to-tender*).
 
+Es importante precisar que los requisitos habilitantes exigidos por las bases de la convocatoria para la postulación (Fase I) y la verificación documental (Fase II) —tales como la Carta de Compromiso suscrita por la Alcaldesa, la certificación inicial de titularidad municipal de los predios y el informe básico de compatibilidad con el PDOT/PUGS— constituyen obligaciones directas e inmediatas del GAD Municipal de Loja y no se postergan a la consultoría. Sobre esa base habilitante ya acreditada por el municipio, se propone a GIZ y GFA Consulting Group una Hoja de Ruta de Aceleración estructurada en cinco Paquetes de Trabajo interdependientes para un horizonte estimado de seis meses (@fig-ruta-aceleracion y @tbl-paquetes-asistencia).
 
-## Hoja de Ruta para el Fondo de Aceleración GIZ
+![Hoja de ruta de asistencia técnica estructurada en cinco paquetes de trabajo hacia la bancabilidad (Fase CIS II)](assets/ruta_critica_aceleracion.png){#fig-ruta-aceleracion width=100%}
 
-El ingreso a la asistencia técnica de la GIZ viabilizará los siguientes saltos cualitativos en un horizonte de 6 meses:
+En relación con el levantamiento topográfico de detalle incluido en el Paquete de Trabajo 2, el empleo de fotogrametría con vehículos aéreos no tripulados (UAV con posicionamiento cinemático en tiempo real RTK) o sensores LiDAR complementados con estación total en secciones transversales de cauce se plantea como una opción metodológica por la cobertura vegetal ribereña y el encañonamiento de la quebrada, debiendo definirse la técnica específica de mejor costo-eficiencia junto a los especialistas de GIZ/GFA.
 
-* **Hito 1 (Meses 1-2):** Consolidación de estudios hidrológicos de detalle a escala de microcuenca y modelación hidráulica 2D del río Capulí para periodos de retorno de 25, 50 y 100 años.
-* **Hito 2 (Meses 3-4):** Diseño estructural definitivo de celdas SUDs, manual constructivo de bioingeniería con vegetación nativa y formalización del Plan de Manejo Ambiental y Social (PMAS).
-* **Hito 3 (Meses 5-6):** Cierre de la estructura financiera, dictamen favorable del Sistema Nacional de Inversión Pública (SNIP) y elaboración del expediente de licitación para financiamiento concesional del Banco de Desarrollo del Ecuador (BDE) o banca multilateral.
+```{=latex}
+\begin{landscapepage}
+```
+
+::: {#tbl-paquetes-asistencia}
+| Paquete de Trabajo Solicitado a GIZ / CIS II | Brecha de Factibilidad que Resuelve (Post-Elegibilidad) | Actividades Técnicas Principales y Metodología | Entregable Verificable al Cierre de la Asistencia | Contraparte Municipal Responsable |
+| :--- | :--- | :--- | :--- | :--- |
+| Paquete 1: Saneamiento Catastral de Detalle, Linderación e Ingeniería Regulatoria *(Meses 1–2)* | Homologación de claves del catastro rural (`110150`) al urbano, replanteo físico de linderos e instrumentos regulatorios del diseño definitivo (sobre la titularidad ya acreditada en Fases I/II). | Migración administrativa de los lotes `1101500220083`, `...086`, `...081` y `...084` al sistema urbano (integrando los $31.650,02\text{ m}^2$); amojonamiento físico de la franja de protección hídrica; emisión del Informe de Regulación Urbana (IRU) definitivo para planos constructivos y registro ambiental del proyecto en plataforma SUIA. | Expediente catastral homologado con linderos amojonados, IRU de proyecto definitivo y registro/certificado ambiental SUIA emitido. | Dirección de Avalúos y Catastros, Procuraduría Síndica, Planificación y Gestión Ambiental. |
+| Paquete 2: Estudios Topográficos, Hidrológicos y Geotécnicos en Laderas *(Meses 1–3)* | Sustitución de los dimensionamientos geométricos exploratorios ($1.850\text{ m}^3$, $25\text{ mm/h}$) por modelación calibrada y definición de obras en laderas `RIESGO 02` ($32,7\%$) y `RIESGO 03` ($66,1\%$). | Levantamiento topográfico y batimétrico de precisión en $1,20\text{ km}$ de cauce; homologación del catálogo `RIESGO`, sondeos geotécnicos y ensayos de infiltración; modelación hidrológica-hidráulica 2D ($T=10$ y $T=25\text{ años}$) con curvas IDF de Loja y diseño de impermeabilización/sub-drenaje en pendientes $>15\%$. | Memoria hidrológica-hidráulica 2D calibrada, estudio geotécnico de estabilidad de taludes y planos de cota de inundación $T=10$ y $T=25\text{ años}$. | UMAPAL, Dirección de Obras Públicas y Unidad de Gestión de Riesgos. |
+| Paquete 3: Anteproyecto Definitivo, Ingeniería del Núcleo y Presupuesto APU *(Meses 3–5)* | Transición de costos paramétricos ($\pm 20\%$) a presupuesto definitivo con Análisis de Precios Unitarios (APU) y verificación técnica de los componentes condicionados (Nivel 3). | Ingeniería de detalle del Núcleo Prioritario (C1 + C3) y Acceso Seguro 8-80 (C2a); verificación de anchos viales y conteos O-D para ciclorruta (C2b); cálculo fotométrico y respaldo oficial del factor de emisión SNI (C4); caracterización de residuos (C5); elaboración de planos, APU, fórmulas polinómicas y pliegos SERCOP. | Planos constructivos definitivos, presupuesto desglosado por APU ($\pm 5\text{--}10\%$) y especificaciones técnicas listas para licitación pública. | Dirección de Obras Públicas, Planificación Territorial y Unidad de Alumbrado Público. |
+| Paquete 4: Salvaguardas Sociales, Género y Acuerdos Operativos de Mantenimiento *(Meses 2–5)* | Formalización de los procesos de co-diseño comunitario, auditoría de accesibilidad universal 8-80 y distribución institucional vinculante del OPEX. | Talleres participativos con enfoque de género y movilidad del cuidado; suscripción de actas con la directiva barrial El Capulí (veeduría y uso cívico); elaboración del Manual de Operación y Mantenimiento interdepartamental ($\text{USD } 26.500/\text{año}$) y designación del operador municipal de residuos. | Actas de validación comunitaria firmadas, protocolo de salvaguardas de género 8-80 y Manual Operativo OPEX aprobado por el GAD Loja. | Dirección de Gestión Ambiental, Dirección de Higiene, Participación Ciudadana y UNL. |
+| Paquete 5: Evaluación Económica-Financiera y Estructuración para Financistas *(Meses 5–6)* | Acreditación de indicadores de rentabilidad socioeconómica (VAN, TIR, B/C), saldo presupuestario POA, tratamiento del IVA y carpeta de financiamiento. | Cuantificación de beneficios por costos evitados de daños por escorrentía, salud y espacio público; cálculo de VAN Económico, TIR Social y razón B/C bajo metodología BDE/SNIP; certificación financiera de saldo POA / IVA y armado del expediente de crédito o subvención climática. | Estudio de factibilidad económica-financiera completo y carpeta de bancabilidad estructurada para el BDE, KfW o fondos climáticos. | Dirección Financiera, Dirección de Planificación y Alcaldía del Cantón Loja. |
+
+: Matriz detallada de solicitud de asistencia técnica a GIZ / CIS II estructurada en cinco paquetes de trabajo
+:::
+
+```{=latex}
+\end{landscapepage}
+```

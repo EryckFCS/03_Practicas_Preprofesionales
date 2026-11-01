@@ -1,5 +1,5 @@
 ---
-title: "EXPEDIENTE TÉCNICO Y PERFIL DE PROYECTO: PARQUE FLUVIAL Y RED DE CONECTIVIDAD ECOLÓGICA EL CAPULÍ"
+title: "PARQUE FLUVIAL Y RED DE CONECTIVIDAD ECOLÓGICA EL CAPULÍ"
 subtitle: "Regeneración Urbana, Resiliencia Hídrica y Espacio Público Sostenible — Convocatoria Ciudades que Transforman (GIZ / CIS II)"
 author: 
   - name: "Erick Fabricio Condoy Seraquive (Carrera de Economía - UNL)"
@@ -34,5 +34,7 @@ format:
 {{< include chapters/05_modelo_gobernanza_gestion.qmd >}}
 
 {{< include chapters/07_desempeno_salvaguardas_aceleracion.qmd >}}
+
+{{< include chapters/08_anexos_plantillas_respaldos.qmd >}}
 
 {{< include chapters/06_referencias_bibliograficas.qmd >}}
