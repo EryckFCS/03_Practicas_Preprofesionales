@@ -1,0 +1,33 @@
+# Proceso de Delimitación Periurbana y Depuración Topológica
+
+## Consolidación en nueve barrios de un solo cuerpo
+
+Una sectorización operativa inicial había fragmentado el corredor periurbano en diecisiete subsectores para diferenciar núcleos consolidados del Plan de Uso y Gestión del Suelo, anillos dispersos y particiones norte y sur en Cajanuma, Punzara Grande, Dos Puentes, Quillollacu y El Recreo. Esa división partía comunidades territoriales continuas y complicaba la lectura cartográfica. Todas las subdivisiones internas fueron disueltas para conformar nueve barrios de un solo cuerpo con nombres simples y directos. Las cuatro centralidades rurales y urbanas definidas por el municipio se conservaron aparte como referencia normativa independiente.
+
+## Exclusión de los predios institucionales de la Universidad Nacional de Loja
+
+El cruce espacial contra los límites universitarios reveló que 112.50 hectáreas de dominio institucional sin viviendas habían sido absorbidas por dos barrios residenciales: 62.98 hectáreas del Parque Universitario y 24.62 hectáreas de la Estación Experimental Punzara figuraban dentro de Punzara Grande, mientras 24.90 hectáreas adicionales del Parque Universitario recaían sobre Nueva Pompeya. Los equipamientos universitarios cumplen funciones de escala cantonal y no constituyen tejido barrial [@ecuador_lootugs_2016]. La sustracción exacta de los tres predios universitarios eliminó esas 112.50 hectáreas con cero viviendas afectadas, conservando los recintos de la Universidad Nacional de Loja como unidades institucionales contiguas sin dejar vacíos en el mapa.
+
+## Alineación a sectores censales y cierre de fronteras de El Capulí
+
+La revisión de cada barrio frente a los seis sectores censales periurbanos permitió suprimir cinco desbordes territoriales sin viviendas que cruzaban fronteras censales oficiales. El límite superior de La Mónica se ajustó exactamente al borde norte del Sector Censal 5, transfiriendo 101.02 hectáreas deshabitadas hacia Nueva Pompeya y Ñamanda en el Sector Censal 6. Cajanuma cedió 173.95 hectáreas sin viviendas que invadían el Sector Censal 3 hacia Quillollacu y quedó íntegramente inscrito en el Sector Censal 4. Dentro de ese mismo sector se reajustó la frontera oriental entre Cajanuma y Dos Puentes para eliminar una cuña triangular residual y un apéndice desconectado de 16.34 hectáreas.
+
+Las franjas sin asignación alrededor del Barrio El Capulí también quedaron cerradas. En el margen oriental, Nueva Pompeya absorbió el terreno libre comprendido entre el límite derecho de El Capulí y el Parque Universitario, con solapamiento nulo frente a los nueve sectores internos del barrio. En el margen occidental, el cruce catastral confirmó que los 3,150.8 metros de frontera pertenecen al barrio urbano oficial La Argelia, por lo cual se incorporó su polígono depurado de 117.58 hectáreas recortado contra los predios universitarios. El borde sur de La Argelia permaneció registrado como capa de referencia secundaria sin sobrecargar la vista principal.
+
+## Integración del catastro municipal y la zonificación de uso del suelo
+
+Cada frontera física se respaldó con trece capas oficiales del municipio de Loja: 102.73 kilómetros de red vial, 74.54 kilómetros de red hídrica, 992 tramos de agua potable y alcantarillado, 24 tramos de transporte urbano y recolección de desechos, 4,636 predios rurales, 3,607 predios urbanos, 2,342 huellas de construcciones rurales, 2,965 medidores de energía eléctrica, 41 puntos de equipamientos y asentamientos, 328 polígonos de intervención rural, 39 polígonos de intervención urbana, 1,285 polígonos de amenazas y concesiones mineras y 15,956 polígonos de pendientes topográficas. La Figura \ref{fig-catastro} y la Figura \ref{fig-pit} muestran la cobertura predial y la zonificación normativa sobre el corredor sur.
+
+![Cobertura catastral municipal de predios rurales y urbanos sobre el corredor sur de Loja](assets/mapa_catastro_predios_rurales_y_urbanos.png){#fig-catastro width="92%"}
+
+\noindent\textit{Nota.} Elaboración propia a partir del catastro rural y urbano del GAD Municipal del Cantón Loja [@gad_loja_sig_catastro_2022].
+
+![Zonificación rural y urbana del Plan de Uso y Gestión del Suelo junto con la red vial sobre el corredor sur](assets/mapa_pit_rural_urbano_pugs_area_estudio.png){#fig-pit width="96%"}
+
+\noindent\textit{Nota.} Elaboración propia a partir del Plan de Uso y Gestión del Suelo del Cantón Loja [@gad_loja_pdot_pugs_2025].
+
+## Afinamiento final por linderos prediales y separación del Área Intangible
+
+Las fronteras geométricas preliminares fueron reemplazadas por linderos reales del catastro rural y por la zonificación ambiental vigente. Cada predio rural dentro del corredor sur se evaluó según la presencia de edificaciones censales, construcciones rurales y la categoría Área Intangible del Plan de Uso y Gestión del Suelo. Se asignaron 1,063 predios rurales completos a su respectivo barrio sin partir propiedades privadas, sellando vías y quebradas internas para mantener continuidad espacial.
+
+Las cordilleras altas clasificadas como Área Intangible sin viviendas ni construcciones pasaron a una capa contigua de protección ambiental que suma 1,260.99 hectáreas con cero viviendas. El ajuste eliminó superficies infladas por montaña deshabitada: La Mónica pasó de 1,387.43 hectáreas a 645.54 hectáreas, Punzara Grande de 994.77 hectáreas a 833.48 hectáreas y Nueva Pompeya de 742.08 hectáreas a 569.22 hectáreas. Ninguna vivienda censada quedó fuera del perímetro barrial.

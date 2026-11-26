@@ -1,0 +1,26 @@
+---
+title: "Informe Metodológico y Técnico de Delimitación Periurbana del Corredor Sur de Loja"
+subtitle: "Integración Catastral, Zonificación PUGS y Encaje Dasimétrico con Sectores Censales INEC CPV 2022"
+date: "2026-11-25"
+lang: es
+bibliography: plantillas/references.bib
+csl: plantillas/apa.csl
+---
+
+{{< include chapters/01_introduccion_alcance.qmd >}}
+
+{{< include chapters/02_marco_normativo_metodologico.qmd >}}
+
+{{< include chapters/03_fuentes_control_calidad.qmd >}}
+
+{{< include chapters/04_proceso_delimitacion.qmd >}}
+
+{{< include chapters/05_ponderacion_dasimetrica.qmd >}}
+
+{{< include chapters/06_resultados_verificacion.qmd >}}
+
+{{< include chapters/07_conclusiones.qmd >}}
+
+{{< include chapters/08_referencias.qmd >}}
+
+{{< include chapters/09_anexos.qmd >}}

@@ -52,7 +52,8 @@
 % Color formal de texto (Negro / Escala de grises formal APA)
 \definecolor{APABlack}{RGB}{0, 0, 0}
 \definecolor{APAGray}{RGB}{90, 90, 90}
-\definecolor{APALink}{RGB}{0, 45, 98} % Azul sobrio para enlaces
+\definecolor{APALink}{RGB}{41, 105, 176} % Azul claro equilibrado (Soft Slate Blue)
+
 
 \color{APABlack}
 
@@ -66,15 +67,21 @@
 \addtokomafont{pageheadfoot}{\normalfont\footnotesize\color{APAGray}}
 \addtokomafont{pagenumber}{\normalfont\normalsize\color{APABlack}}
 
-% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha
-\ihead{%
+% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha (en estilo regular y plain)
+\ihead[{%
+  \raisebox{-0.2\height}{%
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
+    }{}%
+  }%
+}]{%
   \raisebox{-0.2\height}{%
     \IfFileExists{assets/logos/logo_unl.png}{%
       \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
     }{}%
   }%
 }
-\ohead{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
+\ohead[\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}]{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
 
 % Pie de página: numeración centrada en estilo regular y plain
 \cfoot[\pagemark]{\pagemark}
@@ -129,6 +136,72 @@
 \setlength{\lightrulewidth}{0.05em}
 \setlength{\cmidrulewidth}{0.03em}
 
+% --- Tamaño de Texto Reducido en Tablas (APA 7 / Formulación de Proyectos) ---
+% El texto dentro de las tablas debe ser menor que el texto normal de párrafo (\small / \footnotesize)
+\usepackage{etoolbox}
+\AtBeginEnvironment{tabular}{\footnotesize}
+\AtBeginEnvironment{tabularx}{\footnotesize}
+\AtBeginEnvironment{longtable}{\footnotesize}
+
+% --- Soporte Especial para Hojas Horizontales (Landscape) con Rotación Correcta ---
+% Elimina encabezados verticales estándar superpuestos y rota el número de página al pie físico
+\newif\ifTablaHorizontal
+\TablaHorizontalfalse
+
+\newlength{\ajustepiehorizontal}
+\setlength{\ajustepiehorizontal}{4.25cm}
+
+\newlength{\bajarpiehorizontal}
+\setlength{\bajarpiehorizontal}{2.60cm}
+
+\newcommand{\Lpagenumber}{%
+  \begingroup
+    \dimendef\margin=0
+    \ifodd\value{page}
+      \margin=\oddsidemargin
+    \else
+      \margin=\evensidemargin
+    \fi
+    \raisebox{%
+      \dimexpr
+      -\topmargin-\headheight-\headsep-0.45\textwidth+\ajustepiehorizontal
+      \relax
+    }[0pt][0pt]{%
+      \rlap{%
+        \hspace{\dimexpr
+          \margin+\textheight+\footskip+\bajarpiehorizontal
+        \relax}%
+        \llap{\rotatebox{90}{\thepage}}%
+      }%
+    }%
+  \endgroup
+}
+
+\AddToHook{shipout/background}{%
+  \ifTablaHorizontal
+    \hbox{\Lpagenumber}%
+  \fi
+}
+
+\AddToHook{shipout/before}{%
+  \ifTablaHorizontal
+    \thispagestyle{empty}%
+  \fi
+}
+
+% Entorno landscapepage compatible con Quarto
+\newenvironment{landscapepage}{%
+  \clearpage
+  \TablaHorizontaltrue
+  \begin{landscape}
+  \thispagestyle{empty}%
+}{%
+  \end{landscape}
+  \TablaHorizontalfalse
+  \clearpage
+}
+
+
 % --- Ajuste de Hipervínculos APA 7 ---
 \hypersetup{
   colorlinks=true,
@@ -137,3 +210,4 @@
   urlcolor=APALink,
   citecolor=APALink
 }
+

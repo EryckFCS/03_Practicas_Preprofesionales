@@ -1,0 +1,20 @@
+project:
+  type: default
+  output-dir: _output
+
+lang: es
+bibliography: plantillas/references.bib
+csl: plantillas/apa.csl
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    template: plantillas/giz_template.tex
+    include-in-header: plantillas/giz_preamble_apa.tex
+    fontsize: 12pt
+    papersize: letter
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-pos: "H"
+    colorlinks: true

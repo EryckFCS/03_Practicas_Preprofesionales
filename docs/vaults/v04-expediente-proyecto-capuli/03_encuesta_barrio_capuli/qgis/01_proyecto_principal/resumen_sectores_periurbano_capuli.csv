@@ -1,0 +1,10 @@
+﻿sector_pu_num,sector_pu_cod,asentamiento,tipo_pugs,nombre_sector_pu,area_ha,casas_total,viv_est_cpv22,viv_ocup_est,hog_est_cpv22,pob_est_cpv22
+1,PU-01,Ñamanda,SIN_PUGS,Ñamanda,55.28,9,8.3,5.5,5.5,20.8
+2,PU-02,El Recreo,SIN_PUGS,El Recreo,83.0,37,34.1,22.4,22.4,85.9
+3,PU-03,Loma Linda,SIN_PUGS,Loma Linda,59.53,6,5.8,4.2,4.2,15.5
+4,PU-04,Nueva Pompeya,SIN_PUGS,Nueva Pompeya,569.22,51,50.0,37.4,37.4,141.3
+5,PU-05,Quillollacu,CON_PUGS,Quillollacu,516.38,24,22.5,14.2,14.2,57.0
+6,PU-06,Punzara Grande,CON_PUGS,Punzara Grande,833.48,231,227.2,152.0,152.0,607.4
+7,PU-07,Dos Puentes,CON_PUGS,Dos Puentes,174.74,58,60.1,47.1,47.1,170.8
+8,PU-08,La Mónica,SIN_PUGS,La Mónica,645.54,47,49.5,40.9,40.9,146.6
+9,PU-09,Cajanuma,CON_PUGS,Cajanuma,982.4,105,104.2,69.5,69.5,263.9

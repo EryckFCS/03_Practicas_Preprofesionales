@@ -1,0 +1,62 @@
+# Resultados Finales y Verificación Topológica
+
+Los nueve barrios periurbanos afinados por catastro rural y zonificación habitable cubren una superficie consolidada de 3,919.57 hectáreas, rodeadas de manera contigua por 1,260.99 hectáreas de Área Intangible, los tres predios de la Universidad Nacional de Loja, el Barrio El Capulí y el barrio urbano La Argelia. La Tabla \ref{tbl-barrios-final} compara las extensiones anteriores al recorte ambiental con las áreas definitivas, el conteo de edificaciones residenciales y las estimaciones demográficas del Censo 2022.
+
+\begin{table}[H]
+\centering
+\caption{Resumen consolidado de los nueve barrios periurbanos afinados por catastro rural y zonificación habitable}
+\label{tbl-barrios-final}
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X l r r r r r r}
+\toprule
+Barrio & PUGS & Prev. ha & Final ha & Edif. & Viv. & Hog. & Pob. \\
+\midrule
+Ñamanda & Sin PUGS & 171.86 & 55.28 & 9 & 8.3 & 5.5 & 20.8 \\
+El Recreo & Sin PUGS & 152.16 & 83.00 & 37 & 34.1 & 22.4 & 85.9 \\
+Loma Linda & Sin PUGS & 52.26 & 59.53 & 6 & 5.8 & 4.2 & 15.5 \\
+Nueva Pompeya & Sin PUGS & 742.08 & 569.22 & 51 & 50.0 & 37.4 & 141.3 \\
+Quillollacu & Con PUGS & 496.65 & 516.38 & 24 & 22.5 & 14.2 & 57.0 \\
+Punzara Grande & Con PUGS & 994.77 & 833.48 & 231 & 227.2 & 152.0 & 607.4 \\
+Dos Puentes & Con PUGS & 208.11 & 174.74 & 58 & 60.1 & 47.1 & 170.8 \\
+La Mónica & Sin PUGS & 1,387.43 & 645.54 & 47 & 49.5 & 40.9 & 146.6 \\
+Cajanuma & Con PUGS & 975.43 & 982.40 & 105 & 104.2 & 69.5 & 263.9 \\
+\midrule
+\textbf{Total 9 barrios} & \textbf{---} & \textbf{5,180.75} & \textbf{3,919.57} & \textbf{568} & \textbf{561.7} & \textbf{393.2} & \textbf{1,509.2} \\
+Área Intangible PUGS & Protección & --- & 1,260.99 & 0 & 0.0 & 0.0 & 0.0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia con base en microdatos oficiales del CPV 2022 [@inec_cpv_2022], catastro rural municipal [@gad_loja_sig_catastro_2022] y zonificación PUGS Loja [@gad_loja_pdot_pugs_2025].
+
+La Figura \ref{fig-final} muestra el trazado definitivo sobre linderos prediales reales y la separación limpia de las cordilleras protegidas en verde oscuro. Las pruebas topológicas verificaron cero metros cuadrados de solapamiento entre barrios periurbanos, cero metros cuadrados frente al Área Intangible y cero metros cuadrados respecto a El Capulí, La Argelia y los predios universitarios. Todas las edificaciones residenciales quedaron contenidas dentro de sus respectivos barrios.
+
+![Delimitación final de los nueve barrios periurbanos por catastro rural y zonificación habitable](assets/mapa_delimitacion_final_catastro_pugs.png){#fig-final width="92%"}
+
+\noindent\textit{Nota.} Elaboración propia a partir del catastro rural municipal [@gad_loja_sig_catastro_2022], Plan de Uso y Gestión del Suelo [@gad_loja_pdot_pugs_2025] y edificaciones censales del INEC [@inec_cartografia_censal_2022].
+
+El cruce geoespacial entre unidades barriales y sectores censales generó 44 subpolígonos sobre 19 sectores del INEC con 875 viviendas asignadas entre El Capulí, su margen occidental y los nueve barrios periurbanos. La Tabla \ref{tbl-encaje} detalla el cierre estadístico en los seis sectores censales periurbanos, cuya equivalencia con los códigos oficiales del INEC figura en el Anexo 1, y la Figura \ref{fig-encaje} presenta la distribución espacial resultante.
+
+\begin{table}[H]
+\centering
+\caption{Resumen de encaje dasimétrico en los seis sectores censales periurbanos del corredor sur}
+\label{tbl-encaje}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X r r r r r}
+\toprule
+Sector censal & Subpolígonos & Área habitable ha & Viviendas asignadas & Viviendas totales INEC & Suma de pesos $w$ \\
+\midrule
+Sector Censal 1 & 2 & 435.57 & 128 & 128 & 1.0000 \\
+Sector Censal 2 & 3 & 208.73 & 91 & 91 & 1.0000 \\
+Sector Censal 3 & 4 & 742.68 & 46 & 46 & 1.0001 \\
+Sector Censal 4 & 4 & 1,090.57 & 116 & 116 & 0.9999 \\
+Sector Censal 5 & 4 & 699.10 & 95 & 93 & 1.0215 \\
+Sector Censal 6 & 10 & 743.62 & 85 & 85 & 1.0000 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia con base en cartografía censal oficial del INEC [@inec_cartografia_censal_2022]. La correspondencia con los códigos censales completos consta en el Anexo 1.
+
+![Encaje final entre barrios delimitados y sectores censales oficiales del INEC en el corredor sur](assets/mapa_encaje_barrios_sectores_censales.png){#fig-encaje width="96%"}
+
+\noindent\textit{Nota.} Elaboración propia a partir del cruce geoespacial entre los nueve barrios periurbanos, El Capulí y los sectores censales oficiales del INEC [@inec_cartografia_censal_2022].
