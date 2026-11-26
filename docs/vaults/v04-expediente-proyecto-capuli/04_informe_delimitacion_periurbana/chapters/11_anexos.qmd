@@ -41,14 +41,14 @@ La Tabla \ref{tbl-anexo-barrios} registra la equivalencia entre el nombre oficia
 Código operativo & Nombre del barrio & Categoría PUGS & Área final ha \\
 \midrule
 PU-01 & Ñamanda & Sin centralidad PUGS & 55.28 \\
-PU-02 & El Recreo & Sin centralidad PUGS & 83.00 \\
-PU-03 & Loma Linda & Sin centralidad PUGS & 59.53 \\
-PU-04 & Nueva Pompeya & Sin centralidad PUGS & 569.22 \\
-PU-05 & Quillollacu & Con centralidad PUGS & 516.38 \\
-PU-06 & Punzara Grande & Con centralidad PUGS & 833.48 \\
-PU-07 & Dos Puentes & Con centralidad PUGS & 174.74 \\
-PU-08 & La Mónica & Sin centralidad PUGS & 645.54 \\
-PU-09 & Cajanuma & Con centralidad PUGS & 982.40 \\
+PU-02 & El Recreo & Sin centralidad PUGS & 88.11 \\
+PU-03 & Loma Linda & Sin centralidad PUGS & 60.91 \\
+PU-04 & Nueva Pompeya & Sin centralidad PUGS & 569.24 \\
+PU-05 & Quillollacu & Con centralidad PUGS & 527.51 \\
+PU-06 & Punzara Grande & Con centralidad PUGS & 848.41 \\
+PU-07 & Dos Puentes & Con centralidad PUGS & 176.45 \\
+PU-08 & La Mónica & Sin centralidad PUGS & 646.84 \\
+PU-09 & Cajanuma & Con centralidad PUGS & 946.83 \\
 PUGS-INT & Área Intangible PUGS & Protección ecológica sin viviendas & 1,260.99 \\
 \bottomrule
 \end{tabularx}
