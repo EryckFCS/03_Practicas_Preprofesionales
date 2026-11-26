@@ -33,9 +33,11 @@ Los umbrales del filtro ambiental no provienen de ninguna norma. Para conocer su
 \centering
 \caption{Predios excluidos por el filtro ambiental según los umbrales aplicados}
 \label{tbl-sensibilidad}
-\begin{tabularx}{\textwidth}{r r r r r}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{>{\raggedleft\arraybackslash}X >{\raggedleft\arraybackslash}X >{\raggedleft\arraybackslash}X >{\raggedleft\arraybackslash}X >{\raggedleft\arraybackslash}X}
 \toprule
-Superficie mínima ha & Cobertura mínima en Área Intangible & Predios excluidos & Superficie excluida ha & Viviendas en predios excluidos \\
+Superficie mínima ha & Cobertura mínima Área Intangible & Predios excluidos & Superficie excluida ha & Viviendas en predios excluidos \\
 \midrule
 5 & 70 \% & 25 & 727.5 & 0 \\
 5 & 80 \% & 23 & 398.4 & 0 \\
