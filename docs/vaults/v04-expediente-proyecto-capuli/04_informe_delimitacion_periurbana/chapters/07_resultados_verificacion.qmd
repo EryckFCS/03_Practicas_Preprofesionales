@@ -60,3 +60,35 @@ Sector Censal 6 & 10 & 743.62 & 85 & 85 & 1.0000 \\
 ![Encaje final entre barrios delimitados y sectores censales oficiales del INEC en el corredor sur](assets/mapa_encaje_barrios_sectores_censales.png){#fig-encaje width="96%"}
 
 \noindent\textit{Nota.} Elaboración propia a partir del cruce geoespacial entre los nueve barrios periurbanos, El Capulí y los sectores censales oficiales del INEC [@inec_cartografia_censal_2022].
+
+## Superficie bruta barrial frente a superficie predial neta
+
+Para evitar mezclar en un mismo denominador el suelo catastrado con la infraestructura vial y los cauces de protección ecológica, la Tabla \ref{tbl-bruta-neta} separa la superficie bruta del polígono barrial de la superficie predial neta y desglosa la longitud de red vial y red hídrica en cada unidad. Las densidades brutas utilizan el área total del polígono barrial y sirven para balance territorial continuo frente a los sectores censales del INEC; las densidades prediales netas utilizan únicamente el área cubierta por fincas catastradas y sirven para análisis de ocupación sobre propiedad rural.
+
+\begin{table}[H]
+\centering
+\caption{Comparación entre superficie bruta barrial, superficie predial neta, infraestructura y densidades}
+\label{tbl-bruta-neta}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X r r r r r r r}
+\toprule
+Barrio & Bruta ha & Predial ha & No cat. ha & Vías km & Hídrica km & Dens. bruta hab/ha & Dens. predial hab/ha \\
+\midrule
+Ñamanda & 55.28 & 54.83 & 0.45 & 0.07 & 0.29 & 0.376 & 0.379 \\
+El Recreo & 83.00 & 83.00 & 0.00 & 0.30 & 0.51 & 1.035 & 1.035 \\
+Loma Linda & 59.53 & 59.53 & 0.00 & 0.00 & 0.69 & 0.260 & 0.260 \\
+Nueva Pompeya & 569.22 & 564.37 & 4.84 & 2.89 & 4.06 & 0.248 & 0.250 \\
+Quillollacu & 516.38 & 516.38 & 0.00 & 2.09 & 5.76 & 0.110 & 0.110 \\
+Punzara Grande & 833.48 & 823.52 & 9.96 & 5.00 & 9.17 & 0.729 & 0.738 \\
+Dos Puentes & 174.74 & 174.74 & 0.00 & 1.18 & 1.17 & 0.977 & 0.977 \\
+La Mónica & 645.54 & 645.54 & 0.00 & 0.00 & 6.08 & 0.227 & 0.227 \\
+Cajanuma & 982.40 & 924.61 & 57.79 & 33.91 & 22.15 & 0.269 & 0.285 \\
+\midrule
+\textbf{Total 9 barrios} & \textbf{3,919.57} & \textbf{3,846.54} & \textbf{73.04} & \textbf{45.44} & \textbf{49.88} & \textbf{0.385} & \textbf{0.392} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia con base en el catastro predial rural municipal [@gad_loja_sig_catastro_2022] y las capas de red vial e hídrica del Plan de Uso y Gestión del Suelo [@gad_loja_pdot_pugs_2025]. La diferencia total de 73.04 ha equivale al 1.9 \% del área bruta consolidada y se concentra en Cajanuma con 57.79 ha.
+
+En Cajanuma, las 57.79 hectáreas sin polígono catastral combinan 33.91 kilómetros de red vial y 22.15 kilómetros de red hídrica de protección ecológica, por lo que cualquier cálculo de área verde o edificabilidad debe descontar las franjas de quebrada como suelo no urbanizable. Asimismo, el recorte obligatorio al límite parroquial oficial de Loja en diecisiete predios deshabitados del borde sur y oeste excluye 34.15 hectáreas pertenecientes a la parroquia vecina; sin ese recorte jurisdiccional, la superficie bruta de Cajanuma alcanzaría 1,016.55 hectáreas y su densidad bruta descendería de 0.269 a 0.260 habitantes por hectárea.
