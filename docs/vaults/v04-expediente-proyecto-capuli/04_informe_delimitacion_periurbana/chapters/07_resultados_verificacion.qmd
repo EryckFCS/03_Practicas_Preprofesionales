@@ -1,6 +1,6 @@
 # Resultados Finales y Verificación Topológica
 
-Los nueve barrios periurbanos afinados por catastro rural y zonificación habitable cubren una superficie consolidada de 3,919.58 hectáreas, rodeadas de manera contigua por 1,260.99 hectáreas de Área Intangible, los tres predios de la Universidad Nacional de Loja, el Barrio El Capulí y el Barrio La Argelia. Como referencia normativa se conserva el polígono oficial del Barrio El Capulí con 115.12 hectáreas, mientras que para el cálculo neto operativo sin suelo universitario se sustraen las 48.84 hectáreas del Campus La Argelia y del Parque Universitario superpuestas en su extremo noroccidental, resultando una superficie neta de 66.28 hectáreas con 258 viviendas residenciales y 878.0 habitantes estimados en sus ocho sectores internos habitados. La Tabla \ref{tbl-barrios-final} compara las extensiones anteriores al recorte ambiental con las áreas definitivas, el conteo de edificaciones residenciales y las estimaciones demográficas del Censo 2022.
+Los nueve barrios periurbanos afinados por catastro rural y zonificación habitable cubren una superficie consolidada de 3,919.57 hectáreas, rodeadas de manera contigua por 1,260.99 hectáreas de Área Intangible, los tres predios de la Universidad Nacional de Loja, el Barrio El Capulí y el Barrio La Argelia. Como referencia normativa se conserva el polígono oficial del Barrio El Capulí con 115.12 hectáreas, mientras que para el cálculo neto operativo sin suelo universitario se sustraen las 48.84 hectáreas del Campus La Argelia y del Parque Universitario superpuestas en su extremo noroccidental, resultando una superficie neta de 66.28 hectáreas con 258 viviendas residenciales y 878.0 habitantes estimados en sus ocho sectores internos habitados. La Tabla \ref{tbl-barrios-final} compara las extensiones anteriores al recorte ambiental con las áreas definitivas, el conteo de edificaciones residenciales y las estimaciones demográficas del Censo 2022.
 
 \begin{table}[H]
 \centering
@@ -15,19 +15,19 @@ Barrio & PUGS & Área prev. ha & Área final ha & Edif. u. & Viv. u. & Hog. u. &
 El Recreo & Sin PUGS & 152.16 & 88.11 & 37 & 34.1 & 22.4 & 85.9 \\
 Loma Linda & Sin PUGS & 52.26 & 60.91 & 6 & 5.8 & 4.2 & 15.5 \\
 Nueva Pompeya & Sin PUGS & 742.08 & 569.24 & 51 & 50.0 & 37.4 & 141.3 \\
-Quillollacu & Con PUGS & 496.65 & 527.51 & 24 & 22.5 & 14.2 & 57.0 \\
+Quillollacu & Con PUGS & 496.65 & 527.80 & 24 & 22.5 & 14.2 & 57.0 \\
 Punzara Grande & Con PUGS & 994.77 & 848.41 & 231 & 227.2 & 152.0 & 607.4 \\
-Dos Puentes & Con PUGS & 208.11 & 176.45 & 58 & 60.1 & 47.1 & 170.8 \\
-La Mónica & Sin PUGS & 1,387.43 & 646.84 & 47 & 49.5 & 40.9 & 146.6 \\
-Cajanuma & Con PUGS & 975.43 & 946.83 & 105 & 104.2 & 69.5 & 263.9 \\
+Dos Puentes & Con PUGS & 208.11 & 179.28 & 58 & 60.1 & 47.1 & 170.8 \\
+La Mónica & Sin PUGS & 1,387.43 & 646.88 & 47 & 49.5 & 40.9 & 146.6 \\
+Cajanuma & Con PUGS & 975.43 & 943.66 & 105 & 104.2 & 69.5 & 263.9 \\
 \midrule
-\textbf{Total 9 barrios} & \textbf{---} & \textbf{5,180.75} & \textbf{3,919.58} & \textbf{568} & \textbf{561.7} & \textbf{393.2} & \textbf{1,509.2} \\
+\textbf{Total 9 barrios} & \textbf{---} & \textbf{5,180.75} & \textbf{3,919.57} & \textbf{568} & \textbf{561.7} & \textbf{393.2} & \textbf{1,509.2} \\
 Área Intangible PUGS & Protección & --- & 1,260.99 & 0 & 0.0 & 0.0 & 0.0 \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\noindent\textit{Nota.} Elaboración propia con base en microdatos oficiales del CPV 2022 [@inec_cpv_2022], catastro rural municipal [@gad_loja_sig_catastro_2022] y zonificación PUGS Loja [@gad_loja_pdot_pugs_2025]. La variación entre área previa y área final responde al balance neto de recortes ambientales, asignación de fincas completas y reasignación de la franja vial norte por proximidad: Cajanuma cedió 173.95 ha a Quillollacu, perdió 16.34 ha frente a Dos Puentes, incorporó 197.26 ha en su núcleo sur y transfirió 35.58 ha de corredor vial externo al Sector Censal 4 hacia los barrios colindantes, cerrando en 946.83 ha; Quillollacu sumó esa cesión y la absorción vial hasta cerrar en 527.51 ha.
+\noindent\textit{Nota.} Elaboración propia con base en microdatos oficiales del CPV 2022 [@inec_cpv_2022], catastro rural municipal [@gad_loja_sig_catastro_2022] y zonificación PUGS Loja [@gad_loja_pdot_pugs_2025]. La variación entre área previa y área final responde al balance neto de recortes ambientales, asignación de fincas completas y reasignación de espacios viales no catastrados por proximidad de Voronoi respecto a los predios más cercanos: Cajanuma cedió 173.95 ha a Quillollacu, perdió 16.34 ha frente a Dos Puentes, incorporó 197.26 ha en su núcleo sur y transfirió 38.74 ha de franja vial hacia los barrios colindantes, cerrando en 943.66 ha; Quillollacu sumó esa cesión y la absorción vial hasta cerrar en 527.80 ha, y Dos Puentes absorbió el tramo vial que lo atraviesa hasta alcanzar 179.28 ha.
 
 La Figura \ref{fig-final} muestra el trazado definitivo sobre linderos prediales reales y la separación limpia de las cordilleras protegidas en verde oscuro. Las pruebas topológicas verificaron cero metros cuadrados de solapamiento entre barrios periurbanos, cero metros cuadrados frente al Área Intangible y cero metros cuadrados respecto a El Capulí, La Argelia y los predios universitarios. Todas las edificaciones residenciales quedaron contenidas dentro de sus respectivos barrios.
 
@@ -53,7 +53,7 @@ Sector Censal 5 & 5 & 699.12 & 95 & 93 & 1.0215 \\
 Sector Censal 6 & 6 & 725.43 & 75 & 85 & 0.8824 \\
 Sectores urbanos y bordes & 4 & 17.23 & 17 & --- & 0.1319 \\
 \midrule
-\textbf{Total 9 barrios} & \textbf{27} & \textbf{3,919.58} & \textbf{568} & \textbf{559} & \textbf{---} \\
+\textbf{Total 9 barrios} & \textbf{27} & \textbf{3,919.57} & \textbf{568} & \textbf{559} & \textbf{---} \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -81,17 +81,17 @@ Barrio & Bruta ha & Predial ha & No cat. ha & Vial 5m ha & Hídrica 15m ha & Den
 El Recreo & 88.11 & 83.00 & 5.11 & 3.01 & 2.57 & 0.975 & 1.035 \\
 Loma Linda & 60.91 & 59.53 & 1.38 & 0.65 & 2.18 & 0.254 & 0.260 \\
 Nueva Pompeya & 569.24 & 564.37 & 4.87 & 2.88 & 10.76 & 0.248 & 0.250 \\
-Quillollacu & 527.51 & 516.59 & 10.92 & 2.94 & 18.19 & 0.108 & 0.110 \\
+Quillollacu & 527.80 & 516.59 & 11.21 & 2.94 & 18.19 & 0.108 & 0.110 \\
 Punzara Grande & 848.41 & 823.52 & 24.89 & 7.54 & 28.18 & 0.716 & 0.738 \\
-Dos Puentes & 176.45 & 174.75 & 1.70 & 1.08 & 4.04 & 0.968 & 0.977 \\
-La Mónica & 646.84 & 645.54 & 1.30 & 0.08 & 19.41 & 0.227 & 0.227 \\
-Cajanuma & 946.83 & 924.39 & 22.44 & 15.10 & 51.46 & 0.279 & 0.285 \\
+Dos Puentes & 179.28 & 174.75 & 4.53 & 2.48 & 4.93 & 0.953 & 0.977 \\
+La Mónica & 646.88 & 645.54 & 1.34 & 0.08 & 19.43 & 0.227 & 0.227 \\
+Cajanuma & 943.66 & 924.39 & 19.27 & 13.70 & 50.54 & 0.280 & 0.285 \\
 \midrule
-\textbf{Total 9 barrios} & \textbf{3,919.58} & \textbf{3,846.52} & \textbf{73.06} & \textbf{33.35} & \textbf{137.59} & \textbf{0.385} & \textbf{0.392} \\
+\textbf{Total 9 barrios} & \textbf{3,919.57} & \textbf{3,846.52} & \textbf{73.05} & \textbf{33.35} & \textbf{137.58} & \textbf{0.385} & \textbf{0.392} \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\noindent\textit{Nota.} Elaboración propia con base en el catastro predial rural municipal [@gad_loja_sig_catastro_2022] y las capas de red vial e hídrica del Plan de Uso y Gestión del Suelo [@gad_loja_pdot_pugs_2025]. La diferencia total de 73.06 ha equivale al 1.9 \% del área bruta consolidada y se distribuye principalmente entre Punzara Grande con 24.89 ha, Cajanuma con 22.44 ha y Quillollacu con 10.92 ha tras la reasignación de los tramos viales al barrio más cercano. Las franjas viales de 5 m por lado y las franjas hídricas de 15 m por margen atraviesan tanto suelo no catastrado como fincas rurales privadas.
+\noindent\textit{Nota.} Elaboración propia con base en el catastro predial rural municipal [@gad_loja_sig_catastro_2022] y las capas de red vial e hídrica del Plan de Uso y Gestión del Suelo [@gad_loja_pdot_pugs_2025]. La diferencia total de 73.05 ha equivale al 1.9 \% del área bruta consolidada y se distribuye principalmente entre Punzara Grande con 24.89 ha, Cajanuma con 19.27 ha y Quillollacu con 11.21 ha tras la reasignación de los tramos viales al barrio con predios más cercanos. Las franjas viales de 5 m por lado y las franjas hídricas de 15 m por margen atraviesan tanto suelo no catastrado como fincas rurales privadas.
 
-En Cajanuma, las 22.44 hectáreas sin polígono catastral combinan 20.05 kilómetros de red vial y 18.22 kilómetros de red hídrica de protección ecológica, por lo que cualquier cálculo de área verde o edificabilidad debe descontar las franjas de quebrada como suelo no urbanizable. Asimismo, el recorte obligatorio al límite parroquial oficial de Loja en diecisiete predios deshabitados del borde sur y oeste excluye 34.15 hectáreas pertenecientes a la parroquia vecina; sin ese recorte jurisdiccional, la superficie bruta de Cajanuma alcanzaría 980.98 hectáreas y su densidad bruta descendería de 0.279 a 0.269 habitantes por hectárea.
+En Cajanuma, las 19.27 hectáreas sin polígono catastral combinan 17.39 kilómetros de red vial y 17.51 kilómetros de red hídrica de protección ecológica, por lo que cualquier cálculo de área verde o edificabilidad debe descontar las franjas de quebrada como suelo no urbanizable. Asimismo, el recorte obligatorio al límite parroquial oficial de Loja en diecisiete predios deshabitados del borde sur y oeste excluye 34.15 hectáreas pertenecientes a la parroquia vecina; sin ese recorte jurisdiccional, la superficie bruta de Cajanuma alcanzaría 977.81 hectáreas y su densidad bruta descendería de 0.280 a 0.270 habitantes por hectárea.
