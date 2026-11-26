@@ -16,4 +16,6 @@ El valor estimado $\hat{Y}_b$ de cualquier magnitud censal aditiva, como poblaci
 \hat{Y}_b = \sum_{s} w_{b,s} \cdot Y_s
 \end{equation}
 
-Cuando las unidades barriales cubren la totalidad de las edificaciones residenciales de un sector censal, la suma de pesos satisface $\sum_b w_{b,s} = 1$. Esa propiedad garantiza la conservación exacta de los totales oficiales del censo sin pérdida ni duplicación de habitantes [@inec_cpv_2022].
+Este procedimiento asume que dentro de cada sector censal la densidad media de viviendas y habitantes por edificación residencial es homogénea, por lo que en sectores donde coexisten viviendas unifamiliares dispersas con edificaciones multifamiliares o desocupadas pueden existir variaciones locales no observadas.
+
+Cuando las unidades barriales cubren exactamente las edificaciones de un sector rural sin excedentes ni porciones urbanas, la suma de pesos satisface $\sum_b w_{b,s} = 1$. En la práctica, dos efectos explican las diferencias observadas frente a los seis sectores rurales del censo [@inec_cpv_2022]: Nueva Pompeya incorpora 17 edificaciones ubicadas en dos sectores urbanos contiguos mientras El Capulí absorbe 10 edificaciones del Sector Censal 6, y en el Sector Censal 5 la intersección registra 95 edificaciones frente a 93 de la tabla base del sector, elevando la suma de pesos a 1.0215.
