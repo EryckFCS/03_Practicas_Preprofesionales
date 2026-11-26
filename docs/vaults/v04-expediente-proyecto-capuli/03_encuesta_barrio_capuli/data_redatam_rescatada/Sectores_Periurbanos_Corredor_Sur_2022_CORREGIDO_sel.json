@@ -1,0 +1,17 @@
+{
+    "label": "Sectores_Periurbanos_Corredor_Sur_Loja_2022_CORREGIDO",
+    "selections": [
+        {
+            "codes": [
+                "110150999023",
+                "110150999024",
+                "110150999025",
+                "110150999026",
+                "110150999028",
+                "110150999029"
+            ],
+            "entity": "SECTOR"
+        }
+    ],
+    "typeFile": "selection"
+}
