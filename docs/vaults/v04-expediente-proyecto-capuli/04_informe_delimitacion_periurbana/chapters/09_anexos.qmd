@@ -1,0 +1,57 @@
+\clearpage
+
+# Anexos {.unnumbered}
+
+## Anexo 1. Matriz de correspondencia de códigos censales oficiales del INEC {.unnumbered}
+
+La Tabla \ref{tbl-anexo-sectores} vincula la denominación simplificada utilizada en el cuerpo del informe con los códigos oficiales de doce dígitos de la cartografía censal 2022 del Instituto Nacional de Estadística y Censos y sus totales oficiales de población, hogares y viviendas [@inec_cpv_2022; @inec_cartografia_censal_2022].
+
+\begin{table}[H]
+\centering
+\caption{Matriz de correspondencia entre denominación operativa y código oficial de sector censal INEC}
+\label{tbl-anexo-sectores}
+\begin{tabularx}{\textwidth}{l l >{\raggedright\arraybackslash}X r r r}
+\toprule
+Denominación & Código oficial INEC & Barrios periurbanos vinculados & Población & Hogares & Viviendas \\
+\midrule
+Sector Censal 1 & 110150999023 & Punzara Grande & 299 & 74 & 116 \\
+Sector Censal 2 & 110150999024 & Punzara Grande & 280 & 71 & 100 \\
+Sector Censal 3 & 110150999025 & Quillollacu, Punzara Grande y El Recreo & 109 & 27 & 43 \\
+Sector Censal 4 & 110150999026 & Cajanuma y Dos Puentes & 289 & 76 & 115 \\
+Sector Censal 5 & 110150999028 & La Mónica, Dos Puentes y Loma Linda & 290 & 81 & 98 \\
+Sector Censal 6 & 110150999029 & Nueva Pompeya, El Recreo, Ñamanda y Loma Linda & 196 & 52 & 78 \\
+\midrule
+\textbf{Total corredor sur} & \textbf{6 sectores INEC} & \textbf{9 barrios periurbanos} & \textbf{1,463} & \textbf{381} & \textbf{550} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia con base en microdatos oficiales del VIII Censo de Población y VII de Vivienda 2022 [@inec_cpv_2022].
+
+## Anexo 2. Codificación operativa de los barrios periurbanos del corredor sur {.unnumbered}
+
+La Tabla \ref{tbl-anexo-barrios} registra la equivalencia entre el nombre oficial empleado en la narrativa técnica, el identificador operativo asignado en la base cartográfica y la clasificación respecto a las centralidades del Plan de Uso y Gestión del Suelo del cantón Loja [@gad_loja_pdot_pugs_2025].
+
+\begin{table}[H]
+\centering
+\caption{Matriz de correspondencia de códigos operativos de los nueve barrios periurbanos}
+\label{tbl-anexo-barrios}
+\begin{tabularx}{\textwidth}{l >{\raggedright\arraybackslash}X l r}
+\toprule
+Código operativo & Nombre del barrio & Categoría PUGS & Área final ha \\
+\midrule
+PU-01 & Ñamanda & Sin centralidad PUGS & 55.28 \\
+PU-02 & El Recreo & Sin centralidad PUGS & 83.00 \\
+PU-03 & Loma Linda & Sin centralidad PUGS & 59.53 \\
+PU-04 & Nueva Pompeya & Sin centralidad PUGS & 569.22 \\
+PU-05 & Quillollacu & Con centralidad PUGS & 516.38 \\
+PU-06 & Punzara Grande & Con centralidad PUGS & 833.48 \\
+PU-07 & Dos Puentes & Con centralidad PUGS & 174.74 \\
+PU-08 & La Mónica & Sin centralidad PUGS & 645.54 \\
+PU-09 & Cajanuma & Con centralidad PUGS & 982.40 \\
+PUGS-INT & Área Intangible PUGS & Protección ecológica sin viviendas & 1,260.99 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia a partir del Plan de Uso y Gestión del Suelo del Cantón Loja [@gad_loja_pdot_pugs_2025] y el catastro predial rural municipal [@gad_loja_sig_catastro_2022].

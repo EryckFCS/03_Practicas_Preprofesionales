@@ -1,0 +1,183 @@
+% ==============================================================================
+% Plantilla Quarto / Pandoc Institucional GIZ - UNL (Desacoplada de defaults)
+% Estructura modular análoga al estándar de Tesis UNL (TIC/TIIC)
+% Delega el diseño tipográfico APA 7 y tabular (9pt) al preámbulo final
+% ==============================================================================
+
+\documentclass[
+$if(fontsize)$
+  $fontsize$,
+$else$
+  12pt,
+$endif$
+$if(papersize)$
+  $papersize$paper,
+$else$
+  letterpaper,
+$endif$
+  spanish,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+$if(numbersections)$
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+$else$
+\setcounter{secnumdepth}{-\maxdimen}
+$endif$
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp}
+\else
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{%
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath}
+}{}
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none}
+\usepackage{calc}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{%
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi%
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+\def\fps@figure{htbp}
+\makeatother
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% --- Definiciones Citeproc (APA 7 CSL) ---
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+\let\@cite@ofmt\@firstofone
+\def\@biblabel#1{}
+\def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\@ifundefined{KOMAClassName}{}{%
+  \KOMAoptions{captions=tableheading}%
+}
+\makeatother
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}%
+  \setlength{\leftmargin}{0pt}%
+  \setlength{\parsep}{0pt}%
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}%
+   \setlength{\itemindent}{-1\cslhangindent}%
+  \fi
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\ifLuaTeX
+  \usepackage[bidi=basic,shorthands=off]{babel}
+  \usepackage{selnolig}
+\else
+  \usepackage[bidi=default,shorthands=off]{babel}
+\fi
+
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\makeatletter
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{}
+\urlstyle{same}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(subtitle)$
+\makeatletter
+\providecommand{\subtitle}[1]{%
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{$subtitle$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+% --- Preámbulo Institucional y Reglas Tabulares (9pt, centrado y justificado) al final ---
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\begin{document}
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\maketitle
+$endif$
+$for(include-before)$
+$include-before$
+$endfor$
+$if(toc)$
+{
+\hypersetup{linkcolor=}
+$if(toc-depth)$\setcounter{tocdepth}{$toc-depth$}$endif$
+\tableofcontents
+\clearpage
+}
+$endif$
+$if(has-frontmatter)$
+\mainmatter
+$endif$
+
+$body$
+
+$if(has-backmatter)$
+\backmatter
+$endif$
+$for(include-after)$
+$include-after$
+$endfor$
+\end{document}

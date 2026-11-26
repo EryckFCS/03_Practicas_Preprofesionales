@@ -1,0 +1,329 @@
+% ==============================================================================
+% Preámbulo Oficial según Normas APA 7ma Edición (Adaptado para Documento Técnico)
+% Aplicado a clase KOMA-Script scrreprt con LuaLaTeX
+% ==============================================================================
+
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{picture}
+\usepackage{ragged2e}
+
+% --- Localización en Español ---
+\AtBeginDocument{
+  \renewcommand{\contentsname}{Índice de Contenido}
+  \renewcommand{\figurename}{Figura}
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\chaptername}{Capítulo}
+}
+
+% --- Geometría APA 7 (1 pulgada / 2.54 cm en los cuatro márgenes) ---
+\geometry{
+  letterpaper,
+  top=28mm,
+  bottom=25.4mm,
+  left=25.4mm,
+  right=25.4mm,
+  headheight=22pt,
+  footskip=12mm
+}
+
+% --- Tipografía Estándar APA 7 (Times New Roman / TeX Gyre Termes) ---
+\setmainfont{TeX Gyre Termes}[
+  Scale=1.0,
+  Ligatures=TeX
+]
+\setsansfont{TeX Gyre Heros}[
+  Scale=0.95,
+  Ligatures=TeX
+]
+\setmonofont{TeX Gyre Cursor}[
+  Scale=0.90
+]
+
+% Color formal de texto (Negro / Escala de grises formal APA y azul Word institucional)
+\definecolor{APABlack}{RGB}{0, 0, 0}
+\definecolor{APAGray}{RGB}{90, 90, 90}
+\definecolor{WordBlue}{HTML}{0563C1}
+\colorlet{APALink}{WordBlue}
+
+
+\color{APABlack}
+
+% --- Interlineado y Párrafos APA 7 ---
+\onehalfspacing
+\setlength{\parindent}{1.27cm} % Sangría de primera línea reglamentaria de 0.5 pulgadas
+\setlength{\parskip}{0pt}       % APA 7 no deja espacio adicional entre párrafos normales
+
+% --- Encabezados y Pies de Página (scrlayer-scrpage) ---
+\clearpairofpagestyles
+\addtokomafont{pageheadfoot}{\normalfont\footnotesize\color{APAGray}}
+\addtokomafont{pagenumber}{\normalfont\normalsize\color{APABlack}}
+
+% Encabezado superior: Logo UNL a la izquierda, título institucional a la derecha (en estilo regular y plain)
+\ihead[{%
+  \raisebox{-0.2\height}{%
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
+    }{}%
+  }%
+}]{%
+  \raisebox{-0.2\height}{%
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.1cm]{assets/logos/logo_unl.png}%
+    }{}%
+  }%
+}
+\ohead[\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}]{\textnormal{\footnotesize UNIVERSIDAD NACIONAL DE LOJA}}
+
+% Pie de página: numeración centrada en estilo regular y plain
+\cfoot[\pagemark]{\pagemark}
+
+% Reglas de separación eliminadas para limpieza visual
+\KOMAoptions{headsepline=false, footsepline=false}
+
+% --- Jerarquía de Títulos APA 7ma Edición (12pt, alineación y numeración uniforme) ---
+\RedeclareSectionCommand[
+  beforeskip=0pt,
+  afterskip=10pt,
+  font=\normalfont\normalsize\bfseries
+]{chapter}
+\renewcommand*{\chapterlinesformat}[3]{%
+  \centering #2#3\par
+}
+\renewcommand*{\chapterformat}{\thechapter.\enskip}
+
+\RedeclareSectionCommand[
+  beforeskip=12pt,
+  afterskip=4pt,
+  font=\raggedright\normalfont\normalsize\bfseries
+]{section}
+\renewcommand*{\sectionformat}{\thesection.\enskip}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+\RedeclareSectionCommand[
+  beforeskip=10pt,
+  afterskip=3pt,
+  font=\raggedright\normalfont\normalsize\bfseries\itshape
+]{subsection}
+\renewcommand*{\subsectionformat}{\thesubsection.\enskip}
+
+\RedeclareSectionCommand[
+  beforeskip=8pt,
+  afterskip=2pt,
+  font=\raggedright\normalfont\normalsize\bfseries
+]{subsubsection}
+\renewcommand*{\subsubsectionformat}{\thesubsubsection.\enskip}
+
+% --- Formato Reglamentario de Tablas y Figuras APA 7 ---
+\DeclareCaptionLabelSeparator{newline}{\\ \vspace{2pt}}
+\captionsetup[table]{
+  format=plain,
+  position=top,
+  labelsep=newline,
+  justification=RaggedRight,
+  singlelinecheck=false,
+  labelfont={bf},
+  textfont={it},
+  font={small,singlespacing},
+  skip=4pt
+}
+
+\captionsetup[figure]{
+  format=plain,
+  position=top,
+  labelsep=newline,
+  justification=RaggedRight,
+  singlelinecheck=false,
+  labelfont={bf},
+  textfont={it},
+  font={small,singlespacing},
+  skip=4pt
+}
+
+% --- Comando APA 7 para Notas de Tabla / Fuentes ---
+\newcommand{\fuente}[1]{%
+  \vspace{2pt}%
+  {\raggedright\singlespacing\footnotesize \textit{Nota.} #1\par\vspace{6pt}}%
+  \fontsize{12pt}{18pt}\selectfont\onehalfspacing%
+}
+
+% --- Tablas APA: Solo líneas horizontales superior, inferior y cabecera (sin verticales) ---
+\setlength{\heavyrulewidth}{0.08em}
+\setlength{\lightrulewidth}{0.05em}
+\setlength{\cmidrulewidth}{0.03em}
+
+% --- Tamaño y Alineación de Tablas (9pt, centradas en página y texto centrado/justificado) ---
+\usepackage{etoolbox}
+\makeatletter
+\AtBeginEnvironment{tabular}{%
+  \let\NC@rewrite@p\NC@rewrite@m%
+  \linespread{1.05}%
+  \fontsize{9pt}{11pt}\selectfont%
+  \renewcommand{\arraystretch}{1.18}%
+  \setlength{\parindent}{0pt}%
+  \setlength{\JustifyingParindent}{0pt}%
+  \hyphenpenalty=10000%
+  \exhyphenpenalty=10000%
+  \let\raggedright\justifying%
+}
+\AtBeginEnvironment{tabularx}{%
+  \let\NC@rewrite@p\NC@rewrite@m%
+  \linespread{1.05}%
+  \fontsize{9pt}{11pt}\selectfont%
+  \renewcommand{\arraystretch}{1.18}%
+  \setlength{\parindent}{0pt}%
+  \setlength{\JustifyingParindent}{0pt}%
+  \hyphenpenalty=10000%
+  \exhyphenpenalty=10000%
+  \let\raggedright\justifying%
+}
+\AtBeginEnvironment{longtable}{%
+  \let\NC@rewrite@p\NC@rewrite@m%
+  \linespread{1.05}%
+  \fontsize{9pt}{11pt}\selectfont%
+  \renewcommand{\arraystretch}{1.18}%
+  \setlength{\parindent}{0pt}%
+  \setlength{\JustifyingParindent}{0pt}%
+  \hyphenpenalty=10000%
+  \exhyphenpenalty=10000%
+  \setlength{\LTcapwidth}{\linewidth}%
+  \setlength{\LTleft}{\fill}%
+  \setlength{\LTright}{\fill}%
+  \let\raggedright\justifying%
+}
+\AtEndEnvironment{longtable}{%
+  \normalsize\selectfont\onehalfspacing%
+}
+\makeatother
+
+% --- Soporte Especial para Hojas Horizontales (Landscape) con Encabezado y Pie ---
+% Replica el logo UNL, texto institucional, línea gris y número de página rotados en horizontal
+\newif\ifTablaHorizontal
+\TablaHorizontalfalse
+
+\AddToHook{shipout/background}{%
+  \ifTablaHorizontal
+    \put(8.5mm, -\dimexpr\paperheight-25.4mm\relax){%
+      \rotatebox[origin=bl]{90}{%
+        \begin{minipage}[b]{\dimexpr\paperheight-53.4mm\relax}%
+          \IfFileExists{assets/logos/logo_unl.png}{%
+            \raisebox{-0.2\height}{\includegraphics[height=1.1cm]{assets/logos/logo_unl.png}}%
+          }{}%
+          \hfill%
+          {\normalfont\footnotesize\color{APAGray} UNIVERSIDAD NACIONAL DE LOJA}%
+        \end{minipage}%
+      }%
+    }%
+    \put(203.0mm, -\dimexpr\paperheight-25.4mm\relax){%
+      \rotatebox[origin=bl]{90}{%
+        \makebox[\dimexpr\paperheight-53.4mm\relax][c]{\normalfont\normalsize\color{APABlack}\thepage}%
+      }%
+    }%
+  \fi
+}
+
+\AddToHook{shipout/before}{%
+  \ifTablaHorizontal
+    \thispagestyle{empty}%
+  \fi
+}
+
+% Entorno landscapepage compatible con Quarto
+\newenvironment{landscapepage}{%
+  \clearpage
+  \TablaHorizontaltrue
+  \begin{landscape}
+  \thispagestyle{empty}%
+}{%
+  \end{landscape}
+  \TablaHorizontalfalse
+  \clearpage
+}
+
+
+% --- Formato de Referencias APA 7 (Sangría francesa 1.27 cm y alineación izquierda) ---
+\setlength{\cslhangindent}{1.27cm}
+\AtBeginEnvironment{CSLReferences}{%
+  \setlength{\cslhangindent}{1.27cm}%
+  \raggedright%
+  \sloppy%
+}
+\Urlmuskip=0mu plus 1mu\relax
+\makeatletter
+\@ifpackageloaded{xurl}{%
+  \def\UrlBreaks{\do\/\do-\do_\do.\do=\do?\do&\do\%}%
+  \def\UrlNoBreaks{\do\:\do\(\do\[\do\{\do\<}%
+}{}
+\makeatother
+
+% --- Ajuste de Hipervínculos APA 7 (Color WordBlue institucional #0563C1) ---
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=WordBlue,
+  filecolor=WordBlue,
+  urlcolor=WordBlue,
+  citecolor=WordBlue,
+  anchorcolor=WordBlue,
+  breaklinks=true,
+  pdfborder={0 0 0}%
+}
+\urlstyle{same}
+\AtBeginDocument{\urlstyle{same}}
+
+% --- Carátula Limpia y Directa (Sin paréntesis ni rayas) ---
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \IfFileExists{assets/logos/logo_unl.png}{%
+      \includegraphics[height=1.7cm]{assets/logos/logo_unl.png}\par\vspace{0.5cm}
+    }{}
+    {\normalsize\bfseries GOBIERNO AUTÓNOMO DESCENTRALIZADO MUNICIPAL DEL CANTÓN LOJA\par}
+    \vspace{0.15cm}
+    {\normalsize UNIVERSIDAD NACIONAL DE LOJA\par}
+
+    \vfill
+
+    {\LARGE\bfseries \@title \par}
+    \vspace{0.6cm}
+    {\large\color{APAGray} \@subtitle \par}
+
+    \vfill
+
+    {\normalsize\bfseries Equipo Formulador · Carrera de Economía, UNL\par}
+    \vspace{0.2cm}
+    {\normalsize Erick Fabricio Condoy Seraquive\par}
+    {\normalsize Amanda Salomé Gálvez Macas\par}
+    {\normalsize Erick Sebastián Barba Sisalima\par}
+
+    \vspace{0.7cm}
+
+    {\normalsize\bfseries Dirección Técnica · Carrera de Arquitectura Sostenible, UNL\par}
+    \vspace{0.2cm}
+    {\normalsize Arq. Alexandra Aguilera Maldonado\par}
+    {\normalsize Arq. Pablo Ernesto Bustos Peñarreta\par}
+
+    \vfill
+
+    {\normalsize Loja, Ecuador\par}
+    \vspace{0.15cm}
+    {\normalsize \@date \par}
+  \end{titlepage}
+}
+\makeatother
+
+

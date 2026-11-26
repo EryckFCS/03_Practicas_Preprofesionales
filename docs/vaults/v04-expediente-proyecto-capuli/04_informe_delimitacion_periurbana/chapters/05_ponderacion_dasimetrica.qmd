@@ -1,0 +1,19 @@
+# Ponderación Dasimétrica y Conciliación Censal
+
+Desagregar cifras censales por área bruta introduce errores severos en territorios andinos donde la población se concentra en terrazas viales mientras la mayor parte de la superficie corresponde a laderas vacías. La interpolación dasimétrica ponderada por edificaciones residenciales corrige ese sesgo al asignar el peso estadístico únicamente donde existen techos habitados [@eicher_brewer_2001].
+
+Sea $s$ un sector censal oficial con $N_s$ edificaciones residenciales totales y sea $n_{b,s}$ el número exacto de edificaciones residenciales situadas en la intersección espacial entre el barrio $b$ y el sector $s$. El peso dasimétrico queda definido por la Ecuación \ref{eq-peso}:
+
+\begin{equation}
+\label{eq-peso}
+w_{b,s} = \frac{n_{b,s}}{N_s}
+\end{equation}
+
+El valor estimado $\hat{Y}_b$ de cualquier magnitud censal aditiva, como población total, número de hogares o total de viviendas, se obtiene agregando las contribuciones ponderadas de todos los sectores censales que intersectan el barrio $b$, conforme a la Ecuación \ref{eq-estimacion}:
+
+\begin{equation}
+\label{eq-estimacion}
+\hat{Y}_b = \sum_{s} w_{b,s} \cdot Y_s
+\end{equation}
+
+Cuando las unidades barriales cubren la totalidad de las edificaciones residenciales de un sector censal, la suma de pesos satisface $\sum_b w_{b,s} = 1$. Esa propiedad garantiza la conservación exacta de los totales oficiales del censo sin pérdida ni duplicación de habitantes [@inec_cpv_2022].

@@ -1,0 +1,7 @@
+# Introducción y Alcance Territorial
+
+El Barrio El Capulí opera en el extremo sur de la ciudad de Loja como bisagra funcional entre la trama urbana consolidada y nueve asentamientos periurbanos interdependientes: Ñamanda, El Recreo, Loma Linda, Nueva Pompeya, Quillollacu, Punzara Grande, Dos Puentes, La Mónica y Cajanuma. La expansión habitacional sobre este corredor presiona quebradas, laderas inestables y suelos agropecuarios [@miduvi_agenda_habitat_2020; @municipio_loja_giz_planificacion_barrial_2019]. Sin límites barriales precisos, cualquier intervención urbana o muestreo socioeconómico asigna mal la población y distorsiona la densidad real.
+
+La delimitación periurbana ejecutada integra linderos catastrales reales, zonificación de uso del suelo y conteos del VIII Censo de Población y VII de Vivienda 2022 [@inec_cpv_2022; @inec_cartografia_censal_2022]. Dos criterios gobiernan el trabajo: fronteras continuas basadas en elementos físicos verificables en terreno y trazabilidad estadística exacta hacia los sectores censales oficiales sin doble conteo ni pérdida de viviendas.
+
+El ámbito de estudio abarca las 115.12 hectáreas oficiales del Barrio El Capulí, el borde urbano colindante de La Argelia, los tres predios institucionales de la Universidad Nacional de Loja y el territorio periurbano del corredor sur inscrito en seis sectores censales dispersos de la parroquia Loja, identificados en este documento como Sector Censal 1 a Sector Censal 6. Toda la cartografía se estructuró en el sistema de referencia proyectado WGS 84 UTM Zona 17 Sur.
