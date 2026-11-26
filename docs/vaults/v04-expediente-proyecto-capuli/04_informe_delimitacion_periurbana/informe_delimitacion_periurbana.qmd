@@ -15,12 +15,14 @@ csl: plantillas/apa.csl
 
 {{< include chapters/04_proceso_delimitacion.qmd >}}
 
-{{< include chapters/05_ponderacion_dasimetrica.qmd >}}
+{{< include chapters/05_decisiones_criterio_validez.qmd >}}
 
-{{< include chapters/06_resultados_verificacion.qmd >}}
+{{< include chapters/06_ponderacion_dasimetrica.qmd >}}
 
-{{< include chapters/07_conclusiones.qmd >}}
+{{< include chapters/07_resultados_verificacion.qmd >}}
 
-{{< include chapters/08_referencias.qmd >}}
+{{< include chapters/09_conclusiones.qmd >}}
 
-{{< include chapters/09_anexos.qmd >}}
+{{< include chapters/10_referencias.qmd >}}
+
+{{< include chapters/11_anexos.qmd >}}

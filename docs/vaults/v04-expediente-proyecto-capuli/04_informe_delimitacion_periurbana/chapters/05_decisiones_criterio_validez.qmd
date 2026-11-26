@@ -1,0 +1,54 @@
+# Decisiones de Delimitación, Criterio y Validez
+
+Cada límite del mapa resulta de una decisión concreta. La Tabla \ref{tbl-decisiones} reúne siete decisiones, el criterio aplicado, el tipo de respaldo y la validez que se les puede atribuir. El respaldo puede ser una fuente oficial verificable, la literatura científica o una decisión del equipo con parámetros declarados. Solo el primero y el segundo tienen sustento externo. El tercero se justifica por su coherencia y por las pruebas de sensibilidad que siguen.
+
+\begin{table}[H]
+\centering
+\caption{Decisiones de delimitación, criterio, respaldo y validez}
+\label{tbl-decisiones}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{2.9cm} >{\raggedright\arraybackslash}p{3.4cm}}
+\toprule
+Decisión & Criterio aplicado & Tipo de respaldo & Validez y alcance \\
+\midrule
+Nueve barrios de un solo cuerpo & Cada comunidad se representa con un polígono continuo, sin particiones norte, sur, núcleo o disperso & Decisión del equipo, a solicitud de la Dirección de Arquitectura Sostenible & Operativa. No equivale a un límite barrial oficial, que no existe en suelo rural \\
+Alineación a sectores censales & Ningún barrio cruza un límite censal en superficie sin viviendas & Fuente oficial: cartografía censal del INEC & Alta. Se verifica por intersección espacial \\
+Exclusión de predios universitarios & El equipamiento universitario público no se computa como tejido barrial & Decisión del equipo sobre los límites oficiales de los predios & Alta en el corredor sur: 112.50 ha excluidas y ninguna vivienda afectada \\
+El Capulí neto sin suelo universitario & Se conserva el polígono oficial como referencia y las métricas excluyen 48.84 ha universitarias & Decisión del equipo sobre el límite oficial municipal & Alta. Resta 9 viviendas y 31 habitantes estimados de las métricas \\
+Asignación predial indivisible & Cada predio rural entra completo al barrio con mayor superficie compartida en la delimitación depurada previa & Decisión del equipo. Ninguna norma la prescribe & Media. Depende de la delimitación previa y es reasignable con validación de campo \\
+Filtro ambiental & Predios de más de 10 ha, sin viviendas ni construcciones y con más de 80 \% en Área Intangible & Clase Área Intangible: PUGS oficial. Umbrales: parámetros del equipo & Media. Ninguna combinación probada excluye viviendas, pero el área excluida varía \\
+Ponderación dasimétrica por edificaciones & Las variables censales se reparten según las edificaciones residenciales de cada intersección & Literatura científica: Eicher y Brewer, 2001; Mennis, 2003 & Alta como método. El Sector Censal 5 suma 1.0215 por puntos en fronteras \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia. La literatura corresponde a @eicher_brewer_2001 y @mennis_2003.
+
+## Sensibilidad de los umbrales del filtro ambiental
+
+Los umbrales del filtro ambiental no provienen de ninguna norma. Para conocer su efecto se repitió el filtro con tres valores de superficie mínima y tres de cobertura mínima en Área Intangible sobre los predios rurales del corredor. La Tabla \ref{tbl-sensibilidad} presenta el resultado.
+
+\begin{table}[H]
+\centering
+\caption{Predios excluidos por el filtro ambiental según los umbrales aplicados}
+\label{tbl-sensibilidad}
+\begin{tabularx}{\textwidth}{r r r r r}
+\toprule
+Superficie mínima ha & Cobertura mínima en Área Intangible & Predios excluidos & Superficie excluida ha & Viviendas en predios excluidos \\
+\midrule
+5 & 70 \% & 25 & 727.5 & 0 \\
+5 & 80 \% & 23 & 398.4 & 0 \\
+5 & 90 \% & 23 & 398.4 & 0 \\
+10 & 70 \% & 14 & 650.0 & 0 \\
+\textbf{10} & \textbf{80 \%} & \textbf{12} & \textbf{320.9} & \textbf{0} \\
+10 & 90 \% & 12 & 320.9 & 0 \\
+20 & 70 \% & 9 & 577.1 & 0 \\
+20 & 80 \% & 7 & 248.0 & 0 \\
+20 & 90 \% & 7 & 248.0 & 0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Nota.} Elaboración propia a partir del catastro predial rural, las edificaciones censales, las construcciones rurales y la zonificación del Plan de Uso y Gestión del Suelo. La fila resaltada es el caso aplicado.
+
+Ninguna de las nueve combinaciones excluye una sola vivienda, por lo que la regla no compromete la cobertura censal. La cobertura mínima entre 80 y 90 por ciento no cambia el resultado. Bajarla a 70 por ciento duplica la superficie excluida, de 320.9 a 650.0 hectáreas. La superficie mínima sí desplaza el resultado, entre 248.0 y 398.4 hectáreas con la cobertura de 80 por ciento. Esto muestra que la regla es estable respecto de las viviendas y sensible respecto de la superficie. Los valores de 10 hectáreas y 80 por ciento son un punto de referencia revisable, no un óptimo demostrado.

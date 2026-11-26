@@ -15,7 +15,7 @@ INEC & Cartografía Censal 2022 & Sectores censales, manzanas urbanas, edificaci
 INEC & Microdatos CPV 2022 & Conteos oficiales de población, hogares y viviendas por sector censal & Conciliación exacta sin discrepancias \\
 GAD Municipal de Loja & Plan de Uso y Gestión del Suelo & Polígonos de intervención rural y urbana, red vial, red hídrica, amenazas y servicios & 13 capas temáticas recortadas al área de estudio \\
 GAD Municipal de Loja & Catastro Predial Rural y Urbano & 4,636 predios rurales, 3,607 predios urbanos y 2,342 huellas de construcción & Cobertura del 95.0 \% al 98.9 \% en siete barrios \\
-GAD Municipal de Loja & Delimitación Barrial Urbana & 63 barrios urbanos oficiales y 213 sectores barriales & El Capulí de 115.12 ha y La Argelia colindante \\
+GAD Municipal de Loja & Delimitación Barrial Urbana & 63 barrios urbanos oficiales y 213 sectores barriales & El Capulí de 115.12 ha y el Barrio La Argelia \\
 Universidad Nacional de Loja & Límites de Predios Universitarios & Campus La Argelia de 79.37 ha, Parque Universitario de 100.20 ha y Punzara de 65.81 ha & Exclusión íntegra con solapamiento nulo \\
 \bottomrule
 \end{tabularx}

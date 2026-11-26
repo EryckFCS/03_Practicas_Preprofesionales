@@ -1,6 +1,6 @@
 # Resultados Finales y Verificación Topológica
 
-Los nueve barrios periurbanos afinados por catastro rural y zonificación habitable cubren una superficie consolidada de 3,919.57 hectáreas, rodeadas de manera contigua por 1,260.99 hectáreas de Área Intangible, los tres predios de la Universidad Nacional de Loja, el Barrio El Capulí y el barrio urbano La Argelia. La Tabla \ref{tbl-barrios-final} compara las extensiones anteriores al recorte ambiental con las áreas definitivas, el conteo de edificaciones residenciales y las estimaciones demográficas del Censo 2022.
+Los nueve barrios periurbanos afinados por catastro rural y zonificación habitable cubren una superficie consolidada de 3,919.57 hectáreas, rodeadas de manera contigua por 1,260.99 hectáreas de Área Intangible, los tres predios de la Universidad Nacional de Loja, el Barrio El Capulí y el Barrio La Argelia. Como referencia normativa se conserva el polígono oficial del Barrio El Capulí con 115.12 hectáreas, mientras que para el cálculo neto operativo sin suelo universitario se sustraen las 48.84 hectáreas del Campus La Argelia y del Parque Universitario superpuestas en su extremo noroccidental, resultando una superficie neta de 66.28 hectáreas con 258 viviendas residenciales y 878.0 habitantes estimados en sus ocho sectores internos habitados. La Tabla \ref{tbl-barrios-final} compara las extensiones anteriores al recorte ambiental con las áreas definitivas, el conteo de edificaciones residenciales y las estimaciones demográficas del Censo 2022.
 
 \begin{table}[H]
 \centering
